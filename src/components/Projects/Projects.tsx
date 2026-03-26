@@ -2,11 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import Image from 'next/image';
 import styles from './Projects.module.css';
-
-import prd1 from '@/assets/prd1.png';
-import prd2 from '@/assets/prd2.png';
 
 const projects = [
   {
@@ -23,8 +19,7 @@ const projects = [
     ],
     tech: ['Claude Code', 'Agent SOP', 'RAG', 'ReAct', '混合检索'],
     color: '#b8ff57',
-    img: prd1,
-    imgAlt: 'AI产品分析师对话界面截图',
+    docUrl: 'https://my.feishu.cn/wiki/A7OFwzuuzi19RHki2bec1PMEnQX?from=from_copylink',
     metric: '97%',
     metricLabel: '事件理解准确率',
   },
@@ -42,8 +37,7 @@ const projects = [
     ],
     tech: ['LLM', '向量检索', 'ReAct', '思维链', '知识库管理'],
     color: '#00e5a0',
-    img: prd2,
-    imgAlt: '智能客服系统 Agent 工作流架构图',
+    docUrl: 'https://my.feishu.cn/docx/ChTGdisyZomLwrxgExhcC5BKnR1',
     metric: '>90%',
     metricLabel: '任务完成准确率',
   },
@@ -61,8 +55,8 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, delay: index * 0.15, ease: [0.16, 1, 0.3, 1] }}
     >
-      {/* Left: info */}
-      <div className={styles.info}>
+      {/* Header */}
+      <div className={styles.header}>
         <div className={styles.meta}>
           <span
             className={styles.tagChip}
@@ -79,47 +73,52 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
 
         <h3 className={styles.title}>{project.title}</h3>
         <p className={styles.subtitle}>{project.subtitle}</p>
-        <p className={styles.description}>{project.description}</p>
+      </div>
 
-        <ul className={styles.highlights}>
-          {project.highlights.map((h) => (
-            <li key={h} className={styles.highlight}>
-              <span className={styles.bullet} style={{ background: project.color }} />
-              {h}
-            </li>
-          ))}
-        </ul>
+      {/* Description */}
+      <p className={styles.description}>{project.description}</p>
 
-        <div className={styles.techRow}>
-          {project.tech.map((t) => (
-            <span key={t} className={styles.tech}>{t}</span>
-          ))}
-        </div>
+      {/* Highlights */}
+      <ul className={styles.highlights}>
+        {project.highlights.map((h) => (
+          <li key={h} className={styles.highlight}>
+            <span className={styles.bullet} style={{ background: project.color }} />
+            {h}
+          </li>
+        ))}
+      </ul>
 
+      {/* Tech */}
+      <div className={styles.techRow}>
+        {project.tech.map((t) => (
+          <span key={t} className={styles.tech}>{t}</span>
+        ))}
+      </div>
+
+      {/* Footer: metric + doc link */}
+      <div className={styles.footer}>
         <div className={styles.metricBlock}>
           <span className={styles.metric} style={{ color: project.color }}>{project.metric}</span>
           <span className={styles.metricLabel}>{project.metricLabel}</span>
         </div>
-      </div>
 
-      {/* Right: PRD screenshot */}
-      <div className={styles.visual}>
-        <div
-          className={styles.imgWrapper}
+        <a
+          href={project.docUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.docLink}
           style={{ '--accent': project.color } as React.CSSProperties}
         >
-          <Image
-            src={project.img}
-            alt={project.imgAlt}
-            fill
-            className={styles.img}
-            sizes="(max-width: 860px) 100vw, 50vw"
-          />
-          <div className={styles.imgOverlay} />
-          <div className={styles.imgBadge} style={{ color: project.color }}>
-            {project.title}
-          </div>
-        </div>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M9 2H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6L9 2Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
+            <path d="M9 2v4h4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M11 10l2 2m0-4L11 12" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          查看需求文档
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" className={styles.externalIcon}>
+            <path d="M5 2H2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V7M7 1h4m0 0v4m0-4L5 7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </a>
       </div>
     </motion.article>
   );
