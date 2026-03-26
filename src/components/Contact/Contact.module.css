@@ -111,6 +111,12 @@
   transform: translateX(3px);
 }
 
+/* Copied state for WeChat button */
+.linkCopied {
+  border-color: rgba(0, 229, 160, 0.3) !important;
+  background: rgba(0, 229, 160, 0.06) !important;
+}
+
 @media (max-width: 640px) {
   .links {
     grid-template-columns: 1fr;

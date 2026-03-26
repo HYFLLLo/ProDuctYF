@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import styles from './Contact.module.css';
 
@@ -46,6 +46,14 @@ const links = [
 export default function Contact() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyWechat = () => {
+    navigator.clipboard.writeText('HYF0227uio').then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
 
   return (
     <section className={styles.section} id="contact">
@@ -63,33 +71,67 @@ export default function Contact() {
             欢迎随时联系我👏
           </h2>
           <p className={styles.sub}>
-            无论是 AI 产品合作、原型开发还是行业交流，欢迎联系。
+            无论是 AI 产品合作，原型开发还是行业交流，欢迎联系。
           </p>
 
           <div className={styles.links}>
-            {links.map((link, i) => (
-              <motion.a
-                key={link.label}
-                href={link.href}
-                target={link.href.startsWith('http') ? '_blank' : undefined}
-                rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                className={styles.link}
-                initial={{ opacity: 0, y: 20 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, delay: 0.2 + i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-              >
-                <span className={styles.linkIcon} style={{ color: link.color }}>
-                  {link.icon}
-                </span>
-                <span className={styles.linkInfo}>
-                  <span className={styles.linkLabel}>{link.label}</span>
-                  <span className={styles.linkValue}>{link.value}</span>
-                </span>
-                <svg className={styles.linkArrow} width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                  <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </motion.a>
-            ))}
+            {links.map((link, i) => {
+              const isWechat = link.label === '微信';
+
+              if (isWechat) {
+                return (
+                  <motion.button
+                    key={link.label}
+                    className={`${styles.link} ${copied ? styles.linkCopied : ''}`}
+                    onClick={handleCopyWechat}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={inView ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.5, delay: 0.2 + i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                  >
+                    <span className={styles.linkIcon} style={{ color: link.color }}>
+                      {link.icon}
+                    </span>
+                    <span className={styles.linkInfo}>
+                      <span className={styles.linkLabel}>{copied ? '已复制!' : link.label}</span>
+                      <span className={styles.linkValue}>{copied ? '微信号已复制到剪贴板' : link.value}</span>
+                    </span>
+                    {copied ? (
+                      <svg className={styles.linkArrow} width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M3 8l3.5 3.5L13 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    ) : (
+                      <svg className={styles.linkArrow} width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    )}
+                  </motion.button>
+                );
+              }
+
+              return (
+                <motion.a
+                  key={link.label}
+                  href={link.href}
+                  target={link.href.startsWith('http') ? '_blank' : undefined}
+                  rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  className={styles.link}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={inView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.5, delay: 0.2 + i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                >
+                  <span className={styles.linkIcon} style={{ color: link.color }}>
+                    {link.icon}
+                  </span>
+                  <span className={styles.linkInfo}>
+                    <span className={styles.linkLabel}>{link.label}</span>
+                    <span className={styles.linkValue}>{link.value}</span>
+                  </span>
+                  <svg className={styles.linkArrow} width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </motion.a>
+              );
+            })}
           </div>
         </motion.div>
       </div>
