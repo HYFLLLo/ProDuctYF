@@ -163,7 +163,14 @@
   justify-content: space-between;
   padding-top: 0.9rem;
   border-top: 1px solid var(--border-subtle);
-  gap: 0.8rem;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.linkGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
