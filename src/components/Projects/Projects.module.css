@@ -70,6 +70,22 @@
   gap: 0.4rem;
 }
 
+.featuredBadge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent-lime);
+  background: rgba(184, 255, 87, 0.08);
+  border: 1px solid rgba(184, 255, 87, 0.25);
+  border-radius: 100px;
+  padding: 0.2rem 0.7rem;
+  letter-spacing: 0.06em;
+  width: fit-content;
+  margin-bottom: 0.2rem;
+}
+
 .meta {
   display: flex;
   align-items: center;

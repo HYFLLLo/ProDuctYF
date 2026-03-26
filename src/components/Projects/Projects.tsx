@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: '外卖夜宵爆品预测',
     subtitle: 'AI Agent × 即时零售',
-    tag: 'AI 产品原型',
+    tag: '夜宵爆品预测',
     description:
       '专攻即时零售夜间场景的 AI 爆品预测助手。基于事件理解、用户情绪分析、决策三层 Agent 架构，实现精准小时级爆品预测 + 动态定价策略。',
     highlights: [
@@ -21,6 +21,7 @@ const projects = [
     color: '#b8ff57',
     docUrl: 'https://my.feishu.cn/wiki/A7OFwzuuzi19RHki2bec1PMEnQX?from=from_copylink',
     githubUrl: 'https://github.com/HYFLLLo/Late-night-snack-prediction',
+    featured: true,
     metric: '97%',
     metricLabel: '事件理解准确率',
   },
@@ -82,6 +83,9 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
       <div className={styles.inner}>
         {/* Header */}
         <div className={styles.cardHeader}>
+          {project.featured && (
+            <span className={styles.featuredBadge}>★ 重点推荐</span>
+          )}
           <div className={styles.meta}>
             <span
               className={styles.tagChip}
