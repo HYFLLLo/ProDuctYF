@@ -62,7 +62,7 @@
   justify-content: space-between;
 }
 
-.tag {
+.tagChip {
   font-family: var(--font-display);
   font-size: 0.7rem;
   font-weight: 600;
@@ -180,104 +180,54 @@
   justify-content: center;
 }
 
-.visualInner {
+.imgWrapper {
+  position: relative;
   width: 100%;
-  aspect-ratio: 4/3;
-  border-radius: 16px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
   overflow: hidden;
-  position: relative;
-  transition: border-color var(--duration-base) ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--bg-surface);
+  transition: border-color var(--duration-base) ease, box-shadow var(--duration-base) ease;
 }
 
-.card:hover .visualInner {
+.card:hover .imgWrapper {
   border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  box-shadow: 0 0 30px color-mix(in srgb, var(--accent) 15%, transparent);
 }
 
-/* Diagram */
-.diagram {
+.img {
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.card:hover .img {
+  transform: scale(1.03);
+}
+
+.imgOverlay {
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    transparent 60%,
+    rgba(4, 4, 7, 0.5) 100%
+  );
+  pointer-events: none;
 }
 
-.diagramGrid {
+.imgBadge {
   position: absolute;
-  inset: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  opacity: 0.15;
-}
-
-.diagramCell {
-  border: 0.5px solid rgba(255,255,255,0.05);
-}
-
-.diagramContent {
-  position: relative;
-  width: 220px;
-  height: 140px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.diagramNode {
-  position: absolute;
+  bottom: 10px;
+  right: 12px;
   font-family: var(--font-display);
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 12%, transparent);
-  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
-  border-radius: 8px;
-  padding: 0.4rem 0.8rem;
-  letter-spacing: 0.03em;
-  white-space: nowrap;
-}
-
-.diagramNode[style*="--i: 0"] {
-  top: 0; left: 50%;
-  transform: translateX(-50%);
-  color: var(--accent);
-}
-
-.diagramNode[style*="--i: 1"] {
-  bottom: 40%; left: 0;
-  color: var(--accent);
-}
-
-.diagramNode[style*="--i: 2"] {
-  bottom: 0; right: 0;
-  color: var(--accent);
-}
-
-.diagramConns {
-  position: absolute;
-  inset: 0;
-  color: color-mix(in srgb, var(--accent) 40%, transparent);
-}
-
-.connSvg {
-  width: 100%;
-  height: 100%;
-}
-
-.visualLabel {
-  position: absolute;
-  bottom: 12px;
-  right: 14px;
-  font-family: var(--font-display);
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  opacity: 0.5;
+  opacity: 0.6;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 /* Responsive */
@@ -291,17 +241,13 @@
     order: -1;
   }
 
-  .visualInner {
-    aspect-ratio: 16/7;
+  .imgWrapper {
+    aspect-ratio: 16 / 7;
   }
 }
 
 @media (max-width: 640px) {
   .card {
     padding: 1.8rem;
-  }
-
-  .diagramContent {
-    transform: scale(0.85);
   }
 }

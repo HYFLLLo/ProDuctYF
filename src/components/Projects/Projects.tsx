@@ -5,6 +5,9 @@ import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
 import styles from './Projects.module.css';
 
+import prd1 from '@/assets/prd1.png';
+import prd2 from '@/assets/prd2.png';
+
 const projects = [
   {
     id: 1,
@@ -20,8 +23,8 @@ const projects = [
     ],
     tech: ['Claude Code', 'Agent SOP', 'RAG', 'ReAct', '混合检索'],
     color: '#b8ff57',
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    img: null as string | null,
+    img: prd1,
+    imgAlt: 'AI产品分析师对话界面截图',
     metric: '97%',
     metricLabel: '事件理解准确率',
   },
@@ -39,8 +42,8 @@ const projects = [
     ],
     tech: ['LLM', '向量检索', 'ReAct', '思维链', '知识库管理'],
     color: '#00e5a0',
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    img: null as string | null,
+    img: prd2,
+    imgAlt: '智能客服系统 Agent 工作流架构图',
     metric: '>90%',
     metricLabel: '任务完成准确率',
   },
@@ -61,7 +64,14 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
       {/* Left: info */}
       <div className={styles.info}>
         <div className={styles.meta}>
-          <span className={styles.tag} style={{ color: project.color, borderColor: `${project.color}40`, background: `${project.color}10` }}>
+          <span
+            className={styles.tagChip}
+            style={{
+              color: project.color,
+              borderColor: `${project.color}40`,
+              background: `${project.color}10`,
+            }}
+          >
             {project.tag}
           </span>
           <span className={styles.index}>0{project.id}</span>
@@ -92,38 +102,22 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
         </div>
       </div>
 
-      {/* Right: visual */}
+      {/* Right: PRD screenshot */}
       <div className={styles.visual}>
-        <div className={styles.visualInner} style={{ '--accent': project.color } as React.CSSProperties}>
-          {/* Abstract tech diagram placeholder */}
-          <div className={styles.diagram}>
-            <div className={styles.diagramGrid}>
-              {Array.from({ length: 16 }).map((_, i) => (
-                <div key={i} className={styles.diagramCell} />
-              ))}
-            </div>
-            <div className={styles.diagramContent}>
-              <div className={styles.diagramNode} style={{ '--i': 0, '--accent': project.color } as React.CSSProperties}>
-                <span>事件理解</span>
-              </div>
-              <div className={styles.diagramNode} style={{ '--i': 1, '--accent': project.color } as React.CSSProperties}>
-                <span>情绪分析</span>
-              </div>
-              <div className={styles.diagramNode} style={{ '--i': 2, '--accent': project.color } as React.CSSProperties}>
-                <span>决策Agent</span>
-              </div>
-              <div className={styles.diagramConns}>
-                <svg viewBox="0 0 200 80" fill="none" className={styles.connSvg}>
-                  <path d="M 40 20 Q 70 20 100 40" stroke="currentColor" strokeWidth="1" strokeDasharray="3 3"/>
-                  <path d="M 140 20 Q 170 20 160 40" stroke="currentColor" strokeWidth="1" strokeDasharray="3 3"/>
-                  <path d="M 100 60 L 100 40" stroke="currentColor" strokeWidth="1" strokeDasharray="3 3"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.visualLabel} style={{ color: project.color }}>
-            <span>{project.title}</span>
+        <div
+          className={styles.imgWrapper}
+          style={{ '--accent': project.color } as React.CSSProperties}
+        >
+          <Image
+            src={project.img}
+            alt={project.imgAlt}
+            fill
+            className={styles.img}
+            sizes="(max-width: 860px) 100vw, 50vw"
+          />
+          <div className={styles.imgOverlay} />
+          <div className={styles.imgBadge} style={{ color: project.color }}>
+            {project.title}
           </div>
         </div>
       </div>
