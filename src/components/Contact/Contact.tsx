@@ -41,18 +41,6 @@ const links = [
     ),
     color: '#8888a0',
   },
-  {
-    label: 'Vercel',
-    value: 'vercel.com/hyfs-projects',
-    href: 'https://vercel.com/hyfs-projects',
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-        <polygon points="10 2 18 16 2 16" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
-        <line x1="10" y1="8" x2="10" y2="16" stroke="currentColor" strokeWidth="1.5"/>
-      </svg>
-    ),
-    color: '#a78bfa',
-  },
 ];
 
 export default function Contact() {
