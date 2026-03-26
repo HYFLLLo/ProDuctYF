@@ -1,0 +1,13 @@
+database:
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "${MYSQL_PASSWORD}"
+  database: "night_owl_prediction"
+  pool_size: 10
+
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: "${REDIS_PASSWORD}"

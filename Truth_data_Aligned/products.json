@@ -1,0 +1,352 @@
+[
+  {
+    "product_id": "P0001",
+    "merchant_id": "M001",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 24.30509892684812
+  },
+  {
+    "product_id": "P0002",
+    "merchant_id": "M002",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 25.993017594816013
+  },
+  {
+    "product_id": "P0003",
+    "merchant_id": "M003",
+    "product_name": "乐事薯片原味",
+    "category_name": "薯片",
+    "retail_price": 18.046922693497073
+  },
+  {
+    "product_id": "P0004",
+    "merchant_id": "M004",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 8.659167209472189
+  },
+  {
+    "product_id": "P0005",
+    "merchant_id": "M005",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 24.460789952234464
+  },
+  {
+    "product_id": "P0006",
+    "merchant_id": "M006",
+    "product_name": "可口可乐330ml",
+    "category_name": "碳酸饮料",
+    "retail_price": 16.60287002207074
+  },
+  {
+    "product_id": "P0007",
+    "merchant_id": "M007",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 12.812624885009031
+  },
+  {
+    "product_id": "P0008",
+    "merchant_id": "M008",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 18.79313651403577
+  },
+  {
+    "product_id": "P0009",
+    "merchant_id": "M009",
+    "product_name": "农心辛拉面",
+    "category_name": "速食",
+    "retail_price": 19.683268102309015
+  },
+  {
+    "product_id": "P0010",
+    "merchant_id": "M010",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 9.566341816276125
+  },
+  {
+    "product_id": "P0011",
+    "merchant_id": "M001",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 5.51442036476457
+  },
+  {
+    "product_id": "P0012",
+    "merchant_id": "M002",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 28.708240078077694
+  },
+  {
+    "product_id": "P0013",
+    "merchant_id": "M003",
+    "product_name": "乐事薯片原味",
+    "category_name": "薯片",
+    "retail_price": 5.426774198917751
+  },
+  {
+    "product_id": "P0014",
+    "merchant_id": "M004",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 11.715164551028153
+  },
+  {
+    "product_id": "P0015",
+    "merchant_id": "M005",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 13.62828156845413
+  },
+  {
+    "product_id": "P0016",
+    "merchant_id": "M006",
+    "product_name": "可口可乐330ml",
+    "category_name": "碳酸饮料",
+    "retail_price": 29.539822231330422
+  },
+  {
+    "product_id": "P0017",
+    "merchant_id": "M007",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 28.25426495286031
+  },
+  {
+    "product_id": "P0018",
+    "merchant_id": "M008",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 22.865968514541116
+  },
+  {
+    "product_id": "P0019",
+    "merchant_id": "M009",
+    "product_name": "农心辛拉面",
+    "category_name": "速食",
+    "retail_price": 20.12327218107297
+  },
+  {
+    "product_id": "P0020",
+    "merchant_id": "M010",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 29.13395150400204
+  },
+  {
+    "product_id": "P0021",
+    "merchant_id": "M001",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 6.612715846398155
+  },
+  {
+    "product_id": "P0022",
+    "merchant_id": "M002",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 13.45024982462249
+  },
+  {
+    "product_id": "P0023",
+    "merchant_id": "M003",
+    "product_name": "乐事薯片原味",
+    "category_name": "薯片",
+    "retail_price": 23.256732480553577
+  },
+  {
+    "product_id": "P0024",
+    "merchant_id": "M004",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 5.350744918324331
+  },
+  {
+    "product_id": "P0025",
+    "merchant_id": "M005",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 11.517275027230168
+  },
+  {
+    "product_id": "P0026",
+    "merchant_id": "M006",
+    "product_name": "可口可乐330ml",
+    "category_name": "碳酸饮料",
+    "retail_price": 16.694078732944323
+  },
+  {
+    "product_id": "P0027",
+    "merchant_id": "M007",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 27.243139341916248
+  },
+  {
+    "product_id": "P0028",
+    "merchant_id": "M008",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 5.516665761759216
+  },
+  {
+    "product_id": "P0029",
+    "merchant_id": "M009",
+    "product_name": "农心辛拉面",
+    "category_name": "速食",
+    "retail_price": 18.134058344335372
+  },
+  {
+    "product_id": "P0030",
+    "merchant_id": "M010",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 29.582717320759716
+  },
+  {
+    "product_id": "P0031",
+    "merchant_id": "M001",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 23.56371206001143
+  },
+  {
+    "product_id": "P0032",
+    "merchant_id": "M002",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 17.632386481681067
+  },
+  {
+    "product_id": "P0033",
+    "merchant_id": "M003",
+    "product_name": "乐事薯片原味",
+    "category_name": "薯片",
+    "retail_price": 7.789303687641473
+  },
+  {
+    "product_id": "P0034",
+    "merchant_id": "M004",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 20.217358635372264
+  },
+  {
+    "product_id": "P0035",
+    "merchant_id": "M005",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 13.392264528124771
+  },
+  {
+    "product_id": "P0036",
+    "merchant_id": "M006",
+    "product_name": "可口可乐330ml",
+    "category_name": "碳酸饮料",
+    "retail_price": 29.169672044913614
+  },
+  {
+    "product_id": "P0037",
+    "merchant_id": "M007",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 22.992127578321615
+  },
+  {
+    "product_id": "P0038",
+    "merchant_id": "M008",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 25.833951550712936
+  },
+  {
+    "product_id": "P0039",
+    "merchant_id": "M009",
+    "product_name": "农心辛拉面",
+    "category_name": "速食",
+    "retail_price": 25.30319090941936
+  },
+  {
+    "product_id": "P0040",
+    "merchant_id": "M010",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 23.360350382808534
+  },
+  {
+    "product_id": "P0041",
+    "merchant_id": "M001",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 8.905486591927286
+  },
+  {
+    "product_id": "P0042",
+    "merchant_id": "M002",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 20.262693369564197
+  },
+  {
+    "product_id": "P0043",
+    "merchant_id": "M003",
+    "product_name": "乐事薯片原味",
+    "category_name": "薯片",
+    "retail_price": 23.82391366819927
+  },
+  {
+    "product_id": "P0044",
+    "merchant_id": "M004",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 8.969245923725243
+  },
+  {
+    "product_id": "P0045",
+    "merchant_id": "M005",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 14.980276644232935
+  },
+  {
+    "product_id": "P0046",
+    "merchant_id": "M006",
+    "product_name": "可口可乐330ml",
+    "category_name": "碳酸饮料",
+    "retail_price": 7.142820088594149
+  },
+  {
+    "product_id": "P0047",
+    "merchant_id": "M007",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 22.90612130812474
+  },
+  {
+    "product_id": "P0048",
+    "merchant_id": "M008",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 28.704567734618536
+  },
+  {
+    "product_id": "P0049",
+    "merchant_id": "M009",
+    "product_name": "农心辛拉面",
+    "category_name": "速食",
+    "retail_price": 27.94576215644031
+  },
+  {
+    "product_id": "P0050",
+    "merchant_id": "M010",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 7.083220822503293
+  }
+]

@@ -1,0 +1,37 @@
+minimax:
+  api_key: "sk-cp-ziGA6q6X1oo-megSjIrfbvz2srTZSSYAWtj4gRowCEHjK03s4r6ekNXdRXPYJwuO80kBoDZrpU2C366_ATWlTfTsl91CA17ZrNKNDEWs5SZHLJWrf_q9n54"
+  api_base: "https://api.minimax.chat/v1"
+
+  agents:
+    event_classifier:
+      model: "MiniMax-Text-01"
+      temperature: 0.3
+      max_tokens: 500
+      timeout: 30
+
+    scene_inference:
+      model: "MiniMax-Text-01"
+      temperature: 0.5
+      max_tokens: 800
+      timeout: 30
+
+    product_matcher:
+      model: "MiniMax-Text-01"
+      temperature: 0.3
+      max_tokens: 600
+      timeout: 30
+
+  fallback:
+    enabled: true
+    models:
+      - model: "MiniMax-Text-01"
+        weight: 1.0
+
+  cache:
+    enabled: true
+    ttl: 3600
+    max_size: 10000
+
+  circuit_breaker:
+    failure_threshold: 5
+    recovery_timeout: 60

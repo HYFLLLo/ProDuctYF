@@ -1,0 +1,23 @@
+{
+  "Truth_data数据集说明": "模拟真实业务数据，用于离线测试AI夜宵爆品预测系统",
+  "生成日期": "2026-03-20",
+  "数据集列表": {
+    "weather_events.json": "天气事件数据 (100条)",
+    "sports_events.json": "体育赛事数据 (100条)",
+    "social_media_events.json": "社交媒体热点数据 (100条)",
+    "all_events.json": "所有事件汇总 (300条)",
+    "event_annotations.json": "事件标注数据 (320条) - 用于评估事件理解Agent",
+    "merchants.json": "商家档案 (55家)",
+    "products.json": "商品品类数据 (520个)",
+    "inventory.json": "库存数据",
+    "scene_annotations.json": "用户场景标注 (520条) - 用于评估场景分析Agent",
+    "ground_truth.json": "Ground Truth答案 (100条) - 用于评估决策层Agent"
+  },
+  "使用说明": [
+    "1. 将Truth_data文件夹下的所有数据导入测试系统",
+    "2. 使用event_annotations.json评估事件理解Agent",
+    "3. 使用scene_annotations.json评估场景分析Agent",
+    "4. 使用ground_truth.json评估决策层Agent",
+    "5. 所有数据均为模拟数据，符合真实业务特征"
+  ]
+}

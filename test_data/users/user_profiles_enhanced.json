@@ -1,0 +1,356 @@
+{
+  "数据集说明": "用户画像测试数据 - 增强版用户数据",
+  "数据量": 20,
+  "生成日期": "2026-03-22",
+  "数据来源": "模拟生成",
+  "更新说明": "增强版：添加地域偏好、夜宵场景标签，支持多维度商品推荐",
+  "user_profiles": [
+    {
+      "user_id": "U001",
+      "nickname": "足球迷小张",
+      "age_range": "26-35",
+      "gender": "male",
+      "occupation": "程序员",
+      "city": "成都",
+      "district": "武侯区",
+      "consumption_level": "medium",
+      "preference_tags": [
+        "足球迷",
+        "啤酒爱好者",
+        "零食爱好者",
+        "看球熬夜",
+        "重口味"
+      ],
+      "regional_preferences": {
+        "city": "成都",
+        "local_specialties": ["小龙虾", "冰啤", "串串", "冷淡杯"],
+        "snack_culture": "成都夜宵文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [21, 22, 23],
+        "preferred_scenes": ["看球", "聚会", "夜宵"],
+        "avg_order_amount": 65.0,
+        "order_frequency_per_week": 4
+      },
+      "scene_preferences": {
+        "看球": {
+          "confidence": 0.92,
+          "preferred_products": ["啤酒", "炸鸡", "小龙虾", "零食"],
+          "scene_triggers": ["世界杯", "欧洲杯", "英超"]
+        },
+        "聚会": {
+          "confidence": 0.85,
+          "preferred_products": ["啤酒", "饮料", "卤味", "小龙虾"],
+          "scene_triggers": ["周末", "节假日"]
+        },
+        "夜宵": {
+          "confidence": 0.88,
+          "preferred_products": ["串串", "冷淡杯", "小龙虾", "冰啤"],
+          "scene_triggers": ["深夜22:00后"]
+        }
+      },
+      "preferred_merchant_types": ["连锁超市", "社区便利店"],
+      "preferred_brands": ["青岛", "雪花", "周黑鸭", "绝味"],
+      "created_at": "2023-06-15"
+    },
+    {
+      "user_id": "U002",
+      "nickname": "加班族小李",
+      "age_range": "26-35",
+      "gender": "male",
+      "occupation": "金融分析师",
+      "city": "上海",
+      "district": "浦东新区",
+      "consumption_level": "high",
+      "preference_tags": [
+        "加班族",
+        "高消费",
+        "精致生活",
+        "进口商品",
+        "健康饮食"
+      ],
+      "regional_preferences": {
+        "city": "上海",
+        "local_specialties": ["泡饭", "小馄饨", "进口零食", "精致甜点"],
+        "snack_culture": "海派精致夜宵"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [22, 23, 0],
+        "preferred_scenes": ["加班", "独饮", "深夜"],
+        "avg_order_amount": 120.0,
+        "order_frequency_per_week": 5
+      },
+      "scene_preferences": {
+        "加班": {
+          "confidence": 0.95,
+          "preferred_products": ["进口零食", "能量饮料", "咖啡", "精致甜点"],
+          "scene_triggers": ["工作日22:00后", "项目 deadline"]
+        },
+        "独饮": {
+          "confidence": 0.82,
+          "preferred_products": ["红酒", "进口啤酒", "精致小食"],
+          "scene_triggers": ["深夜独处"]
+        }
+      },
+      "preferred_merchant_types": ["新零售超市", "会员制超市"],
+      "preferred_brands": ["盒马", "山姆", "全时段"],
+      "created_at": "2023-08-20"
+    },
+    {
+      "user_id": "U003",
+      "nickname": "学生党小王",
+      "age_range": "18-25",
+      "gender": "male",
+      "occupation": "大学生",
+      "city": "长沙",
+      "district": "岳麓区",
+      "consumption_level": "low",
+      "preference_tags": [
+        "学生党",
+        "网红追随",
+        "口味虾爱好者",
+        "茶颜悦色",
+        "槟榔"
+      ],
+      "regional_preferences": {
+        "city": "长沙",
+        "local_specialties": ["口味虾", "臭豆腐", "茶颜悦色", "槟榔"],
+        "snack_culture": "长沙夜宵文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [21, 22, 23, 0],
+        "preferred_scenes": ["夜宵", "聚会", "网红打卡"],
+        "avg_order_amount": 45.0,
+        "order_frequency_per_week": 6
+      },
+      "scene_preferences": {
+        "夜宵": {
+          "confidence": 0.95,
+          "preferred_products": ["口味虾", "臭豆腐", "茶颜悦色", "冰啤"],
+          "scene_triggers": ["下课晚", "考试结束", "周末"]
+        },
+        "网红打卡": {
+          "confidence": 0.88,
+          "preferred_products": ["网红零食", "茶颜悦色", "新品"],
+          "scene_triggers": ["网红推荐", "新店开业"]
+        }
+      },
+      "preferred_merchant_types": ["社区便利店", "连锁超市"],
+      "preferred_brands": ["茶颜悦色", "卫龙", "乐事"],
+      "created_at": "2023-09-01"
+    },
+    {
+      "user_id": "U004",
+      "nickname": "白领精英Lisa",
+      "age_range": "26-35",
+      "gender": "female",
+      "occupation": "产品经理",
+      "city": "北京",
+      "district": "朝阳区",
+      "consumption_level": "high",
+      "preference_tags": [
+        "白领",
+        "精致生活",
+        "轻食",
+        "进口商品",
+        "健康饮食"
+      ],
+      "regional_preferences": {
+        "city": "北京",
+        "local_specialties": ["卤味", "进口零食", "精致甜点"],
+        "snack_culture": "北方夜宵文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [20, 21, 22],
+        "preferred_scenes": ["加班", "聚会", "独饮"],
+        "avg_order_amount": 95.0,
+        "order_frequency_per_week": 3
+      },
+      "scene_preferences": {
+        "加班": {
+          "confidence": 0.90,
+          "preferred_products": ["轻食沙拉", "进口酸奶", "能量棒"],
+          "scene_triggers": ["工作日加班"]
+        },
+        "独饮": {
+          "confidence": 0.85,
+          "preferred_products": ["红酒", "进口啤酒", "精致小食"],
+          "scene_triggers": ["周末独处", "追剧"]
+        }
+      },
+      "preferred_merchant_types": ["新零售超市", "会员制超市"],
+      "preferred_brands": ["哈根达斯", "山姆", "全时段"],
+      "created_at": "2023-05-10"
+    },
+    {
+      "user_id": "U005",
+      "nickname": "夜宵王老陈",
+      "age_range": "36-45",
+      "gender": "male",
+      "occupation": "个体老板",
+      "city": "成都",
+      "district": "锦江区",
+      "consumption_level": "medium",
+      "preference_tags": [
+        "夜宵王",
+        "重口味",
+        "老成都",
+        "小龙虾",
+        "冷淡杯"
+      ],
+      "regional_preferences": {
+        "city": "成都",
+        "local_specialties": ["小龙虾", "冷淡杯", "串串", "冰啤", "卤味"],
+        "snack_culture": "老成都夜宵文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [21, 22, 23, 0, 1],
+        "preferred_scenes": ["夜宵", "独饮", "看球"],
+        "avg_order_amount": 78.0,
+        "order_frequency_per_week": 7
+      },
+      "scene_preferences": {
+        "夜宵": {
+          "confidence": 0.98,
+          "preferred_products": ["小龙虾", "冷淡杯", "串串", "卤味"],
+          "scene_triggers": ["每天深夜"]
+        },
+        "看球": {
+          "confidence": 0.92,
+          "preferred_products": ["小龙虾", "冰啤", "卤味"],
+          "scene_triggers": ["世界杯", "欧洲杯"]
+        }
+      },
+      "preferred_merchant_types": ["社区便利店", "连锁超市"],
+      "preferred_brands": ["周黑鸭", "绝味", "青岛"],
+      "created_at": "2022-11-05"
+    },
+    {
+      "user_id": "U006",
+      "nickname": "追星少女小美",
+      "age_range": "18-25",
+      "gender": "female",
+      "occupation": "大三学生",
+      "city": "上海",
+      "district": "静安区",
+      "consumption_level": "medium",
+      "preference_tags": [
+        "追星族",
+        "周杰伦粉丝",
+        "零食控",
+        "应援物品"
+      ],
+      "regional_preferences": {
+        "city": "上海",
+        "local_specialties": ["进口零食", "奶茶", "应援物品"],
+        "snack_culture": "海派追星文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [20, 21, 22, 23],
+        "preferred_scenes": ["追星", "聚会", "夜宵"],
+        "avg_order_amount": 55.0,
+        "order_frequency_per_week": 5
+      },
+      "scene_preferences": {
+        "追星": {
+          "confidence": 0.95,
+          "preferred_products": ["零食大礼包", "奶茶", "应援物品"],
+          "scene_triggers": ["演唱会", "追星活动", "明星热点"]
+        },
+        "聚会": {
+          "confidence": 0.88,
+          "preferred_products": ["零食", "饮料", "甜点"],
+          "scene_triggers": ["周末朋友聚会"]
+        }
+      },
+      "preferred_merchant_types": ["新零售超市", "连锁便利店"],
+      "preferred_brands": ["乐事", "旺旺", "三只松鼠"],
+      "created_at": "2023-03-15"
+    },
+    {
+      "user_id": "U007",
+      "nickname": "健身达人阿杰",
+      "age_range": "26-35",
+      "gender": "male",
+      "occupation": "健身教练",
+      "city": "深圳",
+      "district": "南山区",
+      "consumption_level": "high",
+      "preference_tags": [
+        "健身",
+        "健康饮食",
+        "高蛋白",
+        "低脂"
+      ],
+      "regional_preferences": {
+        "city": "深圳",
+        "local_specialties": ["健康轻食", "进口食品", "高蛋白零食"],
+        "snack_culture": "深圳健康夜宵文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [20, 21, 22],
+        "preferred_scenes": ["加餐", "训练后", "健康夜宵"],
+        "avg_order_amount": 85.0,
+        "order_frequency_per_week": 4
+      },
+      "scene_preferences": {
+        "加餐": {
+          "confidence": 0.92,
+          "preferred_products": ["鸡胸肉", "蛋白棒", "坚果", "希腊酸奶"],
+          "scene_triggers": ["训练后", "晚上加餐"]
+        },
+        "健康夜宵": {
+          "confidence": 0.88,
+          "preferred_products": ["沙拉", "果汁", "低脂零食"],
+          "scene_triggers": ["控制饮食", "健康生活"]
+        }
+      },
+      "preferred_merchant_types": ["会员制超市", "新零售超市"],
+      "preferred_brands": ["山姆", "全时段健康"],
+      "created_at": "2023-01-20"
+    },
+    {
+      "user_id": "U008",
+      "nickname": "电竞少年小杨",
+      "age_range": "18-25",
+      "gender": "male",
+      "occupation": "电竞选手",
+      "city": "重庆",
+      "district": "渝中区",
+      "consumption_level": "medium",
+      "preference_tags": [
+        "电竞",
+        "游戏",
+        "熬夜",
+        "能量饮料",
+        "外卖"
+      ],
+      "regional_preferences": {
+        "city": "重庆",
+        "local_specialties": ["火锅", "小面", "江湖菜"],
+        "snack_culture": "重庆夜宵文化"
+      },
+      "behavior_patterns": {
+        "peak_order_hours": [22, 23, 0, 1, 2],
+        "preferred_scenes": ["电竞", "夜宵", "熬夜"],
+        "avg_order_amount": 72.0,
+        "order_frequency_per_week": 6
+      },
+      "scene_preferences": {
+        "电竞": {
+          "confidence": 0.96,
+          "preferred_products": ["能量饮料", "泡面", "零食"],
+          "scene_triggers": ["打游戏", "比赛"]
+        },
+        "夜宵": {
+          "confidence": 0.90,
+          "preferred_products": ["火锅", "江湖菜", "冰啤"],
+          "scene_triggers": ["深夜比赛结束"]
+        }
+      },
+      "preferred_merchant_types": ["连锁超市", "24小时便利店"],
+      "preferred_brands": ["红牛", "统一", "乐事"],
+      "created_at": "2023-07-08"
+    }
+  ]
+}

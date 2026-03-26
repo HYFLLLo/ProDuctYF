@@ -1,0 +1,3137 @@
+{
+  "数据集说明": "Agent Pipeline综合测试数据集 - 扩充版，包含边界情况和复杂场景",
+  "数据集版本": "V4.0",
+  "生成日期": "2026-03-22",
+  "测试目标": {
+    "事件理解Agent": "准确率目标: 85-95%",
+    "场景推理Agent": "准确率目标: 80-90%",
+    "决策Agent": "准确率目标: 70-85%"
+  },
+  "测试数据集": [
+    {
+      "test_id": "TEST001",
+      "场景描述": "欧冠决赛夜，球迷在家看球",
+      "时间": {
+        "日期": "2026-03-22",
+        "星期": "周日",
+        "时段": "周日 23:00"
+      },
+      "输入数据": {
+        "merchant_id": "M001",
+        "city": "成都",
+        "raw_events": [
+          "赛事：2026赛季欧冠决赛 曼城 VS 皇家马德里",
+          "天气：多云转晴，气温18度，微风",
+          "娱乐：某顶流歌手演唱会门票秒空"
+        ],
+        "order_context": {
+          "order_time": "23:15",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "居民区"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "赛事：2026赛季欧冠决赛 曼城 VS 皇家马德里",
+            "correct_classification": "赛事",
+            "correct_category_detail": "足球-欧冠"
+          },
+          {
+            "event": "天气：多云转晴，气温18度，微风",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某顶流歌手演唱会门票秒空",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "音乐-演唱会"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.92,
+          "correct_reasoning": "周日深夜+欧冠决赛赛事，看球场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒500ml",
+            "百威啤酒",
+            "乐事薯片",
+            "麻辣小龙虾",
+            "周黑鸭鸭脖"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "零食",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST002",
+      "场景描述": "周五加班到深夜的程序员",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 01:30"
+      },
+      "输入数据": {
+        "merchant_id": "M002",
+        "city": "北京",
+        "raw_events": [
+          "社会：全国两会闭幕",
+          "天气：晴，气温12度",
+          "体育：NBA附加赛湖人VS勇士"
+        ],
+        "order_context": {
+          "order_time": "01:30",
+          "is_weekend": false,
+          "user_occupation": "程序员",
+          "location_type": "写字楼"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：全国两会闭幕",
+            "correct_classification": "社会",
+            "correct_category_detail": "政治-两会"
+          },
+          {
+            "event": "天气：晴，气温12度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "体育：NBA附加赛湖人VS勇士",
+            "correct_classification": "赛事",
+            "correct_category_detail": "篮球-NBA"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "加班",
+          "correct_confidence": 0.88,
+          "correct_reasoning": "工作日凌晨1:30+程序员职业+写字楼，加班场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "加班",
+          "correct_top_products": [
+            "红牛功能饮料",
+            "东鹏特饮",
+            "雀巢咖啡",
+            "康师傅泡面",
+            "奥利奥饼干"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "咖啡",
+            "泡面"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST003",
+      "场景描述": "周六晚和朋友在烧烤摊聚会",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 21:00"
+      },
+      "输入数据": {
+        "merchant_id": "M003",
+        "city": "成都",
+        "raw_events": [
+          "娱乐：《流浪地球3》票房突破20亿",
+          "天气：晴，气温22度",
+          "社会：淄博烧烤周末爆满"
+        ],
+        "order_context": {
+          "order_time": "21:00",
+          "is_weekend": true,
+          "user_occupation": "自由职业",
+          "location_type": "烧烤街"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：《流浪地球3》票房突破20亿",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "影视-电影票房"
+          },
+          {
+            "event": "天气：晴，气温22度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "社会：淄博烧烤周末爆满",
+            "correct_classification": "社会",
+            "correct_category_detail": "美食-网红美食"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.91,
+          "correct_reasoning": "周六晚间+烧烤街+多人场景，聚会场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "青岛啤酒",
+            "雪花啤酒",
+            "烤串",
+            "麻辣小龙虾",
+            "可乐"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "烧烤",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST004",
+      "场景描述": "周三晚独自在家追剧",
+      "时间": {
+        "日期": "2026-03-18",
+        "星期": "周三",
+        "时段": "周三 22:30"
+      },
+      "输入数据": {
+        "merchant_id": "M004",
+        "city": "上海",
+        "raw_events": [
+          "娱乐：《庆余年3》今晚更新两集",
+          "天气：小雨，气温15度",
+          "社会：清明节旅游预订火爆"
+        ],
+        "order_context": {
+          "order_time": "22:30",
+          "is_weekend": false,
+          "user_occupation": "学生",
+          "location_type": "高校宿舍"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：《庆余年3》今晚更新两集",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "影视-电视剧"
+          },
+          {
+            "event": "天气：小雨，气温15度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-降水"
+          },
+          {
+            "event": "社会：清明节旅游预订火爆",
+            "correct_classification": "社会",
+            "correct_category_detail": "旅游-假期经济"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "追剧",
+          "correct_confidence": 0.89,
+          "correct_reasoning": "工作日晚间+学生+追剧热点，追剧场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "追剧",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST005",
+      "场景描述": "周五深夜独自小酌",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 02:00"
+      },
+      "输入数据": {
+        "merchant_id": "M005",
+        "city": "广州",
+        "raw_events": [
+          "娱乐：周杰伦演唱会广州站门票开售",
+          "天气：晴，气温20度",
+          "体育：CBA季后赛广东VS辽宁"
+        ],
+        "order_context": {
+          "order_time": "02:00",
+          "is_weekend": false,
+          "user_occupation": "设计师",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：周杰伦演唱会广州站门票开售",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "音乐-演唱会"
+          },
+          {
+            "event": "天气：晴，气温20度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "体育：CBA季后赛广东VS辽宁",
+            "correct_classification": "赛事",
+            "correct_category_detail": "篮球-CBA"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "独饮",
+          "correct_confidence": 0.87,
+          "correct_reasoning": "工作日凌晨2点+小份酒水，独饮场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "独饮",
+          "correct_top_products": [
+            "江小白100ml",
+            "RIO强爽",
+            "青岛啤酒小瓶",
+            "绝味鸭脖"
+          ],
+          "correct_categories": [
+            "小瓶酒",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST006",
+      "场景描述": "周六下午朋友聚会喝下午茶",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 15:00"
+      },
+      "输入数据": {
+        "merchant_id": "M006",
+        "city": "杭州",
+        "raw_events": [
+          "社会：五一假期出游预订量创新高",
+          "天气：多云，气温25度",
+          "娱乐：某选秀节目成团夜收视破3%"
+        ],
+        "order_context": {
+          "order_time": "15:00",
+          "is_weekend": true,
+          "user_occupation": "教师",
+          "location_type": "商场"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：五一假期出游预订量创新高",
+            "correct_classification": "社会",
+            "correct_category_detail": "旅游-假期经济"
+          },
+          {
+            "event": "天气：多云，气温25度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某选秀节目成团夜收视破3%",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "综艺-选秀"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.9,
+          "correct_reasoning": "周六下午+商场+多人，聚会场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "奶茶",
+            "蛋糕",
+            "薯片",
+            "可乐",
+            "水果"
+          ],
+          "correct_categories": [
+            "饮品",
+            "零食",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST007",
+      "场景描述": "周日晚上打游戏开黑",
+      "时间": {
+        "日期": "2026-03-22",
+        "星期": "周日",
+        "时段": "周日 20:00"
+      },
+      "输入数据": {
+        "merchant_id": "M007",
+        "city": "深圳",
+        "raw_events": [
+          "体育：LPL春季赛决赛今晚开战",
+          "天气：晴，气温23度",
+          "娱乐：某电竞选手转会费破千万"
+        ],
+        "order_context": {
+          "order_time": "20:00",
+          "is_weekend": true,
+          "user_occupation": "大学生",
+          "location_type": "高校宿舍"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：LPL春季赛决赛今晚开战",
+            "correct_classification": "赛事",
+            "correct_category_detail": "电竞-LPL"
+          },
+          {
+            "event": "天气：晴，气温23度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某电竞选手转会费破千万",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "电竞-转会"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "游戏",
+          "correct_confidence": 0.88,
+          "correct_reasoning": "周日晚上+LPL决赛+学生宿舍，游戏场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "游戏",
+          "correct_top_products": [
+            "红牛",
+            "东鹏特饮",
+            "辣条",
+            "泡椒凤爪",
+            "可乐"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "零食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST008",
+      "场景描述": "周一凌晨撸串吃夜宵",
+      "时间": {
+        "日期": "2026-03-23",
+        "星期": "周一",
+        "时段": "周一 00:30"
+      },
+      "输入数据": {
+        "merchant_id": "M008",
+        "city": "长沙",
+        "raw_events": [
+          "社会：天水麻辣烫出圈，游客增长300%",
+          "天气：晴，气温18度",
+          "体育：世预赛中国VS韩国"
+        ],
+        "order_context": {
+          "order_time": "00:30",
+          "is_weekend": false,
+          "user_occupation": "销售",
+          "location_type": "夜宵街"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：天水麻辣烫出圈，游客增长300%",
+            "correct_classification": "社会",
+            "correct_category_detail": "美食-网红美食"
+          },
+          {
+            "event": "天气：晴，气温18度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "体育：世预赛中国VS韩国",
+            "correct_classification": "赛事",
+            "correct_category_detail": "足球-世界杯预选赛"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "夜宵",
+          "correct_confidence": 0.91,
+          "correct_reasoning": "周一凌晨+夜宵街+麻辣烫热点，夜宵场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "夜宵",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "臭豆腐",
+            "啤酒",
+            "凉菜"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST009",
+      "场景描述": "周六下午家庭野餐",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 12:00"
+      },
+      "输入数据": {
+        "merchant_id": "M009",
+        "city": "南京",
+        "raw_events": [
+          "天气：晴，气温28度，适合户外",
+          "社会：春季过敏高发期来临",
+          "娱乐：某明星官宣恋情热搜第一"
+        ],
+        "order_context": {
+          "order_time": "12:00",
+          "is_weekend": true,
+          "user_occupation": "公务员",
+          "location_type": "公园"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "天气：晴，气温28度，适合户外",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "社会：春季过敏高发期来临",
+            "correct_classification": "社会",
+            "correct_category_detail": "健康-季节"
+          },
+          {
+            "event": "娱乐：某明星官宣恋情热搜第一",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "娱乐-明星"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.86,
+          "correct_reasoning": "周六中午+公园+家庭户外，聚会场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "水果",
+            "饮料",
+            "零食",
+            "三明治",
+            "矿泉水"
+          ],
+          "correct_categories": [
+            "水果",
+            "饮料",
+            "速食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST010",
+      "场景描述": "周四晚在家刷短视频",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 21:30"
+      },
+      "输入数据": {
+        "merchant_id": "M010",
+        "city": "武汉",
+        "raw_events": [
+          "娱乐：某网红直播带货破亿",
+          "天气：阴，气温16度",
+          "社会：考研国家线今日公布"
+        ],
+        "order_context": {
+          "order_time": "21:30",
+          "is_weekend": false,
+          "user_occupation": "考研学生",
+          "location_type": "出租屋"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：某网红直播带货破亿",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "电商-直播"
+          },
+          {
+            "event": "天气：阴，气温16度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-云量"
+          },
+          {
+            "event": "社会：考研国家线今日公布",
+            "correct_classification": "社会",
+            "correct_category_detail": "教育-考研"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "工作日晚间+学生+无特定热点，零食场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "薯片",
+            "瓜子",
+            "辣条",
+            "可乐",
+            "泡椒凤爪"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST011",
+      "场景描述": "周五晚酒吧看球+社交",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 22:00"
+      },
+      "输入数据": {
+        "merchant_id": "M011",
+        "city": "成都",
+        "raw_events": [
+          "体育：世界杯预选赛 中国VS日本",
+          "天气：多云，气温20度",
+          "娱乐：某说唱歌手新专辑发布"
+        ],
+        "order_context": {
+          "order_time": "22:00",
+          "is_weekend": false,
+          "user_occupation": "销售",
+          "location_type": "酒吧"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：世界杯预选赛 中国VS日本",
+            "correct_classification": "赛事",
+            "correct_category_detail": "足球-世界杯预选赛"
+          },
+          {
+            "event": "天气：多云，气温20度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-云量"
+          },
+          {
+            "event": "娱乐：某说唱歌手新专辑发布",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "音乐-专辑"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.93,
+          "correct_reasoning": "周五晚+酒吧+世界杯赛事，看球场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒",
+            "百威",
+            "洋酒",
+            "花生米",
+            "薯片"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "洋酒",
+            "零食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST012",
+      "场景描述": "周一凌晨两点失眠点外卖",
+      "时间": {
+        "日期": "2026-03-23",
+        "星期": "周一",
+        "时段": "周一 02:00"
+      },
+      "输入数据": {
+        "merchant_id": "M012",
+        "city": "北京",
+        "raw_events": [
+          "社会：油价今晚24时下调",
+          "天气：晴，气温10度",
+          "娱乐：某演员新剧开播"
+        ],
+        "order_context": {
+          "order_time": "02:00",
+          "is_weekend": false,
+          "user_occupation": "记者",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：油价今晚24时下调",
+            "correct_classification": "社会",
+            "correct_category_detail": "经济-油价"
+          },
+          {
+            "event": "天气：晴，气温10度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某演员新剧开播",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "影视-电视剧"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "独饮",
+          "correct_confidence": 0.89,
+          "correct_reasoning": "工作日凌晨2点+失眠+记者职业，独饮场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "独饮",
+          "correct_top_products": [
+            "江小白",
+            "RIO",
+            "周黑鸭",
+            "花生米"
+          ],
+          "correct_categories": [
+            "小瓶酒",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST013",
+      "场景描述": "周六下午逛超市囤零食",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 16:00"
+      },
+      "输入数据": {
+        "merchant_id": "M013",
+        "city": "上海",
+        "raw_events": [
+          "社会：春季踏青好去处推荐",
+          "天气：晴，气温24度",
+          "娱乐：某零食品牌联名上新"
+        ],
+        "order_context": {
+          "order_time": "16:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "超市"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：春季踏青好去处推荐",
+            "correct_classification": "社会",
+            "correct_category_detail": "旅游-踏青"
+          },
+          {
+            "event": "天气：晴，气温24度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某零食品牌联名上新",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "消费-零食"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.87,
+          "correct_reasoning": "周六下午+超市+零食热点，零食场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "薯片",
+            "坚果",
+            "饼干",
+            "饮料",
+            "巧克力"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST014",
+      "场景描述": "周一晚下班后健身",
+      "时间": {
+        "日期": "2026-03-23",
+        "星期": "周一",
+        "时段": "周一 19:30"
+      },
+      "输入数据": {
+        "merchant_id": "M014",
+        "city": "深圳",
+        "raw_events": [
+          "社会：健身热潮持续升温",
+          "天气：晴，气温22度",
+          "娱乐：某健身博主粉丝破千万"
+        ],
+        "order_context": {
+          "order_time": "19:30",
+          "is_weekend": false,
+          "user_occupation": "健身教练",
+          "location_type": "健身房"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：健身热潮持续升温",
+            "correct_classification": "社会",
+            "correct_category_detail": "健康-健身"
+          },
+          {
+            "event": "天气：晴，气温22度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某健身博主粉丝破千万",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "健身-博主"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.84,
+          "correct_reasoning": "工作日晚间+健身房+健身教练，零食场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "蛋白棒",
+            "鸡胸肉",
+            "全麦面包",
+            "能量饮料",
+            "水果"
+          ],
+          "correct_categories": [
+            "健身食品",
+            "能量饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST015",
+      "场景描述": "周日晚和朋友打麻将",
+      "时间": {
+        "日期": "2026-03-22",
+        "星期": "周日",
+        "时段": "周日 14:00"
+      },
+      "输入数据": {
+        "merchant_id": "M015",
+        "city": "成都",
+        "raw_events": [
+          "娱乐：四川麻将锦标赛今日开战",
+          "天气：晴，气温26度",
+          "社会：清明祭扫高峰来临"
+        ],
+        "order_context": {
+          "order_time": "14:00",
+          "is_weekend": true,
+          "user_occupation": "退休人员",
+          "location_type": "茶馆"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：四川麻将锦标赛今日开战",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "娱乐-棋牌"
+          },
+          {
+            "event": "天气：晴，气温26度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "社会：清明祭扫高峰来临",
+            "correct_classification": "社会",
+            "correct_category_detail": "社会-节日"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.9,
+          "correct_reasoning": "周日下午+茶馆+麻将热点，聚会场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "瓜子",
+            "花生",
+            "茶水",
+            "点心",
+            "水果"
+          ],
+          "correct_categories": [
+            "茶点",
+            "饮品"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST016",
+      "场景描述": "周二凌晨看电竞比赛",
+      "时间": {
+        "日期": "2026-03-24",
+        "星期": "周二",
+        "时段": "周二 01:00"
+      },
+      "输入数据": {
+        "merchant_id": "M016",
+        "city": "上海",
+        "raw_events": [
+          "体育：S16全球总决赛决赛今晚进行",
+          "天气：晴，气温14度",
+          "娱乐：某顶流男星塌房"
+        ],
+        "order_context": {
+          "order_time": "01:00",
+          "is_weekend": false,
+          "user_occupation": "电竞选手",
+          "location_type": "训练基地"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：S16全球总决赛决赛今晚进行",
+            "correct_classification": "赛事",
+            "correct_category_detail": "电竞-S16总决赛"
+          },
+          {
+            "event": "天气：晴，气温14度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某顶流男星塌房",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "娱乐-明星"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.91,
+          "correct_reasoning": "工作日凌晨1点+电竞总决赛+电竞选手，看球场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "红牛",
+            "可乐",
+            "泡面",
+            "辣条",
+            "能量棒"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "零食",
+            "泡面"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST017",
+      "场景描述": "周五下班约饭",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 18:30"
+      },
+      "输入数据": {
+        "merchant_id": "M017",
+        "city": "重庆",
+        "raw_events": [
+          "娱乐：《热辣滚烫》票房突破35亿",
+          "天气：晴，气温25度",
+          "社会：周末聚餐预订火爆"
+        ],
+        "order_context": {
+          "order_time": "18:30",
+          "is_weekend": false,
+          "user_occupation": "产品经理",
+          "location_type": "商场"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：《热辣滚烫》票房突破35亿",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "影视-电影票房"
+          },
+          {
+            "event": "天气：晴，气温25度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "社会：周末聚餐预订火爆",
+            "correct_classification": "社会",
+            "correct_category_detail": "餐饮-聚餐"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.92,
+          "correct_reasoning": "周五下班+商场+聚餐热点，聚会场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "火锅套餐",
+            "啤酒",
+            "可乐",
+            "凉菜",
+            "小吃"
+          ],
+          "correct_categories": [
+            "正餐",
+            "酒水",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST018",
+      "场景描述": "周三晚在家看电影",
+      "时间": {
+        "日期": "2026-03-18",
+        "星期": "周三",
+        "时段": "周三 20:00"
+      },
+      "输入数据": {
+        "merchant_id": "M018",
+        "city": "北京",
+        "raw_events": [
+          "娱乐：《周处除三害》票房破10亿",
+          "天气：多云，气温15度",
+          "社会：春季过敏需注意"
+        ],
+        "order_context": {
+          "order_time": "20:00",
+          "is_weekend": false,
+          "user_occupation": "律师",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：《周处除三害》票房破10亿",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "影视-电影票房"
+          },
+          {
+            "event": "天气：多云，气温15度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-云量"
+          },
+          {
+            "event": "社会：春季过敏需注意",
+            "correct_classification": "社会",
+            "correct_category_detail": "健康-季节"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "追剧",
+          "correct_confidence": 0.88,
+          "correct_reasoning": "工作日晚间+公寓+电影热点，追剧场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "追剧",
+          "correct_top_products": [
+            "爆米花",
+            "可乐",
+            "薯片",
+            "冰淇淋",
+            "卤味"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST019",
+      "场景描述": "周六下午在奶茶店约会",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 14:00"
+      },
+      "输入数据": {
+        "merchant_id": "M019",
+        "city": "长沙",
+        "raw_events": [
+          "社会：520将至，鲜花预订火爆",
+          "天气：晴，气温27度",
+          "娱乐：某情侣综艺收视第一"
+        ],
+        "order_context": {
+          "order_time": "14:00",
+          "is_weekend": true,
+          "user_occupation": "大学生",
+          "location_type": "奶茶店"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：520将至，鲜花预订火爆",
+            "correct_classification": "社会",
+            "correct_category_detail": "社会-节日"
+          },
+          {
+            "event": "天气：晴，气温27度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "娱乐：某情侣综艺收视第一",
+            "correct_classification": "娱乐",
+            "correct_category_detail": "综艺-恋爱"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.89,
+          "correct_reasoning": "周六下午+奶茶店+情侣热点，聚会场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "奶茶",
+            "蛋糕",
+            "饼干",
+            "水果",
+            "咖啡"
+          ],
+          "correct_categories": [
+            "饮品",
+            "甜点",
+            "零食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST020",
+      "场景描述": "周四凌晨赶方案",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 03:00"
+      },
+      "输入数据": {
+        "merchant_id": "M020",
+        "city": "深圳",
+        "raw_events": [
+          "科技：华为发布新旗舰手机",
+          "天气：晴，气温20度",
+          "科技：AI大模型新规正式实施"
+        ],
+        "order_context": {
+          "order_time": "03:00",
+          "is_weekend": false,
+          "user_occupation": "产品经理",
+          "location_type": "科技园"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "科技：华为发布新旗舰手机",
+            "correct_classification": "科技",
+            "correct_category_detail": "数码-手机"
+          },
+          {
+            "event": "天气：晴，气温20度",
+            "correct_classification": "天气",
+            "correct_category_detail": "气象-温度"
+          },
+          {
+            "event": "科技：AI大模型新规正式实施",
+            "correct_classification": "科技",
+            "correct_category_detail": "AI-政策"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "加班",
+          "correct_confidence": 0.93,
+          "correct_reasoning": "工作日凌晨3点+科技园+产品经理，加班场景概率最高"
+        },
+        "决策推荐": {
+          "correct_scene": "加班",
+          "correct_top_products": [
+            "咖啡",
+            "红牛",
+            "泡面",
+            "能量棒",
+            "水果"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "咖啡",
+            "泡面"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST021",
+      "场景描述": "周日22:00 看比赛",
+      "时间": {
+        "日期": "2026-03-22",
+        "星期": "周日",
+        "时段": "周日 22:00"
+      },
+      "输入数据": {
+        "merchant_id": "M021",
+        "city": "北京",
+        "raw_events": [
+          "体育：CBA总决赛G7生死战",
+          "天气：晴，气温19度",
+          "社会：清明假期出游指南"
+        ],
+        "order_context": {
+          "order_time": "22:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：CBA总决赛G7生死战",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温19度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：清明假期出游指南",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒500ml",
+            "百威啤酒",
+            "乐事薯片",
+            "麻辣小龙虾",
+            "周黑鸭鸭脖"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "零食",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST022",
+      "场景描述": "周六23:00 独自小酌",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 23:00"
+      },
+      "输入数据": {
+        "merchant_id": "M022",
+        "city": "北京",
+        "raw_events": [
+          "娱乐：某歌手演唱会延期公告",
+          "天气：多云，气温17度",
+          "社会：周末消费数据分析"
+        ],
+        "order_context": {
+          "order_time": "23:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：某歌手演唱会延期公告",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：多云，气温17度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：周末消费数据分析",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "独饮",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "独饮",
+          "correct_top_products": [
+            "江小白100ml",
+            "RIO强爽",
+            "青岛啤酒小瓶",
+            "绝味鸭脖"
+          ],
+          "correct_categories": [
+            "小瓶酒",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST023",
+      "场景描述": "周一06:00 加班",
+      "时间": {
+        "日期": "2026-03-23",
+        "星期": "周一",
+        "时段": "周一 06:00"
+      },
+      "输入数据": {
+        "merchant_id": "M023",
+        "city": "北京",
+        "raw_events": [
+          "社会：早高峰拥堵路段预测",
+          "天气：晴，气温8度",
+          "科技：某AI公司发布新产品"
+        ],
+        "order_context": {
+          "order_time": "06:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：早高峰拥堵路段预测",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温8度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "科技：某AI公司发布新产品",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "加班",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "加班",
+          "correct_top_products": [
+            "红牛功能饮料",
+            "东鹏特饮",
+            "雀巢咖啡",
+            "康师傅泡面",
+            "奥利奥饼干"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "咖啡",
+            "泡面"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST024",
+      "场景描述": "周一06:30 吃夜宵",
+      "时间": {
+        "日期": "2026-03-23",
+        "星期": "周一",
+        "时段": "周一 06:30"
+      },
+      "输入数据": {
+        "merchant_id": "M024",
+        "city": "北京",
+        "raw_events": [
+          "社会：夜宵经济持续升温",
+          "天气：晴，气温15度",
+          "娱乐：某脱口秀演员新专场"
+        ],
+        "order_context": {
+          "order_time": "06:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：夜宵经济持续升温",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温15度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某脱口秀演员新专场",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "夜宵",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "夜宵",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "臭豆腐",
+            "啤酒",
+            "凉菜"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST025",
+      "场景描述": "周五17:30 吃夜宵",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 17:30"
+      },
+      "输入数据": {
+        "merchant_id": "M025",
+        "city": "北京",
+        "raw_events": [
+          "社会：周五晚高峰出行提示",
+          "天气：晴，气温26度",
+          "娱乐：某明星新歌发布"
+        ],
+        "order_context": {
+          "order_time": "17:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：周五晚高峰出行提示",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温26度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某明星新歌发布",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "夜宵",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "夜宵",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "臭豆腐",
+            "啤酒",
+            "凉菜"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST026",
+      "场景描述": "周四17:00 吃零食",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 17:00"
+      },
+      "输入数据": {
+        "merchant_id": "M026",
+        "city": "北京",
+        "raw_events": [
+          "社会：健身餐成为新潮流",
+          "天气：阴，气温18度",
+          "娱乐：某健身博主分享食谱"
+        ],
+        "order_context": {
+          "order_time": "17:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：健身餐成为新潮流",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：阴，气温18度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某健身博主分享食谱",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST027",
+      "场景描述": "周三21:00 追剧",
+      "时间": {
+        "日期": "2026-03-18",
+        "星期": "周三",
+        "时段": "周三 21:00"
+      },
+      "输入数据": {
+        "merchant_id": "M027",
+        "city": "北京",
+        "raw_events": [
+          "天气：暴雨红色预警，多地内涝",
+          "社会：防汛应急响应启动",
+          "娱乐：某热播剧大结局"
+        ],
+        "order_context": {
+          "order_time": "21:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "天气：暴雨红色预警，多地内涝",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：防汛应急响应启动",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某热播剧大结局",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "追剧",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "追剧",
+          "correct_top_products": [
+            "爆米花",
+            "可乐",
+            "薯片",
+            "冰淇淋",
+            "卤味"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST028",
+      "场景描述": "周四22:30 看比赛",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周四",
+        "时段": "周四 22:30"
+      },
+      "输入数据": {
+        "merchant_id": "M028",
+        "city": "北京",
+        "raw_events": [
+          "天气：暴雪橙色预警，航班取消",
+          "体育：欧冠1/4决赛今晚直播",
+          "社会：东北地区供暖保障"
+        ],
+        "order_context": {
+          "order_time": "22:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "天气：暴雪橙色预警，航班取消",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "体育：欧冠1/4决赛今晚直播",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：东北地区供暖保障",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒500ml",
+            "百威啤酒",
+            "乐事薯片",
+            "麻辣小龙虾",
+            "周黑鸭鸭脖"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "零食",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST029",
+      "场景描述": "周日14:00 吃夜宵",
+      "时间": {
+        "日期": "2026-06-15",
+        "星期": "周日",
+        "时段": "周日 14:00"
+      },
+      "输入数据": {
+        "merchant_id": "M029",
+        "city": "北京",
+        "raw_events": [
+          "天气：高温红色预警，局部40度",
+          "社会：外卖骑手中暑事件增多",
+          "娱乐：某解暑综艺收视走高"
+        ],
+        "order_context": {
+          "order_time": "14:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "天气：高温红色预警，局部40度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：外卖骑手中暑事件增多",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某解暑综艺收视走高",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "夜宵",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "夜宵",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "臭豆腐",
+            "啤酒",
+            "凉菜"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST030",
+      "场景描述": "周三19:00 聚会",
+      "时间": {
+        "日期": "2027-01-28",
+        "星期": "周三",
+        "时段": "周三 19:00"
+      },
+      "输入数据": {
+        "merchant_id": "M030",
+        "city": "北京",
+        "raw_events": [
+          "社会：除夕夜年夜饭预订爆满",
+          "娱乐：春晚今晚8点开播",
+          "天气：晴，气温-3度"
+        ],
+        "order_context": {
+          "order_time": "19:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：除夕夜年夜饭预订爆满",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：春晚今晚8点开播",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温-3度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "聚会",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "聚会",
+          "correct_top_products": [
+            "青岛啤酒",
+            "雪花啤酒",
+            "烤串",
+            "麻辣小龙虾",
+            "可乐"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "烧烤",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST031",
+      "场景描述": "周五12:30 吃零食",
+      "时间": {
+        "日期": "2026-05-01",
+        "星期": "周五",
+        "时段": "周五 12:30"
+      },
+      "输入数据": {
+        "merchant_id": "M031",
+        "city": "北京",
+        "raw_events": [
+          "社会：西湖断桥游客爆满",
+          "天气：晴，气温30度",
+          "娱乐：某网红景点排队3小时"
+        ],
+        "order_context": {
+          "order_time": "12:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：西湖断桥游客爆满",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温30度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某网红景点排队3小时",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST032",
+      "场景描述": "周三02:00 吃零食",
+      "时间": {
+        "日期": "2026-11-11",
+        "星期": "周三",
+        "时段": "周三 02:00"
+      },
+      "输入数据": {
+        "merchant_id": "M032",
+        "city": "北京",
+        "raw_events": [
+          "社会：双十一成交额突破千亿",
+          "娱乐：某主播直播间破亿",
+          "科技：AI助手帮用户比价"
+        ],
+        "order_context": {
+          "order_time": "02:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：双十一成交额突破千亿",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某主播直播间破亿",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "科技：AI助手帮用户比价",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST033",
+      "场景描述": "周四21:30 看比赛",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 21:30"
+      },
+      "输入数据": {
+        "merchant_id": "M033",
+        "city": "北京",
+        "raw_events": [
+          "体育：世界杯半决赛直播中",
+          "娱乐：《热辣滚烫》票房破40亿",
+          "天气：晴，气温22度"
+        ],
+        "order_context": {
+          "order_time": "21:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：世界杯半决赛直播中",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：《热辣滚烫》票房破40亿",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温22度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒500ml",
+            "百威啤酒",
+            "乐事薯片",
+            "麻辣小龙虾",
+            "周黑鸭鸭脖"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "零食",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST034",
+      "场景描述": "周六20:00 打游戏",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 20:00"
+      },
+      "输入数据": {
+        "merchant_id": "M034",
+        "city": "北京",
+        "raw_events": [
+          "体育：LPL决赛RNG对阵EDG",
+          "娱乐：周杰伦深圳演唱会",
+          "天气：晴，气温25度"
+        ],
+        "order_context": {
+          "order_time": "20:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：LPL决赛RNG对阵EDG",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：周杰伦深圳演唱会",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温25度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "游戏",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "游戏",
+          "correct_top_products": [
+            "红牛",
+            "东鹏特饮",
+            "辣条",
+            "泡椒凤爪",
+            "可乐"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "零食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST035",
+      "场景描述": "周五23:30 吃夜宵",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 23:30"
+      },
+      "输入数据": {
+        "merchant_id": "M035",
+        "city": "北京",
+        "raw_events": [
+          "社会：三甲医院夜间急诊量激增",
+          "天气：雨，气温10度",
+          "科技：AI辅助诊断系统上线"
+        ],
+        "order_context": {
+          "order_time": "23:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：三甲医院夜间急诊量激增",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：雨，气温10度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "科技：AI辅助诊断系统上线",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "夜宵",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "夜宵",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "臭豆腐",
+            "啤酒",
+            "凉菜"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST036",
+      "场景描述": "周四03:30 吃夜宵",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 03:30"
+      },
+      "输入数据": {
+        "merchant_id": "M036",
+        "city": "北京",
+        "raw_events": [
+          "社会：油价调整窗口临近",
+          "天气：晴，气温-5度",
+          "娱乐：某电台午夜脱口秀"
+        ],
+        "order_context": {
+          "order_time": "03:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：油价调整窗口临近",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温-5度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某电台午夜脱口秀",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "夜宵",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "夜宵",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "臭豆腐",
+            "啤酒",
+            "凉菜"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST037",
+      "场景描述": "周五02:30 吃零食",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 02:30"
+      },
+      "输入数据": {
+        "merchant_id": "M037",
+        "city": "北京",
+        "raw_events": [
+          "娱乐：某头部主播直播破亿",
+          "社会：直播电商新规出台",
+          "天气：晴，气温21度"
+        ],
+        "order_context": {
+          "order_time": "02:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：某头部主播直播破亿",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：直播电商新规出台",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温21度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST038",
+      "场景描述": "周四22:00 追剧",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 22:00"
+      },
+      "输入数据": {
+        "merchant_id": "M038",
+        "city": "北京",
+        "raw_events": [
+          "社会：三甲医院床位紧张",
+          "天气：阴，气温16度",
+          "娱乐：某热播医疗剧收视破3%"
+        ],
+        "order_context": {
+          "order_time": "22:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：三甲医院床位紧张",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：阴，气温16度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某热播医疗剧收视破3%",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "追剧",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "追剧",
+          "correct_top_products": [
+            "串串香",
+            "麻辣小龙虾",
+            "薯片",
+            "可乐",
+            "奶茶"
+          ],
+          "correct_categories": [
+            "夜宵",
+            "零食",
+            "饮料"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST039",
+      "场景描述": "周六03:00 吃零食",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 03:00"
+      },
+      "输入数据": {
+        "merchant_id": "M039",
+        "city": "北京",
+        "raw_events": [
+          "科技：新款游戏本发布",
+          "天气：晴，气温14度",
+          "社会：电竞酒店兴起"
+        ],
+        "order_context": {
+          "order_time": "03:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "科技：新款游戏本发布",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温14度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：电竞酒店兴起",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "红牛",
+            "东鹏特饮",
+            "辣条",
+            "泡椒凤爪",
+            "可乐"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "零食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST040",
+      "场景描述": "周五21:30 吃零食",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 21:30"
+      },
+      "输入数据": {
+        "merchant_id": "M040",
+        "city": "北京",
+        "raw_events": [
+          "社会：洗浴中心推出新套餐",
+          "天气：晴，气温5度",
+          "娱乐：某相声演员专场演出"
+        ],
+        "order_context": {
+          "order_time": "21:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：洗浴中心推出新套餐",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温5度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某相声演员专场演出",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "青岛啤酒",
+            "薯片",
+            "花生米",
+            "卤味",
+            "可乐"
+          ],
+          "correct_categories": [
+            "酒水",
+            "零食"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST041",
+      "场景描述": "周一12:30 吃零食",
+      "时间": {
+        "日期": "2026-03-23",
+        "星期": "周一",
+        "时段": "周一 12:30"
+      },
+      "输入数据": {
+        "merchant_id": "M041",
+        "city": "北京",
+        "raw_events": [
+          "社会：远程办公成为新趋势",
+          "天气：晴，气温18度",
+          "科技：AI写作工具火爆"
+        ],
+        "order_context": {
+          "order_time": "12:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：远程办公成为新趋势",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温18度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "科技：AI写作工具火爆",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST042",
+      "场景描述": "周三23:45 加班",
+      "时间": {
+        "日期": "2026-03-18",
+        "星期": "周三",
+        "时段": "周三 23:45"
+      },
+      "输入数据": {
+        "merchant_id": "M042",
+        "city": "北京",
+        "raw_events": [
+          "社会：互联网行业加班文化讨论",
+          "天气：多云，气温22度",
+          "科技：某公司发布新系统"
+        ],
+        "order_context": {
+          "order_time": "23:45",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：互联网行业加班文化讨论",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：多云，气温22度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "科技：某公司发布新系统",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "加班",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "加班",
+          "correct_top_products": [
+            "红牛功能饮料",
+            "东鹏特饮",
+            "雀巢咖啡",
+            "康师傅泡面",
+            "奥利奥饼干"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "咖啡",
+            "泡面"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST043",
+      "场景描述": "周三22:30 吃零食",
+      "时间": {
+        "日期": "2026-02-26",
+        "星期": "周三",
+        "时段": "周三 22:30"
+      },
+      "输入数据": {
+        "merchant_id": "M043",
+        "city": "北京",
+        "raw_events": [
+          "社会：考研成绩今日公布",
+          "娱乐：某明星捐款千万",
+          "天气：晴，气温12度"
+        ],
+        "order_context": {
+          "order_time": "22:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：考研成绩今日公布",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某明星捐款千万",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温12度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST044",
+      "场景描述": "周三23:50 看比赛",
+      "时间": {
+        "日期": "2026-07-15",
+        "星期": "周三",
+        "时段": "周三 23:50"
+      },
+      "输入数据": {
+        "merchant_id": "M044",
+        "city": "北京",
+        "raw_events": [
+          "体育：世界杯决赛法国VS阿根廷",
+          "天气：晴，气温28度",
+          "社会：酒吧看球指南"
+        ],
+        "order_context": {
+          "order_time": "23:50",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：世界杯决赛法国VS阿根廷",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温28度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：酒吧看球指南",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒500ml",
+            "百威啤酒",
+            "乐事薯片",
+            "麻辣小龙虾",
+            "周黑鸭鸭脖"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "零食",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST045",
+      "场景描述": "周六23:30 吃零食",
+      "时间": {
+        "日期": "2026-03-21",
+        "星期": "周六",
+        "时段": "周六 23:30"
+      },
+      "输入数据": {
+        "merchant_id": "M045",
+        "city": "北京",
+        "raw_events": [
+          "娱乐：某顶流演唱会完美收官",
+          "天气：晴，气温18度",
+          "社会：演唱会周边热销"
+        ],
+        "order_context": {
+          "order_time": "23:30",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：某顶流演唱会完美收官",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温18度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：演唱会周边热销",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "薯片",
+            "卤味",
+            "可乐",
+            "啤酒小瓶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "酒水"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST046",
+      "场景描述": "周五02:00 吃零食",
+      "时间": {
+        "日期": "2026-06-20",
+        "星期": "周五",
+        "时段": "周五 02:00"
+      },
+      "输入数据": {
+        "merchant_id": "M046",
+        "city": "北京",
+        "raw_events": [
+          "社会：多地高校进入期末考试周",
+          "天气：晴，气温26度",
+          "娱乐：某游戏联动限定皮肤"
+        ],
+        "order_context": {
+          "order_time": "02:00",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "社会：多地高校进入期末考试周",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温26度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某游戏联动限定皮肤",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST047",
+      "场景描述": "周四23:30 独自小酌",
+      "时间": {
+        "日期": "2026-03-19",
+        "星期": "周四",
+        "时段": "周四 23:30"
+      },
+      "输入数据": {
+        "merchant_id": "M047",
+        "city": "北京",
+        "raw_events": [
+          "娱乐：某明星离婚引爆热搜",
+          "天气：雨，气温12度",
+          "社会：单身经济持续升温"
+        ],
+        "order_context": {
+          "order_time": "23:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "娱乐：某明星离婚引爆热搜",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：雨，气温12度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：单身经济持续升温",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "独饮",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "独饮",
+          "correct_top_products": [
+            "江小白100ml",
+            "RIO强爽",
+            "青岛啤酒小瓶",
+            "绝味鸭脖"
+          ],
+          "correct_categories": [
+            "小瓶酒",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST048",
+      "场景描述": "周五04:30 加班",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 04:30"
+      },
+      "输入数据": {
+        "merchant_id": "M048",
+        "city": "北京",
+        "raw_events": [
+          "科技：某独角兽公司融资失败",
+          "天气：晴，气温8度",
+          "社会：创业环境分析报告"
+        ],
+        "order_context": {
+          "order_time": "04:30",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "科技：某独角兽公司融资失败",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温8度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：创业环境分析报告",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "加班",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "加班",
+          "correct_top_products": [
+            "红牛功能饮料",
+            "东鹏特饮",
+            "雀巢咖啡",
+            "康师傅泡面",
+            "奥利奥饼干"
+          ],
+          "correct_categories": [
+            "能量饮料",
+            "咖啡",
+            "泡面"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST049",
+      "场景描述": "周日21:30 看比赛",
+      "时间": {
+        "日期": "2026-03-22",
+        "星期": "周日",
+        "时段": "周日 21:30"
+      },
+      "输入数据": {
+        "merchant_id": "M049",
+        "city": "北京",
+        "raw_events": [
+          "体育：意甲联赛AC米兰VS国际米兰",
+          "天气：晴，气温20度",
+          "社会：足球文化在中国的发展"
+        ],
+        "order_context": {
+          "order_time": "21:30",
+          "is_weekend": true,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "体育：意甲联赛AC米兰VS国际米兰",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "天气：晴，气温20度",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：足球文化在中国的发展",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "看球",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "看球",
+          "correct_top_products": [
+            "青岛啤酒500ml",
+            "百威啤酒",
+            "乐事薯片",
+            "麻辣小龙虾",
+            "周黑鸭鸭脖"
+          ],
+          "correct_categories": [
+            "啤酒",
+            "零食",
+            "卤味"
+          ]
+        }
+      }
+    },
+    {
+      "test_id": "TEST050",
+      "场景描述": "周五19:00 吃零食",
+      "时间": {
+        "日期": "2026-03-20",
+        "星期": "周五",
+        "时段": "周五 19:00"
+      },
+      "输入数据": {
+        "merchant_id": "M050",
+        "city": "北京",
+        "raw_events": [
+          "天气：暴雨雷电双预警",
+          "社会：外卖平台推出雨天补贴",
+          "娱乐：某热播综艺更新"
+        ],
+        "order_context": {
+          "order_time": "19:00",
+          "is_weekend": false,
+          "user_occupation": "白领",
+          "location_type": "公寓"
+        }
+      },
+      "标准答案": {
+        "事件理解": [
+          {
+            "event": "天气：暴雨雷电双预警",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "社会：外卖平台推出雨天补贴",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          },
+          {
+            "event": "娱乐：某热播综艺更新",
+            "correct_classification": "其他",
+            "correct_category_detail": "待分类"
+          }
+        ],
+        "场景推理": {
+          "correct_scene": "零食",
+          "correct_confidence": 0.85,
+          "correct_reasoning": "根据时间和场景判断"
+        },
+        "决策推荐": {
+          "correct_scene": "零食",
+          "correct_top_products": [
+            "乐事薯片",
+            "奥利奥饼干",
+            "可乐",
+            "奶茶",
+            "瓜子"
+          ],
+          "correct_categories": [
+            "零食",
+            "饮料",
+            "甜点"
+          ]
+        }
+      }
+    }
+  ]
+}

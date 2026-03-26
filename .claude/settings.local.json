@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(python -m pytest tests/unit/test_restock_calculator.py -v)",
+      "Bash(python -m pytest tests/unit/test_restock_calculator.py tests/unit/test_heat_calculator.py tests/unit/test_rule_engine.py -v)",
+      "Bash(python -m pytest tests/unit/ -v)",
+      "Bash(python -c \":*)",
+      "Bash(python -m pytest tests/unit/ -v --tb=no)",
+      "Bash(powershell -Command \"Get-Process -Name python | Where-Object {$_CommandLine -like ''*uvicorn*''} | Stop-Process -Force -ErrorAction SilentlyContinue\")",
+      "Bash(MYSQL_PASSWORD=146132 python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8003)",
+      "Bash(curl -s -X POST http://localhost:8003/api/v1/merchants/M001/decisions -H \"Content-Type: application/json\" -d '{\"\"\"\"merchant_id\"\"\"\":\"\"\"\"M001\"\"\"\"}')",
+      "Bash(python -m json.tool)",
+      "Bash(wc -l test_data/**/*.json)",
+      "Bash(python -m pytest tests/offline_test.py -v --tb=short)",
+      "Bash(python tests/offline_test.py)",
+      "Bash(python scripts/generate_groundtruth.py)"
+    ]
+  }
+}

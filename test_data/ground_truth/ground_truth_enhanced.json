@@ -1,0 +1,390 @@
+{
+  "数据集说明": "Ground Truth测试数据 - 增强版多维度爆品评分",
+  "数据量": 30,
+  "生成日期": "2026-03-22",
+  "数据来源": "模拟生成",
+  "更新说明": "增强版：添加多维度爆品评分，支持多维度爆品识别算法评估",
+  "ground_truth_records": [
+    {
+      "gt_id": "GT001",
+      "merchant_id": "M002",
+      "date": "2024-07-15",
+      "scene_type": "看球",
+      "related_events": ["E001"],
+      "multi_dimension_hot_product_scores": [
+        {
+          "product_id": "P001",
+          "product_name": "青岛啤酒经典",
+          "hot_event_score": 0.95,
+          "user_preference_score": 1.0,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 1.0,
+          "final_score": 88.0,
+          "is_hot_product": true,
+          "hot_product_reason": "世界杯决赛+用户偏好+成都夜宵文化+销量增长"
+        },
+        {
+          "product_id": "P002",
+          "product_name": "麻辣小龙虾",
+          "hot_event_score": 0.90,
+          "user_preference_score": 0.8,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 1.0,
+          "final_score": 83.0,
+          "is_hot_product": true,
+          "hot_product_reason": "世界杯+成都夏季+高销量增长"
+        },
+        {
+          "product_id": "P003",
+          "product_name": "乐事薯片原味",
+          "hot_event_score": 0.85,
+          "user_preference_score": 0.6,
+          "region_specialty_score": 0.5,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.0,
+          "final_score": 58.5,
+          "is_hot_product": false,
+          "in_candidate_pool": true,
+          "hot_product_reason": "世界杯热度带动，但非核心爆品"
+        }
+      ],
+      "restock_recommendations": [
+        {
+          "product_id": "P001",
+          "product_name": "青岛啤酒经典",
+          "current_stock": 50,
+          "predicted_demand": 180,
+          "recommended_quantity": 150,
+          "urgency": "P1",
+          "reason": "世界杯决赛期间预测需求激增"
+        },
+        {
+          "product_id": "P002",
+          "product_name": "麻辣小龙虾",
+          "current_stock": 30,
+          "predicted_demand": 120,
+          "recommended_quantity": 100,
+          "urgency": "P0",
+          "reason": "成都夏季爆品，当前库存严重不足"
+        }
+      ],
+      "pricing_recommendations": [
+        {
+          "product_id": "P001",
+          "current_price": 8.0,
+          "recommended_price": 7.5,
+          "adjustment_ratio": "-6.25%",
+          "reason": "世界杯促销价，吸引更多消费者"
+        }
+      ],
+      "bundle_strategies": [
+        {
+          "products": ["P001", "P003", "P008"],
+          "bundle_name": "看球套餐",
+          "bundle_price": 18.0,
+          "original_price": 21.3,
+          "discount": "8.5折",
+          "expected_effect": "客单价提升25%"
+        }
+      ],
+      "business_impact": {
+        "predicted_sales": 8500,
+        "predicted_gmv": 68000,
+        "stock_turnover_days": 3.5,
+        "stockout_risk": "低"
+      }
+    },
+    {
+      "gt_id": "GT002",
+      "merchant_id": "M003",
+      "date": "2024-07-15",
+      "scene_type": "高温防暑",
+      "related_events": ["E003"],
+      "multi_dimension_hot_product_scores": [
+        {
+          "product_id": "P004",
+          "product_name": "哈根达斯冰淇淋",
+          "hot_event_score": 0.95,
+          "user_preference_score": 0.8,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.8,
+          "final_score": 86.5,
+          "is_hot_product": true,
+          "hot_product_reason": "高温预警+上海高端消费+进口商品偏好+销量增长"
+        },
+        {
+          "product_id": "P006",
+          "product_name": "蒙牛冰淇淋巧乐兹",
+          "hot_event_score": 0.92,
+          "user_preference_score": 0.6,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 1.0,
+          "final_score": 79.6,
+          "is_hot_product": true,
+          "hot_product_reason": "高温预警+平价冰淇淋+高销量增长"
+        }
+      ],
+      "restock_recommendations": [
+        {
+          "product_id": "P004",
+          "current_stock": 20,
+          "predicted_demand": 80,
+          "recommended_quantity": 70,
+          "urgency": "P0",
+          "reason": "高温预警，预测需求激增，当前库存不足"
+        }
+      ],
+      "pricing_recommendations": [
+        {
+          "product_id": "P004",
+          "current_price": 68.0,
+          "recommended_price": 65.0,
+          "adjustment_ratio": "-4.4%",
+          "reason": "高温促销，维持合理利润"
+        }
+      ],
+      "bundle_strategies": [
+        {
+          "products": ["P004", "P005"],
+          "bundle_name": "防暑降温套餐",
+          "bundle_price": 75.0,
+          "original_price": 88.0,
+          "discount": "8.5折",
+          "expected_effect": "客单价提升15%"
+        }
+      ],
+      "business_impact": {
+        "predicted_sales": 6200,
+        "predicted_gmv": 52000,
+        "stock_turnover_days": 2.8,
+        "stockout_risk": "中"
+      }
+    },
+    {
+      "gt_id": "GT003",
+      "merchant_id": "M004",
+      "date": "2024-09-15",
+      "scene_type": "节日送礼",
+      "related_events": ["E009"],
+      "multi_dimension_hot_product_scores": [
+        {
+          "product_id": "P012",
+          "product_name": "三只松鼠坚果礼盒",
+          "hot_event_score": 0.92,
+          "user_preference_score": 0.9,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 1.0,
+          "final_score": 92.6,
+          "is_hot_product": true,
+          "hot_product_reason": "中秋节+送礼需求+高端坚果+超高销量增长"
+        },
+        {
+          "product_id": "P001",
+          "product_name": "青岛啤酒经典",
+          "hot_event_score": 0.75,
+          "user_preference_score": 0.5,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.3,
+          "final_score": 63.5,
+          "is_hot_product": false,
+          "in_candidate_pool": true,
+          "hot_product_reason": "节日送礼场景非核心品类"
+        }
+      ],
+      "restock_recommendations": [
+        {
+          "product_id": "P012",
+          "product_name": "三只松鼠坚果礼盒",
+          "current_stock": 15,
+          "predicted_demand": 100,
+          "recommended_quantity": 90,
+          "urgency": "P0",
+          "reason": "中秋节前送礼需求爆发"
+        }
+      ],
+      "pricing_recommendations": [
+        {
+          "product_id": "P012",
+          "current_price": 128.0,
+          "recommended_price": 118.0,
+          "adjustment_ratio": "-7.8%",
+          "reason": "节日促销，薄利多销"
+        }
+      ],
+      "bundle_strategies": [
+        {
+          "products": ["P012", "P001"],
+          "bundle_name": "中秋团圆套餐",
+          "bundle_price": 135.0,
+          "original_price": 158.0,
+          "discount": "8.5折",
+          "expected_effect": "客单价提升20%"
+        }
+      ],
+      "business_impact": {
+        "predicted_sales": 4500,
+        "predicted_gmv": 98000,
+        "stock_turnover_days": 4.2,
+        "stockout_risk": "高"
+      }
+    },
+    {
+      "gt_id": "GT004",
+      "merchant_id": "M008",
+      "date": "2024-07-18",
+      "scene_type": "本地美食",
+      "related_events": ["E005"],
+      "multi_dimension_hot_product_scores": [
+        {
+          "product_id": "P002",
+          "product_name": "麻辣小龙虾",
+          "hot_event_score": 0.85,
+          "user_preference_score": 1.0,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 1.0,
+          "final_score": 89.0,
+          "is_hot_product": true,
+          "hot_product_reason": "长沙口味虾节+长沙特色+销量Top2+高增长"
+        },
+        {
+          "product_id": "P013",
+          "product_name": "茶颜悦色奶茶",
+          "hot_event_score": 0.80,
+          "user_preference_score": 1.0,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.5,
+          "final_score": 78.5,
+          "is_hot_product": true,
+          "hot_product_reason": "长沙特色+学生偏好+高销量"
+        },
+        {
+          "product_id": "P003",
+          "product_name": "乐事薯片原味",
+          "hot_event_score": 0.70,
+          "user_preference_score": 0.5,
+          "region_specialty_score": 0.5,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.0,
+          "final_score": 48.5,
+          "is_hot_product": false,
+          "in_candidate_pool": false,
+          "hot_product_reason": "非长沙特色品类"
+        }
+      ],
+      "restock_recommendations": [
+        {
+          "product_id": "P002",
+          "product_name": "麻辣小龙虾",
+          "current_stock": 40,
+          "predicted_demand": 150,
+          "recommended_quantity": 120,
+          "urgency": "P0",
+          "reason": "口味虾节+夏季+长沙爆品"
+        }
+      ],
+      "pricing_recommendations": [
+        {
+          "product_id": "P013",
+          "current_price": 18.0,
+          "recommended_price": 16.0,
+          "adjustment_ratio": "-11.1%",
+          "reason": "口味虾节促销联动"
+        }
+      ],
+      "bundle_strategies": [
+        {
+          "products": ["P002", "P013"],
+          "bundle_name": "长沙美食套餐",
+          "bundle_price": 68.0,
+          "original_price": 88.0,
+          "discount": "7.7折",
+          "expected_effect": "客单价提升30%"
+        }
+      ],
+      "business_impact": {
+        "predicted_sales": 7800,
+        "predicted_gmv": 62000,
+        "stock_turnover_days": 3.2,
+        "stockout_risk": "中"
+      }
+    },
+    {
+      "gt_id": "GT005",
+      "merchant_id": "M001",
+      "date": "2024-07-20",
+      "scene_type": "追星娱乐",
+      "related_events": ["E004"],
+      "multi_dimension_hot_product_scores": [
+        {
+          "product_id": "P003",
+          "product_name": "乐事薯片原味",
+          "hot_event_score": 0.88,
+          "user_preference_score": 0.7,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.2,
+          "final_score": 71.4,
+          "is_hot_product": true,
+          "hot_product_reason": "演唱会场景+应援零食"
+        },
+        {
+          "product_id": "P008",
+          "product_name": "可口可乐330ml罐装",
+          "hot_event_score": 0.85,
+          "user_preference_score": 0.6,
+          "region_specialty_score": 1.0,
+          "top_influencer_score": 0.0,
+          "trend_growth_score": 0.0,
+          "final_score": 65.5,
+          "is_hot_product": false,
+          "in_candidate_pool": true,
+          "hot_product_reason": "演唱会饮品需求"
+        }
+      ],
+      "restock_recommendations": [
+        {
+          "product_id": "P003",
+          "product_name": "乐事薯片原味",
+          "current_stock": 80,
+          "predicted_demand": 150,
+          "recommended_quantity": 80,
+          "urgency": "P1",
+          "reason": "周杰伦演唱会期间预测需求增加"
+        }
+      ],
+      "pricing_recommendations": [
+        {
+          "product_id": "P003",
+          "current_price": 9.8,
+          "recommended_price": 9.5,
+          "adjustment_ratio": "-3.1%",
+          "reason": "演唱会促销优惠"
+        }
+      ],
+      "bundle_strategies": [
+        {
+          "products": ["P003", "P008", "P010"],
+          "bundle_name": "应援零食包",
+          "bundle_price": 15.0,
+          "original_price": 18.0,
+          "discount": "8.3折",
+          "expected_effect": "客单价提升20%"
+        }
+      ],
+      "business_impact": {
+        "predicted_sales": 4200,
+        "predicted_gmv": 35000,
+        "stock_turnover_days": 4.5,
+        "stockout_risk": "低"
+      }
+    }
+  ]
+}

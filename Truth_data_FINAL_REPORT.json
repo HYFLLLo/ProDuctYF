@@ -1,0 +1,24 @@
+{
+  "测试时间": "2026-03-20 21:01:52",
+  "数据来源": "Truth_data",
+  "测试结果": {
+    "事件理解Agent": {
+      "accuracy": 0.0,
+      "target": 0.9,
+      "passed": false
+    },
+    "场景分析Agent": {
+      "accuracy": 0.08,
+      "target": 0.85,
+      "passed": false
+    },
+    "决策层Agent": {
+      "hot_accuracy": 0.6,
+      "restock_accuracy": 0.28,
+      "hot_target": 0.75,
+      "restock_target": 0.8,
+      "passed": false
+    }
+  },
+  "总体判定": "未通过"
+}

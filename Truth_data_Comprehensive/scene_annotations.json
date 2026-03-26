@@ -1,0 +1,2645 @@
+{
+  "数据集说明": "全面场景标注数据",
+  "统计": {
+    "看球": 15,
+    "加班": 15,
+    "聚会": 15,
+    "夜宵": 15,
+    "追剧": 15,
+    "游戏": 15,
+    "独饮": 15
+  },
+  "scene_annotations": [
+    {
+      "annotation_id": "SCENE00001",
+      "user_id": "U00001",
+      "order_id": "O00001",
+      "order_time": "2026-03-20T21:11:00Z",
+      "order_products": [
+        "P0001"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "乐事薯片原味",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "世界杯决赛",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.8910921825913215
+    },
+    {
+      "annotation_id": "SCENE00002",
+      "user_id": "U00002",
+      "order_id": "O00002",
+      "order_time": "2026-03-20T22:41:00Z",
+      "order_products": [
+        "P0002"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "乐事薯片原味",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "世界杯决赛",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.8627649981201333
+    },
+    {
+      "annotation_id": "SCENE00003",
+      "user_id": "U00003",
+      "order_id": "O00003",
+      "order_time": "2026-03-20T23:49:00Z",
+      "order_products": [
+        "P0003"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "乐事薯片原味",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "世界杯决赛",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.8503763511338964
+    },
+    {
+      "annotation_id": "SCENE00004",
+      "user_id": "U00004",
+      "order_id": "O00004",
+      "order_time": "2026-03-20T21:22:00Z",
+      "order_products": [
+        "P0004"
+      ],
+      "product_names": [
+        "雪花啤酒",
+        "乐事薯片烧烤味",
+        "泡椒凤爪",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "欧冠决赛",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9329308570316106
+    },
+    {
+      "annotation_id": "SCENE00005",
+      "user_id": "U00005",
+      "order_id": "O00005",
+      "order_time": "2026-03-20T22:18:00Z",
+      "order_products": [
+        "P0005"
+      ],
+      "product_names": [
+        "雪花啤酒",
+        "乐事薯片烧烤味",
+        "泡椒凤爪",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "欧冠决赛",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9642282334570674
+    },
+    {
+      "annotation_id": "SCENE00006",
+      "user_id": "U00006",
+      "order_id": "O00006",
+      "order_time": "2026-03-20T23:00:00Z",
+      "order_products": [
+        "P0006"
+      ],
+      "product_names": [
+        "雪花啤酒",
+        "乐事薯片烧烤味",
+        "泡椒凤爪",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "欧冠决赛",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9826405622350969
+    },
+    {
+      "annotation_id": "SCENE00007",
+      "user_id": "U00007",
+      "order_id": "O00007",
+      "order_time": "2026-03-20T21:37:00Z",
+      "order_products": [
+        "P0007"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "洽洽瓜子",
+        "周黑鸭鸭锁骨",
+        "薯片先生"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "NBA总决赛",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.8715029150683151
+    },
+    {
+      "annotation_id": "SCENE00008",
+      "user_id": "U00008",
+      "order_id": "O00008",
+      "order_time": "2026-03-20T22:15:00Z",
+      "order_products": [
+        "P0008"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "洽洽瓜子",
+        "周黑鸭鸭锁骨",
+        "薯片先生"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "NBA总决赛",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.913942318066002
+    },
+    {
+      "annotation_id": "SCENE00009",
+      "user_id": "U00009",
+      "order_id": "O00009",
+      "order_time": "2026-03-20T23:02:00Z",
+      "order_products": [
+        "P0009"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "洽洽瓜子",
+        "周黑鸭鸭锁骨",
+        "薯片先生"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "NBA总决赛",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.979146229195708
+    },
+    {
+      "annotation_id": "SCENE00010",
+      "user_id": "U00010",
+      "order_id": "O00010",
+      "order_time": "2026-03-20T21:07:00Z",
+      "order_products": [
+        "P0010"
+      ],
+      "product_names": [
+        "百威啤酒500ml",
+        "乐事薯片原味",
+        "绝味鸭脖",
+        "可口可乐330ml"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "欧洲杯半决赛",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9014009693797023
+    },
+    {
+      "annotation_id": "SCENE00011",
+      "user_id": "U00011",
+      "order_id": "O00011",
+      "order_time": "2026-03-20T22:17:00Z",
+      "order_products": [
+        "P0011"
+      ],
+      "product_names": [
+        "百威啤酒500ml",
+        "乐事薯片原味",
+        "绝味鸭脖",
+        "可口可乐330ml"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "欧洲杯半决赛",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9567287465511873
+    },
+    {
+      "annotation_id": "SCENE00012",
+      "user_id": "U00012",
+      "order_id": "O00012",
+      "order_time": "2026-03-20T23:48:00Z",
+      "order_products": [
+        "P0012"
+      ],
+      "product_names": [
+        "百威啤酒500ml",
+        "乐事薯片原味",
+        "绝味鸭脖",
+        "可口可乐330ml"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "欧洲杯半决赛",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9723151083249034
+    },
+    {
+      "annotation_id": "SCENE00013",
+      "user_id": "U00013",
+      "order_id": "O00013",
+      "order_time": "2026-03-20T21:07:00Z",
+      "order_products": [
+        "P0013"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "乐事薯片",
+        "周黑鸭鸭脖",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "世界杯淘汰赛",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.8875770270188236
+    },
+    {
+      "annotation_id": "SCENE00014",
+      "user_id": "U00014",
+      "order_id": "O00014",
+      "order_time": "2026-03-20T22:21:00Z",
+      "order_products": [
+        "P0014"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "乐事薯片",
+        "周黑鸭鸭脖",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "世界杯淘汰赛",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9003864467936624
+    },
+    {
+      "annotation_id": "SCENE00015",
+      "user_id": "U00015",
+      "order_id": "O00015",
+      "order_time": "2026-03-20T23:03:00Z",
+      "order_products": [
+        "P0015"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "乐事薯片",
+        "周黑鸭鸭脖",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": true,
+        "event_name": "世界杯淘汰赛",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "看球",
+      "scene_confidence": 0.9824067848536437
+    },
+    {
+      "annotation_id": "SCENE00016",
+      "user_id": "U00016",
+      "order_id": "O00016",
+      "order_time": "2026-03-20T21:59:00Z",
+      "order_products": [
+        "P0016"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "康师傅泡面",
+        "东鹏特饮",
+        "农心辛拉面"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9429759095811275
+    },
+    {
+      "annotation_id": "SCENE00017",
+      "user_id": "U00017",
+      "order_id": "O00017",
+      "order_time": "2026-03-20T22:46:00Z",
+      "order_products": [
+        "P0017"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "康师傅泡面",
+        "东鹏特饮",
+        "农心辛拉面"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9219055304030083
+    },
+    {
+      "annotation_id": "SCENE00018",
+      "user_id": "U00018",
+      "order_id": "O00018",
+      "order_time": "2026-03-20T23:45:00Z",
+      "order_products": [
+        "P0018"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "康师傅泡面",
+        "东鹏特饮",
+        "农心辛拉面"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9861776469941224
+    },
+    {
+      "annotation_id": "SCENE00019",
+      "user_id": "U00019",
+      "order_id": "O00019",
+      "order_time": "2026-03-20T21:54:00Z",
+      "order_products": [
+        "P0019"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "统一老坛酸菜",
+        "雀巢咖啡",
+        "奥利奥饼干"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.937797442634476
+    },
+    {
+      "annotation_id": "SCENE00020",
+      "user_id": "U00020",
+      "order_id": "O00020",
+      "order_time": "2026-03-20T22:39:00Z",
+      "order_products": [
+        "P0020"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "统一老坛酸菜",
+        "雀巢咖啡",
+        "奥利奥饼干"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.8801557112128078
+    },
+    {
+      "annotation_id": "SCENE00021",
+      "user_id": "U00021",
+      "order_id": "O00021",
+      "order_time": "2026-03-20T23:40:00Z",
+      "order_products": [
+        "P0021"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "统一老坛酸菜",
+        "雀巢咖啡",
+        "奥利奥饼干"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9387400226091658
+    },
+    {
+      "annotation_id": "SCENE00022",
+      "user_id": "U00022",
+      "order_id": "O00022",
+      "order_time": "2026-03-20T21:44:00Z",
+      "order_products": [
+        "P0022"
+      ],
+      "product_names": [
+        "东鹏特饮",
+        "康师傅红烧牛肉面",
+        "魔爪能量饮料",
+        "好丽友派"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.8672623992450862
+    },
+    {
+      "annotation_id": "SCENE00023",
+      "user_id": "U00023",
+      "order_id": "O00023",
+      "order_time": "2026-03-20T22:46:00Z",
+      "order_products": [
+        "P0023"
+      ],
+      "product_names": [
+        "东鹏特饮",
+        "康师傅红烧牛肉面",
+        "魔爪能量饮料",
+        "好丽友派"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9015921716605444
+    },
+    {
+      "annotation_id": "SCENE00024",
+      "user_id": "U00024",
+      "order_id": "O00024",
+      "order_time": "2026-03-20T23:30:00Z",
+      "order_products": [
+        "P0024"
+      ],
+      "product_names": [
+        "东鹏特饮",
+        "康师傅红烧牛肉面",
+        "魔爪能量饮料",
+        "好丽友派"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.925517965009391
+    },
+    {
+      "annotation_id": "SCENE00025",
+      "user_id": "U00025",
+      "order_id": "O00025",
+      "order_time": "2026-03-20T21:25:00Z",
+      "order_products": [
+        "P0025"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "农心辛拉面",
+        "脉动",
+        "士力架"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9337523543958182
+    },
+    {
+      "annotation_id": "SCENE00026",
+      "user_id": "U00026",
+      "order_id": "O00026",
+      "order_time": "2026-03-20T22:19:00Z",
+      "order_products": [
+        "P0026"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "农心辛拉面",
+        "脉动",
+        "士力架"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.8560208748721805
+    },
+    {
+      "annotation_id": "SCENE00027",
+      "user_id": "U00027",
+      "order_id": "O00027",
+      "order_time": "2026-03-20T23:18:00Z",
+      "order_products": [
+        "P0027"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "农心辛拉面",
+        "脉动",
+        "士力架"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.8850675772724744
+    },
+    {
+      "annotation_id": "SCENE00028",
+      "user_id": "U00028",
+      "order_id": "O00028",
+      "order_time": "2026-03-20T21:03:00Z",
+      "order_products": [
+        "P0028"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "康师傅泡面",
+        "东鹏特饮",
+        "可口可乐",
+        "奥利奥"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9704574473806354
+    },
+    {
+      "annotation_id": "SCENE00029",
+      "user_id": "U00029",
+      "order_id": "O00029",
+      "order_time": "2026-03-20T22:49:00Z",
+      "order_products": [
+        "P0029"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "康师傅泡面",
+        "东鹏特饮",
+        "可口可乐",
+        "奥利奥"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9189667681302477
+    },
+    {
+      "annotation_id": "SCENE00030",
+      "user_id": "U00030",
+      "order_id": "O00030",
+      "order_time": "2026-03-20T23:42:00Z",
+      "order_products": [
+        "P0030"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "康师傅泡面",
+        "东鹏特饮",
+        "可口可乐",
+        "奥利奥"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "加班",
+      "scene_confidence": 0.9504839392637181
+    },
+    {
+      "annotation_id": "SCENE00031",
+      "user_id": "U00031",
+      "order_id": "O00031",
+      "order_time": "2026-03-20T21:40:00Z",
+      "order_products": [
+        "P0031"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "威士忌",
+        "乐事薯片",
+        "洽洽瓜子"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8853555063235019
+    },
+    {
+      "annotation_id": "SCENE00032",
+      "user_id": "U00032",
+      "order_id": "O00032",
+      "order_time": "2026-03-20T22:48:00Z",
+      "order_products": [
+        "P0032"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "威士忌",
+        "乐事薯片",
+        "洽洽瓜子"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9747650392005551
+    },
+    {
+      "annotation_id": "SCENE00033",
+      "user_id": "U00033",
+      "order_id": "O00033",
+      "order_time": "2026-03-20T23:03:00Z",
+      "order_products": [
+        "P0033"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "百威啤酒500ml",
+        "威士忌",
+        "乐事薯片",
+        "洽洽瓜子"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9317602750938028
+    },
+    {
+      "annotation_id": "SCENE00034",
+      "user_id": "U00034",
+      "order_id": "O00034",
+      "order_time": "2026-03-20T21:45:00Z",
+      "order_products": [
+        "P0034"
+      ],
+      "product_names": [
+        "雪花啤酒",
+        "青岛啤酒330ml",
+        "可乐",
+        "薯片",
+        "坚果礼盒"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9332096281681272
+    },
+    {
+      "annotation_id": "SCENE00035",
+      "user_id": "U00035",
+      "order_id": "O00035",
+      "order_time": "2026-03-20T22:47:00Z",
+      "order_products": [
+        "P0035"
+      ],
+      "product_names": [
+        "雪花啤酒",
+        "青岛啤酒330ml",
+        "可乐",
+        "薯片",
+        "坚果礼盒"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9373993692685794
+    },
+    {
+      "annotation_id": "SCENE00036",
+      "user_id": "U00036",
+      "order_id": "O00036",
+      "order_time": "2026-03-20T23:51:00Z",
+      "order_products": [
+        "P0036"
+      ],
+      "product_names": [
+        "雪花啤酒",
+        "青岛啤酒330ml",
+        "可乐",
+        "薯片",
+        "坚果礼盒"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8567635454559822
+    },
+    {
+      "annotation_id": "SCENE00037",
+      "user_id": "U00037",
+      "order_id": "O00037",
+      "order_time": "2026-03-20T21:17:00Z",
+      "order_products": [
+        "P0037"
+      ],
+      "product_names": [
+        "百威啤酒500ml",
+        "百威啤酒330ml",
+        "威士忌",
+        "雪碧",
+        "好丽友",
+        "奥利奥"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8853547047579273
+    },
+    {
+      "annotation_id": "SCENE00038",
+      "user_id": "U00038",
+      "order_id": "O00038",
+      "order_time": "2026-03-20T22:28:00Z",
+      "order_products": [
+        "P0038"
+      ],
+      "product_names": [
+        "百威啤酒500ml",
+        "百威啤酒330ml",
+        "威士忌",
+        "雪碧",
+        "好丽友",
+        "奥利奥"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9618914224401665
+    },
+    {
+      "annotation_id": "SCENE00039",
+      "user_id": "U00039",
+      "order_id": "O00039",
+      "order_time": "2026-03-20T23:17:00Z",
+      "order_products": [
+        "P0039"
+      ],
+      "product_names": [
+        "百威啤酒500ml",
+        "百威啤酒330ml",
+        "威士忌",
+        "雪碧",
+        "好丽友",
+        "奥利奥"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8985500883494371
+    },
+    {
+      "annotation_id": "SCENE00040",
+      "user_id": "U00040",
+      "order_id": "O00040",
+      "order_time": "2026-03-20T21:39:00Z",
+      "order_products": [
+        "P0040"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "哈尔滨啤酒",
+        "可口可乐",
+        "乐事薯片",
+        "洽洽瓜子",
+        "周黑鸭"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8512804337935829
+    },
+    {
+      "annotation_id": "SCENE00041",
+      "user_id": "U00041",
+      "order_id": "O00041",
+      "order_time": "2026-03-20T22:35:00Z",
+      "order_products": [
+        "P0041"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "哈尔滨啤酒",
+        "可口可乐",
+        "乐事薯片",
+        "洽洽瓜子",
+        "周黑鸭"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8714831193949136
+    },
+    {
+      "annotation_id": "SCENE00042",
+      "user_id": "U00042",
+      "order_id": "O00042",
+      "order_time": "2026-03-20T23:53:00Z",
+      "order_products": [
+        "P0042"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "哈尔滨啤酒",
+        "可口可乐",
+        "乐事薯片",
+        "洽洽瓜子",
+        "周黑鸭"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9825993237896802
+    },
+    {
+      "annotation_id": "SCENE00043",
+      "user_id": "U00043",
+      "order_id": "O00043",
+      "order_time": "2026-03-20T21:44:00Z",
+      "order_products": [
+        "P0043"
+      ],
+      "product_names": [
+        "威士忌",
+        "百利甜酒",
+        "可乐",
+        "薯片",
+        "坚果",
+        "巧克力"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9791344011221407
+    },
+    {
+      "annotation_id": "SCENE00044",
+      "user_id": "U00044",
+      "order_id": "O00044",
+      "order_time": "2026-03-20T22:50:00Z",
+      "order_products": [
+        "P0044"
+      ],
+      "product_names": [
+        "威士忌",
+        "百利甜酒",
+        "可乐",
+        "薯片",
+        "坚果",
+        "巧克力"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.9189610012310506
+    },
+    {
+      "annotation_id": "SCENE00045",
+      "user_id": "U00045",
+      "order_id": "O00045",
+      "order_time": "2026-03-20T23:18:00Z",
+      "order_products": [
+        "P0045"
+      ],
+      "product_names": [
+        "威士忌",
+        "百利甜酒",
+        "可乐",
+        "薯片",
+        "坚果",
+        "巧克力"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "聚会",
+      "scene_confidence": 0.8907128605872321
+    },
+    {
+      "annotation_id": "SCENE00046",
+      "user_id": "U00046",
+      "order_id": "O00046",
+      "order_time": "2026-03-20T21:33:00Z",
+      "order_products": [
+        "P0046"
+      ],
+      "product_names": [
+        "周黑鸭鸭脖",
+        "泡椒凤爪",
+        "自热火锅",
+        "梦龙冰淇淋"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9063764629888126
+    },
+    {
+      "annotation_id": "SCENE00047",
+      "user_id": "U00047",
+      "order_id": "O00047",
+      "order_time": "2026-03-20T22:56:00Z",
+      "order_products": [
+        "P0047"
+      ],
+      "product_names": [
+        "周黑鸭鸭脖",
+        "泡椒凤爪",
+        "自热火锅",
+        "梦龙冰淇淋"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9179852236117498
+    },
+    {
+      "annotation_id": "SCENE00048",
+      "user_id": "U00048",
+      "order_id": "O00048",
+      "order_time": "2026-03-20T23:32:00Z",
+      "order_products": [
+        "P0048"
+      ],
+      "product_names": [
+        "周黑鸭鸭脖",
+        "泡椒凤爪",
+        "自热火锅",
+        "梦龙冰淇淋"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9503409141872567
+    },
+    {
+      "annotation_id": "SCENE00049",
+      "user_id": "U00049",
+      "order_id": "O00049",
+      "order_time": "2026-03-20T21:06:00Z",
+      "order_products": [
+        "P0049"
+      ],
+      "product_names": [
+        "周黑鸭鸭锁骨",
+        "绝味鸭脖",
+        "小龙虾",
+        "冰啤酒"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9132898049252143
+    },
+    {
+      "annotation_id": "SCENE00050",
+      "user_id": "U00050",
+      "order_id": "O00050",
+      "order_time": "2026-03-20T22:01:00Z",
+      "order_products": [
+        "P0050"
+      ],
+      "product_names": [
+        "周黑鸭鸭锁骨",
+        "绝味鸭脖",
+        "小龙虾",
+        "冰啤酒"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9811467767711073
+    },
+    {
+      "annotation_id": "SCENE00051",
+      "user_id": "U00051",
+      "order_id": "O00051",
+      "order_time": "2026-03-20T23:35:00Z",
+      "order_products": [
+        "P0051"
+      ],
+      "product_names": [
+        "周黑鸭鸭锁骨",
+        "绝味鸭脖",
+        "小龙虾",
+        "冰啤酒"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9646082985278264
+    },
+    {
+      "annotation_id": "SCENE00052",
+      "user_id": "U00052",
+      "order_id": "O00052",
+      "order_time": "2026-03-20T21:11:00Z",
+      "order_products": [
+        "P0052"
+      ],
+      "product_names": [
+        "泡椒凤爪",
+        "周黑鸭鸭翅",
+        "小龙虾",
+        "冰淇淋"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9317125268538404
+    },
+    {
+      "annotation_id": "SCENE00053",
+      "user_id": "U00053",
+      "order_id": "O00053",
+      "order_time": "2026-03-20T22:15:00Z",
+      "order_products": [
+        "P0053"
+      ],
+      "product_names": [
+        "泡椒凤爪",
+        "周黑鸭鸭翅",
+        "小龙虾",
+        "冰淇淋"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9861830984185574
+    },
+    {
+      "annotation_id": "SCENE00054",
+      "user_id": "U00054",
+      "order_id": "O00054",
+      "order_time": "2026-03-20T23:38:00Z",
+      "order_products": [
+        "P0054"
+      ],
+      "product_names": [
+        "泡椒凤爪",
+        "周黑鸭鸭翅",
+        "小龙虾",
+        "冰淇淋"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9342189247978471
+    },
+    {
+      "annotation_id": "SCENE00055",
+      "user_id": "U00055",
+      "order_id": "O00055",
+      "order_time": "2026-03-20T21:25:00Z",
+      "order_products": [
+        "P0055"
+      ],
+      "product_names": [
+        "绝味鸭脖",
+        "泡椒凤爪",
+        "小龙虾",
+        "百威啤酒330ml"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9477245891497224
+    },
+    {
+      "annotation_id": "SCENE00056",
+      "user_id": "U00056",
+      "order_id": "O00056",
+      "order_time": "2026-03-20T22:25:00Z",
+      "order_products": [
+        "P0056"
+      ],
+      "product_names": [
+        "绝味鸭脖",
+        "泡椒凤爪",
+        "小龙虾",
+        "百威啤酒330ml"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9798530958185306
+    },
+    {
+      "annotation_id": "SCENE00057",
+      "user_id": "U00057",
+      "order_id": "O00057",
+      "order_time": "2026-03-20T23:29:00Z",
+      "order_products": [
+        "P0057"
+      ],
+      "product_names": [
+        "绝味鸭脖",
+        "泡椒凤爪",
+        "小龙虾",
+        "百威啤酒330ml"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.8895478615678061
+    },
+    {
+      "annotation_id": "SCENE00058",
+      "user_id": "U00058",
+      "order_id": "O00058",
+      "order_time": "2026-03-20T21:39:00Z",
+      "order_products": [
+        "P0058"
+      ],
+      "product_names": [
+        "周黑鸭鸭脖",
+        "绝味鸭锁骨",
+        "自热米饭",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.8619917361811907
+    },
+    {
+      "annotation_id": "SCENE00059",
+      "user_id": "U00059",
+      "order_id": "O00059",
+      "order_time": "2026-03-20T22:06:00Z",
+      "order_products": [
+        "P0059"
+      ],
+      "product_names": [
+        "周黑鸭鸭脖",
+        "绝味鸭锁骨",
+        "自热米饭",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9660217406410836
+    },
+    {
+      "annotation_id": "SCENE00060",
+      "user_id": "U00060",
+      "order_id": "O00060",
+      "order_time": "2026-03-20T23:31:00Z",
+      "order_products": [
+        "P0060"
+      ],
+      "product_names": [
+        "周黑鸭鸭脖",
+        "绝味鸭锁骨",
+        "自热米饭",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "夜宵",
+      "scene_confidence": 0.9244622863822831
+    },
+    {
+      "annotation_id": "SCENE00061",
+      "user_id": "U00061",
+      "order_id": "O00061",
+      "order_time": "2026-03-20T21:15:00Z",
+      "order_products": [
+        "P0061"
+      ],
+      "product_names": [
+        "乐事薯片原味",
+        "奥利奥",
+        "可口可乐330ml",
+        "洽洽瓜子"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.8696662559750589
+    },
+    {
+      "annotation_id": "SCENE00062",
+      "user_id": "U00062",
+      "order_id": "O00062",
+      "order_time": "2026-03-20T22:56:00Z",
+      "order_products": [
+        "P0062"
+      ],
+      "product_names": [
+        "乐事薯片原味",
+        "奥利奥",
+        "可口可乐330ml",
+        "洽洽瓜子"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9085762161504218
+    },
+    {
+      "annotation_id": "SCENE00063",
+      "user_id": "U00063",
+      "order_id": "O00063",
+      "order_time": "2026-03-20T23:21:00Z",
+      "order_products": [
+        "P0063"
+      ],
+      "product_names": [
+        "乐事薯片原味",
+        "奥利奥",
+        "可口可乐330ml",
+        "洽洽瓜子"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9111994978296191
+    },
+    {
+      "annotation_id": "SCENE00064",
+      "user_id": "U00064",
+      "order_id": "O00064",
+      "order_time": "2026-03-20T21:34:00Z",
+      "order_products": [
+        "P0064"
+      ],
+      "product_names": [
+        "薯片先生",
+        "好丽友派",
+        "百事可乐",
+        "奥利奥饼干"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9476077870514665
+    },
+    {
+      "annotation_id": "SCENE00065",
+      "user_id": "U00065",
+      "order_id": "O00065",
+      "order_time": "2026-03-20T22:06:00Z",
+      "order_products": [
+        "P0065"
+      ],
+      "product_names": [
+        "薯片先生",
+        "好丽友派",
+        "百事可乐",
+        "奥利奥饼干"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.8626647944748247
+    },
+    {
+      "annotation_id": "SCENE00066",
+      "user_id": "U00066",
+      "order_id": "O00066",
+      "order_time": "2026-03-20T23:56:00Z",
+      "order_products": [
+        "P0066"
+      ],
+      "product_names": [
+        "薯片先生",
+        "好丽友派",
+        "百事可乐",
+        "奥利奥饼干"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9557893039846844
+    },
+    {
+      "annotation_id": "SCENE00067",
+      "user_id": "U00067",
+      "order_id": "O00067",
+      "order_time": "2026-03-20T21:16:00Z",
+      "order_products": [
+        "P0067"
+      ],
+      "product_names": [
+        "乐事薯片",
+        "奥利奥",
+        "雪碧",
+        "薯片零食大礼包"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.8800227411962929
+    },
+    {
+      "annotation_id": "SCENE00068",
+      "user_id": "U00068",
+      "order_id": "O00068",
+      "order_time": "2026-03-20T22:52:00Z",
+      "order_products": [
+        "P0068"
+      ],
+      "product_names": [
+        "乐事薯片",
+        "奥利奥",
+        "雪碧",
+        "薯片零食大礼包"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.913922452920181
+    },
+    {
+      "annotation_id": "SCENE00069",
+      "user_id": "U00069",
+      "order_id": "O00069",
+      "order_time": "2026-03-20T23:03:00Z",
+      "order_products": [
+        "P0069"
+      ],
+      "product_names": [
+        "乐事薯片",
+        "奥利奥",
+        "雪碧",
+        "薯片零食大礼包"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9462131748510904
+    },
+    {
+      "annotation_id": "SCENE00070",
+      "user_id": "U00070",
+      "order_id": "O00070",
+      "order_time": "2026-03-20T21:59:00Z",
+      "order_products": [
+        "P0070"
+      ],
+      "product_names": [
+        "可比克薯片",
+        "好丽友蛋黄派",
+        "可口可乐",
+        "巧克力豆"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.880097033222129
+    },
+    {
+      "annotation_id": "SCENE00071",
+      "user_id": "U00071",
+      "order_id": "O00071",
+      "order_time": "2026-03-20T22:03:00Z",
+      "order_products": [
+        "P0071"
+      ],
+      "product_names": [
+        "可比克薯片",
+        "好丽友蛋黄派",
+        "可口可乐",
+        "巧克力豆"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9889581949816232
+    },
+    {
+      "annotation_id": "SCENE00072",
+      "user_id": "U00072",
+      "order_id": "O00072",
+      "order_time": "2026-03-20T23:27:00Z",
+      "order_products": [
+        "P0072"
+      ],
+      "product_names": [
+        "可比克薯片",
+        "好丽友蛋黄派",
+        "可口可乐",
+        "巧克力豆"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.8761932453047444
+    },
+    {
+      "annotation_id": "SCENE00073",
+      "user_id": "U00073",
+      "order_id": "O00073",
+      "order_time": "2026-03-20T21:38:00Z",
+      "order_products": [
+        "P0073"
+      ],
+      "product_names": [
+        "乐事薯片原味",
+        "奥利奥",
+        "百事可乐",
+        "洽洽瓜子",
+        "坚果"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9762936039022683
+    },
+    {
+      "annotation_id": "SCENE00074",
+      "user_id": "U00074",
+      "order_id": "O00074",
+      "order_time": "2026-03-20T22:09:00Z",
+      "order_products": [
+        "P0074"
+      ],
+      "product_names": [
+        "乐事薯片原味",
+        "奥利奥",
+        "百事可乐",
+        "洽洽瓜子",
+        "坚果"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.8766814982114477
+    },
+    {
+      "annotation_id": "SCENE00075",
+      "user_id": "U00075",
+      "order_id": "O00075",
+      "order_time": "2026-03-20T23:31:00Z",
+      "order_products": [
+        "P0075"
+      ],
+      "product_names": [
+        "乐事薯片原味",
+        "奥利奥",
+        "百事可乐",
+        "洽洽瓜子",
+        "坚果"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "追剧",
+      "scene_confidence": 0.9345352763831614
+    },
+    {
+      "annotation_id": "SCENE00076",
+      "user_id": "U00076",
+      "order_id": "O00076",
+      "order_time": "2026-03-20T21:10:00Z",
+      "order_products": [
+        "P0076"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "东鹏特饮",
+        "乐事薯片原味",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9728198516233165
+    },
+    {
+      "annotation_id": "SCENE00077",
+      "user_id": "U00077",
+      "order_id": "O00077",
+      "order_time": "2026-03-20T22:33:00Z",
+      "order_products": [
+        "P0077"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "东鹏特饮",
+        "乐事薯片原味",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9010415424791416
+    },
+    {
+      "annotation_id": "SCENE00078",
+      "user_id": "U00078",
+      "order_id": "O00078",
+      "order_time": "2026-03-20T23:21:00Z",
+      "order_products": [
+        "P0078"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "东鹏特饮",
+        "乐事薯片原味",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.8968808701015164
+    },
+    {
+      "annotation_id": "SCENE00079",
+      "user_id": "U00079",
+      "order_id": "O00079",
+      "order_time": "2026-03-20T21:34:00Z",
+      "order_products": [
+        "P0079"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "魔爪能量饮料",
+        "薯片",
+        "辣条大礼包"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.8656714579204825
+    },
+    {
+      "annotation_id": "SCENE00080",
+      "user_id": "U00080",
+      "order_id": "O00080",
+      "order_time": "2026-03-20T22:54:00Z",
+      "order_products": [
+        "P0080"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "魔爪能量饮料",
+        "薯片",
+        "辣条大礼包"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9216877414158582
+    },
+    {
+      "annotation_id": "SCENE00081",
+      "user_id": "U00081",
+      "order_id": "O00081",
+      "order_time": "2026-03-20T23:19:00Z",
+      "order_products": [
+        "P0081"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "魔爪能量饮料",
+        "薯片",
+        "辣条大礼包"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9877413166341366
+    },
+    {
+      "annotation_id": "SCENE00082",
+      "user_id": "U00082",
+      "order_id": "O00082",
+      "order_time": "2026-03-20T21:37:00Z",
+      "order_products": [
+        "P0082"
+      ],
+      "product_names": [
+        "东鹏特饮",
+        "红牛250ml",
+        "乐事薯片",
+        "泡椒凤爪",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9535505152227687
+    },
+    {
+      "annotation_id": "SCENE00083",
+      "user_id": "U00083",
+      "order_id": "O00083",
+      "order_time": "2026-03-20T22:37:00Z",
+      "order_products": [
+        "P0083"
+      ],
+      "product_names": [
+        "东鹏特饮",
+        "红牛250ml",
+        "乐事薯片",
+        "泡椒凤爪",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.8804505336286437
+    },
+    {
+      "annotation_id": "SCENE00084",
+      "user_id": "U00084",
+      "order_id": "O00084",
+      "order_time": "2026-03-20T23:20:00Z",
+      "order_products": [
+        "P0084"
+      ],
+      "product_names": [
+        "东鹏特饮",
+        "红牛250ml",
+        "乐事薯片",
+        "泡椒凤爪",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9579586008643699
+    },
+    {
+      "annotation_id": "SCENE00085",
+      "user_id": "U00085",
+      "order_id": "O00085",
+      "order_time": "2026-03-20T21:26:00Z",
+      "order_products": [
+        "P0085"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "脉动",
+        "薯片",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9629633516962786
+    },
+    {
+      "annotation_id": "SCENE00086",
+      "user_id": "U00086",
+      "order_id": "O00086",
+      "order_time": "2026-03-20T22:10:00Z",
+      "order_products": [
+        "P0086"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "脉动",
+        "薯片",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9789882158992336
+    },
+    {
+      "annotation_id": "SCENE00087",
+      "user_id": "U00087",
+      "order_id": "O00087",
+      "order_time": "2026-03-20T23:44:00Z",
+      "order_products": [
+        "P0087"
+      ],
+      "product_names": [
+        "红牛250ml",
+        "脉动",
+        "薯片",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.8683099655605362
+    },
+    {
+      "annotation_id": "SCENE00088",
+      "user_id": "U00088",
+      "order_id": "O00088",
+      "order_time": "2026-03-20T21:21:00Z",
+      "order_products": [
+        "P0088"
+      ],
+      "product_names": [
+        "魔爪",
+        "红牛250ml",
+        "东鹏特饮",
+        "乐事薯片",
+        "辣条"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.9824160005128438
+    },
+    {
+      "annotation_id": "SCENE00089",
+      "user_id": "U00089",
+      "order_id": "O00089",
+      "order_time": "2026-03-20T22:57:00Z",
+      "order_products": [
+        "P0089"
+      ],
+      "product_names": [
+        "魔爪",
+        "红牛250ml",
+        "东鹏特饮",
+        "乐事薯片",
+        "辣条"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.921576122455626
+    },
+    {
+      "annotation_id": "SCENE00090",
+      "user_id": "U00090",
+      "order_id": "O00090",
+      "order_time": "2026-03-20T23:57:00Z",
+      "order_products": [
+        "P0090"
+      ],
+      "product_names": [
+        "魔爪",
+        "红牛250ml",
+        "东鹏特饮",
+        "乐事薯片",
+        "辣条"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "游戏",
+      "scene_confidence": 0.8736066922165919
+    },
+    {
+      "annotation_id": "SCENE00091",
+      "user_id": "U00091",
+      "order_id": "O00091",
+      "order_time": "2026-03-20T21:53:00Z",
+      "order_products": [
+        "P0091"
+      ],
+      "product_names": [
+        "江小白白酒100ml",
+        "RIO强爽"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.8635549559922101
+    },
+    {
+      "annotation_id": "SCENE00092",
+      "user_id": "U00092",
+      "order_id": "O00092",
+      "order_time": "2026-03-20T22:10:00Z",
+      "order_products": [
+        "P0092"
+      ],
+      "product_names": [
+        "江小白白酒100ml",
+        "RIO强爽"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9464914426145522
+    },
+    {
+      "annotation_id": "SCENE00093",
+      "user_id": "U00093",
+      "order_id": "O00093",
+      "order_time": "2026-03-20T23:07:00Z",
+      "order_products": [
+        "P0093"
+      ],
+      "product_names": [
+        "江小白白酒100ml",
+        "RIO强爽"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.8619200977199742
+    },
+    {
+      "annotation_id": "SCENE00094",
+      "user_id": "U00094",
+      "order_id": "O00094",
+      "order_time": "2026-03-20T21:02:00Z",
+      "order_products": [
+        "P0094"
+      ],
+      "product_names": [
+        "威士忌50ml",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9815027737013042
+    },
+    {
+      "annotation_id": "SCENE00095",
+      "user_id": "U00095",
+      "order_id": "O00095",
+      "order_time": "2026-03-20T22:54:00Z",
+      "order_products": [
+        "P0095"
+      ],
+      "product_names": [
+        "威士忌50ml",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": true,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9874567524406007
+    },
+    {
+      "annotation_id": "SCENE00096",
+      "user_id": "U00096",
+      "order_id": "O00096",
+      "order_time": "2026-03-20T23:00:00Z",
+      "order_products": [
+        "P0096"
+      ],
+      "product_names": [
+        "威士忌50ml",
+        "可口可乐"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9745544448469117
+    },
+    {
+      "annotation_id": "SCENE00097",
+      "user_id": "U00097",
+      "order_id": "O00097",
+      "order_time": "2026-03-20T21:13:00Z",
+      "order_products": [
+        "P0097"
+      ],
+      "product_names": [
+        "百威啤酒330ml"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9092803656013608
+    },
+    {
+      "annotation_id": "SCENE00098",
+      "user_id": "U00098",
+      "order_id": "O00098",
+      "order_time": "2026-03-20T22:01:00Z",
+      "order_products": [
+        "P0098"
+      ],
+      "product_names": [
+        "百威啤酒330ml"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9787729010468539
+    },
+    {
+      "annotation_id": "SCENE00099",
+      "user_id": "U00099",
+      "order_id": "O00099",
+      "order_time": "2026-03-20T23:20:00Z",
+      "order_products": [
+        "P0099"
+      ],
+      "product_names": [
+        "百威啤酒330ml"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9710900902932902
+    },
+    {
+      "annotation_id": "SCENE00100",
+      "user_id": "U00100",
+      "order_id": "O00100",
+      "order_time": "2026-03-20T21:48:00Z",
+      "order_products": [
+        "P0100"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9003805079004424
+    },
+    {
+      "annotation_id": "SCENE00101",
+      "user_id": "U00101",
+      "order_id": "O00101",
+      "order_time": "2026-03-20T22:34:00Z",
+      "order_products": [
+        "P0101"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.8690311914413957
+    },
+    {
+      "annotation_id": "SCENE00102",
+      "user_id": "U00102",
+      "order_id": "O00102",
+      "order_time": "2026-03-20T23:32:00Z",
+      "order_products": [
+        "P0102"
+      ],
+      "product_names": [
+        "青岛啤酒330ml",
+        "周黑鸭鸭脖"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "阴",
+        "is_weekend": true,
+        "location_type": "公司",
+        "user_occupation": "学生"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.8841827009339635
+    },
+    {
+      "annotation_id": "SCENE00103",
+      "user_id": "U00103",
+      "order_id": "O00103",
+      "order_time": "2026-03-20T21:15:00Z",
+      "order_products": [
+        "P0103"
+      ],
+      "product_names": [
+        "RIO强爽",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": true,
+        "location_type": "朋友家",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.8872505028972574
+    },
+    {
+      "annotation_id": "SCENE00104",
+      "user_id": "U00104",
+      "order_id": "O00104",
+      "order_time": "2026-03-20T22:29:00Z",
+      "order_products": [
+        "P0104"
+      ],
+      "product_names": [
+        "RIO强爽",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "多云",
+        "is_weekend": false,
+        "location_type": "公司",
+        "user_occupation": "上班族"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.9181097047935204
+    },
+    {
+      "annotation_id": "SCENE00105",
+      "user_id": "U00105",
+      "order_id": "O00105",
+      "order_time": "2026-03-20T23:02:00Z",
+      "order_products": [
+        "P0105"
+      ],
+      "product_names": [
+        "RIO强爽",
+        "泡椒凤爪"
+      ],
+      "context": {
+        "has_sports_event": false,
+        "event_name": "",
+        "weather": "晴",
+        "is_weekend": false,
+        "location_type": "家中",
+        "user_occupation": "自由职业"
+      },
+      "standard_scene": "独饮",
+      "scene_confidence": 0.8837546980201925
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "数据集说明": "用户行为测试集 - 用户画像数据",
+  "数据量": 10500,
+  "生成日期": "2024-07-01",
+  "数据来源": "模拟生成",
+  "user_profiles": [
+    {
+      "user_id": "U001",
+      "gender": "男",
+      "age": 28,
+      "occupation": "互联网工程师",
+      "income_level": "中高",
+      "city": "北京",
+      "district": "朝阳区",
+      "location_type": "写字楼",
+      "user_tags": ["夜猫子", "科技爱好者", "足球迷", "加班党"],
+      "consumption_preferences": {
+        "preferred_categories": ["啤酒", "零食", "能量饮料", "泡面", "卤味"],
+        "avg_order_amount": 68.5,
+        "avg_night_order_amount": 85.2,
+        "preferred_brands": ["青岛啤酒", "百威", "可口可乐", "康师傅"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 4.5,
+        "favorite_order_time": ["22:00", "23:00", "01:00"],
+        "weekend_night_ratio": 0.65
+      },
+      "registration_date": "2022-03-15",
+      "vip_level": "gold"
+    },
+    {
+      "user_id": "U002",
+      "gender": "女",
+      "age": 25,
+      "occupation": "金融分析师",
+      "income_level": "高",
+      "city": "上海",
+      "district": "浦东新区",
+      "location_type": "商业区",
+      "user_tags": ["追剧达人", "美食爱好者", "健身党"],
+      "consumption_preferences": {
+        "preferred_categories": ["零食", "奶茶", "水果", "沙拉", "气泡水"],
+        "avg_order_amount": 55.0,
+        "avg_night_order_amount": 62.3,
+        "preferred_brands": ["喜茶", "元气森林", "每日坚果"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 3.2,
+        "favorite_order_time": ["21:00", "22:00", "23:00"],
+        "weekend_night_ratio": 0.72
+      },
+      "registration_date": "2023-01-20",
+      "vip_level": "silver"
+    },
+    {
+      "user_id": "U003",
+      "gender": "男",
+      "age": 32,
+      "occupation": "外卖骑手",
+      "income_level": "中",
+      "city": "广州",
+      "district": "天河区",
+      "location_type": "住宅区",
+      "user_tags": ["夜班工作者", "省钱达人", "足球迷"],
+      "consumption_preferences": {
+        "preferred_categories": ["泡面", "火腿肠", "啤酒", "卤蛋", "榨菜"],
+        "avg_order_amount": 32.5,
+        "avg_night_order_amount": 38.0,
+        "preferred_brands": ["康师傅", "统一", "青岛啤酒", "双汇"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 6.0,
+        "favorite_order_time": ["02:00", "03:00", "04:00"],
+        "weekend_night_ratio": 0.30
+      },
+      "registration_date": "2021-11-08",
+      "vip_level": "bronze"
+    },
+    {
+      "user_id": "U004",
+      "gender": "男",
+      "age": 22,
+      "occupation": "大学生",
+      "income_level": "低",
+      "city": "成都",
+      "district": "锦江区",
+      "location_type": "大学周边",
+      "user_tags": ["游戏玩家", "追星族", "熬夜冠军", "生活费有限"],
+      "consumption_preferences": {
+        "preferred_categories": ["啤酒", "零食", "薯片", "可乐", "炸鸡"],
+        "avg_order_amount": 45.0,
+        "avg_night_order_amount": 58.0,
+        "preferred_brands": ["哈尔滨啤酒", "乐事", "可口可乐", "麦当劳"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 5.5,
+        "favorite_order_time": ["23:00", "00:00", "01:00"],
+        "weekend_night_ratio": 0.80
+      },
+      "registration_date": "2023-09-01",
+      "vip_level": "bronze"
+    },
+    {
+      "user_id": "U005",
+      "gender": "女",
+      "age": 30,
+      "occupation": "创业老板",
+      "income_level": "极高",
+      "city": "深圳",
+      "district": "南山区",
+      "location_type": "写字楼",
+      "user_tags": ["工作狂", "成功人士", "红酒爱好者", "养生派"],
+      "consumption_preferences": {
+        "preferred_categories": ["红酒", "奶酪", "坚果", "气泡水", "轻食"],
+        "avg_order_amount": 188.0,
+        "avg_night_order_amount": 220.0,
+        "preferred_brands": ["张裕", "拉菲", "圣培露", "每日黑巧"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 2.0,
+        "favorite_order_time": ["21:00", "22:00", "23:00"],
+        "weekend_night_ratio": 0.50
+      },
+      "registration_date": "2022-06-15",
+      "vip_level": "platinum"
+    },
+    {
+      "user_id": "U006",
+      "gender": "男",
+      "age": 35,
+      "occupation": "出租车司机",
+      "income_level": "中",
+      "city": "杭州",
+      "district": "西湖区",
+      "location_type": "住宅区",
+      "user_tags": ["夜班司机", "老烟民", "需要提神"],
+      "consumption_preferences": {
+        "preferred_categories": ["能量饮料", "咖啡", "泡面", "烟", "槟榔"],
+        "avg_order_amount": 42.0,
+        "avg_night_order_amount": 48.0,
+        "preferred_brands": ["红牛", "东鹏", "康师傅", "统一"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 5.0,
+        "favorite_order_time": ["00:00", "01:00", "02:00", "03:00"],
+        "weekend_night_ratio": 0.25
+      },
+      "registration_date": "2020-08-20",
+      "vip_level": "silver"
+    },
+    {
+      "user_id": "U007",
+      "gender": "女",
+      "age": 27,
+      "occupation": "网红主播",
+      "income_level": "中高",
+      "city": "北京",
+      "district": "海淀区",
+      "location_type": "公寓",
+      "user_tags": ["夜猫子", "直播带货", "粉丝多", "爱美食"],
+      "consumption_preferences": {
+        "preferred_categories": ["零食", "奶茶", "水果捞", "炸鸡", "披萨"],
+        "avg_order_amount": 78.0,
+        "avg_night_order_amount": 95.0,
+        "preferred_brands": ["一点点", "乐事", "麦当劳", "必胜客"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 4.0,
+        "favorite_order_time": ["00:00", "01:00", "02:00"],
+        "weekend_night_ratio": 0.60
+      },
+      "registration_date": "2023-02-14",
+      "vip_level": "gold"
+    },
+    {
+      "user_id": "U008",
+      "gender": "男",
+      "age": 40,
+      "occupation": "酒吧老板",
+      "income_level": "中高",
+      "city": "重庆",
+      "district": "渝中区",
+      "location_type": "商业区",
+      "user_tags": ["夜场从业者", "品酒师", "社交达人"],
+      "consumption_preferences": {
+        "preferred_categories": ["洋酒", "啤酒", "小吃", "冰块", "软饮"],
+        "avg_order_amount": 156.0,
+        "avg_night_order_amount": 280.0,
+        "preferred_brands": ["百威", "科罗娜", "轩尼诗", "RIO"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 1.5,
+        "favorite_order_time": ["20:00", "21:00", "22:00"],
+        "weekend_night_ratio": 0.85
+      },
+      "registration_date": "2021-04-01",
+      "vip_level": "gold"
+    },
+    {
+      "user_id": "U009",
+      "gender": "女",
+      "age": 23,
+      "occupation": "应届毕业生",
+      "income_level": "低",
+      "city": "武汉",
+      "district": "武昌区",
+      "location_type": "住宅区",
+      "user_tags": ["求职中", "省钱", "追剧", "宅女"],
+      "consumption_preferences": {
+        "preferred_categories": ["泡面", "零食", "可乐", "薯片", "卤味"],
+        "avg_order_amount": 35.0,
+        "avg_night_order_amount": 42.0,
+        "preferred_brands": ["康师傅", "统一", "可口可乐", "卫龙"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 4.5,
+        "favorite_order_time": ["21:00", "22:00", "23:00", "00:00"],
+        "weekend_night_ratio": 0.75
+      },
+      "registration_date": "2024-01-15",
+      "vip_level": "bronze"
+    },
+    {
+      "user_id": "U010",
+      "gender": "男",
+      "age": 29,
+      "occupation": "电力工程师",
+      "income_level": "中高",
+      "city": "南京",
+      "district": "鼓楼区",
+      "location_type": "工业区",
+      "user_tags": ["值班人员", "技术宅", "篮球迷"],
+      "consumption_preferences": {
+        "preferred_categories": ["啤酒", "零食", "卤味", "泡面", "火腿肠"],
+        "avg_order_amount": 58.0,
+        "avg_night_order_amount": 72.0,
+        "preferred_brands": ["青岛啤酒", "百威", "康师傅", "双汇"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 3.5,
+        "favorite_order_time": ["22:00", "23:00", "00:00"],
+        "weekend_night_ratio": 0.40
+      },
+      "registration_date": "2022-09-10",
+      "vip_level": "silver"
+    },
+    {
+      "user_id": "U011",
+      "gender": "女",
+      "age": 34,
+      "occupation": "医生",
+      "income_level": "高",
+      "city": "西安",
+      "district": "雁塔区",
+      "location_type": "医院",
+      "user_tags": ["夜班医护", "压力大", "需要提神", "健康意识强"],
+      "consumption_preferences": {
+        "preferred_categories": ["咖啡", "能量饮料", "水果", "坚果", "酸奶"],
+        "avg_order_amount": 65.0,
+        "avg_night_order_amount": 78.0,
+        "preferred_brands": ["星巴克", "红牛", "每日坚果", "光明"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 4.0,
+        "favorite_order_time": ["21:00", "22:00", "23:00", "00:00", "01:00"],
+        "weekend_night_ratio": 0.35
+      },
+      "registration_date": "2021-07-22",
+      "vip_level": "gold"
+    },
+    {
+      "user_id": "U012",
+      "gender": "男",
+      "age": 19,
+      "occupation": "电竞选手",
+      "income_level": "中高",
+      "city": "上海",
+      "district": "静安区",
+      "location_type": "训练基地",
+      "user_tags": ["职业选手", "游戏主播", "粉丝多", "不差钱"],
+      "consumption_preferences": {
+        "preferred_categories": ["能量饮料", "啤酒", "炸鸡", "披萨", "零食"],
+        "avg_order_amount": 128.0,
+        "avg_night_order_amount": 168.0,
+        "preferred_brands": ["红牛", "百威", "麦当劳", "必胜客", "乐事"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 5.0,
+        "favorite_order_time": ["23:00", "00:00", "01:00", "02:00", "03:00"],
+        "weekend_night_ratio": 0.90
+      },
+      "registration_date": "2023-05-01",
+      "vip_level": "platinum"
+    },
+    {
+      "user_id": "U013",
+      "gender": "男",
+      "age": 45,
+      "occupation": "安保人员",
+      "income_level": "中",
+      "city": "天津",
+      "district": "和平区",
+      "location_type": "商场",
+      "user_tags": ["夜班安保", "家庭支柱", "节约"],
+      "consumption_preferences": {
+        "preferred_categories": ["泡面", "啤酒", "卤蛋", "火腿肠", "榨菜"],
+        "avg_order_amount": 38.0,
+        "avg_night_order_amount": 42.0,
+        "preferred_brands": ["康师傅", "青岛啤酒", "双汇", "统一"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 5.5,
+        "favorite_order_time": ["00:00", "01:00", "02:00"],
+        "weekend_night_ratio": 0.20
+      },
+      "registration_date": "2020-12-01",
+      "vip_level": "bronze"
+    },
+    {
+      "user_id": "U014",
+      "gender": "女",
+      "age": 26,
+      "occupation": "编剧",
+      "income_level": "中",
+      "city": "北京",
+      "district": "东城区",
+      "location_type": "公寓",
+      "user_tags": ["自由职业", "夜猫子", "追剧", "创意工作者"],
+      "consumption_preferences": {
+        "preferred_categories": ["零食", "奶茶", "咖啡", "水果", "巧克力"],
+        "avg_order_amount": 62.0,
+        "avg_night_order_amount": 75.0,
+        "preferred_brands": ["一点点", "星巴克", "德芙", "每日坚果"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 5.0,
+        "favorite_order_time": ["22:00", "23:00", "00:00", "01:00"],
+        "weekend_night_ratio": 0.80
+      },
+      "registration_date": "2022-11-05",
+      "vip_level": "silver"
+    },
+    {
+      "user_id": "U015",
+      "gender": "男",
+      "age": 33,
+      "occupation": "销售经理",
+      "income_level": "中高",
+      "city": "苏州",
+      "district": "姑苏区",
+      "location_type": "商业区",
+      "user_tags": ["应酬多", "社交达人", "酒量好", "经常聚会"],
+      "consumption_preferences": {
+        "preferred_categories": ["洋酒", "啤酒", "小吃", "烧烤", "水果"],
+        "avg_order_amount": 188.0,
+        "avg_night_order_amount": 258.0,
+        "preferred_brands": ["百威", "科罗娜", "轩尼诗", "RIO", "张裕"]
+      },
+      "behavior_patterns": {
+        "night_order_frequency": 3.0,
+        "favorite_order_time": ["20:00", "21:00", "22:00", "23:00"],
+        "weekend_night_ratio": 0.70
+      },
+      "registration_date": "2021-08-30",
+      "vip_level": "gold"
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+[
+  {
+    "merchant_id": "M001",
+    "merchant_name": "夜宵超市1号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "南山区",
+    "night_focus": false,
+    "night_sales_ratio": 0.34952248469706504,
+    "main_categories": [
+      "功能饮料",
+      "坚果",
+      "冰淇淋",
+      "零食",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M002",
+    "merchant_name": "夜宵零食店2号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6651667778245727,
+    "main_categories": [
+      "啤酒",
+      "洋酒",
+      "薯片",
+      "冰淇淋",
+      "零食",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M003",
+    "merchant_name": "夜宵便利店3号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.5311371995068324,
+    "main_categories": [
+      "坚果",
+      "冰淇淋",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M004",
+    "merchant_name": "夜宵超市4号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7613741873020359,
+    "main_categories": [
+      "碳酸饮料",
+      "速食",
+      "卤味",
+      "零食",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M005",
+    "merchant_name": "夜宵便利店5号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.4420212481047656,
+    "main_categories": [
+      "速食",
+      "碳酸饮料",
+      "功能饮料"
+    ]
+  },
+  {
+    "merchant_id": "M006",
+    "merchant_name": "夜宵酒吧6号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.41184431779752306,
+    "main_categories": [
+      "洋酒",
+      "冰淇淋",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M007",
+    "merchant_name": "夜宵超市7号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.37275756765415574,
+    "main_categories": [
+      "啤酒",
+      "坚果",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M008",
+    "merchant_name": "夜宵超市8号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7024420229873536,
+    "main_categories": [
+      "零食",
+      "啤酒",
+      "洋酒",
+      "速食",
+      "薯片",
+      "冰淇淋"
+    ]
+  },
+  {
+    "merchant_id": "M009",
+    "merchant_name": "夜宵超市9号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.3808380371887611,
+    "main_categories": [
+      "洋酒",
+      "功能饮料",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M010",
+    "merchant_name": "夜宵酒吧10号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.34310104486489823,
+    "main_categories": [
+      "速食",
+      "薯片",
+      "坚果",
+      "碳酸饮料",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M011",
+    "merchant_name": "夜宵酒吧11号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.30233063303838825,
+    "main_categories": [
+      "冰淇淋",
+      "速食",
+      "卤味"
+    ]
+  },
+  {
+    "merchant_id": "M012",
+    "merchant_name": "夜宵酒吧12号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.3342098962266069,
+    "main_categories": [
+      "功能饮料",
+      "洋酒",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M013",
+    "merchant_name": "夜宵零食店13号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.778865976464051,
+    "main_categories": [
+      "卤味",
+      "啤酒",
+      "冰淇淋"
+    ]
+  },
+  {
+    "merchant_id": "M014",
+    "merchant_name": "夜宵便利店14号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.599317254709384,
+    "main_categories": [
+      "零食",
+      "啤酒",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M015",
+    "merchant_name": "夜宵24小时店15号店",
+    "merchant_type": "24小时店",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": true,
+    "night_sales_ratio": 0.35500321019312525,
+    "main_categories": [
+      "薯片",
+      "坚果",
+      "啤酒",
+      "碳酸饮料",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M016",
+    "merchant_name": "夜宵零食店16号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.744572311314275,
+    "main_categories": [
+      "坚果",
+      "冰淇淋",
+      "薯片",
+      "卤味"
+    ]
+  },
+  {
+    "merchant_id": "M017",
+    "merchant_name": "夜宵便利店17号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.38957380907648936,
+    "main_categories": [
+      "啤酒",
+      "坚果",
+      "卤味",
+      "薯片",
+      "速食",
+      "洋酒"
+    ]
+  },
+  {
+    "merchant_id": "M018",
+    "merchant_name": "夜宵零食店18号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7823743172247102,
+    "main_categories": [
+      "啤酒",
+      "薯片",
+      "冰淇淋",
+      "洋酒"
+    ]
+  },
+  {
+    "merchant_id": "M019",
+    "merchant_name": "夜宵零食店19号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.43309098587919204,
+    "main_categories": [
+      "啤酒",
+      "坚果",
+      "冰淇淋",
+      "卤味",
+      "零食"
+    ]
+  },
+  {
+    "merchant_id": "M020",
+    "merchant_name": "夜宵零食店20号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": true,
+    "night_sales_ratio": 0.5622417413549241,
+    "main_categories": [
+      "坚果",
+      "啤酒",
+      "卤味"
+    ]
+  },
+  {
+    "merchant_id": "M021",
+    "merchant_name": "夜宵便利店21号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7733261846120344,
+    "main_categories": [
+      "功能饮料",
+      "卤味",
+      "坚果",
+      "速食",
+      "啤酒",
+      "碳酸饮料"
+    ]
+  },
+  {
+    "merchant_id": "M022",
+    "merchant_name": "夜宵超市22号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": true,
+    "night_sales_ratio": 0.48879411092713715,
+    "main_categories": [
+      "啤酒",
+      "碳酸饮料",
+      "洋酒",
+      "零食"
+    ]
+  },
+  {
+    "merchant_id": "M023",
+    "merchant_name": "夜宵24小时店23号店",
+    "merchant_type": "24小时店",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.5078281181957615,
+    "main_categories": [
+      "洋酒",
+      "零食",
+      "碳酸饮料"
+    ]
+  },
+  {
+    "merchant_id": "M024",
+    "merchant_name": "夜宵24小时店24号店",
+    "merchant_type": "24小时店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.645082741153537,
+    "main_categories": [
+      "冰淇淋",
+      "零食",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M025",
+    "merchant_name": "夜宵酒吧25号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.6830172959984758,
+    "main_categories": [
+      "洋酒",
+      "啤酒",
+      "卤味",
+      "坚果",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M026",
+    "merchant_name": "夜宵24小时店26号店",
+    "merchant_type": "24小时店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.6605876359370237,
+    "main_categories": [
+      "功能饮料",
+      "碳酸饮料",
+      "薯片",
+      "冰淇淋",
+      "速食",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M027",
+    "merchant_name": "夜宵零食店27号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6325365606853361,
+    "main_categories": [
+      "零食",
+      "功能饮料",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M028",
+    "merchant_name": "夜宵零食店28号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.4346819911967888,
+    "main_categories": [
+      "啤酒",
+      "零食",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M029",
+    "merchant_name": "夜宵超市29号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.6499614402105631,
+    "main_categories": [
+      "功能饮料",
+      "洋酒",
+      "坚果"
+    ]
+  },
+  {
+    "merchant_id": "M030",
+    "merchant_name": "夜宵24小时店30号店",
+    "merchant_type": "24小时店",
+    "type_code": "SNK",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.5037758174586994,
+    "main_categories": [
+      "卤味",
+      "功能饮料",
+      "冰淇淋",
+      "薯片",
+      "啤酒",
+      "洋酒"
+    ]
+  },
+  {
+    "merchant_id": "M031",
+    "merchant_name": "夜宵零食店31号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.753040366947501,
+    "main_categories": [
+      "卤味",
+      "零食",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M032",
+    "merchant_name": "夜宵零食店32号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "海淀区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7561883050476712,
+    "main_categories": [
+      "功能饮料",
+      "坚果",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M033",
+    "merchant_name": "夜宵超市33号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.7938331311574256,
+    "main_categories": [
+      "速食",
+      "冰淇淋",
+      "功能饮料",
+      "零食",
+      "洋酒"
+    ]
+  },
+  {
+    "merchant_id": "M034",
+    "merchant_name": "夜宵零食店34号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6612794165741034,
+    "main_categories": [
+      "速食",
+      "洋酒",
+      "坚果"
+    ]
+  },
+  {
+    "merchant_id": "M035",
+    "merchant_name": "夜宵便利店35号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.63191978329504,
+    "main_categories": [
+      "坚果",
+      "冰淇淋",
+      "卤味",
+      "薯片",
+      "啤酒",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M036",
+    "merchant_name": "夜宵超市36号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.4961250574877821,
+    "main_categories": [
+      "啤酒",
+      "速食",
+      "功能饮料",
+      "碳酸饮料",
+      "零食"
+    ]
+  },
+  {
+    "merchant_id": "M037",
+    "merchant_name": "夜宵超市37号店",
+    "merchant_type": "超市",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7146073082800178,
+    "main_categories": [
+      "坚果",
+      "啤酒",
+      "零食"
+    ]
+  },
+  {
+    "merchant_id": "M038",
+    "merchant_name": "夜宵酒吧38号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6923754924716345,
+    "main_categories": [
+      "洋酒",
+      "速食",
+      "坚果",
+      "零食"
+    ]
+  },
+  {
+    "merchant_id": "M039",
+    "merchant_name": "夜宵零食店39号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "海淀区",
+    "night_focus": false,
+    "night_sales_ratio": 0.3117076343876482,
+    "main_categories": [
+      "冰淇淋",
+      "啤酒",
+      "卤味",
+      "零食",
+      "功能饮料",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M040",
+    "merchant_name": "夜宵酒吧40号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "浦东区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6302438041606478,
+    "main_categories": [
+      "坚果",
+      "薯片",
+      "功能饮料"
+    ]
+  },
+  {
+    "merchant_id": "M041",
+    "merchant_name": "夜宵酒吧41号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.44128188368616406,
+    "main_categories": [
+      "洋酒",
+      "薯片",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M042",
+    "merchant_name": "夜宵零食店42号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": false,
+    "night_sales_ratio": 0.36368249930617164,
+    "main_categories": [
+      "功能饮料",
+      "洋酒",
+      "啤酒",
+      "碳酸饮料",
+      "坚果",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M043",
+    "merchant_name": "夜宵便利店43号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.7781062132552525,
+    "main_categories": [
+      "洋酒",
+      "坚果",
+      "碳酸饮料",
+      "薯片",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M044",
+    "merchant_name": "夜宵零食店44号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.32668564670181344,
+    "main_categories": [
+      "啤酒",
+      "薯片",
+      "碳酸饮料",
+      "坚果"
+    ]
+  },
+  {
+    "merchant_id": "M045",
+    "merchant_name": "夜宵便利店45号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "海淀区",
+    "night_focus": false,
+    "night_sales_ratio": 0.45457675471936443,
+    "main_categories": [
+      "速食",
+      "坚果",
+      "冰淇淋",
+      "啤酒",
+      "薯片"
+    ]
+  },
+  {
+    "merchant_id": "M046",
+    "merchant_name": "夜宵零食店46号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6429841120829878,
+    "main_categories": [
+      "洋酒",
+      "速食",
+      "功能饮料",
+      "坚果",
+      "冰淇淋",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M047",
+    "merchant_name": "夜宵零食店47号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7920328201856168,
+    "main_categories": [
+      "碳酸饮料",
+      "零食",
+      "冰淇淋",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M048",
+    "merchant_name": "夜宵24小时店48号店",
+    "merchant_type": "24小时店",
+    "type_code": "SNK",
+    "location": "南山区",
+    "night_focus": false,
+    "night_sales_ratio": 0.6659874500649017,
+    "main_categories": [
+      "坚果",
+      "卤味",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M049",
+    "merchant_name": "夜宵零食店49号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.7640674933551497,
+    "main_categories": [
+      "零食",
+      "坚果",
+      "啤酒",
+      "薯片",
+      "洋酒",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M050",
+    "merchant_name": "夜宵零食店50号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "海淀区",
+    "night_focus": true,
+    "night_sales_ratio": 0.6711480534842718,
+    "main_categories": [
+      "坚果",
+      "碳酸饮料",
+      "卤味",
+      "速食",
+      "洋酒",
+      "功能饮料"
+    ]
+  },
+  {
+    "merchant_id": "M051",
+    "merchant_name": "夜宵零食店51号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "浦东区",
+    "night_focus": false,
+    "night_sales_ratio": 0.7872220551010052,
+    "main_categories": [
+      "冰淇淋",
+      "零食",
+      "速食"
+    ]
+  },
+  {
+    "merchant_id": "M052",
+    "merchant_name": "夜宵零食店52号店",
+    "merchant_type": "零食店",
+    "type_code": "SNK",
+    "location": "朝阳区",
+    "night_focus": true,
+    "night_sales_ratio": 0.5599859485609758,
+    "main_categories": [
+      "零食",
+      "速食",
+      "功能饮料"
+    ]
+  },
+  {
+    "merchant_id": "M053",
+    "merchant_name": "夜宵酒吧53号店",
+    "merchant_type": "酒吧",
+    "type_code": "BAR",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.32791024940669566,
+    "main_categories": [
+      "功能饮料",
+      "速食",
+      "啤酒"
+    ]
+  },
+  {
+    "merchant_id": "M054",
+    "merchant_name": "夜宵便利店54号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "天河区",
+    "night_focus": false,
+    "night_sales_ratio": 0.3166048841039543,
+    "main_categories": [
+      "卤味",
+      "零食",
+      "坚果",
+      "碳酸饮料"
+    ]
+  },
+  {
+    "merchant_id": "M055",
+    "merchant_name": "夜宵便利店55号店",
+    "merchant_type": "便利店",
+    "type_code": "CN",
+    "location": "南山区",
+    "night_focus": true,
+    "night_sales_ratio": 0.669724916353633,
+    "main_categories": [
+      "啤酒",
+      "洋酒",
+      "零食"
+    ]
+  }
+]

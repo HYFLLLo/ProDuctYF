@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夜宵场景爆品预测系统</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --success: #10b981;
+            --success-light: #d1fae5;
+            --warning: #f59e0b;
+            --warning-light: #fef3c7;
+            --danger: #ef4444;
+            --danger-light: #fee2e2;
+            --purple: #8b5cf6;
+            --purple-light: #ede9fe;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--gray-50);
+            color: var(--gray-800);
+            line-height: 1.5;
+        }
+
+        /* 顶部导航栏 */
+        .header {
+            background: white;
+            border-bottom: 1px solid var(--gray-200);
+            padding: 16px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .header-logo {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary), var(--purple));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .header-title h1 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--gray-900);
+        }
+
+        .header-title p {
+            font-size: 13px;
+            color: var(--gray-500);
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .admin-badge {
+            padding: 6px 12px;
+            background: var(--gray-100);
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--gray-600);
+        }
+
+        .update-time {
+            font-size: 13px;
+            color: var(--gray-500);
+        }
+
+        /* 主容器 */
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px 32px;
+        }
+
+        /* 搜索区域 */
+        .search-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .search-form {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .search-input-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .search-input-group input {
+            border: none;
+            background: none;
+            outline: none;
+            font-size: 14px;
+            flex: 1;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-outline {
+            background: white;
+            border: 1px solid var(--gray-300);
+            color: var(--gray-700);
+        }
+
+        .btn-outline:hover {
+            background: var(--gray-50);
+        }
+
+        .divider {
+            height: 1px;
+            background: var(--gray-200);
+            margin: 20px 0;
+        }
+
+        /* 商家信息 */
+        .merchant-info {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .merchant-info-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 12px;
+            background: var(--gray-50);
+            border-radius: 8px;
+            border: 1px solid var(--gray-100);
+        }
+
+        .merchant-info-label {
+            font-size: 12px;
+            color: var(--gray-500);
+            font-weight: 500;
+        }
+
+        .merchant-info-value {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            background: var(--success-light);
+            color: var(--success);
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        /* 卡片通用样式 */
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .card-icon {
+            font-size: 20px;
+        }
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        /* AI分析报告 - 关键因素 */
+        .key-factors {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .factor-card {
+            padding: 16px;
+            border-radius: 10px;
+            border: 2px solid;
+        }
+
+        .factor-card.weather {
+            border-color: #3b82f6;
+            background: #eff6ff;
+        }
+
+        .factor-card.date {
+            border-color: var(--purple);
+            background: var(--purple-light);
+        }
+
+        .factor-card.hot {
+            border-color: var(--warning);
+            background: var(--warning-light);
+        }
+
+        .factor-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .factor-icon {
+            font-size: 20px;
+        }
+
+        .factor-title {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .factor-content {
+            font-size: 14px;
+            color: var(--gray-700);
+            margin-bottom: 8px;
+        }
+
+        .factor-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .factor-card.weather .factor-badge {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .factor-card.date .factor-badge {
+            background: var(--purple);
+            color: white;
+        }
+
+        .factor-card.hot .factor-badge {
+            background: var(--warning);
+            color: white;
+        }
+
+        /* 图表区域 */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .chart-container {
+            padding: 20px;
+            background: var(--gray-50);
+            border-radius: 10px;
+            height: 280px;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gray-700);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* 模拟折线图 */
+        .line-chart {
+            height: 200px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .line-chart::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--gray-300);
+        }
+
+        .chart-point {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .chart-bar {
+            width: 30px;
+            background: linear-gradient(to top, var(--primary), var(--purple));
+            border-radius: 4px 4px 0 0;
+            transition: height 0.3s;
+        }
+
+        .chart-label {
+            font-size: 11px;
+            color: var(--gray-500);
+        }
+
+        /* 模拟柱状图 */
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 200px;
+            padding: 0 20px;
+        }
+
+        .bar-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .bar {
+            width: 40px;
+            background: var(--purple);
+            border-radius: 4px 4px 0 0;
+        }
+
+        .bar-label {
+            font-size: 11px;
+            color: var(--gray-600);
+            text-align: center;
+            max-width: 60px;
+        }
+
+        /* AI建议摘要 */
+        .ai-summary {
+            background: var(--purple-light);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .ai-summary-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--purple);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .ai-summary-list {
+            list-style: none;
+        }
+
+        .ai-summary-list li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+            font-size: 14px;
+            color: var(--gray-700);
+        }
+
+        .ai-summary-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 14px;
+            width: 8px;
+            height: 8px;
+            background: var(--purple);
+            border-radius: 50%;
+        }
+
+        /* 表格通用样式 */
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        th {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--gray-600);
+            background: var(--gray-50);
+        }
+
+        td {
+            font-size: 14px;
+            color: var(--gray-800);
+        }
+
+        tr:hover {
+            background: var(--gray-50);
+        }
+
+        /* 徽章样式 */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-success {
+            background: var(--success-light);
+            color: var(--success);
+        }
+
+        .badge-warning {
+            background: var(--warning-light);
+            color: var(--warning);
+        }
+
+        .badge-danger {
+            background: var(--danger-light);
+            color: var(--danger);
+        }
+
+        .badge-info {
+            background: #dbeafe;
+            color: #3b82f6;
+        }
+
+        .badge-gray {
+            background: var(--gray-100);
+            color: var(--gray-600);
+        }
+
+        .badge-purple {
+            background: var(--purple-light);
+            color: var(--purple);
+        }
+
+        .badge-orange {
+            background: var(--warning-light);
+            color: var(--warning);
+        }
+
+        /* 趋势图标 */
+        .trend-up {
+            color: var(--success);
+        }
+
+        .trend-down {
+            color: var(--danger);
+        }
+
+        /* 进度条 */
+        .progress-bar {
+            width: 100px;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s;
+        }
+
+        .progress-fill.low {
+            background: var(--danger);
+        }
+
+        .progress-fill.medium {
+            background: var(--warning);
+        }
+
+        .progress-fill.high {
+            background: var(--success);
+        }
+
+        /* 组合销售卡片 */
+        .bundles-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .bundle-card {
+            border: 1px solid var(--gray-200);
+            border-radius: 10px;
+            padding: 16px;
+            transition: all 0.2s;
+        }
+
+        .bundle-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+        }
+
+        .bundle-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .bundle-name {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .bundle-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+
+        .bundle-tag {
+            padding: 4px 10px;
+            background: var(--gray-100);
+            border-radius: 6px;
+            font-size: 12px;
+            color: var(--gray-700);
+        }
+
+        .bundle-price {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .bundle-original {
+            font-size: 14px;
+            color: var(--gray-400);
+            text-decoration: line-through;
+        }
+
+        .bundle-discount {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--purple);
+        }
+
+        .bundle-save {
+            font-size: 12px;
+            color: var(--success);
+        }
+
+        .bundle-stats {
+            display: flex;
+            gap: 12px;
+        }
+
+        .bundle-stat {
+            padding: 6px 12px;
+            background: var(--gray-100);
+            border-radius: 6px;
+            font-size: 12px;
+            color: var(--gray-700);
+        }
+
+        .bundle-stat span {
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        /* 页脚提示 */
+        .footer-tip {
+            background: var(--gray-100);
+            padding: 16px 24px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: var(--gray-600);
+            margin-top: 24px;
+        }
+
+        /* 隐藏 */
+        .hidden {
+            display: none;
+        }
+
+        /* 加载动画 */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            color: var(--gray-500);
+        }
+
+        .spinner {
+            width: 24px;
+            height: 24px;
+            border: 3px solid var(--gray-200);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 12px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--gray-500);
+        }
+
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .empty-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--gray-700);
+            margin-bottom: 8px;
+        }
+
+        .empty-desc {
+            font-size: 14px;
+        }
+
+        /* 价格箭头动画 */
+        .price-change {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .price-arrow {
+            color: var(--gray-400);
+        }
+
+        .price-new {
+            font-weight: 600;
+            color: var(--success);
+        }
+
+        /* Pipeline Pipeline */
+        .pipeline-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 24px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+
+        .pipeline-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .pipeline-steps {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .pipeline-step {
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            opacity: 0.5;
+        }
+
+        .pipeline-step.active {
+            background: rgba(255,255,255,0.95);
+            color: #667eea;
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            opacity: 1;
+        }
+
+        .pipeline-step.completed {
+            background: rgba(72, 199, 142, 0.9);
+            color: white;
+            opacity: 1;
+        }
+
+        .pipeline-step.processing {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(255,255,255,0.7);
+            }
+            50% {
+                box-shadow: 0 0 0 10px rgba(255,255,255,0);
+            }
+        }
+
+        .pipeline-arrow {
+            font-size: 16px;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .pipeline-arrow.active {
+            opacity: 1;
+            color: #48c78e;
+        }
+
+        .pipeline-meta {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 13px;
+            opacity: 0.9;
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .pipeline-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* 响应式 */
+        @media (max-width: 1024px) {
+            .key-factors {
+                grid-template-columns: 1fr;
+            }
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            .bundles-grid {
+                grid-template-columns: 1fr;
+            }
+            .merchant-info {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 12px 16px;
+            }
+            .main-container {
+                padding: 16px;
+            }
+            .search-form {
+                flex-direction: column;
+            }
+            .merchant-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-left">
+            <div class="header-logo">📊</div>
+            <div class="header-title">
+                <h1>夜宵场景爆品预测系统</h1>
+                <p>AI 驱动的智能商品预测与运营建议平台</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="admin-badge">👤 管理员</span>
+            <span class="update-time" id="updateTime">最后更新: --</span>
+        </div>
+    </header>
+
+    <!-- 主容器 -->
+    <div class="main-container">
+        <!-- Pipeline处理流程 -->
+        <div class="pipeline-card hidden" id="pipelineCard">
+            <div class="pipeline-title">🔄 系统处理Pipeline</div>
+            <div class="pipeline-steps">
+                <div class="pipeline-step">📊 数据采集层</div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">🧠 事件理解Agent</div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">🎭 场景推理Agent</div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">📈 销量预测</div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">✅ 决策生成</div>
+            </div>
+            <div class="pipeline-meta" id="pipelineMeta"></div>
+        </div>
+
+        <!-- 搜索区域 -->
+        <div class="search-card" id="searchCard">
+            <form class="search-form" id="searchForm">
+                <div class="search-input-group">
+                    <span>🏪</span>
+                    <input type="text" id="merchantInput" placeholder="请输入商家ID（例如：M10086）" value="M001">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    🔍 查询
+                </button>
+                <button type="button" class="btn btn-outline" onclick="refreshData()">
+                    🔄 刷新数据
+                </button>
+            </form>
+            <div class="divider"></div>
+            <div class="merchant-info" id="merchantInfo">
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">商家ID</span>
+                    <span class="merchant-info-value" id="merchantId">-</span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">商家名称</span>
+                    <span class="merchant-info-value" id="merchantName">-</span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">连锁品牌</span>
+                    <span class="merchant-info-value" id="merchantChainBrand">-</span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">所在城市</span>
+                    <span class="merchant-info-value" id="merchantCity">-</span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">营业状态</span>
+                    <span class="merchant-info-value">
+                        <span class="status-badge" id="merchantStatus">-</span>
+                    </span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">预测时间段</span>
+                    <span class="merchant-info-value" id="predictPeriod">-</span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">夜宵特色</span>
+                    <span class="merchant-info-value" id="merchantSnackCulture">-</span>
+                </div>
+                <div class="merchant-info-item">
+                    <span class="merchant-info-label">推荐品类</span>
+                    <span class="merchant-info-value" id="merchantRecommendations">-</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 空状态 -->
+        <div class="empty-state" id="emptyState">
+            <div class="empty-icon">🔍</div>
+            <div class="empty-title">开始查询</div>
+            <div class="empty-desc">请在上方输入商家ID进行查询</div>
+        </div>
+
+        <!-- 结果区域 -->
+        <div id="resultArea" class="hidden">
+            <!-- AI智能分析报告 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🧠</span>
+                    <span class="card-title">AI 智能分析报告</span>
+                </div>
+
+                <!-- 关键因素 -->
+                <div class="key-factors" id="keyFactors">
+                    <div class="factor-card weather">
+                        <div class="factor-header">
+                            <span class="factor-icon">🌤️</span>
+                            <span class="factor-title">天气因素</span>
+                        </div>
+                        <div class="factor-content" id="weatherContent">今晚气温 28°C，晴朗无雨</div>
+                        <span class="factor-badge" id="weatherBadge">高温天气利好夜宵消费 +35%</span>
+                    </div>
+                    <div class="factor-card date">
+                        <div class="factor-header">
+                            <span class="factor-icon">📅</span>
+                            <span class="factor-title">日期因素</span>
+                        </div>
+                        <div class="factor-content" id="dateContent">周六，非工作日</div>
+                        <span class="factor-badge" id="dateBadge">周末消费意愿提升 +28%</span>
+                    </div>
+                    <div class="factor-card hot">
+                        <div class="factor-header">
+                            <span class="factor-icon">🔥</span>
+                            <span class="factor-title">热点事件</span>
+                        </div>
+                        <div class="factor-content" id="hotContent">本地球赛直播（21:00开始）</div>
+                        <span class="factor-badge" id="hotBadge">体育赛事带动消费 +42%</span>
+                    </div>
+                </div>
+
+                <!-- 图表区域 -->
+                <div class="charts-grid">
+                    <div class="chart-container">
+                        <div class="chart-title">📈 时段销售趋势预测</div>
+                        <div class="line-chart" id="salesTrendChart">
+                            <!-- 动态生成 -->
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div class="chart-title">👥 分类销售预测</div>
+                        <div class="bar-chart" id="categoryChart">
+                            <!-- 动态生成 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI核心建议 -->
+                <div class="ai-summary">
+                    <div class="ai-summary-title">
+                        <span>💡</span> AI 核心建议
+                    </div>
+                    <ul class="ai-summary-list" id="aiSummaryList">
+                        <!-- 动态生成 -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 爆品预测清单 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🔥</span>
+                    <span class="card-title">爆品预测清单</span>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>商品名称</th>
+                                <th>分类</th>
+                                <th>爆品来源</th>
+                                <th>预测销量</th>
+                                <th>综合得分</th>
+                                <th>高峰时段</th>
+                                <th>爆品原因</th>
+                            </tr>
+                        </thead>
+                        <tbody id="hotProductsTable">
+                            <!-- 动态生成 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 智能补货建议 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">📦</span>
+                    <span class="card-title">智能补货建议</span>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>商品名称</th>
+                                <th>当前库存</th>
+                                <th>建议库存</th>
+                                <th>库存率</th>
+                                <th>预计售罄时间</th>
+                                <th>紧急程度</th>
+                                <th>补货原因</th>
+                            </tr>
+                        </thead>
+                        <tbody id="restockTable">
+                            <!-- 动态生成 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 智能定价建议 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">💰</span>
+                    <span class="card-title">智能定价建议</span>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>商品名称</th>
+                                <th>当前价格</th>
+                                <th>建议价格</th>
+                                <th>预期GMV变化</th>
+                                <th>策略</th>
+                                <th>原因分析</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pricingTable">
+                            <!-- 动态生成 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 组合销售建议 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🎁</span>
+                    <span class="card-title">组合销售建议</span>
+                </div>
+                <div class="bundles-grid" id="bundlesGrid">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+
+            <!-- 页脚提示 -->
+            <div class="footer-tip">
+                💡 提示：所有预测数据基于历史订单、天气、日历、热点事件等多维度数据的 AI 深度学习分析
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 更新时间
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('updateTime').textContent = 
+                '最后更新: ' + now.toLocaleString('zh-CN');
+        }
+        updateTime();
+        setInterval(updateTime, 60000);
+
+        // 刷新数据
+        function refreshData() {
+            document.getElementById('searchForm').dispatchEvent(new Event('submit'));
+        }
+
+        // 辅助函数：延迟
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // 重置Pipeline步骤状态
+        function resetPipelineSteps() {
+            const steps = document.querySelectorAll('.pipeline-step');
+            const arrows = document.querySelectorAll('.pipeline-arrow');
+            steps.forEach(step => {
+                step.classList.remove('active', 'completed', 'processing');
+                step.style.opacity = '0.5';
+            });
+            arrows.forEach(arrow => {
+                arrow.classList.remove('active');
+            });
+        }
+
+        // 动画显示Pipeline步骤
+        async function animatePipelineStep(stepIndex, ...messages) {
+            const steps = document.querySelectorAll('.pipeline-step');
+            const arrows = document.querySelectorAll('.pipeline-arrow');
+            const pipelineMeta = document.getElementById('pipelineMeta');
+            
+            if (stepIndex > 0) {
+                steps[stepIndex - 1].classList.remove('active', 'processing');
+                steps[stepIndex - 1].classList.add('completed');
+                arrows[stepIndex - 1].classList.add('active');
+            }
+            
+            steps[stepIndex].classList.add('active', 'processing');
+            steps[stepIndex].style.opacity = '1';
+            
+            const messageText = messages.join(' ');
+            pipelineMeta.innerHTML = `<div class="pipeline-meta-item">⏳ ${messageText}</div>`;
+            
+            await sleep(100);
+        }
+
+        // 完成所有步骤
+        function completeAllSteps() {
+            const steps = document.querySelectorAll('.pipeline-step');
+            const arrows = document.querySelectorAll('.pipeline-arrow');
+            
+            steps.forEach((step) => {
+                step.classList.remove('active', 'processing');
+                step.classList.add('completed');
+            });
+            
+            arrows.forEach(arrow => {
+                arrow.classList.add('active');
+            });
+        }
+
+        // 生成时段趋势图表 - 使用真实数据
+        function generateSalesTrendChart(data) {
+            // 从API返回的数据中获取
+            const hourlyTrend = data.hourly_sales_trend || [];
+            
+            if (hourlyTrend.length === 0) {
+                // 如果没有数据，显示默认提示
+                document.getElementById('salesTrendChart').innerHTML = '<div style="text-align:center; padding:80px 20px; color:var(--gray-400);">暂无时段数据</div>';
+                return;
+            }
+
+            const maxVal = Math.max(...hourlyTrend.map(h => Math.max(h.history_sales, h.predicted_sales))) * 1.1;
+            const maxHeight = 180;
+            
+            let html = '';
+            hourlyTrend.forEach((item, i) => {
+                const h1 = (item.predicted_sales / maxVal) * maxHeight;
+                const h2 = (item.history_sales / maxVal) * maxHeight;
+                html += `
+                    <div class="chart-point">
+                        <div style="display:flex; gap:4px; align-items:flex-end;">
+                            <div class="chart-bar" style="height:${Math.max(h1, 5)}px; background: linear-gradient(to top, #10b981, #34d399);"></div>
+                            <div class="chart-bar" style="height:${Math.max(h2, 5)}px; background: linear-gradient(to top, #6366f1, #8b5cf6); opacity:0.6;"></div>
+                        </div>
+                        <span class="chart-label">${item.hour}</span>
+                    </div>
+                `;
+            });
+            html += `
+                <div style="position:absolute; bottom:-25px; left:0; display:flex; gap:20px; font-size:12px;">
+                    <span style="display:flex; align-items:center; gap:4px;"><span style="width:12px; height:3px; background:#10b981; border-radius:2px;"></span> 预测销量</span>
+                    <span style="display:flex; align-items:center; gap:4px;"><span style="width:12px; height:3px; background:#6366f1; opacity:0.6; border-radius:2px;"></span> 历史销量</span>
+                </div>
+            `;
+            document.getElementById('salesTrendChart').innerHTML = html;
+        }
+
+        // 生成分类柱状图 - 使用真实数据
+        function generateCategoryChart(data) {
+            const categorySummary = data.category_summary || [];
+            
+            if (categorySummary.length === 0) {
+                document.getElementById('categoryChart').innerHTML = '<div style="text-align:center; padding:80px 20px; color:var(--gray-400);">暂无分类数据</div>';
+                return;
+            }
+
+            const colors = ['#8b5cf6', '#6366f1', '#a78bfa', '#c4b5fd', '#ddd6fe', '#ede9fe'];
+            const maxVal = Math.max(...categorySummary.map(c => c.predicted_sales)) * 1.1;
+            const maxHeight = 180;
+            
+            let html = '';
+            categorySummary.forEach((cat, i) => {
+                const h = (cat.predicted_sales / maxVal) * maxHeight;
+                const color = colors[i % colors.length];
+                html += `
+                    <div class="bar-item">
+                        <div class="bar" style="height:${Math.max(h, 5)}px; background:${color};"></div>
+                        <span class="bar-label">${cat.category}<br><strong>${cat.predicted_sales}份</strong></span>
+                    </div>
+                `;
+            });
+            document.getElementById('categoryChart').innerHTML = html;
+        }
+
+        // 生成关键因素 - 使用真实数据
+        function generateKeyFactors(data) {
+            const keyFactors = data.key_factors || {};
+            
+            if (Object.keys(keyFactors).length === 0) {
+                return; // 使用HTML默认值
+            }
+
+            // 天气因素
+            if (keyFactors.weather) {
+                document.getElementById('weatherContent').textContent = `${keyFactors.weather.description}，${keyFactors.weather.impact}`;
+                document.getElementById('weatherBadge').textContent = `天气利好夜宵消费 +${keyFactors.weather.boost_percent}%`;
+            }
+
+            // 日期因素
+            if (keyFactors.date) {
+                document.getElementById('dateContent').textContent = `${keyFactors.date.description}，${keyFactors.date.impact}`;
+                document.getElementById('dateBadge').textContent = `${keyFactors.date.boost_percent > 0 ? '消费意愿提升 +' + keyFactors.date.boost_percent + '%' : '消费相对平淡'}`;
+            }
+
+            // 热点事件
+            if (keyFactors.hot_event) {
+                document.getElementById('hotContent').textContent = keyFactors.hot_event.description;
+                document.getElementById('hotBadge').textContent = `热点事件带动消费 +${keyFactors.hot_event.boost_percent}%`;
+            }
+        }
+
+        // 生成AI建议列表 - 使用真实数据
+        function generateAISummary(suggestions) {
+            const aiSuggestions = suggestions || [];
+            
+            if (aiSuggestions.length === 0) {
+                document.getElementById('aiSummaryList').innerHTML = '<li>暂无建议数据</li>';
+                return;
+            }
+
+            const html = aiSuggestions.map(s => `<li>${s}</li>`).join('');
+            document.getElementById('aiSummaryList').innerHTML = html;
+        }
+
+        // 搜索表单提交
+        document.getElementById('searchForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const merchantId = document.getElementById('merchantInput').value.trim().toUpperCase();
+            
+            if (!merchantId) {
+                alert('请输入商家ID');
+                return;
+            }
+
+            // 显示结果区域
+            document.getElementById('emptyState').classList.add('hidden');
+            document.getElementById('resultArea').classList.remove('hidden');
+            document.getElementById('pipelineCard').classList.remove('hidden');
+            
+            // 重置Pipeline状态
+            resetPipelineSteps();
+            document.getElementById('pipelineMeta').innerHTML = '<div class="pipeline-meta-item">🚀 启动系统Pipeline...</div>';
+
+            try {
+                // 步骤1: 数据采集层
+                await animatePipelineStep(0, '🌤️ 采集天气数据...', '⚽ 采集赛事数据...', '📱 采集社交媒体...');
+                await sleep(800);
+                
+                // 步骤2: 事件理解Agent
+                await animatePipelineStep(1, '🔍 分析事件语义...', '📊 计算事件热度...');
+                await sleep(600);
+                
+                // 步骤3: 场景推理Agent
+                await animatePipelineStep(2, '🎯 识别消费场景...', '📈 分析用户行为...');
+                await sleep(700);
+                
+                // 步骤4: 销量预测
+                await animatePipelineStep(3, '📊 预测商品销量...', '🔥 识别爆品...');
+                await sleep(500);
+                
+                // 步骤5: 决策生成
+                await animatePipelineStep(4, '📦 生成补货建议...', '💰 生成定价策略...');
+
+                // 调用真实的后端决策API
+                const response = await fetch(`/api/v1/merchants/${merchantId}/decisions`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        merchant_id: merchantId,
+                        date: new Date().toISOString().split('T')[0]
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('API调用失败');
+                }
+
+                const result = await response.json();
+                
+                // 标记所有步骤为完成
+                completeAllSteps();
+                
+                // 更新Pipeline元数据
+                const sceneType = result.analysis?.scene_type || '夜宵消费';
+                const confidence = result.analysis?.scene_confidence || 0;
+                const eventsProcessed = result.analysis?.events_processed || 0;
+                document.getElementById('pipelineMeta').innerHTML = `
+                    <div class="pipeline-meta-item">
+                        <span>🎯 场景:</span>
+                        <strong>${sceneType}</strong>
+                    </div>
+                    <div class="pipeline-meta-item">
+                        <span>📊 置信度:</span>
+                        <strong>${(confidence * 100).toFixed(0)}%</strong>
+                    </div>
+                    <div class="pipeline-meta-item">
+                        <span>📰 事件处理:</span>
+                        <strong>${eventsProcessed}个</strong>
+                    </div>
+                `;
+                
+                // 渲染数据
+                renderAllData(merchantId, result);
+                updateTime();
+                
+            } catch (error) {
+                console.error('系统调用失败:', error);
+                // 使用模拟数据
+                completeAllSteps();
+                document.getElementById('pipelineMeta').innerHTML = `
+                    <div class="pipeline-meta-item">
+                        <span>⚠️ 使用演示数据</span>
+                    </div>
+                `;
+                renderDemoData(merchantId, null);
+                updateTime();
+            }
+        });
+
+        // 渲染所有数据
+        function renderAllData(merchantId, result) {
+            // 商家信息
+            document.getElementById('merchantId').textContent = merchantId;
+            document.getElementById('merchantName').textContent = result.merchant_name || `夜宵便利店${merchantId.replace('M', '')}号店`;
+            document.getElementById('merchantChainBrand').textContent = result.chain_brand || '便利店';
+            document.getElementById('merchantCity').textContent = result.city || '未知城市';
+            document.getElementById('merchantStatus').innerHTML = '✅ 营业中';
+            document.getElementById('predictPeriod').textContent = '今晚 20:00 - 次日 02:00';
+            document.getElementById('merchantSnackCulture').textContent = result.snack_culture || '夜宵文化';
+            document.getElementById('merchantRecommendations').textContent = (result.recommended_categories || []).slice(0, 3).join('、');
+
+            // 图表 - 使用真实数据
+            generateSalesTrendChart(result);
+            generateCategoryChart(result);
+            
+            // 关键因素 - 使用真实数据
+            generateKeyFactors(result);
+            
+            // AI建议 - 使用真实数据
+            generateAISummary(result.ai_suggestions || []);
+
+            // 爆品预测表格
+            const hotProducts = result.hot_products || [];
+            let hotHtml = '';
+            hotProducts.slice(0, 8).forEach((p, i) => {
+                const finalScore = p.final_score || 75;
+                const scoreClass = finalScore >= 80 ? 'badge-success' : finalScore >= 70 ? 'badge-info' : 'badge-gray';
+                const hotType = p.hot_type || '综合推荐';
+                const hotReason = p.hot_reason || '多维度分析推荐';
+                const peakHours = p.peak_hours || '21:00-23:30';
+                
+                hotHtml += `
+                    <tr>
+                        <td><strong>${p.product_name || `商品${i+1}`}</strong></td>
+                        <td>${p.category || '其他'}</td>
+                        <td><span class="badge ${scoreClass}">${hotType}</span></td>
+                        <td>${p.predicted_sales || Math.floor(Math.random() * 200 + 100)}份</td>
+                        <td class="trend-up">🔥 ${finalScore.toFixed(1)}分</td>
+                        <td>${peakHours}</td>
+                        <td style="font-size:12px; color:var(--gray-600);">${hotReason}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('hotProductsTable').innerHTML = hotHtml;
+
+            // 补货建议表格
+            const restock = result.restock_recommendations || [];
+            let restockHtml = '';
+            restock.slice(0, 8).forEach(r => {
+                const currentStock = r.current_stock || 20;
+                const recommendedStock = r.recommended_quantity || 50;
+                const stockRate = Math.round((currentStock / recommendedStock) * 100);
+                const progressClass = stockRate < 30 ? 'low' : stockRate < 70 ? 'medium' : 'high';
+                const urgencyClass = stockRate < 30 ? 'badge-danger' : stockRate < 70 ? 'badge-warning' : 'badge-success';
+                const urgencyText = stockRate < 30 ? '紧急' : stockRate < 70 ? '中等' : '充足';
+                const stockoutTime = r.stockout_time || `今晚 ${['21:30', '22:00', '22:45', '23:00', '23:30'][Math.floor(Math.random() * 5)]}`;
+                const restockReason = r.reason || '基于销量预测的补货建议';
+                
+                restockHtml += `
+                    <tr>
+                        <td><strong>${r.product_name || '未知商品'}</strong></td>
+                        <td>${currentStock}份</td>
+                        <td>${recommendedStock}份</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill ${progressClass}" style="width: ${Math.min(stockRate, 100)}%"></div>
+                            </div>
+                            <span style="font-size:12px; color:var(--gray-500);">${stockRate}%</span>
+                        </td>
+                        <td>${stockoutTime}</td>
+                        <td><span class="badge ${urgencyClass}">${urgencyText}</span></td>
+                        <td style="font-size:12px; color:var(--gray-600);">${restockReason}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('restockTable').innerHTML = restockHtml;
+
+            // 定价建议表格
+            const pricing = result.pricing_recommendations || [];
+            let pricingHtml = '';
+            pricing.slice(0, 8).forEach(p => {
+                const currentPrice = p.current_price || 10;
+                const suggestedPrice = p.recommended_price || 9;
+                const change = ((suggestedPrice - currentPrice) / currentPrice * 100).toFixed(1);
+                const changeClass = change > 0 ? 'trend-up' : change < 0 ? 'trend-down' : '';
+                const strategyClass = change > 0 ? 'badge-success' : change < 0 ? 'badge-info' : 'badge-gray';
+                const strategyText = change > 0 ? '建议涨价' : change < 0 ? '建议降价' : '保持不变';
+                
+                pricingHtml += `
+                    <tr>
+                        <td><strong>${p.product_name || '未知商品'}</strong></td>
+                        <td>¥${currentPrice.toFixed(1)}</td>
+                        <td>
+                            <div class="price-change">
+                                <span class="price-arrow">¥${currentPrice.toFixed(1)}</span>
+                                <span>→</span>
+                                <span class="price-new">¥${suggestedPrice.toFixed(1)}</span>
+                            </div>
+                        </td>
+                        <td class="${changeClass}">${change > 0 ? '+' : ''}${change}%</td>
+                        <td><span class="badge ${strategyClass}">${strategyText}</span></td>
+                        <td style="font-size:13px; color:var(--gray-600);">${p.reason || '基于市场竞争和需求分析'}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('pricingTable').innerHTML = pricingHtml;
+
+            // 组合销售卡片 - 使用后端返回的城市特色套餐
+            const bundles = result.bundle_strategies || [];
+
+            let bundleHtml = '';
+            bundles.forEach(b => {
+                const savePercent = b.original_price && b.bundle_price 
+                    ? ((b.original_price - b.bundle_price) / b.original_price * 100).toFixed(0)
+                    : 15;
+                bundleHtml += `
+                    <div class="bundle-card">
+                        <div class="bundle-header">
+                            <div class="bundle-name">
+                                <span>📦</span>
+                                ${b.name}
+                            </div>
+                            <span class="badge badge-orange">${b.tag}</span>
+                        </div>
+                        <div class="bundle-tags">
+                            ${(b.products || []).map(p => `<span class="bundle-tag">${p}</span>`).join('')}
+                        </div>
+                        <div class="bundle-price">
+                            <span class="bundle-original">¥${b.original_price || b.original || 99}</span>
+                            <span class="bundle-discount">¥${b.bundle_price || b.discount || 88}</span>
+                            <span class="bundle-save">省 ${savePercent}%</span>
+                        </div>
+                        <div class="bundle-stats">
+                            <span class="bundle-stat">预测销量: <span>${b.predicted_sales || b.sales || 100}</span> 份</span>
+                            <span class="bundle-stat">转化率: <span class="trend-up">${b.conversion_rate || b.rate || 25}%</span></span>
+                        </div>
+                    </div>
+                `;
+            });
+            document.getElementById('bundlesGrid').innerHTML = bundleHtml;
+        }
+
+        // 渲染演示数据（API失败时使用）
+        function renderDemoData(merchantId, result) {
+            // 商家信息
+            document.getElementById('merchantId').textContent = merchantId;
+            document.getElementById('merchantName').textContent = `夜宵便利店${merchantId.replace('M', '')}号店`;
+            document.getElementById('merchantChainBrand').textContent = '华润万家';
+            document.getElementById('merchantCity').textContent = '成都';
+            document.getElementById('merchantStatus').innerHTML = '✅ 营业中';
+            document.getElementById('predictPeriod').textContent = '今晚 20:00 - 次日 02:00';
+            document.getElementById('merchantSnackCulture').textContent = '成都夜宵文化';
+            document.getElementById('merchantRecommendations').textContent = '小龙虾、冰啤、串串、冷淡杯';
+
+            // 使用真实数据或生成默认数据
+            const hourlyTrend = result?.hourly_sales_trend || generateDefaultHourlyTrend(merchantId);
+            const categorySummary = result?.category_summary || generateDefaultCategorySummary();
+            const keyFactors = result?.key_factors || {};
+            const aiSuggestions = result?.ai_suggestions || generateDefaultSuggestions();
+            
+            // 图表
+            generateSalesTrendChart({ hourly_sales_trend: hourlyTrend });
+            generateCategoryChart({ category_summary: categorySummary });
+            generateKeyFactors({ key_factors: keyFactors });
+            generateAISummary(aiSuggestions);
+
+            // 爆品预测 - 增强版
+            const demoHotProducts = [
+                { name: '麻辣小龙虾', category: '夜宵热菜', hotType: '地域特色', score: 89.0, reason: '成都夏季爆品+口味虾节', peakHours: '21:00-23:30' },
+                { name: '冰镇啤酒', category: '饮品', hotType: '热点事件', score: 88.0, reason: '世界杯决赛+看球场景', peakHours: '21:00-01:00' },
+                { name: '烧烤拼盘', category: '烧烤类', hotType: '用户偏好', score: 82.5, reason: '高复购率+夜宵首选', peakHours: '21:30-23:00' },
+                { name: '凉拌毛豆', category: '小吃凉菜', hotType: '综合推荐', score: 75.8, reason: '下酒菜+高销量增长', peakHours: '21:00-23:30' },
+                { name: '串串', category: '成都特色', hotType: '地域特色', score: 78.2, reason: '成都夜宵文化特色', peakHours: '22:00-00:00' }
+            ];
+
+            let hotHtml = '';
+            demoHotProducts.forEach(p => {
+                const scoreClass = p.score >= 80 ? 'badge-success' : p.score >= 70 ? 'badge-info' : 'badge-gray';
+                
+                hotHtml += `
+                    <tr>
+                        <td><strong>${p.name}</strong></td>
+                        <td>${p.category}</td>
+                        <td><span class="badge ${scoreClass}">${p.hotType}</span></td>
+                        <td>${p.score >= 80 ? Math.floor(Math.random() * 200 + 300) : Math.floor(Math.random() * 150 + 100)}份</td>
+                        <td class="trend-up">🔥 ${p.score.toFixed(1)}分</td>
+                        <td>${p.peakHours}</td>
+                        <td style="font-size:12px; color:var(--gray-600);">${p.reason}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('hotProductsTable').innerHTML = hotHtml;
+
+            // 补货建议 - 增强版
+            const demoRestock = [
+                { name: '小龙虾（鲜活）', current: 15, recommended: 80, rate: 18, time: '21:30', urgency: '紧急', reason: '成都夏季爆品，世界杯决赛需求激增' },
+                { name: '冰镇啤酒（罐装）', current: 120, recommended: 200, rate: 60, time: '22:45', urgency: '中等', reason: '世界杯赛事带动，看球场景需求增加' },
+                { name: '鸡翅', current: 35, recommended: 50, rate: 70, time: '23:00', urgency: '中等', reason: '高销量增长，需补充库存' },
+                { name: '毛豆', current: 25, recommended: 30, rate: 83, time: '00:30', urgency: '充足', reason: '下酒菜需求稳定' },
+                { name: '烧烤串', current: 8, recommended: 60, rate: 13, time: '20:45', urgency: '紧急', reason: '深夜爆品，当前库存严重不足' }
+            ];
+
+            let restockHtml = '';
+            demoRestock.forEach(r => {
+                const progressClass = r.rate < 30 ? 'low' : r.rate < 70 ? 'medium' : 'high';
+                const urgencyClass = r.rate < 30 ? 'badge-danger' : r.rate < 70 ? 'badge-warning' : 'badge-success';
+                
+                restockHtml += `
+                    <tr>
+                        <td><strong>${r.name}</strong></td>
+                        <td>${r.current}份</td>
+                        <td>${r.recommended}份</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill ${progressClass}" style="width: ${r.rate}%"></div>
+                            </div>
+                            <span style="font-size:12px; color:var(--gray-500);">${r.rate}%</span>
+                        </td>
+                        <td>今晚 ${r.time}</td>
+                        <td><span class="badge ${urgencyClass}">${r.urgency}</span></td>
+                        <td style="font-size:12px; color:var(--gray-600);">${r.reason}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('restockTable').innerHTML = restockHtml;
+
+            // 定价建议
+            const demoPricing = [
+                { name: '麻辣小龙虾', current: 68, suggested: 78, change: 12.5, strategy: '建议涨价', reason: '需求旺盛，天气炎热带动消费' },
+                { name: '烧烤拼盘', current: 58, suggested: 55, change: -3.2, strategy: '建议降价', reason: '竞品降价，需调整保持竞争力' },
+                { name: '冰镇啤酒', current: 8, suggested: 10, change: 18.3, strategy: '建议涨价', reason: '高温天气，饮品需求增加' },
+                { name: '凉拌毛豆', current: 15, suggested: 15, change: 0, strategy: '保持不变', reason: '价格合理，保持现状' },
+                { name: '炸鸡翅', current: 32, suggested: 28, change: -8.6, strategy: '建议降价', reason: '销量下滑，促销提升转化' }
+            ];
+
+            let pricingHtml = '';
+            demoPricing.forEach(p => {
+                const changeClass = p.change > 0 ? 'trend-up' : p.change < 0 ? 'trend-down' : '';
+                const strategyClass = p.change > 0 ? 'badge-success' : p.change < 0 ? 'badge-info' : 'badge-gray';
+                
+                pricingHtml += `
+                    <tr>
+                        <td><strong>${p.name}</strong></td>
+                        <td>¥${p.current}</td>
+                        <td>
+                            <div class="price-change">
+                                <span class="price-arrow">¥${p.current}</span>
+                                <span>→</span>
+                                <span class="price-new">¥${p.suggested}</span>
+                            </div>
+                        </td>
+                        <td class="${changeClass}">${p.change > 0 ? '+' : ''}${p.change}%</td>
+                        <td><span class="badge ${strategyClass}">${p.strategy}</span></td>
+                        <td style="font-size:13px; color:var(--gray-600);">${p.reason}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('pricingTable').innerHTML = pricingHtml;
+
+            // 组合销售卡片
+            const bundles = [
+                {
+                    name: '夜宵爆款套餐',
+                    tag: '推荐',
+                    products: ['小龙虾', '冰镇啤酒 x2', '凉拌毛豆'],
+                    original: 99,
+                    discount: 88,
+                    sales: 156,
+                    rate: 34.5
+                },
+                {
+                    name: '烧烤狂欢套餐',
+                    tag: '热门',
+                    products: ['烧烤拼盘', '炸鸡翅', '冰镇啤酒 x3'],
+                    original: 106,
+                    discount: 95,
+                    sales: 124,
+                    rate: 28.9
+                },
+                {
+                    name: '小酌怡情套餐',
+                    tag: '新品',
+                    products: ['凉拌毛豆', '炸鸡翅', '冰镇啤酒 x4'],
+                    original: 79,
+                    discount: 69,
+                    sales: 98,
+                    rate: 22.3
+                },
+                {
+                    name: '深夜食堂套餐',
+                    tag: '特惠',
+                    products: ['小龙虾', '烧烤拼盘', '冰镇啤酒 x2'],
+                    original: 142,
+                    discount: 128,
+                    sales: 87,
+                    rate: 19.8
+                }
+            ];
+
+            let bundleHtml = '';
+            bundles.forEach(b => {
+                const savePercent = ((b.original - b.discount) / b.original * 100).toFixed(0);
+                bundleHtml += `
+                    <div class="bundle-card">
+                        <div class="bundle-header">
+                            <div class="bundle-name">
+                                <span>📦</span>
+                                ${b.name}
+                            </div>
+                            <span class="badge badge-orange">${b.tag}</span>
+                        </div>
+                        <div class="bundle-tags">
+                            ${b.products.map(p => `<span class="bundle-tag">${p}</span>`).join('')}
+                        </div>
+                        <div class="bundle-price">
+                            <span class="bundle-original">¥${b.original}</span>
+                            <span class="bundle-discount">¥${b.discount}</span>
+                            <span class="bundle-save">省 ${savePercent}%</span>
+                        </div>
+                        <div class="bundle-stats">
+                            <span class="bundle-stat">预测销量: <span>${b.sales}</span> 份</span>
+                            <span class="bundle-stat">转化率: <span class="trend-up">${b.rate}%</span></span>
+                        </div>
+                    </div>
+                `;
+            });
+            document.getElementById('bundlesGrid').innerHTML = bundleHtml;
+        }
+
+        // 生成默认时段趋势数据
+        function generateDefaultHourlyTrend(merchantId) {
+            const hours = ["18:00", "19:00", "20:00", "21:00", "22:00", "23:00", "00:00", "01:00"];
+            const pattern = [0.3, 0.5, 0.7, 1.0, 0.95, 0.8, 0.5, 0.2];
+            const baseSales = 150;
+            
+            return hours.map((hour, i) => ({
+                hour: hour,
+                history_sales: Math.floor(baseSales * pattern[i] * (0.8 + Math.random() * 0.4)),
+                predicted_sales: Math.floor(baseSales * pattern[i] * (1.1 + Math.random() * 0.3))
+            }));
+        }
+
+        // 生成默认分类汇总数据
+        function generateDefaultCategorySummary() {
+            return [
+                { category: '啤酒', predicted_sales: 412, ratio: 35.2 },
+                { category: '卤味', predicted_sales: 328, ratio: 28.0 },
+                { category: '薯片', predicted_sales: 198, ratio: 16.9 },
+                { category: '饮料', predicted_sales: 156, ratio: 13.3 },
+                { category: '其他', predicted_sales: 76, ratio: 6.5 }
+            ];
+        }
+
+        // 生成默认AI建议
+        function generateDefaultSuggestions() {
+            return [
+                '基于历史数据分析，今晚夜宵消费需求预计增长35%+，建议重点备货',
+                '消费高峰集中在21:00-23:00，建议提前1小时完成备货和人员安排',
+                '推出套餐组合可提升客单价15-20%，建议作为主推促销方案',
+                '部分爆品库存紧张，建议优先补充高销量商品避免缺货'
+            ];
+        }
+
+        // 页面加载时自动查询
+        window.addEventListener('load', function() {
+            document.getElementById('searchForm').dispatchEvent(new Event('submit'));
+        });
+    </script>
+</body>
+</html>

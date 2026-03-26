@@ -1,0 +1,5202 @@
+[
+  {
+    "product_id": "P0001",
+    "merchant_id": "M001",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 43.5,
+    "cost_price": 22.7,
+    "status": "active",
+    "stock": 34
+  },
+  {
+    "product_id": "P0002",
+    "merchant_id": "M001",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 16.7,
+    "cost_price": 8.58,
+    "status": "active",
+    "stock": 151
+  },
+  {
+    "product_id": "P0003",
+    "merchant_id": "M001",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 30.44,
+    "cost_price": 18.5,
+    "status": "active",
+    "stock": 116
+  },
+  {
+    "product_id": "P0004",
+    "merchant_id": "M001",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 12.25,
+    "cost_price": 6.43,
+    "status": "active",
+    "stock": 21
+  },
+  {
+    "product_id": "P0005",
+    "merchant_id": "M001",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 43.62,
+    "cost_price": 24.36,
+    "status": "active",
+    "stock": 156
+  },
+  {
+    "product_id": "P0006",
+    "merchant_id": "M001",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 6.13,
+    "cost_price": 3.81,
+    "status": "active",
+    "stock": 47
+  },
+  {
+    "product_id": "P0007",
+    "merchant_id": "M001",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 37.68,
+    "cost_price": 21.29,
+    "status": "active",
+    "stock": 191
+  },
+  {
+    "product_id": "P0008",
+    "merchant_id": "M001",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 49.53,
+    "cost_price": 28.82,
+    "status": "active",
+    "stock": 47
+  },
+  {
+    "product_id": "P0009",
+    "merchant_id": "M001",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 42.69,
+    "cost_price": 27.87,
+    "status": "active",
+    "stock": 74
+  },
+  {
+    "product_id": "P0010",
+    "merchant_id": "M001",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 43.46,
+    "cost_price": 29.9,
+    "status": "active",
+    "stock": 73
+  },
+  {
+    "product_id": "P0011",
+    "merchant_id": "M001",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 28.27,
+    "cost_price": 14.67,
+    "status": "active",
+    "stock": 85
+  },
+  {
+    "product_id": "P0012",
+    "merchant_id": "M001",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 47.65,
+    "cost_price": 27.49,
+    "status": "active",
+    "stock": 192
+  },
+  {
+    "product_id": "P0013",
+    "merchant_id": "M001",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 19.08,
+    "cost_price": 12.0,
+    "status": "active",
+    "stock": 38
+  },
+  {
+    "product_id": "P0014",
+    "merchant_id": "M001",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 6.91,
+    "cost_price": 3.78,
+    "status": "active",
+    "stock": 200
+  },
+  {
+    "product_id": "P0015",
+    "merchant_id": "M002",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 28.46,
+    "cost_price": 19.39,
+    "status": "active",
+    "stock": 31
+  },
+  {
+    "product_id": "P0016",
+    "merchant_id": "M002",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 36.26,
+    "cost_price": 23.17,
+    "status": "active",
+    "stock": 35
+  },
+  {
+    "product_id": "P0017",
+    "merchant_id": "M002",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 24.68,
+    "cost_price": 15.33,
+    "status": "active",
+    "stock": 82
+  },
+  {
+    "product_id": "P0018",
+    "merchant_id": "M002",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 37.5,
+    "cost_price": 26.12,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0019",
+    "merchant_id": "M002",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 12.03,
+    "cost_price": 6.93,
+    "status": "active",
+    "stock": 3
+  },
+  {
+    "product_id": "P0020",
+    "merchant_id": "M002",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 28.1,
+    "cost_price": 16.77,
+    "status": "active",
+    "stock": 49
+  },
+  {
+    "product_id": "P0021",
+    "merchant_id": "M002",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 12.18,
+    "cost_price": 8.31,
+    "status": "active",
+    "stock": 11
+  },
+  {
+    "product_id": "P0022",
+    "merchant_id": "M002",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 12.58,
+    "cost_price": 7.29,
+    "status": "active",
+    "stock": 27
+  },
+  {
+    "product_id": "P0023",
+    "merchant_id": "M002",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 25.97,
+    "cost_price": 15.26,
+    "status": "active",
+    "stock": 71
+  },
+  {
+    "product_id": "P0024",
+    "merchant_id": "M002",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 22.74,
+    "cost_price": 11.83,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0025",
+    "merchant_id": "M002",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 24.98,
+    "cost_price": 13.79,
+    "status": "active",
+    "stock": 41
+  },
+  {
+    "product_id": "P0026",
+    "merchant_id": "M002",
+    "product_name": "八喜",
+    "category_name": "冰淇淋",
+    "retail_price": 9.36,
+    "cost_price": 5.95,
+    "status": "active",
+    "stock": 134
+  },
+  {
+    "product_id": "P0027",
+    "merchant_id": "M002",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 48.05,
+    "cost_price": 32.21,
+    "status": "active",
+    "stock": 163
+  },
+  {
+    "product_id": "P0028",
+    "merchant_id": "M002",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 37.72,
+    "cost_price": 20.22,
+    "status": "active",
+    "stock": 182
+  },
+  {
+    "product_id": "P0029",
+    "merchant_id": "M002",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 40.21,
+    "cost_price": 24.13,
+    "status": "active",
+    "stock": 65
+  },
+  {
+    "product_id": "P0030",
+    "merchant_id": "M002",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 41.36,
+    "cost_price": 21.13,
+    "status": "active",
+    "stock": 34
+  },
+  {
+    "product_id": "P0031",
+    "merchant_id": "M002",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 44.43,
+    "cost_price": 30.94,
+    "status": "active",
+    "stock": 45
+  },
+  {
+    "product_id": "P0032",
+    "merchant_id": "M003",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 38.2,
+    "cost_price": 19.69,
+    "status": "active",
+    "stock": 187
+  },
+  {
+    "product_id": "P0033",
+    "merchant_id": "M003",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 10.87,
+    "cost_price": 6.9,
+    "status": "active",
+    "stock": 23
+  },
+  {
+    "product_id": "P0034",
+    "merchant_id": "M003",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 19.82,
+    "cost_price": 10.68,
+    "status": "active",
+    "stock": 35
+  },
+  {
+    "product_id": "P0035",
+    "merchant_id": "M003",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 48.76,
+    "cost_price": 28.14,
+    "status": "active",
+    "stock": 183
+  },
+  {
+    "product_id": "P0036",
+    "merchant_id": "M003",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 8.45,
+    "cost_price": 5.67,
+    "status": "active",
+    "stock": 199
+  },
+  {
+    "product_id": "P0037",
+    "merchant_id": "M003",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 19.17,
+    "cost_price": 12.17,
+    "status": "active",
+    "stock": 159
+  },
+  {
+    "product_id": "P0038",
+    "merchant_id": "M003",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 29.97,
+    "cost_price": 18.54,
+    "status": "active",
+    "stock": 164
+  },
+  {
+    "product_id": "P0039",
+    "merchant_id": "M003",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 30.42,
+    "cost_price": 19.67,
+    "status": "active",
+    "stock": 173
+  },
+  {
+    "product_id": "P0040",
+    "merchant_id": "M004",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 8.29,
+    "cost_price": 5.8,
+    "status": "active",
+    "stock": 130
+  },
+  {
+    "product_id": "P0041",
+    "merchant_id": "M004",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 23.1,
+    "cost_price": 12.52,
+    "status": "active",
+    "stock": 125
+  },
+  {
+    "product_id": "P0042",
+    "merchant_id": "M004",
+    "product_name": "雪碧",
+    "category_name": "碳酸饮料",
+    "retail_price": 12.63,
+    "cost_price": 8.82,
+    "status": "active",
+    "stock": 118
+  },
+  {
+    "product_id": "P0043",
+    "merchant_id": "M004",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 28.08,
+    "cost_price": 17.95,
+    "status": "active",
+    "stock": 11
+  },
+  {
+    "product_id": "P0044",
+    "merchant_id": "M004",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 27.36,
+    "cost_price": 16.42,
+    "status": "active",
+    "stock": 107
+  },
+  {
+    "product_id": "P0045",
+    "merchant_id": "M004",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 9.6,
+    "cost_price": 5.88,
+    "status": "active",
+    "stock": 184
+  },
+  {
+    "product_id": "P0046",
+    "merchant_id": "M004",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 48.55,
+    "cost_price": 31.01,
+    "status": "active",
+    "stock": 15
+  },
+  {
+    "product_id": "P0047",
+    "merchant_id": "M004",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 29.83,
+    "cost_price": 19.66,
+    "status": "active",
+    "stock": 132
+  },
+  {
+    "product_id": "P0048",
+    "merchant_id": "M004",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 32.15,
+    "cost_price": 20.45,
+    "status": "active",
+    "stock": 100
+  },
+  {
+    "product_id": "P0049",
+    "merchant_id": "M004",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 27.51,
+    "cost_price": 16.32,
+    "status": "active",
+    "stock": 8
+  },
+  {
+    "product_id": "P0050",
+    "merchant_id": "M004",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 43.62,
+    "cost_price": 27.02,
+    "status": "active",
+    "stock": 22
+  },
+  {
+    "product_id": "P0051",
+    "merchant_id": "M004",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 44.68,
+    "cost_price": 24.31,
+    "status": "active",
+    "stock": 110
+  },
+  {
+    "product_id": "P0052",
+    "merchant_id": "M004",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 28.7,
+    "cost_price": 19.29,
+    "status": "active",
+    "stock": 84
+  },
+  {
+    "product_id": "P0053",
+    "merchant_id": "M004",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 27.34,
+    "cost_price": 17.21,
+    "status": "active",
+    "stock": 169
+  },
+  {
+    "product_id": "P0054",
+    "merchant_id": "M004",
+    "product_name": "上好佳薯片",
+    "category_name": "薯片",
+    "retail_price": 21.35,
+    "cost_price": 13.53,
+    "status": "active",
+    "stock": 20
+  },
+  {
+    "product_id": "P0055",
+    "merchant_id": "M005",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 19.66,
+    "cost_price": 12.95,
+    "status": "active",
+    "stock": 14
+  },
+  {
+    "product_id": "P0056",
+    "merchant_id": "M005",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 12.75,
+    "cost_price": 7.46,
+    "status": "active",
+    "stock": 122
+  },
+  {
+    "product_id": "P0057",
+    "merchant_id": "M005",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 45.78,
+    "cost_price": 24.55,
+    "status": "active",
+    "stock": 23
+  },
+  {
+    "product_id": "P0058",
+    "merchant_id": "M005",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 26.12,
+    "cost_price": 15.72,
+    "status": "active",
+    "stock": 68
+  },
+  {
+    "product_id": "P0059",
+    "merchant_id": "M005",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 16.73,
+    "cost_price": 10.72,
+    "status": "active",
+    "stock": 14
+  },
+  {
+    "product_id": "P0060",
+    "merchant_id": "M005",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 21.94,
+    "cost_price": 12.01,
+    "status": "active",
+    "stock": 74
+  },
+  {
+    "product_id": "P0061",
+    "merchant_id": "M005",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 19.66,
+    "cost_price": 12.87,
+    "status": "active",
+    "stock": 103
+  },
+  {
+    "product_id": "P0062",
+    "merchant_id": "M005",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 7.6,
+    "cost_price": 4.61,
+    "status": "active",
+    "stock": 87
+  },
+  {
+    "product_id": "P0063",
+    "merchant_id": "M005",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 18.33,
+    "cost_price": 10.79,
+    "status": "active",
+    "stock": 87
+  },
+  {
+    "product_id": "P0064",
+    "merchant_id": "M006",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 49.76,
+    "cost_price": 33.41,
+    "status": "active",
+    "stock": 40
+  },
+  {
+    "product_id": "P0065",
+    "merchant_id": "M006",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 26.78,
+    "cost_price": 16.86,
+    "status": "active",
+    "stock": 159
+  },
+  {
+    "product_id": "P0066",
+    "merchant_id": "M006",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 32.58,
+    "cost_price": 20.12,
+    "status": "active",
+    "stock": 130
+  },
+  {
+    "product_id": "P0067",
+    "merchant_id": "M006",
+    "product_name": "轩尼诗",
+    "category_name": "洋酒",
+    "retail_price": 39.09,
+    "cost_price": 26.21,
+    "status": "active",
+    "stock": 194
+  },
+  {
+    "product_id": "P0068",
+    "merchant_id": "M006",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 40.28,
+    "cost_price": 27.79,
+    "status": "active",
+    "stock": 41
+  },
+  {
+    "product_id": "P0069",
+    "merchant_id": "M006",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 9.62,
+    "cost_price": 5.77,
+    "status": "active",
+    "stock": 115
+  },
+  {
+    "product_id": "P0070",
+    "merchant_id": "M006",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 29.63,
+    "cost_price": 15.6,
+    "status": "active",
+    "stock": 86
+  },
+  {
+    "product_id": "P0071",
+    "merchant_id": "M006",
+    "product_name": "八喜",
+    "category_name": "冰淇淋",
+    "retail_price": 7.37,
+    "cost_price": 4.11,
+    "status": "active",
+    "stock": 17
+  },
+  {
+    "product_id": "P0072",
+    "merchant_id": "M006",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 49.43,
+    "cost_price": 31.94,
+    "status": "active",
+    "stock": 89
+  },
+  {
+    "product_id": "P0073",
+    "merchant_id": "M006",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 23.32,
+    "cost_price": 13.22,
+    "status": "active",
+    "stock": 30
+  },
+  {
+    "product_id": "P0074",
+    "merchant_id": "M007",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 38.92,
+    "cost_price": 22.18,
+    "status": "active",
+    "stock": 59
+  },
+  {
+    "product_id": "P0075",
+    "merchant_id": "M007",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 22.76,
+    "cost_price": 15.65,
+    "status": "active",
+    "stock": 102
+  },
+  {
+    "product_id": "P0076",
+    "merchant_id": "M007",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 13.26,
+    "cost_price": 8.62,
+    "status": "active",
+    "stock": 16
+  },
+  {
+    "product_id": "P0077",
+    "merchant_id": "M007",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 21.84,
+    "cost_price": 11.31,
+    "status": "active",
+    "stock": 87
+  },
+  {
+    "product_id": "P0078",
+    "merchant_id": "M007",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 11.12,
+    "cost_price": 6.29,
+    "status": "active",
+    "stock": 74
+  },
+  {
+    "product_id": "P0079",
+    "merchant_id": "M007",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 15.95,
+    "cost_price": 9.87,
+    "status": "active",
+    "stock": 154
+  },
+  {
+    "product_id": "P0080",
+    "merchant_id": "M007",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 10.14,
+    "cost_price": 6.34,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0081",
+    "merchant_id": "M007",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 46.08,
+    "cost_price": 27.89,
+    "status": "active",
+    "stock": 60
+  },
+  {
+    "product_id": "P0082",
+    "merchant_id": "M007",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 13.34,
+    "cost_price": 7.36,
+    "status": "active",
+    "stock": 188
+  },
+  {
+    "product_id": "P0083",
+    "merchant_id": "M007",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 44.45,
+    "cost_price": 22.73,
+    "status": "active",
+    "stock": 64
+  },
+  {
+    "product_id": "P0084",
+    "merchant_id": "M008",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 35.9,
+    "cost_price": 18.94,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0085",
+    "merchant_id": "M008",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 17.47,
+    "cost_price": 11.71,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0086",
+    "merchant_id": "M008",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 38.12,
+    "cost_price": 26.01,
+    "status": "active",
+    "stock": 40
+  },
+  {
+    "product_id": "P0087",
+    "merchant_id": "M008",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 35.89,
+    "cost_price": 18.5,
+    "status": "active",
+    "stock": 121
+  },
+  {
+    "product_id": "P0088",
+    "merchant_id": "M008",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 17.97,
+    "cost_price": 9.39,
+    "status": "active",
+    "stock": 191
+  },
+  {
+    "product_id": "P0089",
+    "merchant_id": "M008",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 27.59,
+    "cost_price": 16.92,
+    "status": "active",
+    "stock": 91
+  },
+  {
+    "product_id": "P0090",
+    "merchant_id": "M008",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 49.38,
+    "cost_price": 27.84,
+    "status": "active",
+    "stock": 81
+  },
+  {
+    "product_id": "P0091",
+    "merchant_id": "M008",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 13.82,
+    "cost_price": 8.95,
+    "status": "active",
+    "stock": 41
+  },
+  {
+    "product_id": "P0092",
+    "merchant_id": "M008",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 24.05,
+    "cost_price": 13.69,
+    "status": "active",
+    "stock": 8
+  },
+  {
+    "product_id": "P0093",
+    "merchant_id": "M008",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 39.24,
+    "cost_price": 26.14,
+    "status": "active",
+    "stock": 64
+  },
+  {
+    "product_id": "P0094",
+    "merchant_id": "M008",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 8.02,
+    "cost_price": 5.26,
+    "status": "active",
+    "stock": 39
+  },
+  {
+    "product_id": "P0095",
+    "merchant_id": "M008",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 47.9,
+    "cost_price": 29.96,
+    "status": "active",
+    "stock": 91
+  },
+  {
+    "product_id": "P0096",
+    "merchant_id": "M008",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 40.34,
+    "cost_price": 24.04,
+    "status": "active",
+    "stock": 10
+  },
+  {
+    "product_id": "P0097",
+    "merchant_id": "M008",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 12.07,
+    "cost_price": 8.31,
+    "status": "active",
+    "stock": 37
+  },
+  {
+    "product_id": "P0098",
+    "merchant_id": "M008",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 14.46,
+    "cost_price": 9.45,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0099",
+    "merchant_id": "M008",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 14.32,
+    "cost_price": 8.62,
+    "status": "active",
+    "stock": 156
+  },
+  {
+    "product_id": "P0100",
+    "merchant_id": "M008",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 24.67,
+    "cost_price": 16.96,
+    "status": "active",
+    "stock": 164
+  },
+  {
+    "product_id": "P0101",
+    "merchant_id": "M008",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 16.52,
+    "cost_price": 8.28,
+    "status": "active",
+    "stock": 73
+  },
+  {
+    "product_id": "P0102",
+    "merchant_id": "M009",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 6.68,
+    "cost_price": 4.27,
+    "status": "active",
+    "stock": 11
+  },
+  {
+    "product_id": "P0103",
+    "merchant_id": "M009",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 42.6,
+    "cost_price": 25.14,
+    "status": "active",
+    "stock": 54
+  },
+  {
+    "product_id": "P0104",
+    "merchant_id": "M009",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 26.75,
+    "cost_price": 18.61,
+    "status": "active",
+    "stock": 43
+  },
+  {
+    "product_id": "P0105",
+    "merchant_id": "M009",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 47.03,
+    "cost_price": 30.56,
+    "status": "active",
+    "stock": 36
+  },
+  {
+    "product_id": "P0106",
+    "merchant_id": "M009",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 29.64,
+    "cost_price": 19.53,
+    "status": "active",
+    "stock": 47
+  },
+  {
+    "product_id": "P0107",
+    "merchant_id": "M009",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 34.02,
+    "cost_price": 19.65,
+    "status": "active",
+    "stock": 49
+  },
+  {
+    "product_id": "P0108",
+    "merchant_id": "M009",
+    "product_name": "脉动",
+    "category_name": "功能饮料",
+    "retail_price": 10.9,
+    "cost_price": 6.31,
+    "status": "active",
+    "stock": 111
+  },
+  {
+    "product_id": "P0109",
+    "merchant_id": "M009",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 31.04,
+    "cost_price": 19.76,
+    "status": "active",
+    "stock": 189
+  },
+  {
+    "product_id": "P0110",
+    "merchant_id": "M009",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 20.89,
+    "cost_price": 13.59,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0111",
+    "merchant_id": "M009",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 7.41,
+    "cost_price": 3.73,
+    "status": "active",
+    "stock": 113
+  },
+  {
+    "product_id": "P0112",
+    "merchant_id": "M009",
+    "product_name": "上好佳薯片",
+    "category_name": "薯片",
+    "retail_price": 30.52,
+    "cost_price": 21.07,
+    "status": "active",
+    "stock": 25
+  },
+  {
+    "product_id": "P0113",
+    "merchant_id": "M010",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 21.7,
+    "cost_price": 12.85,
+    "status": "active",
+    "stock": 196
+  },
+  {
+    "product_id": "P0114",
+    "merchant_id": "M010",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 26.77,
+    "cost_price": 16.32,
+    "status": "active",
+    "stock": 122
+  },
+  {
+    "product_id": "P0115",
+    "merchant_id": "M010",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 11.11,
+    "cost_price": 6.69,
+    "status": "active",
+    "stock": 188
+  },
+  {
+    "product_id": "P0116",
+    "merchant_id": "M010",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 16.27,
+    "cost_price": 10.92,
+    "status": "active",
+    "stock": 37
+  },
+  {
+    "product_id": "P0117",
+    "merchant_id": "M010",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 29.52,
+    "cost_price": 15.13,
+    "status": "active",
+    "stock": 114
+  },
+  {
+    "product_id": "P0118",
+    "merchant_id": "M010",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 12.83,
+    "cost_price": 7.64,
+    "status": "active",
+    "stock": 86
+  },
+  {
+    "product_id": "P0119",
+    "merchant_id": "M010",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 5.31,
+    "cost_price": 3.14,
+    "status": "active",
+    "stock": 28
+  },
+  {
+    "product_id": "P0120",
+    "merchant_id": "M010",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 39.97,
+    "cost_price": 20.42,
+    "status": "active",
+    "stock": 161
+  },
+  {
+    "product_id": "P0121",
+    "merchant_id": "M010",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 20.23,
+    "cost_price": 11.88,
+    "status": "active",
+    "stock": 150
+  },
+  {
+    "product_id": "P0122",
+    "merchant_id": "M010",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 36.15,
+    "cost_price": 20.02,
+    "status": "active",
+    "stock": 27
+  },
+  {
+    "product_id": "P0123",
+    "merchant_id": "M010",
+    "product_name": "沃隆坚果",
+    "category_name": "坚果",
+    "retail_price": 34.8,
+    "cost_price": 22.07,
+    "status": "active",
+    "stock": 115
+  },
+  {
+    "product_id": "P0124",
+    "merchant_id": "M010",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 44.91,
+    "cost_price": 26.6,
+    "status": "active",
+    "stock": 16
+  },
+  {
+    "product_id": "P0125",
+    "merchant_id": "M010",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 24.22,
+    "cost_price": 16.61,
+    "status": "active",
+    "stock": 93
+  },
+  {
+    "product_id": "P0126",
+    "merchant_id": "M010",
+    "product_name": "雪碧",
+    "category_name": "碳酸饮料",
+    "retail_price": 45.86,
+    "cost_price": 31.37,
+    "status": "active",
+    "stock": 63
+  },
+  {
+    "product_id": "P0127",
+    "merchant_id": "M010",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 9.13,
+    "cost_price": 5.07,
+    "status": "active",
+    "stock": 7
+  },
+  {
+    "product_id": "P0128",
+    "merchant_id": "M010",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 11.61,
+    "cost_price": 7.71,
+    "status": "active",
+    "stock": 185
+  },
+  {
+    "product_id": "P0129",
+    "merchant_id": "M010",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 25.11,
+    "cost_price": 15.47,
+    "status": "active",
+    "stock": 41
+  },
+  {
+    "product_id": "P0130",
+    "merchant_id": "M010",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 46.45,
+    "cost_price": 32.06,
+    "status": "active",
+    "stock": 35
+  },
+  {
+    "product_id": "P0131",
+    "merchant_id": "M011",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 41.22,
+    "cost_price": 26.51,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0132",
+    "merchant_id": "M011",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 18.88,
+    "cost_price": 12.37,
+    "status": "active",
+    "stock": 177
+  },
+  {
+    "product_id": "P0133",
+    "merchant_id": "M011",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 37.85,
+    "cost_price": 24.31,
+    "status": "active",
+    "stock": 35
+  },
+  {
+    "product_id": "P0134",
+    "merchant_id": "M011",
+    "product_name": "八喜",
+    "category_name": "冰淇淋",
+    "retail_price": 17.03,
+    "cost_price": 8.69,
+    "status": "active",
+    "stock": 82
+  },
+  {
+    "product_id": "P0135",
+    "merchant_id": "M011",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 47.34,
+    "cost_price": 24.99,
+    "status": "active",
+    "stock": 160
+  },
+  {
+    "product_id": "P0136",
+    "merchant_id": "M011",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 28.52,
+    "cost_price": 16.26,
+    "status": "active",
+    "stock": 25
+  },
+  {
+    "product_id": "P0137",
+    "merchant_id": "M011",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 49.6,
+    "cost_price": 34.12,
+    "status": "active",
+    "stock": 85
+  },
+  {
+    "product_id": "P0138",
+    "merchant_id": "M011",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 39.32,
+    "cost_price": 24.03,
+    "status": "active",
+    "stock": 48
+  },
+  {
+    "product_id": "P0139",
+    "merchant_id": "M011",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 25.86,
+    "cost_price": 16.5,
+    "status": "active",
+    "stock": 1
+  },
+  {
+    "product_id": "P0140",
+    "merchant_id": "M011",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 8.83,
+    "cost_price": 5.25,
+    "status": "active",
+    "stock": 162
+  },
+  {
+    "product_id": "P0141",
+    "merchant_id": "M011",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 17.86,
+    "cost_price": 9.54,
+    "status": "active",
+    "stock": 128
+  },
+  {
+    "product_id": "P0142",
+    "merchant_id": "M012",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 44.83,
+    "cost_price": 28.63,
+    "status": "active",
+    "stock": 23
+  },
+  {
+    "product_id": "P0143",
+    "merchant_id": "M012",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 27.81,
+    "cost_price": 16.28,
+    "status": "active",
+    "stock": 69
+  },
+  {
+    "product_id": "P0144",
+    "merchant_id": "M012",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 16.39,
+    "cost_price": 8.76,
+    "status": "active",
+    "stock": 80
+  },
+  {
+    "product_id": "P0145",
+    "merchant_id": "M012",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 5.76,
+    "cost_price": 3.69,
+    "status": "active",
+    "stock": 79
+  },
+  {
+    "product_id": "P0146",
+    "merchant_id": "M012",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 32.07,
+    "cost_price": 21.89,
+    "status": "active",
+    "stock": 182
+  },
+  {
+    "product_id": "P0147",
+    "merchant_id": "M012",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 12.94,
+    "cost_price": 7.11,
+    "status": "active",
+    "stock": 179
+  },
+  {
+    "product_id": "P0148",
+    "merchant_id": "M012",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 9.83,
+    "cost_price": 5.92,
+    "status": "active",
+    "stock": 86
+  },
+  {
+    "product_id": "P0149",
+    "merchant_id": "M013",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 22.34,
+    "cost_price": 13.04,
+    "status": "active",
+    "stock": 14
+  },
+  {
+    "product_id": "P0150",
+    "merchant_id": "M013",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 22.56,
+    "cost_price": 13.72,
+    "status": "active",
+    "stock": 177
+  },
+  {
+    "product_id": "P0151",
+    "merchant_id": "M013",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 12.99,
+    "cost_price": 7.85,
+    "status": "active",
+    "stock": 110
+  },
+  {
+    "product_id": "P0152",
+    "merchant_id": "M013",
+    "product_name": "卤牛肉",
+    "category_name": "卤味",
+    "retail_price": 8.14,
+    "cost_price": 5.09,
+    "status": "active",
+    "stock": 42
+  },
+  {
+    "product_id": "P0153",
+    "merchant_id": "M013",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 35.85,
+    "cost_price": 20.39,
+    "status": "active",
+    "stock": 88
+  },
+  {
+    "product_id": "P0154",
+    "merchant_id": "M013",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 20.55,
+    "cost_price": 13.31,
+    "status": "active",
+    "stock": 59
+  },
+  {
+    "product_id": "P0155",
+    "merchant_id": "M013",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 48.79,
+    "cost_price": 33.79,
+    "status": "active",
+    "stock": 130
+  },
+  {
+    "product_id": "P0156",
+    "merchant_id": "M013",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 19.12,
+    "cost_price": 11.12,
+    "status": "active",
+    "stock": 46
+  },
+  {
+    "product_id": "P0157",
+    "merchant_id": "M013",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 28.66,
+    "cost_price": 18.68,
+    "status": "active",
+    "stock": 89
+  },
+  {
+    "product_id": "P0158",
+    "merchant_id": "M013",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 49.57,
+    "cost_price": 32.82,
+    "status": "active",
+    "stock": 134
+  },
+  {
+    "product_id": "P0159",
+    "merchant_id": "M014",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 15.69,
+    "cost_price": 8.12,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0160",
+    "merchant_id": "M014",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 24.37,
+    "cost_price": 15.11,
+    "status": "active",
+    "stock": 171
+  },
+  {
+    "product_id": "P0161",
+    "merchant_id": "M014",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 16.4,
+    "cost_price": 9.43,
+    "status": "active",
+    "stock": 27
+  },
+  {
+    "product_id": "P0162",
+    "merchant_id": "M014",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 45.33,
+    "cost_price": 29.72,
+    "status": "active",
+    "stock": 128
+  },
+  {
+    "product_id": "P0163",
+    "merchant_id": "M014",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 34.28,
+    "cost_price": 18.73,
+    "status": "active",
+    "stock": 127
+  },
+  {
+    "product_id": "P0164",
+    "merchant_id": "M014",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 14.28,
+    "cost_price": 8.57,
+    "status": "active",
+    "stock": 11
+  },
+  {
+    "product_id": "P0165",
+    "merchant_id": "M014",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 9.18,
+    "cost_price": 5.47,
+    "status": "active",
+    "stock": 120
+  },
+  {
+    "product_id": "P0166",
+    "merchant_id": "M014",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 29.78,
+    "cost_price": 20.57,
+    "status": "active",
+    "stock": 72
+  },
+  {
+    "product_id": "P0167",
+    "merchant_id": "M014",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 33.99,
+    "cost_price": 19.51,
+    "status": "active",
+    "stock": 104
+  },
+  {
+    "product_id": "P0168",
+    "merchant_id": "M014",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 35.71,
+    "cost_price": 24.39,
+    "status": "active",
+    "stock": 178
+  },
+  {
+    "product_id": "P0169",
+    "merchant_id": "M014",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 22.6,
+    "cost_price": 13.65,
+    "status": "active",
+    "stock": 21
+  },
+  {
+    "product_id": "P0170",
+    "merchant_id": "M014",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 18.43,
+    "cost_price": 11.21,
+    "status": "active",
+    "stock": 37
+  },
+  {
+    "product_id": "P0171",
+    "merchant_id": "M015",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 29.32,
+    "cost_price": 20.08,
+    "status": "active",
+    "stock": 185
+  },
+  {
+    "product_id": "P0172",
+    "merchant_id": "M015",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 6.49,
+    "cost_price": 4.44,
+    "status": "active",
+    "stock": 134
+  },
+  {
+    "product_id": "P0173",
+    "merchant_id": "M015",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 15.37,
+    "cost_price": 10.06,
+    "status": "active",
+    "stock": 124
+  },
+  {
+    "product_id": "P0174",
+    "merchant_id": "M015",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 24.37,
+    "cost_price": 14.4,
+    "status": "active",
+    "stock": 196
+  },
+  {
+    "product_id": "P0175",
+    "merchant_id": "M015",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 17.09,
+    "cost_price": 11.61,
+    "status": "active",
+    "stock": 171
+  },
+  {
+    "product_id": "P0176",
+    "merchant_id": "M015",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 6.08,
+    "cost_price": 3.1,
+    "status": "active",
+    "stock": 54
+  },
+  {
+    "product_id": "P0177",
+    "merchant_id": "M015",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 36.84,
+    "cost_price": 21.82,
+    "status": "active",
+    "stock": 189
+  },
+  {
+    "product_id": "P0178",
+    "merchant_id": "M015",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 22.28,
+    "cost_price": 15.06,
+    "status": "active",
+    "stock": 127
+  },
+  {
+    "product_id": "P0179",
+    "merchant_id": "M015",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 44.96,
+    "cost_price": 30.31,
+    "status": "active",
+    "stock": 87
+  },
+  {
+    "product_id": "P0180",
+    "merchant_id": "M015",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 16.26,
+    "cost_price": 9.91,
+    "status": "active",
+    "stock": 80
+  },
+  {
+    "product_id": "P0181",
+    "merchant_id": "M015",
+    "product_name": "雪碧",
+    "category_name": "碳酸饮料",
+    "retail_price": 23.8,
+    "cost_price": 16.35,
+    "status": "active",
+    "stock": 140
+  },
+  {
+    "product_id": "P0182",
+    "merchant_id": "M015",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 7.75,
+    "cost_price": 5.29,
+    "status": "active",
+    "stock": 96
+  },
+  {
+    "product_id": "P0183",
+    "merchant_id": "M015",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 25.02,
+    "cost_price": 16.94,
+    "status": "active",
+    "stock": 180
+  },
+  {
+    "product_id": "P0184",
+    "merchant_id": "M016",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 19.43,
+    "cost_price": 11.09,
+    "status": "active",
+    "stock": 71
+  },
+  {
+    "product_id": "P0185",
+    "merchant_id": "M016",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 28.02,
+    "cost_price": 16.9,
+    "status": "active",
+    "stock": 90
+  },
+  {
+    "product_id": "P0186",
+    "merchant_id": "M016",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 31.26,
+    "cost_price": 16.91,
+    "status": "active",
+    "stock": 77
+  },
+  {
+    "product_id": "P0187",
+    "merchant_id": "M016",
+    "product_name": "沃隆坚果",
+    "category_name": "坚果",
+    "retail_price": 27.4,
+    "cost_price": 17.47,
+    "status": "active",
+    "stock": 113
+  },
+  {
+    "product_id": "P0188",
+    "merchant_id": "M016",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 39.57,
+    "cost_price": 21.29,
+    "status": "active",
+    "stock": 8
+  },
+  {
+    "product_id": "P0189",
+    "merchant_id": "M016",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 14.99,
+    "cost_price": 7.94,
+    "status": "active",
+    "stock": 95
+  },
+  {
+    "product_id": "P0190",
+    "merchant_id": "M016",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 8.74,
+    "cost_price": 5.71,
+    "status": "active",
+    "stock": 108
+  },
+  {
+    "product_id": "P0191",
+    "merchant_id": "M016",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 19.87,
+    "cost_price": 13.6,
+    "status": "active",
+    "stock": 64
+  },
+  {
+    "product_id": "P0192",
+    "merchant_id": "M016",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 31.44,
+    "cost_price": 19.15,
+    "status": "active",
+    "stock": 60
+  },
+  {
+    "product_id": "P0193",
+    "merchant_id": "M016",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 32.39,
+    "cost_price": 22.18,
+    "status": "active",
+    "stock": 43
+  },
+  {
+    "product_id": "P0194",
+    "merchant_id": "M016",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 6.7,
+    "cost_price": 3.67,
+    "status": "active",
+    "stock": 42
+  },
+  {
+    "product_id": "P0195",
+    "merchant_id": "M017",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 45.16,
+    "cost_price": 27.37,
+    "status": "active",
+    "stock": 110
+  },
+  {
+    "product_id": "P0196",
+    "merchant_id": "M017",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 5.56,
+    "cost_price": 3.83,
+    "status": "active",
+    "stock": 75
+  },
+  {
+    "product_id": "P0197",
+    "merchant_id": "M017",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 14.01,
+    "cost_price": 7.53,
+    "status": "active",
+    "stock": 139
+  },
+  {
+    "product_id": "P0198",
+    "merchant_id": "M017",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 48.51,
+    "cost_price": 25.28,
+    "status": "active",
+    "stock": 7
+  },
+  {
+    "product_id": "P0199",
+    "merchant_id": "M017",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 39.61,
+    "cost_price": 25.87,
+    "status": "active",
+    "stock": 146
+  },
+  {
+    "product_id": "P0200",
+    "merchant_id": "M017",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 24.69,
+    "cost_price": 13.93,
+    "status": "active",
+    "stock": 34
+  },
+  {
+    "product_id": "P0201",
+    "merchant_id": "M017",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 9.81,
+    "cost_price": 5.53,
+    "status": "active",
+    "stock": 31
+  },
+  {
+    "product_id": "P0202",
+    "merchant_id": "M017",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 17.34,
+    "cost_price": 8.93,
+    "status": "active",
+    "stock": 52
+  },
+  {
+    "product_id": "P0203",
+    "merchant_id": "M017",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 25.8,
+    "cost_price": 13.35,
+    "status": "active",
+    "stock": 91
+  },
+  {
+    "product_id": "P0204",
+    "merchant_id": "M017",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 39.99,
+    "cost_price": 22.82,
+    "status": "active",
+    "stock": 0
+  },
+  {
+    "product_id": "P0205",
+    "merchant_id": "M017",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 10.38,
+    "cost_price": 6.77,
+    "status": "active",
+    "stock": 113
+  },
+  {
+    "product_id": "P0206",
+    "merchant_id": "M017",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 23.12,
+    "cost_price": 14.72,
+    "status": "active",
+    "stock": 119
+  },
+  {
+    "product_id": "P0207",
+    "merchant_id": "M017",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 11.99,
+    "cost_price": 7.72,
+    "status": "active",
+    "stock": 147
+  },
+  {
+    "product_id": "P0208",
+    "merchant_id": "M017",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 19.36,
+    "cost_price": 9.71,
+    "status": "active",
+    "stock": 180
+  },
+  {
+    "product_id": "P0209",
+    "merchant_id": "M017",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 37.26,
+    "cost_price": 21.74,
+    "status": "active",
+    "stock": 174
+  },
+  {
+    "product_id": "P0210",
+    "merchant_id": "M017",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 41.93,
+    "cost_price": 26.59,
+    "status": "active",
+    "stock": 107
+  },
+  {
+    "product_id": "P0211",
+    "merchant_id": "M017",
+    "product_name": "轩尼诗",
+    "category_name": "洋酒",
+    "retail_price": 11.6,
+    "cost_price": 7.45,
+    "status": "active",
+    "stock": 111
+  },
+  {
+    "product_id": "P0212",
+    "merchant_id": "M018",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 37.98,
+    "cost_price": 23.16,
+    "status": "active",
+    "stock": 85
+  },
+  {
+    "product_id": "P0213",
+    "merchant_id": "M018",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 18.22,
+    "cost_price": 11.16,
+    "status": "active",
+    "stock": 121
+  },
+  {
+    "product_id": "P0214",
+    "merchant_id": "M018",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 42.82,
+    "cost_price": 29.25,
+    "status": "active",
+    "stock": 111
+  },
+  {
+    "product_id": "P0215",
+    "merchant_id": "M018",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 29.44,
+    "cost_price": 15.21,
+    "status": "active",
+    "stock": 66
+  },
+  {
+    "product_id": "P0216",
+    "merchant_id": "M018",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 37.6,
+    "cost_price": 23.91,
+    "status": "active",
+    "stock": 54
+  },
+  {
+    "product_id": "P0217",
+    "merchant_id": "M018",
+    "product_name": "上好佳薯片",
+    "category_name": "薯片",
+    "retail_price": 44.05,
+    "cost_price": 22.47,
+    "status": "active",
+    "stock": 9
+  },
+  {
+    "product_id": "P0218",
+    "merchant_id": "M018",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 35.37,
+    "cost_price": 22.77,
+    "status": "active",
+    "stock": 194
+  },
+  {
+    "product_id": "P0219",
+    "merchant_id": "M018",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 28.95,
+    "cost_price": 14.8,
+    "status": "active",
+    "stock": 161
+  },
+  {
+    "product_id": "P0220",
+    "merchant_id": "M018",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 31.12,
+    "cost_price": 21.78,
+    "status": "active",
+    "stock": 131
+  },
+  {
+    "product_id": "P0221",
+    "merchant_id": "M018",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 23.27,
+    "cost_price": 15.8,
+    "status": "active",
+    "stock": 199
+  },
+  {
+    "product_id": "P0222",
+    "merchant_id": "M018",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 10.07,
+    "cost_price": 6.29,
+    "status": "active",
+    "stock": 3
+  },
+  {
+    "product_id": "P0223",
+    "merchant_id": "M018",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 21.44,
+    "cost_price": 11.92,
+    "status": "active",
+    "stock": 75
+  },
+  {
+    "product_id": "P0224",
+    "merchant_id": "M019",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 36.39,
+    "cost_price": 21.66,
+    "status": "active",
+    "stock": 100
+  },
+  {
+    "product_id": "P0225",
+    "merchant_id": "M019",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 23.8,
+    "cost_price": 15.02,
+    "status": "active",
+    "stock": 189
+  },
+  {
+    "product_id": "P0226",
+    "merchant_id": "M019",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 15.44,
+    "cost_price": 8.62,
+    "status": "active",
+    "stock": 195
+  },
+  {
+    "product_id": "P0227",
+    "merchant_id": "M019",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 33.78,
+    "cost_price": 18.05,
+    "status": "active",
+    "stock": 192
+  },
+  {
+    "product_id": "P0228",
+    "merchant_id": "M019",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 39.08,
+    "cost_price": 27.33,
+    "status": "active",
+    "stock": 159
+  },
+  {
+    "product_id": "P0229",
+    "merchant_id": "M019",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 14.51,
+    "cost_price": 8.64,
+    "status": "active",
+    "stock": 155
+  },
+  {
+    "product_id": "P0230",
+    "merchant_id": "M019",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 21.12,
+    "cost_price": 12.12,
+    "status": "active",
+    "stock": 111
+  },
+  {
+    "product_id": "P0231",
+    "merchant_id": "M019",
+    "product_name": "沃隆坚果",
+    "category_name": "坚果",
+    "retail_price": 38.87,
+    "cost_price": 25.89,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0232",
+    "merchant_id": "M019",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 49.7,
+    "cost_price": 34.1,
+    "status": "active",
+    "stock": 48
+  },
+  {
+    "product_id": "P0233",
+    "merchant_id": "M019",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 17.14,
+    "cost_price": 11.72,
+    "status": "active",
+    "stock": 145
+  },
+  {
+    "product_id": "P0234",
+    "merchant_id": "M019",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 48.85,
+    "cost_price": 27.31,
+    "status": "active",
+    "stock": 144
+  },
+  {
+    "product_id": "P0235",
+    "merchant_id": "M019",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 31.32,
+    "cost_price": 16.9,
+    "status": "active",
+    "stock": 133
+  },
+  {
+    "product_id": "P0236",
+    "merchant_id": "M019",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 20.13,
+    "cost_price": 13.54,
+    "status": "active",
+    "stock": 185
+  },
+  {
+    "product_id": "P0237",
+    "merchant_id": "M019",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 22.19,
+    "cost_price": 12.48,
+    "status": "active",
+    "stock": 105
+  },
+  {
+    "product_id": "P0238",
+    "merchant_id": "M019",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 15.09,
+    "cost_price": 8.67,
+    "status": "active",
+    "stock": 156
+  },
+  {
+    "product_id": "P0239",
+    "merchant_id": "M019",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 24.0,
+    "cost_price": 12.38,
+    "status": "active",
+    "stock": 176
+  },
+  {
+    "product_id": "P0240",
+    "merchant_id": "M019",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 30.41,
+    "cost_price": 16.03,
+    "status": "active",
+    "stock": 170
+  },
+  {
+    "product_id": "P0241",
+    "merchant_id": "M020",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 17.5,
+    "cost_price": 11.67,
+    "status": "active",
+    "stock": 97
+  },
+  {
+    "product_id": "P0242",
+    "merchant_id": "M020",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 6.89,
+    "cost_price": 4.78,
+    "status": "active",
+    "stock": 32
+  },
+  {
+    "product_id": "P0243",
+    "merchant_id": "M020",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 12.88,
+    "cost_price": 7.57,
+    "status": "active",
+    "stock": 200
+  },
+  {
+    "product_id": "P0244",
+    "merchant_id": "M020",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 47.81,
+    "cost_price": 33.24,
+    "status": "active",
+    "stock": 187
+  },
+  {
+    "product_id": "P0245",
+    "merchant_id": "M020",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 11.0,
+    "cost_price": 5.8,
+    "status": "active",
+    "stock": 17
+  },
+  {
+    "product_id": "P0246",
+    "merchant_id": "M020",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 46.92,
+    "cost_price": 25.64,
+    "status": "active",
+    "stock": 165
+  },
+  {
+    "product_id": "P0247",
+    "merchant_id": "M020",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 36.03,
+    "cost_price": 21.0,
+    "status": "active",
+    "stock": 101
+  },
+  {
+    "product_id": "P0248",
+    "merchant_id": "M020",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 20.44,
+    "cost_price": 13.84,
+    "status": "active",
+    "stock": 2
+  },
+  {
+    "product_id": "P0249",
+    "merchant_id": "M020",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 9.13,
+    "cost_price": 5.79,
+    "status": "active",
+    "stock": 185
+  },
+  {
+    "product_id": "P0250",
+    "merchant_id": "M020",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 6.39,
+    "cost_price": 3.98,
+    "status": "active",
+    "stock": 98
+  },
+  {
+    "product_id": "P0251",
+    "merchant_id": "M020",
+    "product_name": "卤牛肉",
+    "category_name": "卤味",
+    "retail_price": 13.44,
+    "cost_price": 8.22,
+    "status": "active",
+    "stock": 80
+  },
+  {
+    "product_id": "P0252",
+    "merchant_id": "M021",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 37.21,
+    "cost_price": 23.32,
+    "status": "active",
+    "stock": 112
+  },
+  {
+    "product_id": "P0253",
+    "merchant_id": "M021",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 13.22,
+    "cost_price": 8.0,
+    "status": "active",
+    "stock": 39
+  },
+  {
+    "product_id": "P0254",
+    "merchant_id": "M021",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 15.74,
+    "cost_price": 8.77,
+    "status": "active",
+    "stock": 104
+  },
+  {
+    "product_id": "P0255",
+    "merchant_id": "M021",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 5.55,
+    "cost_price": 3.02,
+    "status": "active",
+    "stock": 89
+  },
+  {
+    "product_id": "P0256",
+    "merchant_id": "M021",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 34.97,
+    "cost_price": 20.24,
+    "status": "active",
+    "stock": 79
+  },
+  {
+    "product_id": "P0257",
+    "merchant_id": "M021",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 41.3,
+    "cost_price": 26.93,
+    "status": "active",
+    "stock": 69
+  },
+  {
+    "product_id": "P0258",
+    "merchant_id": "M021",
+    "product_name": "卤牛肉",
+    "category_name": "卤味",
+    "retail_price": 14.03,
+    "cost_price": 7.49,
+    "status": "active",
+    "stock": 93
+  },
+  {
+    "product_id": "P0259",
+    "merchant_id": "M021",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 34.58,
+    "cost_price": 17.46,
+    "status": "active",
+    "stock": 190
+  },
+  {
+    "product_id": "P0260",
+    "merchant_id": "M021",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 47.94,
+    "cost_price": 30.71,
+    "status": "active",
+    "stock": 17
+  },
+  {
+    "product_id": "P0261",
+    "merchant_id": "M021",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 16.45,
+    "cost_price": 8.46,
+    "status": "active",
+    "stock": 147
+  },
+  {
+    "product_id": "P0262",
+    "merchant_id": "M021",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 49.84,
+    "cost_price": 26.09,
+    "status": "active",
+    "stock": 84
+  },
+  {
+    "product_id": "P0263",
+    "merchant_id": "M021",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 7.07,
+    "cost_price": 4.82,
+    "status": "active",
+    "stock": 40
+  },
+  {
+    "product_id": "P0264",
+    "merchant_id": "M021",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 29.88,
+    "cost_price": 15.04,
+    "status": "active",
+    "stock": 93
+  },
+  {
+    "product_id": "P0265",
+    "merchant_id": "M021",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 49.12,
+    "cost_price": 31.46,
+    "status": "active",
+    "stock": 195
+  },
+  {
+    "product_id": "P0266",
+    "merchant_id": "M021",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 17.74,
+    "cost_price": 9.7,
+    "status": "active",
+    "stock": 153
+  },
+  {
+    "product_id": "P0267",
+    "merchant_id": "M021",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 45.75,
+    "cost_price": 23.37,
+    "status": "active",
+    "stock": 179
+  },
+  {
+    "product_id": "P0268",
+    "merchant_id": "M021",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 31.71,
+    "cost_price": 18.81,
+    "status": "active",
+    "stock": 37
+  },
+  {
+    "product_id": "P0269",
+    "merchant_id": "M021",
+    "product_name": "雪碧",
+    "category_name": "碳酸饮料",
+    "retail_price": 35.7,
+    "cost_price": 18.09,
+    "status": "active",
+    "stock": 7
+  },
+  {
+    "product_id": "P0270",
+    "merchant_id": "M022",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 18.79,
+    "cost_price": 9.89,
+    "status": "active",
+    "stock": 151
+  },
+  {
+    "product_id": "P0271",
+    "merchant_id": "M022",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 41.66,
+    "cost_price": 22.81,
+    "status": "active",
+    "stock": 123
+  },
+  {
+    "product_id": "P0272",
+    "merchant_id": "M022",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 23.51,
+    "cost_price": 13.13,
+    "status": "active",
+    "stock": 4
+  },
+  {
+    "product_id": "P0273",
+    "merchant_id": "M022",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 26.07,
+    "cost_price": 17.25,
+    "status": "active",
+    "stock": 129
+  },
+  {
+    "product_id": "P0274",
+    "merchant_id": "M022",
+    "product_name": "雪碧",
+    "category_name": "碳酸饮料",
+    "retail_price": 34.05,
+    "cost_price": 22.56,
+    "status": "active",
+    "stock": 183
+  },
+  {
+    "product_id": "P0275",
+    "merchant_id": "M022",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 18.77,
+    "cost_price": 12.24,
+    "status": "active",
+    "stock": 135
+  },
+  {
+    "product_id": "P0276",
+    "merchant_id": "M022",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 5.17,
+    "cost_price": 2.82,
+    "status": "active",
+    "stock": 5
+  },
+  {
+    "product_id": "P0277",
+    "merchant_id": "M022",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 24.27,
+    "cost_price": 13.37,
+    "status": "active",
+    "stock": 143
+  },
+  {
+    "product_id": "P0278",
+    "merchant_id": "M022",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 31.11,
+    "cost_price": 17.45,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0279",
+    "merchant_id": "M022",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 32.41,
+    "cost_price": 20.11,
+    "status": "active",
+    "stock": 200
+  },
+  {
+    "product_id": "P0280",
+    "merchant_id": "M023",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 34.5,
+    "cost_price": 21.94,
+    "status": "active",
+    "stock": 200
+  },
+  {
+    "product_id": "P0281",
+    "merchant_id": "M023",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 17.82,
+    "cost_price": 9.7,
+    "status": "active",
+    "stock": 163
+  },
+  {
+    "product_id": "P0282",
+    "merchant_id": "M023",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 6.18,
+    "cost_price": 3.47,
+    "status": "active",
+    "stock": 185
+  },
+  {
+    "product_id": "P0283",
+    "merchant_id": "M023",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 14.75,
+    "cost_price": 9.34,
+    "status": "active",
+    "stock": 105
+  },
+  {
+    "product_id": "P0284",
+    "merchant_id": "M023",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 12.44,
+    "cost_price": 8.15,
+    "status": "active",
+    "stock": 187
+  },
+  {
+    "product_id": "P0285",
+    "merchant_id": "M023",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 8.96,
+    "cost_price": 5.2,
+    "status": "active",
+    "stock": 54
+  },
+  {
+    "product_id": "P0286",
+    "merchant_id": "M023",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 37.88,
+    "cost_price": 25.76,
+    "status": "active",
+    "stock": 125
+  },
+  {
+    "product_id": "P0287",
+    "merchant_id": "M023",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 36.98,
+    "cost_price": 24.18,
+    "status": "active",
+    "stock": 101
+  },
+  {
+    "product_id": "P0288",
+    "merchant_id": "M024",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 14.77,
+    "cost_price": 9.2,
+    "status": "active",
+    "stock": 198
+  },
+  {
+    "product_id": "P0289",
+    "merchant_id": "M024",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 11.2,
+    "cost_price": 7.44,
+    "status": "active",
+    "stock": 47
+  },
+  {
+    "product_id": "P0290",
+    "merchant_id": "M024",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 44.17,
+    "cost_price": 27.95,
+    "status": "active",
+    "stock": 158
+  },
+  {
+    "product_id": "P0291",
+    "merchant_id": "M024",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 44.62,
+    "cost_price": 26.36,
+    "status": "active",
+    "stock": 169
+  },
+  {
+    "product_id": "P0292",
+    "merchant_id": "M024",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 19.73,
+    "cost_price": 9.91,
+    "status": "active",
+    "stock": 77
+  },
+  {
+    "product_id": "P0293",
+    "merchant_id": "M024",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 41.63,
+    "cost_price": 26.96,
+    "status": "active",
+    "stock": 156
+  },
+  {
+    "product_id": "P0294",
+    "merchant_id": "M024",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 39.57,
+    "cost_price": 22.97,
+    "status": "active",
+    "stock": 7
+  },
+  {
+    "product_id": "P0295",
+    "merchant_id": "M024",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 15.8,
+    "cost_price": 10.36,
+    "status": "active",
+    "stock": 55
+  },
+  {
+    "product_id": "P0296",
+    "merchant_id": "M025",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 6.69,
+    "cost_price": 4.08,
+    "status": "active",
+    "stock": 155
+  },
+  {
+    "product_id": "P0297",
+    "merchant_id": "M025",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 48.05,
+    "cost_price": 28.44,
+    "status": "active",
+    "stock": 49
+  },
+  {
+    "product_id": "P0298",
+    "merchant_id": "M025",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 8.46,
+    "cost_price": 5.27,
+    "status": "active",
+    "stock": 98
+  },
+  {
+    "product_id": "P0299",
+    "merchant_id": "M025",
+    "product_name": "轩尼诗",
+    "category_name": "洋酒",
+    "retail_price": 7.35,
+    "cost_price": 4.0,
+    "status": "active",
+    "stock": 123
+  },
+  {
+    "product_id": "P0300",
+    "merchant_id": "M025",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 15.34,
+    "cost_price": 8.33,
+    "status": "active",
+    "stock": 88
+  },
+  {
+    "product_id": "P0301",
+    "merchant_id": "M025",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 24.51,
+    "cost_price": 14.54,
+    "status": "active",
+    "stock": 13
+  },
+  {
+    "product_id": "P0302",
+    "merchant_id": "M025",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 43.29,
+    "cost_price": 26.11,
+    "status": "active",
+    "stock": 168
+  },
+  {
+    "product_id": "P0303",
+    "merchant_id": "M025",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 45.61,
+    "cost_price": 24.67,
+    "status": "active",
+    "stock": 128
+  },
+  {
+    "product_id": "P0304",
+    "merchant_id": "M025",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 21.13,
+    "cost_price": 10.76,
+    "status": "active",
+    "stock": 144
+  },
+  {
+    "product_id": "P0305",
+    "merchant_id": "M025",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 47.75,
+    "cost_price": 24.32,
+    "status": "active",
+    "stock": 10
+  },
+  {
+    "product_id": "P0306",
+    "merchant_id": "M025",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 18.49,
+    "cost_price": 12.35,
+    "status": "active",
+    "stock": 5
+  },
+  {
+    "product_id": "P0307",
+    "merchant_id": "M025",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 43.92,
+    "cost_price": 29.96,
+    "status": "active",
+    "stock": 53
+  },
+  {
+    "product_id": "P0308",
+    "merchant_id": "M025",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 25.5,
+    "cost_price": 17.59,
+    "status": "active",
+    "stock": 175
+  },
+  {
+    "product_id": "P0309",
+    "merchant_id": "M025",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 36.26,
+    "cost_price": 24.6,
+    "status": "active",
+    "stock": 107
+  },
+  {
+    "product_id": "P0310",
+    "merchant_id": "M025",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 40.72,
+    "cost_price": 20.36,
+    "status": "active",
+    "stock": 164
+  },
+  {
+    "product_id": "P0311",
+    "merchant_id": "M025",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 35.5,
+    "cost_price": 21.28,
+    "status": "active",
+    "stock": 140
+  },
+  {
+    "product_id": "P0312",
+    "merchant_id": "M025",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 6.67,
+    "cost_price": 4.29,
+    "status": "active",
+    "stock": 30
+  },
+  {
+    "product_id": "P0313",
+    "merchant_id": "M025",
+    "product_name": "上好佳薯片",
+    "category_name": "薯片",
+    "retail_price": 7.91,
+    "cost_price": 4.03,
+    "status": "active",
+    "stock": 39
+  },
+  {
+    "product_id": "P0314",
+    "merchant_id": "M026",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 47.28,
+    "cost_price": 24.95,
+    "status": "active",
+    "stock": 175
+  },
+  {
+    "product_id": "P0315",
+    "merchant_id": "M026",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 15.11,
+    "cost_price": 9.62,
+    "status": "active",
+    "stock": 26
+  },
+  {
+    "product_id": "P0316",
+    "merchant_id": "M026",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 17.3,
+    "cost_price": 11.21,
+    "status": "active",
+    "stock": 55
+  },
+  {
+    "product_id": "P0317",
+    "merchant_id": "M026",
+    "product_name": "脉动",
+    "category_name": "功能饮料",
+    "retail_price": 35.76,
+    "cost_price": 17.91,
+    "status": "active",
+    "stock": 17
+  },
+  {
+    "product_id": "P0318",
+    "merchant_id": "M026",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 24.72,
+    "cost_price": 17.17,
+    "status": "active",
+    "stock": 22
+  },
+  {
+    "product_id": "P0319",
+    "merchant_id": "M026",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 25.45,
+    "cost_price": 17.12,
+    "status": "active",
+    "stock": 42
+  },
+  {
+    "product_id": "P0320",
+    "merchant_id": "M026",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 10.33,
+    "cost_price": 5.46,
+    "status": "active",
+    "stock": 53
+  },
+  {
+    "product_id": "P0321",
+    "merchant_id": "M026",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 24.18,
+    "cost_price": 16.42,
+    "status": "active",
+    "stock": 120
+  },
+  {
+    "product_id": "P0322",
+    "merchant_id": "M026",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 10.66,
+    "cost_price": 6.96,
+    "status": "active",
+    "stock": 107
+  },
+  {
+    "product_id": "P0323",
+    "merchant_id": "M026",
+    "product_name": "上好佳薯片",
+    "category_name": "薯片",
+    "retail_price": 31.41,
+    "cost_price": 18.55,
+    "status": "active",
+    "stock": 156
+  },
+  {
+    "product_id": "P0324",
+    "merchant_id": "M026",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 43.65,
+    "cost_price": 21.94,
+    "status": "active",
+    "stock": 23
+  },
+  {
+    "product_id": "P0325",
+    "merchant_id": "M026",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 6.93,
+    "cost_price": 4.19,
+    "status": "active",
+    "stock": 2
+  },
+  {
+    "product_id": "P0326",
+    "merchant_id": "M026",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 44.4,
+    "cost_price": 30.03,
+    "status": "active",
+    "stock": 188
+  },
+  {
+    "product_id": "P0327",
+    "merchant_id": "M026",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 13.77,
+    "cost_price": 9.59,
+    "status": "active",
+    "stock": 101
+  },
+  {
+    "product_id": "P0328",
+    "merchant_id": "M026",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 6.22,
+    "cost_price": 3.41,
+    "status": "active",
+    "stock": 97
+  },
+  {
+    "product_id": "P0329",
+    "merchant_id": "M026",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 30.67,
+    "cost_price": 21.4,
+    "status": "active",
+    "stock": 156
+  },
+  {
+    "product_id": "P0330",
+    "merchant_id": "M026",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 45.86,
+    "cost_price": 24.38,
+    "status": "active",
+    "stock": 77
+  },
+  {
+    "product_id": "P0331",
+    "merchant_id": "M026",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 16.97,
+    "cost_price": 11.7,
+    "status": "active",
+    "stock": 132
+  },
+  {
+    "product_id": "P0332",
+    "merchant_id": "M027",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 39.81,
+    "cost_price": 26.82,
+    "status": "active",
+    "stock": 102
+  },
+  {
+    "product_id": "P0333",
+    "merchant_id": "M027",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 38.0,
+    "cost_price": 20.34,
+    "status": "active",
+    "stock": 72
+  },
+  {
+    "product_id": "P0334",
+    "merchant_id": "M027",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 15.29,
+    "cost_price": 8.86,
+    "status": "active",
+    "stock": 103
+  },
+  {
+    "product_id": "P0335",
+    "merchant_id": "M027",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 38.38,
+    "cost_price": 26.39,
+    "status": "active",
+    "stock": 173
+  },
+  {
+    "product_id": "P0336",
+    "merchant_id": "M027",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 48.79,
+    "cost_price": 31.57,
+    "status": "active",
+    "stock": 189
+  },
+  {
+    "product_id": "P0337",
+    "merchant_id": "M027",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 26.88,
+    "cost_price": 17.99,
+    "status": "active",
+    "stock": 59
+  },
+  {
+    "product_id": "P0338",
+    "merchant_id": "M027",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 49.61,
+    "cost_price": 34.48,
+    "status": "active",
+    "stock": 114
+  },
+  {
+    "product_id": "P0339",
+    "merchant_id": "M027",
+    "product_name": "脉动",
+    "category_name": "功能饮料",
+    "retail_price": 6.77,
+    "cost_price": 3.78,
+    "status": "active",
+    "stock": 130
+  },
+  {
+    "product_id": "P0340",
+    "merchant_id": "M027",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 22.66,
+    "cost_price": 15.52,
+    "status": "active",
+    "stock": 29
+  },
+  {
+    "product_id": "P0341",
+    "merchant_id": "M027",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 33.49,
+    "cost_price": 18.11,
+    "status": "active",
+    "stock": 118
+  },
+  {
+    "product_id": "P0342",
+    "merchant_id": "M028",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 34.05,
+    "cost_price": 22.08,
+    "status": "active",
+    "stock": 193
+  },
+  {
+    "product_id": "P0343",
+    "merchant_id": "M028",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 34.49,
+    "cost_price": 22.83,
+    "status": "active",
+    "stock": 126
+  },
+  {
+    "product_id": "P0344",
+    "merchant_id": "M028",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 10.97,
+    "cost_price": 6.38,
+    "status": "active",
+    "stock": 163
+  },
+  {
+    "product_id": "P0345",
+    "merchant_id": "M028",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 11.54,
+    "cost_price": 5.81,
+    "status": "active",
+    "stock": 105
+  },
+  {
+    "product_id": "P0346",
+    "merchant_id": "M028",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 12.68,
+    "cost_price": 7.38,
+    "status": "active",
+    "stock": 93
+  },
+  {
+    "product_id": "P0347",
+    "merchant_id": "M028",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 38.97,
+    "cost_price": 22.7,
+    "status": "active",
+    "stock": 193
+  },
+  {
+    "product_id": "P0348",
+    "merchant_id": "M028",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 44.61,
+    "cost_price": 28.08,
+    "status": "active",
+    "stock": 13
+  },
+  {
+    "product_id": "P0349",
+    "merchant_id": "M028",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 13.13,
+    "cost_price": 6.83,
+    "status": "active",
+    "stock": 153
+  },
+  {
+    "product_id": "P0350",
+    "merchant_id": "M028",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 5.46,
+    "cost_price": 3.2,
+    "status": "active",
+    "stock": 112
+  },
+  {
+    "product_id": "P0351",
+    "merchant_id": "M028",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 33.04,
+    "cost_price": 20.01,
+    "status": "active",
+    "stock": 47
+  },
+  {
+    "product_id": "P0352",
+    "merchant_id": "M028",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 13.21,
+    "cost_price": 6.67,
+    "status": "active",
+    "stock": 125
+  },
+  {
+    "product_id": "P0353",
+    "merchant_id": "M029",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 7.15,
+    "cost_price": 4.06,
+    "status": "active",
+    "stock": 47
+  },
+  {
+    "product_id": "P0354",
+    "merchant_id": "M029",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 29.25,
+    "cost_price": 16.27,
+    "status": "active",
+    "stock": 165
+  },
+  {
+    "product_id": "P0355",
+    "merchant_id": "M029",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 34.31,
+    "cost_price": 20.12,
+    "status": "active",
+    "stock": 128
+  },
+  {
+    "product_id": "P0356",
+    "merchant_id": "M029",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 23.02,
+    "cost_price": 15.87,
+    "status": "active",
+    "stock": 32
+  },
+  {
+    "product_id": "P0357",
+    "merchant_id": "M029",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 24.34,
+    "cost_price": 14.72,
+    "status": "active",
+    "stock": 111
+  },
+  {
+    "product_id": "P0358",
+    "merchant_id": "M029",
+    "product_name": "轩尼诗",
+    "category_name": "洋酒",
+    "retail_price": 5.09,
+    "cost_price": 2.83,
+    "status": "active",
+    "stock": 65
+  },
+  {
+    "product_id": "P0359",
+    "merchant_id": "M029",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 18.31,
+    "cost_price": 11.13,
+    "status": "active",
+    "stock": 12
+  },
+  {
+    "product_id": "P0360",
+    "merchant_id": "M029",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 43.83,
+    "cost_price": 29.71,
+    "status": "active",
+    "stock": 49
+  },
+  {
+    "product_id": "P0361",
+    "merchant_id": "M029",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 12.72,
+    "cost_price": 7.99,
+    "status": "active",
+    "stock": 122
+  },
+  {
+    "product_id": "P0362",
+    "merchant_id": "M030",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 35.06,
+    "cost_price": 21.15,
+    "status": "active",
+    "stock": 79
+  },
+  {
+    "product_id": "P0363",
+    "merchant_id": "M030",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 44.87,
+    "cost_price": 24.53,
+    "status": "active",
+    "stock": 59
+  },
+  {
+    "product_id": "P0364",
+    "merchant_id": "M030",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 38.07,
+    "cost_price": 25.53,
+    "status": "active",
+    "stock": 89
+  },
+  {
+    "product_id": "P0365",
+    "merchant_id": "M030",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 5.99,
+    "cost_price": 3.57,
+    "status": "active",
+    "stock": 4
+  },
+  {
+    "product_id": "P0366",
+    "merchant_id": "M030",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 40.82,
+    "cost_price": 23.85,
+    "status": "active",
+    "stock": 142
+  },
+  {
+    "product_id": "P0367",
+    "merchant_id": "M030",
+    "product_name": "脉动",
+    "category_name": "功能饮料",
+    "retail_price": 36.07,
+    "cost_price": 24.57,
+    "status": "active",
+    "stock": 59
+  },
+  {
+    "product_id": "P0368",
+    "merchant_id": "M030",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 46.12,
+    "cost_price": 31.87,
+    "status": "active",
+    "stock": 164
+  },
+  {
+    "product_id": "P0369",
+    "merchant_id": "M030",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 11.24,
+    "cost_price": 5.72,
+    "status": "active",
+    "stock": 179
+  },
+  {
+    "product_id": "P0370",
+    "merchant_id": "M030",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 41.87,
+    "cost_price": 25.75,
+    "status": "active",
+    "stock": 62
+  },
+  {
+    "product_id": "P0371",
+    "merchant_id": "M030",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 19.68,
+    "cost_price": 11.5,
+    "status": "active",
+    "stock": 160
+  },
+  {
+    "product_id": "P0372",
+    "merchant_id": "M030",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 47.12,
+    "cost_price": 32.39,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0373",
+    "merchant_id": "M030",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 49.48,
+    "cost_price": 29.97,
+    "status": "active",
+    "stock": 152
+  },
+  {
+    "product_id": "P0374",
+    "merchant_id": "M030",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 5.21,
+    "cost_price": 2.86,
+    "status": "active",
+    "stock": 19
+  },
+  {
+    "product_id": "P0375",
+    "merchant_id": "M030",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 39.73,
+    "cost_price": 26.71,
+    "status": "active",
+    "stock": 71
+  },
+  {
+    "product_id": "P0376",
+    "merchant_id": "M030",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 32.96,
+    "cost_price": 18.39,
+    "status": "active",
+    "stock": 52
+  },
+  {
+    "product_id": "P0377",
+    "merchant_id": "M030",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 40.23,
+    "cost_price": 25.86,
+    "status": "active",
+    "stock": 179
+  },
+  {
+    "product_id": "P0378",
+    "merchant_id": "M030",
+    "product_name": "轩尼诗",
+    "category_name": "洋酒",
+    "retail_price": 21.53,
+    "cost_price": 11.28,
+    "status": "active",
+    "stock": 174
+  },
+  {
+    "product_id": "P0379",
+    "merchant_id": "M031",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 18.02,
+    "cost_price": 11.79,
+    "status": "active",
+    "stock": 100
+  },
+  {
+    "product_id": "P0380",
+    "merchant_id": "M031",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 34.04,
+    "cost_price": 17.62,
+    "status": "active",
+    "stock": 59
+  },
+  {
+    "product_id": "P0381",
+    "merchant_id": "M031",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 32.44,
+    "cost_price": 17.23,
+    "status": "active",
+    "stock": 186
+  },
+  {
+    "product_id": "P0382",
+    "merchant_id": "M031",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 13.79,
+    "cost_price": 8.0,
+    "status": "active",
+    "stock": 53
+  },
+  {
+    "product_id": "P0383",
+    "merchant_id": "M031",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 8.33,
+    "cost_price": 5.65,
+    "status": "active",
+    "stock": 84
+  },
+  {
+    "product_id": "P0384",
+    "merchant_id": "M031",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 23.87,
+    "cost_price": 13.51,
+    "status": "active",
+    "stock": 90
+  },
+  {
+    "product_id": "P0385",
+    "merchant_id": "M031",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 27.8,
+    "cost_price": 15.91,
+    "status": "active",
+    "stock": 87
+  },
+  {
+    "product_id": "P0386",
+    "merchant_id": "M031",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 33.52,
+    "cost_price": 17.51,
+    "status": "active",
+    "stock": 10
+  },
+  {
+    "product_id": "P0387",
+    "merchant_id": "M031",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 27.69,
+    "cost_price": 18.45,
+    "status": "active",
+    "stock": 110
+  },
+  {
+    "product_id": "P0388",
+    "merchant_id": "M031",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 22.64,
+    "cost_price": 14.72,
+    "status": "active",
+    "stock": 74
+  },
+  {
+    "product_id": "P0389",
+    "merchant_id": "M032",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 42.98,
+    "cost_price": 28.12,
+    "status": "active",
+    "stock": 112
+  },
+  {
+    "product_id": "P0390",
+    "merchant_id": "M032",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 29.05,
+    "cost_price": 15.26,
+    "status": "active",
+    "stock": 192
+  },
+  {
+    "product_id": "P0391",
+    "merchant_id": "M032",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 40.96,
+    "cost_price": 26.62,
+    "status": "active",
+    "stock": 71
+  },
+  {
+    "product_id": "P0392",
+    "merchant_id": "M032",
+    "product_name": "脉动",
+    "category_name": "功能饮料",
+    "retail_price": 18.03,
+    "cost_price": 11.99,
+    "status": "active",
+    "stock": 118
+  },
+  {
+    "product_id": "P0393",
+    "merchant_id": "M032",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 10.19,
+    "cost_price": 5.17,
+    "status": "active",
+    "stock": 112
+  },
+  {
+    "product_id": "P0394",
+    "merchant_id": "M032",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 49.18,
+    "cost_price": 27.36,
+    "status": "active",
+    "stock": 12
+  },
+  {
+    "product_id": "P0395",
+    "merchant_id": "M032",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 12.94,
+    "cost_price": 7.87,
+    "status": "active",
+    "stock": 105
+  },
+  {
+    "product_id": "P0396",
+    "merchant_id": "M032",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 41.47,
+    "cost_price": 22.86,
+    "status": "active",
+    "stock": 143
+  },
+  {
+    "product_id": "P0397",
+    "merchant_id": "M032",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 24.03,
+    "cost_price": 15.15,
+    "status": "active",
+    "stock": 76
+  },
+  {
+    "product_id": "P0398",
+    "merchant_id": "M033",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 13.94,
+    "cost_price": 7.72,
+    "status": "active",
+    "stock": 32
+  },
+  {
+    "product_id": "P0399",
+    "merchant_id": "M033",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 34.4,
+    "cost_price": 18.07,
+    "status": "active",
+    "stock": 1
+  },
+  {
+    "product_id": "P0400",
+    "merchant_id": "M033",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 14.96,
+    "cost_price": 9.89,
+    "status": "active",
+    "stock": 53
+  },
+  {
+    "product_id": "P0401",
+    "merchant_id": "M033",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 24.57,
+    "cost_price": 14.4,
+    "status": "active",
+    "stock": 23
+  },
+  {
+    "product_id": "P0402",
+    "merchant_id": "M033",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 5.55,
+    "cost_price": 3.46,
+    "status": "active",
+    "stock": 144
+  },
+  {
+    "product_id": "P0403",
+    "merchant_id": "M033",
+    "product_name": "哈根达斯",
+    "category_name": "冰淇淋",
+    "retail_price": 29.05,
+    "cost_price": 15.85,
+    "status": "active",
+    "stock": 117
+  },
+  {
+    "product_id": "P0404",
+    "merchant_id": "M033",
+    "product_name": "八喜",
+    "category_name": "冰淇淋",
+    "retail_price": 27.52,
+    "cost_price": 14.17,
+    "status": "active",
+    "stock": 64
+  },
+  {
+    "product_id": "P0405",
+    "merchant_id": "M033",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 24.65,
+    "cost_price": 13.03,
+    "status": "active",
+    "stock": 48
+  },
+  {
+    "product_id": "P0406",
+    "merchant_id": "M033",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 6.69,
+    "cost_price": 4.13,
+    "status": "active",
+    "stock": 166
+  },
+  {
+    "product_id": "P0407",
+    "merchant_id": "M033",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 35.02,
+    "cost_price": 22.59,
+    "status": "active",
+    "stock": 30
+  },
+  {
+    "product_id": "P0408",
+    "merchant_id": "M033",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 14.66,
+    "cost_price": 8.19,
+    "status": "active",
+    "stock": 200
+  },
+  {
+    "product_id": "P0409",
+    "merchant_id": "M033",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 30.17,
+    "cost_price": 19.22,
+    "status": "active",
+    "stock": 145
+  },
+  {
+    "product_id": "P0410",
+    "merchant_id": "M033",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 6.09,
+    "cost_price": 3.68,
+    "status": "active",
+    "stock": 106
+  },
+  {
+    "product_id": "P0411",
+    "merchant_id": "M033",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 42.11,
+    "cost_price": 24.47,
+    "status": "active",
+    "stock": 60
+  },
+  {
+    "product_id": "P0412",
+    "merchant_id": "M034",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 18.57,
+    "cost_price": 9.36,
+    "status": "active",
+    "stock": 108
+  },
+  {
+    "product_id": "P0413",
+    "merchant_id": "M034",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 12.22,
+    "cost_price": 7.25,
+    "status": "active",
+    "stock": 119
+  },
+  {
+    "product_id": "P0414",
+    "merchant_id": "M034",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 36.28,
+    "cost_price": 22.08,
+    "status": "active",
+    "stock": 1
+  },
+  {
+    "product_id": "P0415",
+    "merchant_id": "M034",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 7.71,
+    "cost_price": 5.01,
+    "status": "active",
+    "stock": 181
+  },
+  {
+    "product_id": "P0416",
+    "merchant_id": "M034",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 23.72,
+    "cost_price": 12.15,
+    "status": "active",
+    "stock": 109
+  },
+  {
+    "product_id": "P0417",
+    "merchant_id": "M034",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 7.61,
+    "cost_price": 4.15,
+    "status": "active",
+    "stock": 163
+  },
+  {
+    "product_id": "P0418",
+    "merchant_id": "M034",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 16.22,
+    "cost_price": 9.83,
+    "status": "active",
+    "stock": 171
+  },
+  {
+    "product_id": "P0419",
+    "merchant_id": "M034",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 10.47,
+    "cost_price": 5.34,
+    "status": "active",
+    "stock": 100
+  },
+  {
+    "product_id": "P0420",
+    "merchant_id": "M035",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 44.93,
+    "cost_price": 27.84,
+    "status": "active",
+    "stock": 89
+  },
+  {
+    "product_id": "P0421",
+    "merchant_id": "M035",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 25.16,
+    "cost_price": 13.96,
+    "status": "active",
+    "stock": 175
+  },
+  {
+    "product_id": "P0422",
+    "merchant_id": "M035",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 26.05,
+    "cost_price": 15.07,
+    "status": "active",
+    "stock": 91
+  },
+  {
+    "product_id": "P0423",
+    "merchant_id": "M035",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 12.04,
+    "cost_price": 7.11,
+    "status": "active",
+    "stock": 7
+  },
+  {
+    "product_id": "P0424",
+    "merchant_id": "M035",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 13.4,
+    "cost_price": 9.1,
+    "status": "active",
+    "stock": 160
+  },
+  {
+    "product_id": "P0425",
+    "merchant_id": "M035",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 12.15,
+    "cost_price": 6.36,
+    "status": "active",
+    "stock": 73
+  },
+  {
+    "product_id": "P0426",
+    "merchant_id": "M035",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 25.92,
+    "cost_price": 14.61,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0427",
+    "merchant_id": "M035",
+    "product_name": "卤牛肉",
+    "category_name": "卤味",
+    "retail_price": 29.42,
+    "cost_price": 16.01,
+    "status": "active",
+    "stock": 63
+  },
+  {
+    "product_id": "P0428",
+    "merchant_id": "M035",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 18.3,
+    "cost_price": 11.11,
+    "status": "active",
+    "stock": 187
+  },
+  {
+    "product_id": "P0429",
+    "merchant_id": "M035",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 34.51,
+    "cost_price": 22.11,
+    "status": "active",
+    "stock": 33
+  },
+  {
+    "product_id": "P0430",
+    "merchant_id": "M035",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 39.21,
+    "cost_price": 20.38,
+    "status": "active",
+    "stock": 94
+  },
+  {
+    "product_id": "P0431",
+    "merchant_id": "M035",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 46.79,
+    "cost_price": 23.97,
+    "status": "active",
+    "stock": 73
+  },
+  {
+    "product_id": "P0432",
+    "merchant_id": "M035",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 19.53,
+    "cost_price": 11.12,
+    "status": "active",
+    "stock": 189
+  },
+  {
+    "product_id": "P0433",
+    "merchant_id": "M035",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 14.83,
+    "cost_price": 9.74,
+    "status": "active",
+    "stock": 159
+  },
+  {
+    "product_id": "P0434",
+    "merchant_id": "M035",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 17.73,
+    "cost_price": 9.09,
+    "status": "active",
+    "stock": 130
+  },
+  {
+    "product_id": "P0435",
+    "merchant_id": "M036",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 10.85,
+    "cost_price": 5.56,
+    "status": "active",
+    "stock": 145
+  },
+  {
+    "product_id": "P0436",
+    "merchant_id": "M036",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 32.73,
+    "cost_price": 22.8,
+    "status": "active",
+    "stock": 88
+  },
+  {
+    "product_id": "P0437",
+    "merchant_id": "M036",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 31.0,
+    "cost_price": 17.49,
+    "status": "active",
+    "stock": 25
+  },
+  {
+    "product_id": "P0438",
+    "merchant_id": "M036",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 18.06,
+    "cost_price": 10.7,
+    "status": "active",
+    "stock": 132
+  },
+  {
+    "product_id": "P0439",
+    "merchant_id": "M036",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 33.27,
+    "cost_price": 21.23,
+    "status": "active",
+    "stock": 13
+  },
+  {
+    "product_id": "P0440",
+    "merchant_id": "M036",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 19.26,
+    "cost_price": 13.18,
+    "status": "active",
+    "stock": 166
+  },
+  {
+    "product_id": "P0441",
+    "merchant_id": "M036",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 9.34,
+    "cost_price": 5.58,
+    "status": "active",
+    "stock": 179
+  },
+  {
+    "product_id": "P0442",
+    "merchant_id": "M036",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 45.33,
+    "cost_price": 29.07,
+    "status": "active",
+    "stock": 90
+  },
+  {
+    "product_id": "P0443",
+    "merchant_id": "M036",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 13.85,
+    "cost_price": 9.43,
+    "status": "active",
+    "stock": 56
+  },
+  {
+    "product_id": "P0444",
+    "merchant_id": "M036",
+    "product_name": "雪碧",
+    "category_name": "碳酸饮料",
+    "retail_price": 34.62,
+    "cost_price": 23.15,
+    "status": "active",
+    "stock": 60
+  },
+  {
+    "product_id": "P0445",
+    "merchant_id": "M036",
+    "product_name": "芬达",
+    "category_name": "碳酸饮料",
+    "retail_price": 11.38,
+    "cost_price": 7.37,
+    "status": "active",
+    "stock": 87
+  },
+  {
+    "product_id": "P0446",
+    "merchant_id": "M036",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 5.85,
+    "cost_price": 3.87,
+    "status": "active",
+    "stock": 34
+  },
+  {
+    "product_id": "P0447",
+    "merchant_id": "M036",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 8.33,
+    "cost_price": 4.17,
+    "status": "active",
+    "stock": 121
+  },
+  {
+    "product_id": "P0448",
+    "merchant_id": "M037",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 28.67,
+    "cost_price": 18.89,
+    "status": "active",
+    "stock": 175
+  },
+  {
+    "product_id": "P0449",
+    "merchant_id": "M037",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 45.78,
+    "cost_price": 28.44,
+    "status": "active",
+    "stock": 185
+  },
+  {
+    "product_id": "P0450",
+    "merchant_id": "M037",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 20.64,
+    "cost_price": 12.35,
+    "status": "active",
+    "stock": 43
+  },
+  {
+    "product_id": "P0451",
+    "merchant_id": "M037",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 16.94,
+    "cost_price": 9.53,
+    "status": "active",
+    "stock": 132
+  },
+  {
+    "product_id": "P0452",
+    "merchant_id": "M037",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 31.37,
+    "cost_price": 16.28,
+    "status": "active",
+    "stock": 33
+  },
+  {
+    "product_id": "P0453",
+    "merchant_id": "M037",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 17.69,
+    "cost_price": 8.89,
+    "status": "active",
+    "stock": 53
+  },
+  {
+    "product_id": "P0454",
+    "merchant_id": "M037",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 18.12,
+    "cost_price": 9.35,
+    "status": "active",
+    "stock": 61
+  },
+  {
+    "product_id": "P0455",
+    "merchant_id": "M037",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 27.02,
+    "cost_price": 17.69,
+    "status": "active",
+    "stock": 50
+  },
+  {
+    "product_id": "P0456",
+    "merchant_id": "M038",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 46.11,
+    "cost_price": 26.08,
+    "status": "active",
+    "stock": 99
+  },
+  {
+    "product_id": "P0457",
+    "merchant_id": "M038",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 18.42,
+    "cost_price": 11.52,
+    "status": "active",
+    "stock": 101
+  },
+  {
+    "product_id": "P0458",
+    "merchant_id": "M038",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 49.39,
+    "cost_price": 34.26,
+    "status": "active",
+    "stock": 48
+  },
+  {
+    "product_id": "P0459",
+    "merchant_id": "M038",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 24.51,
+    "cost_price": 14.97,
+    "status": "active",
+    "stock": 2
+  },
+  {
+    "product_id": "P0460",
+    "merchant_id": "M038",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 20.82,
+    "cost_price": 11.02,
+    "status": "active",
+    "stock": 14
+  },
+  {
+    "product_id": "P0461",
+    "merchant_id": "M038",
+    "product_name": "螺蛳粉",
+    "category_name": "速食",
+    "retail_price": 24.61,
+    "cost_price": 12.74,
+    "status": "active",
+    "stock": 82
+  },
+  {
+    "product_id": "P0462",
+    "merchant_id": "M038",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 39.19,
+    "cost_price": 25.73,
+    "status": "active",
+    "stock": 45
+  },
+  {
+    "product_id": "P0463",
+    "merchant_id": "M038",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 11.04,
+    "cost_price": 7.6,
+    "status": "active",
+    "stock": 107
+  },
+  {
+    "product_id": "P0464",
+    "merchant_id": "M038",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 22.68,
+    "cost_price": 12.47,
+    "status": "active",
+    "stock": 71
+  },
+  {
+    "product_id": "P0465",
+    "merchant_id": "M038",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 14.78,
+    "cost_price": 9.85,
+    "status": "active",
+    "stock": 97
+  },
+  {
+    "product_id": "P0466",
+    "merchant_id": "M038",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 29.37,
+    "cost_price": 17.06,
+    "status": "active",
+    "stock": 155
+  },
+  {
+    "product_id": "P0467",
+    "merchant_id": "M038",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 25.9,
+    "cost_price": 14.78,
+    "status": "active",
+    "stock": 194
+  },
+  {
+    "product_id": "P0468",
+    "merchant_id": "M039",
+    "product_name": "梦龙冰淇淋",
+    "category_name": "冰淇淋",
+    "retail_price": 6.82,
+    "cost_price": 3.49,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0469",
+    "merchant_id": "M039",
+    "product_name": "可爱多",
+    "category_name": "冰淇淋",
+    "retail_price": 5.6,
+    "cost_price": 3.54,
+    "status": "active",
+    "stock": 183
+  },
+  {
+    "product_id": "P0470",
+    "merchant_id": "M039",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 35.29,
+    "cost_price": 20.64,
+    "status": "active",
+    "stock": 170
+  },
+  {
+    "product_id": "P0471",
+    "merchant_id": "M039",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 39.28,
+    "cost_price": 20.65,
+    "status": "active",
+    "stock": 5
+  },
+  {
+    "product_id": "P0472",
+    "merchant_id": "M039",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 11.03,
+    "cost_price": 7.66,
+    "status": "active",
+    "stock": 90
+  },
+  {
+    "product_id": "P0473",
+    "merchant_id": "M039",
+    "product_name": "哈尔滨啤酒",
+    "category_name": "啤酒",
+    "retail_price": 32.65,
+    "cost_price": 22.08,
+    "status": "active",
+    "stock": 31
+  },
+  {
+    "product_id": "P0474",
+    "merchant_id": "M039",
+    "product_name": "周黑鸭鸭脖",
+    "category_name": "卤味",
+    "retail_price": 8.23,
+    "cost_price": 5.33,
+    "status": "active",
+    "stock": 190
+  },
+  {
+    "product_id": "P0475",
+    "merchant_id": "M039",
+    "product_name": "绝味鸭脖",
+    "category_name": "卤味",
+    "retail_price": 8.67,
+    "cost_price": 5.29,
+    "status": "active",
+    "stock": 11
+  },
+  {
+    "product_id": "P0476",
+    "merchant_id": "M039",
+    "product_name": "泡椒凤爪",
+    "category_name": "卤味",
+    "retail_price": 30.4,
+    "cost_price": 19.4,
+    "status": "active",
+    "stock": 142
+  },
+  {
+    "product_id": "P0477",
+    "merchant_id": "M039",
+    "product_name": "奥利奥",
+    "category_name": "零食",
+    "retail_price": 28.12,
+    "cost_price": 17.33,
+    "status": "active",
+    "stock": 2
+  },
+  {
+    "product_id": "P0478",
+    "merchant_id": "M039",
+    "product_name": "奥利奥饼干",
+    "category_name": "零食",
+    "retail_price": 32.55,
+    "cost_price": 19.18,
+    "status": "active",
+    "stock": 166
+  },
+  {
+    "product_id": "P0479",
+    "merchant_id": "M039",
+    "product_name": "好丽友",
+    "category_name": "零食",
+    "retail_price": 33.24,
+    "cost_price": 19.5,
+    "status": "active",
+    "stock": 186
+  },
+  {
+    "product_id": "P0480",
+    "merchant_id": "M039",
+    "product_name": "士力架",
+    "category_name": "零食",
+    "retail_price": 6.72,
+    "cost_price": 3.62,
+    "status": "active",
+    "stock": 49
+  },
+  {
+    "product_id": "P0481",
+    "merchant_id": "M039",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 47.19,
+    "cost_price": 28.45,
+    "status": "active",
+    "stock": 114
+  },
+  {
+    "product_id": "P0482",
+    "merchant_id": "M039",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 49.69,
+    "cost_price": 26.35,
+    "status": "active",
+    "stock": 117
+  },
+  {
+    "product_id": "P0483",
+    "merchant_id": "M039",
+    "product_name": "魔爪",
+    "category_name": "功能饮料",
+    "retail_price": 30.05,
+    "cost_price": 19.72,
+    "status": "active",
+    "stock": 121
+  },
+  {
+    "product_id": "P0484",
+    "merchant_id": "M039",
+    "product_name": "脉动",
+    "category_name": "功能饮料",
+    "retail_price": 8.42,
+    "cost_price": 5.7,
+    "status": "active",
+    "stock": 120
+  },
+  {
+    "product_id": "P0485",
+    "merchant_id": "M039",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 28.55,
+    "cost_price": 17.12,
+    "status": "active",
+    "stock": 200
+  },
+  {
+    "product_id": "P0486",
+    "merchant_id": "M039",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 7.99,
+    "cost_price": 4.48,
+    "status": "active",
+    "stock": 97
+  },
+  {
+    "product_id": "P0487",
+    "merchant_id": "M040",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 5.58,
+    "cost_price": 3.73,
+    "status": "active",
+    "stock": 39
+  },
+  {
+    "product_id": "P0488",
+    "merchant_id": "M040",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 15.4,
+    "cost_price": 10.45,
+    "status": "active",
+    "stock": 38
+  },
+  {
+    "product_id": "P0489",
+    "merchant_id": "M040",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 17.77,
+    "cost_price": 10.7,
+    "status": "active",
+    "stock": 194
+  },
+  {
+    "product_id": "P0490",
+    "merchant_id": "M040",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 10.36,
+    "cost_price": 5.37,
+    "status": "active",
+    "stock": 80
+  },
+  {
+    "product_id": "P0491",
+    "merchant_id": "M040",
+    "product_name": "薯片先生",
+    "category_name": "薯片",
+    "retail_price": 20.89,
+    "cost_price": 14.12,
+    "status": "active",
+    "stock": 108
+  },
+  {
+    "product_id": "P0492",
+    "merchant_id": "M040",
+    "product_name": "上好佳薯片",
+    "category_name": "薯片",
+    "retail_price": 49.39,
+    "cost_price": 26.31,
+    "status": "active",
+    "stock": 175
+  },
+  {
+    "product_id": "P0493",
+    "merchant_id": "M040",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 15.71,
+    "cost_price": 8.54,
+    "status": "active",
+    "stock": 45
+  },
+  {
+    "product_id": "P0494",
+    "merchant_id": "M040",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 36.21,
+    "cost_price": 18.82,
+    "status": "active",
+    "stock": 62
+  },
+  {
+    "product_id": "P0495",
+    "merchant_id": "M041",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 38.31,
+    "cost_price": 20.85,
+    "status": "active",
+    "stock": 101
+  },
+  {
+    "product_id": "P0496",
+    "merchant_id": "M041",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 49.49,
+    "cost_price": 26.93,
+    "status": "active",
+    "stock": 126
+  },
+  {
+    "product_id": "P0497",
+    "merchant_id": "M041",
+    "product_name": "人头马",
+    "category_name": "洋酒",
+    "retail_price": 41.69,
+    "cost_price": 20.89,
+    "status": "active",
+    "stock": 137
+  },
+  {
+    "product_id": "P0498",
+    "merchant_id": "M041",
+    "product_name": "轩尼诗",
+    "category_name": "洋酒",
+    "retail_price": 16.78,
+    "cost_price": 9.07,
+    "status": "active",
+    "stock": 176
+  },
+  {
+    "product_id": "P0499",
+    "merchant_id": "M041",
+    "product_name": "乐事薯片",
+    "category_name": "薯片",
+    "retail_price": 43.53,
+    "cost_price": 28.7,
+    "status": "active",
+    "stock": 107
+  },
+  {
+    "product_id": "P0500",
+    "merchant_id": "M041",
+    "product_name": "可比克薯片",
+    "category_name": "薯片",
+    "retail_price": 18.59,
+    "cost_price": 11.09,
+    "status": "active",
+    "stock": 77
+  },
+  {
+    "product_id": "P0501",
+    "merchant_id": "M041",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 15.66,
+    "cost_price": 7.93,
+    "status": "active",
+    "stock": 4
+  },
+  {
+    "product_id": "P0502",
+    "merchant_id": "M041",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 30.07,
+    "cost_price": 20.65,
+    "status": "active",
+    "stock": 159
+  },
+  {
+    "product_id": "P0503",
+    "merchant_id": "M041",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 12.73,
+    "cost_price": 8.62,
+    "status": "active",
+    "stock": 146
+  },
+  {
+    "product_id": "P0504",
+    "merchant_id": "M042",
+    "product_name": "红牛250ml",
+    "category_name": "功能饮料",
+    "retail_price": 17.51,
+    "cost_price": 11.3,
+    "status": "active",
+    "stock": 81
+  },
+  {
+    "product_id": "P0505",
+    "merchant_id": "M042",
+    "product_name": "东鹏特饮",
+    "category_name": "功能饮料",
+    "retail_price": 38.49,
+    "cost_price": 26.76,
+    "status": "active",
+    "stock": 151
+  },
+  {
+    "product_id": "P0506",
+    "merchant_id": "M042",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 47.23,
+    "cost_price": 26.7,
+    "status": "active",
+    "stock": 0
+  },
+  {
+    "product_id": "P0507",
+    "merchant_id": "M042",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 9.79,
+    "cost_price": 4.96,
+    "status": "active",
+    "stock": 151
+  },
+  {
+    "product_id": "P0508",
+    "merchant_id": "M042",
+    "product_name": "青岛啤酒330ml",
+    "category_name": "啤酒",
+    "retail_price": 43.21,
+    "cost_price": 25.25,
+    "status": "active",
+    "stock": 9
+  },
+  {
+    "product_id": "P0509",
+    "merchant_id": "M042",
+    "product_name": "百威啤酒500ml",
+    "category_name": "啤酒",
+    "retail_price": 43.72,
+    "cost_price": 25.22,
+    "status": "active",
+    "stock": 68
+  },
+  {
+    "product_id": "P0510",
+    "merchant_id": "M042",
+    "product_name": "雪花啤酒",
+    "category_name": "啤酒",
+    "retail_price": 28.32,
+    "cost_price": 17.43,
+    "status": "active",
+    "stock": 83
+  },
+  {
+    "product_id": "P0511",
+    "merchant_id": "M042",
+    "product_name": "可口可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 36.81,
+    "cost_price": 22.92,
+    "status": "active",
+    "stock": 61
+  },
+  {
+    "product_id": "P0512",
+    "merchant_id": "M042",
+    "product_name": "百事可乐",
+    "category_name": "碳酸饮料",
+    "retail_price": 43.64,
+    "cost_price": 24.38,
+    "status": "active",
+    "stock": 30
+  },
+  {
+    "product_id": "P0513",
+    "merchant_id": "M042",
+    "product_name": "洽洽瓜子",
+    "category_name": "坚果",
+    "retail_price": 28.4,
+    "cost_price": 15.38,
+    "status": "active",
+    "stock": 157
+  },
+  {
+    "product_id": "P0514",
+    "merchant_id": "M042",
+    "product_name": "三只松鼠坚果",
+    "category_name": "坚果",
+    "retail_price": 41.5,
+    "cost_price": 20.84,
+    "status": "active",
+    "stock": 180
+  },
+  {
+    "product_id": "P0515",
+    "merchant_id": "M042",
+    "product_name": "百草味坚果",
+    "category_name": "坚果",
+    "retail_price": 48.05,
+    "cost_price": 26.93,
+    "status": "active",
+    "stock": 198
+  },
+  {
+    "product_id": "P0516",
+    "merchant_id": "M042",
+    "product_name": "康师傅泡面",
+    "category_name": "速食",
+    "retail_price": 27.12,
+    "cost_price": 14.08,
+    "status": "active",
+    "stock": 135
+  },
+  {
+    "product_id": "P0517",
+    "merchant_id": "M042",
+    "product_name": "统一老坛酸菜",
+    "category_name": "速食",
+    "retail_price": 8.13,
+    "cost_price": 4.63,
+    "status": "active",
+    "stock": 153
+  },
+  {
+    "product_id": "P0518",
+    "merchant_id": "M042",
+    "product_name": "自热火锅",
+    "category_name": "速食",
+    "retail_price": 35.98,
+    "cost_price": 23.47,
+    "status": "active",
+    "stock": 11
+  },
+  {
+    "product_id": "P0519",
+    "merchant_id": "M043",
+    "product_name": "威士忌",
+    "category_name": "洋酒",
+    "retail_price": 33.71,
+    "cost_price": 21.73,
+    "status": "active",
+    "stock": 122
+  },
+  {
+    "product_id": "P0520",
+    "merchant_id": "M043",
+    "product_name": "伏特加",
+    "category_name": "洋酒",
+    "retail_price": 46.06,
+    "cost_price": 23.43,
+    "status": "active",
+    "stock": 183
+  }
+]

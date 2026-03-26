@@ -1,0 +1,1902 @@
+[
+  {
+    "event_id": "SPORTS_0001",
+    "event_name": "赛事：曼 vs 马",
+    "summary": "CBA足球比赛，曼对阵马",
+    "time": "2026-03-21 18:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "马"
+    ],
+    "league": "CBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 8719348,
+    "click_count": 3084587,
+    "heat_score": 66,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0002",
+    "event_name": "赛事：金 vs 阳",
+    "summary": "NBA篮球比赛，金对阵阳",
+    "time": "2026-03-21 17:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "阳"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 31043383,
+    "click_count": 1403690,
+    "heat_score": 75,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0003",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "世界杯篮球比赛，掘对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 1579791,
+    "click_count": 825628,
+    "heat_score": 95,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0004",
+    "event_name": "赛事：湖 vs 士",
+    "summary": "欧冠篮球比赛，湖对阵士",
+    "time": "2026-03-21 17:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "士"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 4530617,
+    "click_count": 4197860,
+    "heat_score": 83,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0005",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 18:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 12604247,
+    "click_count": 3301476,
+    "heat_score": 95,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0006",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 46461618,
+    "click_count": 2849746,
+    "heat_score": 95,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0007",
+    "event_name": "赛事：人 vs 士",
+    "summary": "NBA篮球比赛，人对阵士",
+    "time": "2026-03-21 19:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 25660082,
+    "click_count": 3572615,
+    "heat_score": 95,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0008",
+    "event_name": "赛事：曼 vs 马",
+    "summary": "欧冠足球比赛，曼对阵马",
+    "time": "2026-03-21 18:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "马"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 11332490,
+    "click_count": 2025550,
+    "heat_score": 95,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0009",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 17975435,
+    "click_count": 2626217,
+    "heat_score": 95,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0010",
+    "event_name": "赛事：湖 vs 士",
+    "summary": "世界杯篮球比赛，湖对阵士",
+    "time": "2026-03-21 19:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "士"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 27296489,
+    "click_count": 1165784,
+    "heat_score": 76,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0011",
+    "event_name": "赛事：湖 vs 勇",
+    "summary": "世界杯篮球比赛，湖对阵勇",
+    "time": "2026-03-21 17:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "勇"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 38225877,
+    "click_count": 109762,
+    "heat_score": 95,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0012",
+    "event_name": "赛事：城 vs 马",
+    "summary": "德甲足球比赛，城对阵马",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "马"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 34863899,
+    "click_count": 2554036,
+    "heat_score": 67,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0013",
+    "event_name": "赛事：人 vs 勇",
+    "summary": "欧冠篮球比赛，人对阵勇",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "勇"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 40776835,
+    "click_count": 3644947,
+    "heat_score": 70,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0014",
+    "event_name": "赛事：尤 vs 米",
+    "summary": "意甲足球比赛，尤对阵米",
+    "time": "2026-03-21 17:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "米"
+    ],
+    "league": "意甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 1299377,
+    "click_count": 2083231,
+    "heat_score": 65,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0015",
+    "event_name": "赛事：湖 vs 士",
+    "summary": "NBA篮球比赛，湖对阵士",
+    "time": "2026-03-21 18:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "士"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 47692999,
+    "click_count": 193851,
+    "heat_score": 89,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0016",
+    "event_name": "赛事：曼 vs 皇",
+    "summary": "意甲足球比赛，曼对阵皇",
+    "time": "2026-03-21 18:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "皇"
+    ],
+    "league": "意甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 2371064,
+    "click_count": 181639,
+    "heat_score": 72,
+    "created_at": "2026-03-21T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0017",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "NBA篮球比赛，掘对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 38523380,
+    "click_count": 3146026,
+    "heat_score": 90,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0018",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 36899833,
+    "click_count": 3040704,
+    "heat_score": 62,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0019",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "欧冠篮球比赛，掘对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 45984715,
+    "click_count": 63833,
+    "heat_score": 83,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0020",
+    "event_name": "赛事：图 vs 米",
+    "summary": "英超足球比赛，图对阵米",
+    "time": "2026-03-21 19:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "米"
+    ],
+    "league": "英超",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 22947804,
+    "click_count": 3212166,
+    "heat_score": 83,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0021",
+    "event_name": "赛事：人 vs 勇",
+    "summary": "世界杯篮球比赛，人对阵勇",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "勇"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 12740149,
+    "click_count": 4967736,
+    "heat_score": 95,
+    "created_at": "2026-03-20T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0022",
+    "event_name": "赛事：斯 vs 兰",
+    "summary": "西甲足球比赛，斯对阵兰",
+    "time": "2026-03-21 19:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "兰"
+    ],
+    "league": "西甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 42918354,
+    "click_count": 513945,
+    "heat_score": 73,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0023",
+    "event_name": "赛事：曼 vs 皇",
+    "summary": "欧冠足球比赛，曼对阵皇",
+    "time": "2026-03-21 19:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "皇"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 47033276,
+    "click_count": 1873285,
+    "heat_score": 66,
+    "created_at": "2026-03-20T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0024",
+    "event_name": "赛事：曼 vs 皇",
+    "summary": "德甲足球比赛，曼对阵皇",
+    "time": "2026-03-21 19:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "皇"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 1632079,
+    "click_count": 4757224,
+    "heat_score": 80,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0025",
+    "event_name": "赛事：人 vs 勇",
+    "summary": "世界杯篮球比赛，人对阵勇",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "勇"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 39594646,
+    "click_count": 3239927,
+    "heat_score": 89,
+    "created_at": "2026-03-21T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0026",
+    "event_name": "赛事：掘 vs 阳",
+    "summary": "NBA篮球比赛，掘对阵阳",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "阳"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 36139133,
+    "click_count": 3567910,
+    "heat_score": 61,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0027",
+    "event_name": "赛事：城 vs 马",
+    "summary": "欧冠足球比赛，城对阵马",
+    "time": "2026-03-21 19:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "马"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 36554350,
+    "click_count": 3178495,
+    "heat_score": 81,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0028",
+    "event_name": "赛事：湖 vs 勇",
+    "summary": "NBA篮球比赛，湖对阵勇",
+    "time": "2026-03-21 18:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "勇"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 45223826,
+    "click_count": 2761154,
+    "heat_score": 95,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0029",
+    "event_name": "赛事：掘 vs 阳",
+    "summary": "世界杯篮球比赛，掘对阵阳",
+    "time": "2026-03-21 17:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "阳"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 5194141,
+    "click_count": 3763869,
+    "heat_score": 87,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0030",
+    "event_name": "赛事：图 vs 兰",
+    "summary": "德甲足球比赛，图对阵兰",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "兰"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 1408794,
+    "click_count": 2123957,
+    "heat_score": 80,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0031",
+    "event_name": "赛事：掘 vs 阳",
+    "summary": "世界杯篮球比赛，掘对阵阳",
+    "time": "2026-03-21 17:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "阳"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 42281770,
+    "click_count": 4524572,
+    "heat_score": 78,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0032",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "世界杯篮球比赛，掘对阵太",
+    "time": "2026-03-21 18:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 7888212,
+    "click_count": 226670,
+    "heat_score": 80,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0033",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 25108453,
+    "click_count": 1687393,
+    "heat_score": 72,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0034",
+    "event_name": "赛事：文 vs 兰",
+    "summary": "欧冠足球比赛，文对阵兰",
+    "time": "2026-03-21 17:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "文",
+      "兰"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 27124974,
+    "click_count": 602007,
+    "heat_score": 81,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0035",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "欧冠篮球比赛，掘对阵太",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 24060269,
+    "click_count": 2064912,
+    "heat_score": 68,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0036",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 35350960,
+    "click_count": 536081,
+    "heat_score": 89,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0037",
+    "event_name": "赛事：湖 vs 勇",
+    "summary": "世界杯篮球比赛，湖对阵勇",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "勇"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 7471288,
+    "click_count": 4002794,
+    "heat_score": 68,
+    "created_at": "2026-03-21T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0038",
+    "event_name": "赛事：图 vs C",
+    "summary": "意甲足球比赛，图对阵C",
+    "time": "2026-03-21 18:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "C"
+    ],
+    "league": "意甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 9549720,
+    "click_count": 365240,
+    "heat_score": 70,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0039",
+    "event_name": "赛事：人 vs 士",
+    "summary": "欧冠篮球比赛，人对阵士",
+    "time": "2026-03-21 18:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 26555372,
+    "click_count": 4512792,
+    "heat_score": 95,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0040",
+    "event_name": "赛事：城 vs 皇",
+    "summary": "德甲足球比赛，城对阵皇",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "皇"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 17836499,
+    "click_count": 4758626,
+    "heat_score": 95,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0041",
+    "event_name": "赛事：掘 vs 阳",
+    "summary": "NBA篮球比赛，掘对阵阳",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "阳"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 6783957,
+    "click_count": 2659879,
+    "heat_score": 65,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0042",
+    "event_name": "赛事：人 vs 士",
+    "summary": "NBA篮球比赛，人对阵士",
+    "time": "2026-03-21 19:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 39125029,
+    "click_count": 3782821,
+    "heat_score": 69,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0043",
+    "event_name": "赛事：人 vs 士",
+    "summary": "欧冠篮球比赛，人对阵士",
+    "time": "2026-03-21 18:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 44662979,
+    "click_count": 4235914,
+    "heat_score": 95,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0044",
+    "event_name": "赛事：尤 vs C",
+    "summary": "NBA足球比赛，尤对阵C",
+    "time": "2026-03-21 17:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "C"
+    ],
+    "league": "NBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 34373468,
+    "click_count": 935485,
+    "heat_score": 77,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0045",
+    "event_name": "赛事：尤 vs A",
+    "summary": "NBA足球比赛，尤对阵A",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "A"
+    ],
+    "league": "NBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 30629464,
+    "click_count": 2306841,
+    "heat_score": 89,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0046",
+    "event_name": "赛事：文 vs C",
+    "summary": "意甲足球比赛，文对阵C",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "文",
+      "C"
+    ],
+    "league": "意甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 13272762,
+    "click_count": 1942039,
+    "heat_score": 75,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0047",
+    "event_name": "赛事：人 vs 勇",
+    "summary": "世界杯篮球比赛，人对阵勇",
+    "time": "2026-03-21 19:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "勇"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 43555972,
+    "click_count": 673981,
+    "heat_score": 70,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0048",
+    "event_name": "赛事：尤 vs A",
+    "summary": "CBA足球比赛，尤对阵A",
+    "time": "2026-03-21 18:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "A"
+    ],
+    "league": "CBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 27673471,
+    "click_count": 647550,
+    "heat_score": 79,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0049",
+    "event_name": "赛事：图 vs 兰",
+    "summary": "欧洲杯足球比赛，图对阵兰",
+    "time": "2026-03-21 17:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "兰"
+    ],
+    "league": "欧洲杯",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 14456250,
+    "click_count": 2925834,
+    "heat_score": 67,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0050",
+    "event_name": "赛事：人 vs 士",
+    "summary": "NBA篮球比赛，人对阵士",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 14081148,
+    "click_count": 1908728,
+    "heat_score": 95,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0051",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "欧冠篮球比赛，掘对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 36085217,
+    "click_count": 1174039,
+    "heat_score": 69,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0052",
+    "event_name": "赛事：斯 vs C",
+    "summary": "欧冠足球比赛，斯对阵C",
+    "time": "2026-03-21 18:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "C"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 47404985,
+    "click_count": 3223712,
+    "heat_score": 95,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0053",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "欧冠篮球比赛，掘对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 27532751,
+    "click_count": 447638,
+    "heat_score": 95,
+    "created_at": "2026-03-20T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0054",
+    "event_name": "赛事：尤 vs 兰",
+    "summary": "世界杯足球比赛，尤对阵兰",
+    "time": "2026-03-21 19:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "兰"
+    ],
+    "league": "世界杯",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 42550043,
+    "click_count": 2260070,
+    "heat_score": 87,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0055",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 3090855,
+    "click_count": 2410787,
+    "heat_score": 84,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0056",
+    "event_name": "赛事：人 vs 勇",
+    "summary": "NBA篮球比赛，人对阵勇",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "勇"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 29182695,
+    "click_count": 339686,
+    "heat_score": 74,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0057",
+    "event_name": "赛事：图 vs 米",
+    "summary": "CBA足球比赛，图对阵米",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "米"
+    ],
+    "league": "CBA",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 49338691,
+    "click_count": 1136910,
+    "heat_score": 95,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0058",
+    "event_name": "赛事：图 vs C",
+    "summary": "CBA足球比赛，图对阵C",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "C"
+    ],
+    "league": "CBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 49845848,
+    "click_count": 1984781,
+    "heat_score": 72,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0059",
+    "event_name": "赛事：湖 vs 士",
+    "summary": "欧冠篮球比赛，湖对阵士",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "士"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 32606401,
+    "click_count": 107529,
+    "heat_score": 95,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0060",
+    "event_name": "赛事：人 vs 士",
+    "summary": "世界杯篮球比赛，人对阵士",
+    "time": "2026-03-21 18:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 24528423,
+    "click_count": 4245999,
+    "heat_score": 60,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0061",
+    "event_name": "赛事：金 vs 太",
+    "summary": "世界杯篮球比赛，金对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 14161846,
+    "click_count": 2998386,
+    "heat_score": 95,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0062",
+    "event_name": "赛事：图 vs A",
+    "summary": "欧冠足球比赛，图对阵A",
+    "time": "2026-03-21 17:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "图",
+      "A"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 23325638,
+    "click_count": 1558085,
+    "heat_score": 77,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0063",
+    "event_name": "赛事：人 vs 士",
+    "summary": "世界杯篮球比赛，人对阵士",
+    "time": "2026-03-21 19:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 3181266,
+    "click_count": 678105,
+    "heat_score": 95,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0064",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "世界杯篮球比赛，掘对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 2775895,
+    "click_count": 169354,
+    "heat_score": 82,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0065",
+    "event_name": "赛事：曼 vs 马",
+    "summary": "欧冠足球比赛，曼对阵马",
+    "time": "2026-03-21 18:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "马"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 46170015,
+    "click_count": 3956070,
+    "heat_score": 73,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0066",
+    "event_name": "赛事：曼 vs 皇",
+    "summary": "欧冠足球比赛，曼对阵皇",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "皇"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 8936152,
+    "click_count": 4180267,
+    "heat_score": 70,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0067",
+    "event_name": "赛事：尤 vs 兰",
+    "summary": "NBA足球比赛，尤对阵兰",
+    "time": "2026-03-21 19:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "兰"
+    ],
+    "league": "NBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 30670526,
+    "click_count": 1972664,
+    "heat_score": 82,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0068",
+    "event_name": "赛事：城 vs 皇",
+    "summary": "德甲足球比赛，城对阵皇",
+    "time": "2026-03-21 19:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "皇"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 49028816,
+    "click_count": 4538656,
+    "heat_score": 75,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0069",
+    "event_name": "赛事：城 vs 皇",
+    "summary": "德甲足球比赛，城对阵皇",
+    "time": "2026-03-21 17:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "皇"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 41871037,
+    "click_count": 4655204,
+    "heat_score": 95,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0070",
+    "event_name": "赛事：城 vs 皇",
+    "summary": "NBA足球比赛，城对阵皇",
+    "time": "2026-03-21 19:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "皇"
+    ],
+    "league": "NBA",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 47172994,
+    "click_count": 1575555,
+    "heat_score": 95,
+    "created_at": "2026-03-21T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0071",
+    "event_name": "赛事：斯 vs 米",
+    "summary": "欧洲杯足球比赛，斯对阵米",
+    "time": "2026-03-21 19:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "米"
+    ],
+    "league": "欧洲杯",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 591117,
+    "click_count": 4767335,
+    "heat_score": 90,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0072",
+    "event_name": "赛事：湖 vs 士",
+    "summary": "欧冠篮球比赛，湖对阵士",
+    "time": "2026-03-21 19:51",
+    "location": "慕尼黑",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "士"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 14244416,
+    "click_count": 3227132,
+    "heat_score": 77,
+    "created_at": "2026-03-18T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0073",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 18:51",
+    "location": "巴黎",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 25086778,
+    "click_count": 3911235,
+    "heat_score": 62,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0074",
+    "event_name": "赛事：城 vs 马",
+    "summary": "NBA足球比赛，城对阵马",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "马"
+    ],
+    "league": "NBA",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 8515403,
+    "click_count": 211573,
+    "heat_score": 73,
+    "created_at": "2026-03-21T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0075",
+    "event_name": "赛事：金 vs 太",
+    "summary": "世界杯篮球比赛，金对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 14570820,
+    "click_count": 4946452,
+    "heat_score": 84,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0076",
+    "event_name": "赛事：湖 vs 勇",
+    "summary": "NBA篮球比赛，湖对阵勇",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "勇"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 35376122,
+    "click_count": 224925,
+    "heat_score": 71,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0077",
+    "event_name": "赛事：城 vs 皇",
+    "summary": "英超足球比赛，城对阵皇",
+    "time": "2026-03-21 18:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "皇"
+    ],
+    "league": "英超",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 42211904,
+    "click_count": 4881889,
+    "heat_score": 60,
+    "created_at": "2026-03-18T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0078",
+    "event_name": "赛事：斯 vs 米",
+    "summary": "德甲足球比赛，斯对阵米",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "米"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 30233767,
+    "click_count": 2716469,
+    "heat_score": 71,
+    "created_at": "2026-03-20T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0079",
+    "event_name": "赛事：城 vs 皇",
+    "summary": "欧冠足球比赛，城对阵皇",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "皇"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 15149186,
+    "click_count": 2347679,
+    "heat_score": 60,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0080",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "欧冠篮球比赛，掘对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 14720446,
+    "click_count": 2419638,
+    "heat_score": 95,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0081",
+    "event_name": "赛事：湖 vs 士",
+    "summary": "世界杯篮球比赛，湖对阵士",
+    "time": "2026-03-21 17:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "湖",
+      "士"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 26744764,
+    "click_count": 4139369,
+    "heat_score": 77,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0082",
+    "event_name": "赛事：斯 vs 兰",
+    "summary": "西甲足球比赛，斯对阵兰",
+    "time": "2026-03-21 18:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "兰"
+    ],
+    "league": "西甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 33815537,
+    "click_count": 954193,
+    "heat_score": 85,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0083",
+    "event_name": "赛事：曼 vs 马",
+    "summary": "德甲足球比赛，曼对阵马",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "马"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 49275996,
+    "click_count": 3373034,
+    "heat_score": 64,
+    "created_at": "2026-03-21T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0084",
+    "event_name": "赛事：斯 vs A",
+    "summary": "西甲足球比赛，斯对阵A",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "A"
+    ],
+    "league": "西甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 1957206,
+    "click_count": 2543863,
+    "heat_score": 82,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0085",
+    "event_name": "赛事：城 vs 马",
+    "summary": "英超足球比赛，城对阵马",
+    "time": "2026-03-21 19:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "城",
+      "马"
+    ],
+    "league": "英超",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 12040905,
+    "click_count": 4648108,
+    "heat_score": 66,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0086",
+    "event_name": "赛事：人 vs 士",
+    "summary": "欧冠篮球比赛，人对阵士",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 14821412,
+    "click_count": 4529887,
+    "heat_score": 90,
+    "created_at": "2026-03-19T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0087",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "NBA篮球比赛，掘对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 49291165,
+    "click_count": 1624441,
+    "heat_score": 95,
+    "created_at": "2026-03-20T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0088",
+    "event_name": "赛事：斯 vs 米",
+    "summary": "德甲足球比赛，斯对阵米",
+    "time": "2026-03-21 17:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "斯",
+      "米"
+    ],
+    "league": "德甲",
+    "sport_type": "足球",
+    "is_final": true,
+    "view_count": 14653469,
+    "click_count": 895519,
+    "heat_score": 95,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0089",
+    "event_name": "赛事：人 vs 士",
+    "summary": "NBA篮球比赛，人对阵士",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 38071812,
+    "click_count": 1418443,
+    "heat_score": 75,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0090",
+    "event_name": "赛事：金 vs 太",
+    "summary": "世界杯篮球比赛，金对阵太",
+    "time": "2026-03-21 17:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 17480731,
+    "click_count": 4552314,
+    "heat_score": 95,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0091",
+    "event_name": "赛事：尤 vs 米",
+    "summary": "欧洲杯足球比赛，尤对阵米",
+    "time": "2026-03-21 17:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "尤",
+      "米"
+    ],
+    "league": "欧洲杯",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 43151908,
+    "click_count": 4015976,
+    "heat_score": 65,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0092",
+    "event_name": "赛事：曼 vs 马",
+    "summary": "欧冠足球比赛，曼对阵马",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "曼",
+      "马"
+    ],
+    "league": "欧冠",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 36973554,
+    "click_count": 853778,
+    "heat_score": 74,
+    "created_at": "2026-03-18T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0093",
+    "event_name": "赛事：文 vs A",
+    "summary": "西甲足球比赛，文对阵A",
+    "time": "2026-03-21 18:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "文",
+      "A"
+    ],
+    "league": "西甲",
+    "sport_type": "足球",
+    "is_final": false,
+    "view_count": 32433824,
+    "click_count": 1433213,
+    "heat_score": 60,
+    "created_at": "2026-03-19T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0094",
+    "event_name": "赛事：掘 vs 太",
+    "summary": "世界杯篮球比赛，掘对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "太"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 41213321,
+    "click_count": 2532266,
+    "heat_score": 68,
+    "created_at": "2026-03-20T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0095",
+    "event_name": "赛事：金 vs 太",
+    "summary": "欧冠篮球比赛，金对阵太",
+    "time": "2026-03-21 19:51",
+    "location": "马德里",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "太"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 11854474,
+    "click_count": 3755733,
+    "heat_score": 81,
+    "created_at": "2026-03-20T19:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0096",
+    "event_name": "赛事：掘 vs 阳",
+    "summary": "欧冠篮球比赛，掘对阵阳",
+    "time": "2026-03-21 17:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "掘",
+      "阳"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 23452796,
+    "click_count": 4382164,
+    "heat_score": 64,
+    "created_at": "2026-03-19T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0097",
+    "event_name": "赛事：人 vs 士",
+    "summary": "世界杯篮球比赛，人对阵士",
+    "time": "2026-03-21 17:51",
+    "location": "纽约",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "士"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 16925853,
+    "click_count": 4923236,
+    "heat_score": 85,
+    "created_at": "2026-03-20T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0098",
+    "event_name": "赛事：金 vs 阳",
+    "summary": "NBA篮球比赛，金对阵阳",
+    "time": "2026-03-21 17:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "阳"
+    ],
+    "league": "NBA",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 25703488,
+    "click_count": 140117,
+    "heat_score": 73,
+    "created_at": "2026-03-21T17:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0099",
+    "event_name": "赛事：金 vs 阳",
+    "summary": "欧冠篮球比赛，金对阵阳",
+    "time": "2026-03-21 18:51",
+    "location": "洛杉矶",
+    "event_type": "sports",
+    "teams": [
+      "金",
+      "阳"
+    ],
+    "league": "欧冠",
+    "sport_type": "篮球",
+    "is_final": false,
+    "view_count": 36657177,
+    "click_count": 1155993,
+    "heat_score": 71,
+    "created_at": "2026-03-21T18:51:15.583169"
+  },
+  {
+    "event_id": "SPORTS_0100",
+    "event_name": "赛事：人 vs 勇",
+    "summary": "世界杯篮球比赛，人对阵勇",
+    "time": "2026-03-21 19:51",
+    "location": "伦敦",
+    "event_type": "sports",
+    "teams": [
+      "人",
+      "勇"
+    ],
+    "league": "世界杯",
+    "sport_type": "篮球",
+    "is_final": true,
+    "view_count": 20183520,
+    "click_count": 1547871,
+    "heat_score": 95,
+    "created_at": "2026-03-20T19:51:15.583169"
+  }
+]

@@ -1,0 +1,460 @@
+{
+  "数据集说明": "用户行为测试集 - 历史订单数据",
+  "数据量": 105000,
+  "时间跨度": "2024-04-01至2024-06-30（共90天）",
+  "夜间时段定义": "20:00-次日06:00",
+  "生成日期": "2024-07-01",
+  "数据来源": "模拟生成",
+  "order_records_sample": [
+    {
+      "order_id": "O001",
+      "user_id": "U001",
+      "merchant_id": "M001",
+      "order_time": "2024-04-05T22:30:00Z",
+      "delivery_time": "2024-04-05T23:05:00Z",
+      "city": "北京",
+      "district": "朝阳区",
+      "location_type": "写字楼",
+      "products": [
+        {"product_id": "P001", "product_name": "青岛啤酒500ml", "category": "啤酒", "quantity": 6, "unit_price": 8.5, "subtotal": 51.0},
+        {"product_id": "P002", "product_name": "乐事薯片原味", "category": "零食", "quantity": 2, "unit_price": 12.0, "subtotal": 24.0},
+        {"product_id": "P003", "product_name": "卤味拼盘", "category": "卤味", "quantity": 1, "unit_price": 32.0, "subtotal": 32.0}
+      ],
+      "total_amount": 107.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "欧洲杯半决赛-法国vs德国",
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O002",
+      "user_id": "U002",
+      "merchant_id": "M002",
+      "order_time": "2024-04-05T21:45:00Z",
+      "delivery_time": "2024-04-05T22:15:00Z",
+      "city": "上海",
+      "district": "浦东新区",
+      "location_type": "商业区",
+      "products": [
+        {"product_id": "P004", "product_name": "喜茶多肉葡萄", "category": "奶茶", "quantity": 1, "unit_price": 32.0, "subtotal": 32.0},
+        {"product_id": "P005", "product_name": "元气森林气泡水", "category": "饮料", "quantity": 3, "unit_price": 8.0, "subtotal": 24.0},
+        {"product_id": "P006", "product_name": "每日坚果礼盒", "category": "零食", "quantity": 1, "unit_price": 58.0, "subtotal": 58.0}
+      ],
+      "total_amount": 114.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "小雨",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O003",
+      "user_id": "U003",
+      "merchant_id": "M003",
+      "order_time": "2024-04-06T02:15:00Z",
+      "delivery_time": "2024-04-06T02:45:00Z",
+      "city": "广州",
+      "district": "天河区",
+      "location_type": "住宅区",
+      "products": [
+        {"product_id": "P007", "product_name": "康师傅红烧牛肉面", "category": "泡面", "quantity": 2, "unit_price": 5.5, "subtotal": 11.0},
+        {"product_id": "P008", "product_name": "双汇火腿肠", "category": "火腿肠", "quantity": 3, "unit_price": 4.5, "subtotal": 13.5},
+        {"product_id": "P009", "product_name": "青岛啤酒500ml", "category": "啤酒", "quantity": 4, "unit_price": 7.5, "subtotal": 30.0}
+      ],
+      "total_amount": 54.5,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "晴",
+        "is_weekend": true,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O004",
+      "user_id": "U004",
+      "merchant_id": "M004",
+      "order_time": "2024-04-06T00:30:00Z",
+      "delivery_time": "2024-04-06T01:00:00Z",
+      "city": "成都",
+      "district": "锦江区",
+      "location_type": "大学周边",
+      "products": [
+        {"product_id": "P010", "product_name": "哈尔滨啤酒小棕瓶", "category": "啤酒", "quantity": 8, "unit_price": 6.0, "subtotal": 48.0},
+        {"product_id": "P011", "product_name": "乐事薯片烧烤味", "category": "零食", "quantity": 2, "unit_price": 11.0, "subtotal": 22.0},
+        {"product_id": "P012", "product_name": "可口可乐330ml", "category": "碳酸饮料", "quantity": 4, "unit_price": 4.0, "subtotal": 16.0},
+        {"product_id": "P013", "product_name": "麦当劳炸鸡套餐", "category": "炸鸡", "quantity": 1, "unit_price": 35.0, "subtotal": 35.0}
+      ],
+      "total_amount": 121.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "阴",
+        "is_weekend": true,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O005",
+      "user_id": "U005",
+      "merchant_id": "M005",
+      "order_time": "2024-04-10T21:00:00Z",
+      "delivery_time": "2024-04-10T21:30:00Z",
+      "city": "深圳",
+      "district": "南山区",
+      "location_type": "写字楼",
+      "products": [
+        {"product_id": "P014", "product_name": "张裕解百纳红酒", "category": "红酒", "quantity": 1, "unit_price": 168.0, "subtotal": 168.0},
+        {"product_id": "P015", "product_name": "进口奶酪拼盘", "category": "奶酪", "quantity": 1, "unit_price": 88.0, "subtotal": 88.0},
+        {"product_id": "P016", "product_name": "圣培露气泡水", "category": "气泡水", "quantity": 2, "unit_price": 18.0, "subtotal": 36.0}
+      ],
+      "total_amount": 292.0,
+      "order_status": "completed",
+      "payment_method": "credit_card",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "欧冠决赛-曼城vs皇马",
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O006",
+      "user_id": "U006",
+      "merchant_id": "M006",
+      "order_time": "2024-04-10T01:00:00Z",
+      "delivery_time": "2024-04-10T01:25:00Z",
+      "city": "杭州",
+      "district": "西湖区",
+      "location_type": "住宅区",
+      "products": [
+        {"product_id": "P017", "product_name": "红牛功能饮料", "category": "能量饮料", "quantity": 2, "unit_price": 12.0, "subtotal": 24.0},
+        {"product_id": "P018", "product_name": "康师傅泡面打包", "category": "泡面", "quantity": 2, "unit_price": 8.0, "subtotal": 16.0}
+      ],
+      "total_amount": 40.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "欧冠决赛-曼城vs皇马",
+        "weather": "阴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O007",
+      "user_id": "U007",
+      "merchant_id": "M007",
+      "order_time": "2024-04-15T01:30:00Z",
+      "delivery_time": "2024-04-15T02:00:00Z",
+      "city": "北京",
+      "district": "海淀区",
+      "location_type": "公寓",
+      "products": [
+        {"product_id": "P019", "product_name": "一点点奶茶", "category": "奶茶", "quantity": 2, "unit_price": 22.0, "subtotal": 44.0},
+        {"product_id": "P020", "product_name": "麦当劳炸鸡桶", "category": "炸鸡", "quantity": 1, "unit_price": 55.0, "subtotal": 55.0},
+        {"product_id": "P021", "product_name": "乐事薯片混合装", "category": "零食", "quantity": 3, "unit_price": 10.0, "subtotal": 30.0}
+      ],
+      "total_amount": 129.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "LOL全球总决赛",
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O008",
+      "user_id": "U008",
+      "merchant_id": "M008",
+      "order_time": "2024-04-28T21:30:00Z",
+      "delivery_time": "2024-04-28T22:00:00Z",
+      "city": "重庆",
+      "district": "渝中区",
+      "location_type": "商业区",
+      "products": [
+        {"product_id": "P022", "product_name": "百威啤酒原味", "category": "啤酒", "quantity": 12, "unit_price": 9.0, "subtotal": 108.0},
+        {"product_id": "P023", "product_name": "RIO微醺系列", "category": "洋酒", "quantity": 4, "unit_price": 15.0, "subtotal": 60.0},
+        {"product_id": "P024", "product_name": "绝味鸭脖拼盘", "category": "卤味", "quantity": 2, "unit_price": 28.0, "subtotal": 56.0}
+      ],
+      "total_amount": 224.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "世界杯亚洲区预选赛-中国vs韩国",
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O009",
+      "user_id": "U012",
+      "merchant_id": "M009",
+      "order_time": "2024-05-05T23:00:00Z",
+      "delivery_time": "2024-05-05T23:30:00Z",
+      "city": "上海",
+      "district": "静安区",
+      "location_type": "训练基地",
+      "products": [
+        {"product_id": "P025", "product_name": "红牛整箱装", "category": "能量饮料", "quantity": 2, "unit_price": 108.0, "subtotal": 216.0},
+        {"product_id": "P026", "product_name": "百威啤酒原味", "category": "啤酒", "quantity": 8, "unit_price": 8.0, "subtotal": 64.0},
+        {"product_id": "P027", "product_name": "麦当劳巨无霸套餐", "category": "炸鸡", "quantity": 3, "unit_price": 38.0, "subtotal": 114.0}
+      ],
+      "total_amount": 394.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "NBA总决赛G1-湖人vs凯尔特人",
+        "weather": "晴",
+        "is_weekend": true,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O010",
+      "user_id": "U015",
+      "merchant_id": "M010",
+      "order_time": "2024-05-10T22:30:00Z",
+      "delivery_time": "2024-05-10T23:00:00Z",
+      "city": "苏州",
+      "district": "姑苏区",
+      "location_type": "商业区",
+      "products": [
+        {"product_id": "P028", "product_name": "轩尼诗XO", "category": "洋酒", "quantity": 1, "unit_price": 388.0, "subtotal": 388.0},
+        {"product_id": "P029", "product_name": "科罗娜啤酒", "category": "啤酒", "quantity": 6, "unit_price": 15.0, "subtotal": 90.0},
+        {"product_id": "P030", "product_name": "烧烤外卖套餐", "category": "烧烤", "quantity": 1, "unit_price": 128.0, "subtotal": 128.0}
+      ],
+      "total_amount": 606.0,
+      "order_status": "completed",
+      "payment_method": "credit_card",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "欧洲杯决赛-法国vs西班牙",
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O011",
+      "user_id": "U011",
+      "merchant_id": "M011",
+      "order_time": "2024-05-12T23:00:00Z",
+      "delivery_time": "2024-05-12T23:25:00Z",
+      "city": "西安",
+      "district": "雁塔区",
+      "location_type": "医院",
+      "products": [
+        {"product_id": "P031", "product_name": "星巴克拿铁大杯", "category": "咖啡", "quantity": 2, "unit_price": 36.0, "subtotal": 72.0},
+        {"product_id": "P032", "product_name": "每日坚果混合装", "category": "坚果", "quantity": 1, "unit_price": 45.0, "subtotal": 45.0},
+        {"product_id": "P033", "product_name": "光明莫斯利安酸奶", "category": "酸奶", "quantity": 2, "unit_price": 12.0, "subtotal": 24.0}
+      ],
+      "total_amount": 141.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "多云",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O012",
+      "user_id": "U014",
+      "merchant_id": "M012",
+      "order_time": "2024-05-20T00:00:00Z",
+      "delivery_time": "2024-05-20T00:30:00Z",
+      "city": "北京",
+      "district": "东城区",
+      "location_type": "公寓",
+      "products": [
+        {"product_id": "P034", "product_name": "一点点奶茶大杯", "category": "奶茶", "quantity": 1, "unit_price": 28.0, "subtotal": 28.0},
+        {"product_id": "P035", "product_name": "德芙巧克力礼盒", "category": "零食", "quantity": 1, "unit_price": 68.0, "subtotal": 68.0},
+        {"product_id": "P036", "product_name": "乐事薯片蜂蜜黄油味", "category": "零食", "quantity": 2, "unit_price": 11.0, "subtotal": 22.0}
+      ],
+      "total_amount": 118.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O013",
+      "user_id": "U009",
+      "merchant_id": "M013",
+      "order_time": "2024-06-05T21:30:00Z",
+      "delivery_time": "2024-06-05T22:00:00Z",
+      "city": "武汉",
+      "district": "武昌区",
+      "location_type": "住宅区",
+      "products": [
+        {"product_id": "P037", "product_name": "康师傅泡面套装", "category": "泡面", "quantity": 3, "unit_price": 12.0, "subtotal": 36.0},
+        {"product_id": "P038", "product_name": "卫龙辣条大礼包", "category": "零食", "quantity": 1, "unit_price": 25.0, "subtotal": 25.0},
+        {"product_id": "P039", "product_name": "可口可乐整箱", "category": "碳酸饮料", "quantity": 1, "unit_price": 48.0, "subtotal": 48.0}
+      ],
+      "total_amount": 109.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "阴",
+        "is_weekend": true,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O014",
+      "user_id": "U010",
+      "merchant_id": "M014",
+      "order_time": "2024-06-10T22:45:00Z",
+      "delivery_time": "2024-06-10T23:15:00Z",
+      "city": "南京",
+      "district": "鼓楼区",
+      "location_type": "工业区",
+      "products": [
+        {"product_id": "P040", "product_name": "青岛啤酒原浆", "category": "啤酒", "quantity": 6, "unit_price": 12.0, "subtotal": 72.0},
+        {"product_id": "P041", "product_name": "绝味毛豆", "category": "卤味", "quantity": 2, "unit_price": 15.0, "subtotal": 30.0},
+        {"product_id": "P042", "product_name": "泡面火腿套餐", "category": "泡面", "quantity": 2, "unit_price": 10.0, "subtotal": 20.0}
+      ],
+      "total_amount": 122.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": true
+      }
+    },
+    {
+      "order_id": "O015",
+      "user_id": "U013",
+      "merchant_id": "M015",
+      "order_time": "2024-06-15T00:30:00Z",
+      "delivery_time": "2024-06-15T01:00:00Z",
+      "city": "天津",
+      "district": "和平区",
+      "location_type": "商场",
+      "products": [
+        {"product_id": "P043", "product_name": "康师傅红烧牛肉面", "category": "泡面", "quantity": 2, "unit_price": 5.5, "subtotal": 11.0},
+        {"product_id": "P044", "product_name": "双汇王中王", "category": "火腿肠", "quantity": 4, "unit_price": 4.5, "subtotal": 18.0},
+        {"product_id": "P045", "product_name": "青岛啤酒小瓶", "category": "啤酒", "quantity": 3, "unit_price": 6.0, "subtotal": 18.0}
+      ],
+      "total_amount": 47.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": false,
+        "event_name": null,
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O016",
+      "user_id": "U001",
+      "merchant_id": "M001",
+      "order_time": "2024-06-20T22:00:00Z",
+      "delivery_time": "2024-06-20T22:30:00Z",
+      "city": "北京",
+      "district": "朝阳区",
+      "location_type": "写字楼",
+      "products": [
+        {"product_id": "P046", "product_name": "百威啤酒组合装", "category": "啤酒", "quantity": 10, "unit_price": 8.5, "subtotal": 85.0},
+        {"product_id": "P047", "product_name": "卤味三拼", "category": "卤味", "quantity": 1, "unit_price": 38.0, "subtotal": 38.0},
+        {"product_id": "P048", "product_name": "乐事薯片麻辣味", "category": "零食", "quantity": 3, "unit_price": 11.0, "subtotal": 33.0}
+      ],
+      "total_amount": 156.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "奥运会开幕式",
+        "weather": "晴",
+        "is_weekend": true,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O017",
+      "user_id": "U004",
+      "merchant_id": "M016",
+      "order_time": "2024-06-25T23:30:00Z",
+      "delivery_time": "2024-06-26T00:00:00Z",
+      "city": "成都",
+      "district": "锦江区",
+      "location_type": "大学周边",
+      "products": [
+        {"product_id": "P049", "product_name": "哈尔滨啤酒小棕瓶", "category": "啤酒", "quantity": 6, "unit_price": 6.0, "subtotal": 36.0},
+        {"product_id": "P050", "product_name": "小龙虾麻辣套餐", "category": "小龙虾", "quantity": 1, "unit_price": 88.0, "subtotal": 88.0},
+        {"product_id": "P051", "product_name": "可乐整箱", "category": "碳酸饮料", "quantity": 1, "unit_price": 42.0, "subtotal": 42.0}
+      ],
+      "total_amount": 166.0,
+      "order_status": "completed",
+      "payment_method": "wechat",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "LPL夏季赛决赛BLG夺冠",
+        "weather": "晴",
+        "is_weekend": true,
+        "is_holiday": false
+      }
+    },
+    {
+      "order_id": "O018",
+      "user_id": "U002",
+      "merchant_id": "M017",
+      "order_time": "2024-06-30T21:00:00Z",
+      "delivery_time": "2024-06-30T21:30:00Z",
+      "city": "上海",
+      "district": "浦东新区",
+      "location_type": "商业区",
+      "products": [
+        {"product_id": "P052", "product_name": "喜茶杨枝甘露", "category": "奶茶", "quantity": 1, "unit_price": 29.0, "subtotal": 29.0},
+        {"product_id": "P053", "product_name": "水果捞大份", "category": "水果", "quantity": 1, "unit_price": 38.0, "subtotal": 38.0},
+        {"product_id": "P054", "product_name": "元气森林白桃味", "category": "气泡水", "quantity": 4, "unit_price": 8.0, "subtotal": 32.0}
+      ],
+      "total_amount": 99.0,
+      "order_status": "completed",
+      "payment_method": "alipay",
+      "event_context": {
+        "has_sports_event": true,
+        "event_name": "世界杯决赛",
+        "weather": "晴",
+        "is_weekend": false,
+        "is_holiday": false
+      }
+    }
+  ]
+}

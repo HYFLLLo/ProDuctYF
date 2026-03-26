@@ -1,0 +1,5680 @@
+{
+  "数据集说明": "事件数据标注集 - 用于事件理解分析Agent评估",
+  "数据量": 320,
+  "生成日期": "2026-03-20",
+  "数据用途": "评估事件分类、信息抽取、去重、热度计算的准确性",
+  "annotations": [
+    {
+      "annotation_id": "ANNOT001",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-法国vs德国",
+        "raw_content": "法国对阵德国，4月5日凌晨2点在慕尼黑进行，央视五套直播，预计5000万观众"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2024-04-05T02:00:00Z",
+      "standard_location": "德国慕尼黑",
+      "standard_entities": [
+        "法国",
+        "德国",
+        "欧洲杯"
+      ],
+      "standard_heat_score": 88,
+      "confidence_level": 0.95,
+      "annotator_notes": "国际大赛，热门对决，热度较高"
+    },
+    {
+      "annotation_id": "ANNOT002",
+      "raw_data": {
+        "event_name": "欧冠决赛曼城vs皇马",
+        "raw_content": "4月10日凌晨三点，欧冠决赛曼城对阵皇家马德里，微博讨论量突破1亿"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2024-04-10T03:00:00Z",
+      "standard_location": "英国伦敦",
+      "standard_entities": [
+        "曼城",
+        "皇家马德里",
+        "欧冠"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.98,
+      "annotator_notes": "欧冠决赛，顶级流量，热度极高"
+    },
+    {
+      "annotation_id": "ANNOT003",
+      "raw_data": {
+        "event_name": "LOL全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛4月15日在首尔举行，T1、GEN、JDG等战队参赛"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2024-04-15T15:00:00Z",
+      "standard_location": "韩国首尔",
+      "standard_entities": [
+        "英雄联盟",
+        "T1",
+        "GEN",
+        "JDG",
+        "S14"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.96,
+      "annotator_notes": "电竞世界杯，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0004",
+      "raw_data": {
+        "event_name": "电影《熊出没·狂野大陆》首映礼",
+        "raw_content": "满江红首映礼在慕尼黑举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-04-07T19:23:06.574892Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "熊出没·狂野大陆"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.88,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0005",
+      "raw_data": {
+        "event_name": "颁奖典礼-奥斯卡",
+        "raw_content": "金马奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-12T19:23:06.574892Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0006",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-30T19:23:06.574892Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.76,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0007",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛02月20日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-31T19:23:06.574892Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "JDG",
+        "巴西",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0008",
+      "raw_data": {
+        "event_name": "秋老虎发威",
+        "raw_content": "南方多地秋老虎持续高温，最高气温达38度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-22T19:23:06.574892Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "秋老虎发威"
+      ],
+      "standard_heat_score": 51,
+      "confidence_level": 0.85,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0009",
+      "raw_data": {
+        "event_name": "颁奖典礼-格莱美",
+        "raw_content": "金马奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-31T19:23:06.574892Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.83,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0010",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-25T19:23:06.574892Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 88,
+      "confidence_level": 0.8,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0011",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在上海举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-03-27T19:23:06.574892Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "JDG",
+        "拜仁",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0012",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-04-03T19:23:06.574892Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 88,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0013",
+      "raw_data": {
+        "event_name": "选秀节目《披荆斩棘的哥哥》总决赛",
+        "raw_content": "《偶像练习生》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-07T19:23:06.574892Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "披荆斩棘的哥哥"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.93,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0014",
+      "raw_data": {
+        "event_name": "NBA总决赛-意大利vs皇马",
+        "raw_content": "意大利击败皇马夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-13T19:23:06.574892Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "意大利",
+        "皇马",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0015",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-31T19:23:06.574892Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0016",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-30T19:23:06.574892Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.84,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0017",
+      "raw_data": {
+        "event_name": "演唱会-王菲世界巡回",
+        "raw_content": "林俊杰世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-12T19:23:06.574892Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "演唱会-王"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.89,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0018",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-葡萄牙vs英国",
+        "raw_content": "葡萄牙对阵英国，04月14日在伦敦进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-03-17T19:23:06.574892Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "葡萄牙",
+        "英国",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0019",
+      "raw_data": {
+        "event_name": "世界杯决赛-JDGvsBLG",
+        "raw_content": "JDG与BLG的世界杯决赛，03月05日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-08T19:23:06.574892Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "JDG",
+        "BLG",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0020",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-24T19:23:06.574892Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 48,
+      "confidence_level": 0.95,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0021",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式03月02日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-16T19:23:06.574892Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "曼城",
+        "西班牙",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0022",
+      "raw_data": {
+        "event_name": "NBA总决赛-英国vs曼联",
+        "raw_content": "英国击败曼联夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-16T19:23:06.574892Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "英国",
+        "曼联",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.98,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0023",
+      "raw_data": {
+        "event_name": "世界杯预选赛-切尔西vs巴西",
+        "raw_content": "切尔西主场迎战巴西，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-23T19:23:06.574892Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "切尔西",
+        "巴西",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.85,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0024",
+      "raw_data": {
+        "event_name": "世界杯预选赛-比利时vs拜仁",
+        "raw_content": "比利时主场迎战拜仁，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-22T19:23:06.574892Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "比利时",
+        "拜仁",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0025",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-18T19:23:06.574892Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.82,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0026",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.86,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0027",
+      "raw_data": {
+        "event_name": "电视剧《梦华录》大结局",
+        "raw_content": "《长相思》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-04T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "梦华录"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0028",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在巴黎举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-05T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "意大利",
+        "皇马",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0029",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0030",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.81,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0031",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在东京举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-17T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "阿根廷",
+        "曼联",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 88,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0032",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-30T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.77,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0033",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-皇马vs巴西",
+        "raw_content": "皇马对阵巴西，04月01日在慕尼黑进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-04T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "皇马",
+        "巴西",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.98,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0034",
+      "raw_data": {
+        "event_name": "NBA总决赛-阿根廷vsBLG",
+        "raw_content": "阿根廷击败BLG夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-03T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "阿根廷",
+        "BLG",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0035",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.79,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0036",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-20T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0037",
+      "raw_data": {
+        "event_name": "欧冠决赛-荷兰vs皇马",
+        "raw_content": "荷兰对阵皇马，03月15日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-03T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "荷兰",
+        "皇马",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0038",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在上海举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-02T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "德国",
+        "西班牙",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.93,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0039",
+      "raw_data": {
+        "event_name": "NBA总决赛-荷兰vs德国",
+        "raw_content": "荷兰击败德国夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-16T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "荷兰",
+        "德国",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 86,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0040",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.81,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0041",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-04-12T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.87,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0042",
+      "raw_data": {
+        "event_name": "暴雨红色预警",
+        "raw_content": "部分地区发布暴雨红色预警，请注意防范"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "暴雨红色预警"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.84,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0043",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-04T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.91,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0044",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0045",
+      "raw_data": {
+        "event_name": "世界杯预选赛-德国vsGEN",
+        "raw_content": "德国主场迎战GEN，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-11T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "德国",
+        "GEN",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0046",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 52,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0047",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 62,
+      "confidence_level": 0.91,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0048",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0049",
+      "raw_data": {
+        "event_name": "演唱会-邓紫棋世界巡回",
+        "raw_content": "蔡依林世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-27T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "演唱会-邓"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.86,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0050",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式04月13日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-06T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "巴萨",
+        "JDG",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.85,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0051",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式04月10日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-27T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "拜仁",
+        "GEN",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0052",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-27T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.93,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0053",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-04-03T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.86,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0054",
+      "raw_data": {
+        "event_name": "世界杯预选赛-阿根廷vs德国",
+        "raw_content": "阿根廷主场迎战德国，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "阿根廷",
+        "德国",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0055",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式02月19日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-16T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "荷兰",
+        "英国",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0056",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.79,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0057",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-20T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0058",
+      "raw_data": {
+        "event_name": "欧冠决赛-阿根廷vs比利时",
+        "raw_content": "阿根廷对阵比利时，03月27日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "阿根廷",
+        "比利时",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0059",
+      "raw_data": {
+        "event_name": "NBA总决赛-西班牙vs比利时",
+        "raw_content": "西班牙击败比利时夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-18T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "西班牙",
+        "比利时",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 91,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0060",
+      "raw_data": {
+        "event_name": "电影《八角笼中》首映礼",
+        "raw_content": "八角笼中首映礼在东京举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-14T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "八角笼中"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.87,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0061",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-15T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.79,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0062",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 58,
+      "confidence_level": 0.83,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0063",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在上海举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-17T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "曼城",
+        "荷兰",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 88,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0064",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式04月03日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-13T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "切尔西",
+        "GEN",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0065",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式03月13日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-17T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "葡萄牙",
+        "比利时",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0066",
+      "raw_data": {
+        "event_name": "电视剧《去有风的地方》大结局",
+        "raw_content": "《漫长的季节》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-23T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "去有风的地方"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.95,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0067",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.77,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0068",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-GENvs比利时",
+        "raw_content": "GEN对阵比利时，03月30日在马德里进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "GEN",
+        "比利时",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0069",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.82,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0070",
+      "raw_data": {
+        "event_name": "世界杯预选赛-英国vsJDG",
+        "raw_content": "英国主场迎战JDG，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-18T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "英国",
+        "JDG",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0071",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式03月14日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-10T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "BLG",
+        "葡萄牙",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 87,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0072",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-BLGvs西班牙",
+        "raw_content": "BLG对阵西班牙，03月30日在慕尼黑进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "BLG",
+        "西班牙",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 88,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0073",
+      "raw_data": {
+        "event_name": "演唱会-蔡依林世界巡回",
+        "raw_content": "王菲世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-15T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "演唱会-蔡"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.86,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0074",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.82,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0075",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在首尔举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-07T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "曼联",
+        "西班牙",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0076",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 67,
+      "confidence_level": 0.8,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0077",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-荷兰vsJDG",
+        "raw_content": "荷兰对阵JDG，04月07日在伦敦进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-12T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "荷兰",
+        "JDG",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.97,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0078",
+      "raw_data": {
+        "event_name": "科技突破",
+        "raw_content": "人工智能领域取得重大突破，领先全球"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-15T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "科技突破"
+      ],
+      "standard_heat_score": 67,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0079",
+      "raw_data": {
+        "event_name": "欧冠决赛-阿根廷vs曼城",
+        "raw_content": "阿根廷对阵曼城，04月03日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-31T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "阿根廷",
+        "曼城",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0080",
+      "raw_data": {
+        "event_name": "欧冠决赛-曼城vs荷兰",
+        "raw_content": "曼城对阵荷兰，02月25日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-14T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "曼城",
+        "荷兰",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0081",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 56,
+      "confidence_level": 0.91,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0082",
+      "raw_data": {
+        "event_name": "综艺节目《偶像练习生》新一季开播",
+        "raw_content": "《明日之子》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-10T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "偶像练习生"
+      ],
+      "standard_heat_score": 59,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0083",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0084",
+      "raw_data": {
+        "event_name": "秋老虎发威",
+        "raw_content": "南方多地秋老虎持续高温，最高气温达38度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-20T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "秋老虎发威"
+      ],
+      "standard_heat_score": 45,
+      "confidence_level": 0.82,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0085",
+      "raw_data": {
+        "event_name": "世界杯决赛-英国vs荷兰",
+        "raw_content": "英国与荷兰的世界杯决赛，03月11日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-30T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "英国",
+        "荷兰",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 98,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0086",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-30T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 64,
+      "confidence_level": 0.81,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0087",
+      "raw_data": {
+        "event_name": "科技突破",
+        "raw_content": "人工智能领域取得重大突破，领先全球"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-20T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "科技突破"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0088",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 53,
+      "confidence_level": 0.95,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0089",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0090",
+      "raw_data": {
+        "event_name": "秋老虎发威",
+        "raw_content": "南方多地秋老虎持续高温，最高气温达38度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "秋老虎发威"
+      ],
+      "standard_heat_score": 42,
+      "confidence_level": 0.95,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0091",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在巴黎举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-16T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "曼城",
+        "巴萨",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.97,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0092",
+      "raw_data": {
+        "event_name": "综艺节目《明日之子》新一季开播",
+        "raw_content": "《青春有你》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-16T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "明日之子"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0093",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0094",
+      "raw_data": {
+        "event_name": "演唱会-陈奕迅世界巡回",
+        "raw_content": "陈奕迅世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "演唱会-陈"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.94,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0095",
+      "raw_data": {
+        "event_name": "演唱会-五月天世界巡回",
+        "raw_content": "五月天世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "演唱会-五"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.89,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0096",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0097",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.79,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0098",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在伦敦举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-15T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "意大利",
+        "西班牙",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0099",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0100",
+      "raw_data": {
+        "event_name": "寒潮来袭",
+        "raw_content": "西伯利亚寒潮来袭，全国大部分地区降温8-12度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "寒潮来袭"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.91,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0101",
+      "raw_data": {
+        "event_name": "欧冠决赛-曼联vs英国",
+        "raw_content": "曼联对阵英国，04月07日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-07T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "曼联",
+        "英国",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0102",
+      "raw_data": {
+        "event_name": "欧冠决赛-曼联vs皇马",
+        "raw_content": "曼联对阵皇马，03月27日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-05T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "曼联",
+        "皇马",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0103",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛03月30日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "BLG",
+        "葡萄牙",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0104",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-20T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.83,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0105",
+      "raw_data": {
+        "event_name": "颁奖典礼-奥斯卡",
+        "raw_content": "金马奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.95,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0106",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-23T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 59,
+      "confidence_level": 0.95,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0107",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-04-02T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.88,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0108",
+      "raw_data": {
+        "event_name": "世界杯决赛-JDGvs巴西",
+        "raw_content": "JDG与巴西的世界杯决赛，04月12日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "JDG",
+        "巴西",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0109",
+      "raw_data": {
+        "event_name": "世界杯决赛-BLGvs法国",
+        "raw_content": "BLG与法国的世界杯决赛，04月13日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "BLG",
+        "法国",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0110",
+      "raw_data": {
+        "event_name": "电影《热辣滚烫》首映礼",
+        "raw_content": "流浪地球3首映礼在巴塞罗那举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-13T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "热辣滚烫"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.87,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0111",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.81,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0112",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-14T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0113",
+      "raw_data": {
+        "event_name": "世界杯预选赛-英国vsBLG",
+        "raw_content": "英国主场迎战BLG，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "英国",
+        "BLG",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0114",
+      "raw_data": {
+        "event_name": "颁奖典礼-MTV奖",
+        "raw_content": "格莱美颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 64,
+      "confidence_level": 0.86,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0115",
+      "raw_data": {
+        "event_name": "电视剧《去有风的地方》大结局",
+        "raw_content": "《漫长的季节》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-14T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "去有风的地方"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.89,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0116",
+      "raw_data": {
+        "event_name": "电视剧《梦华录》大结局",
+        "raw_content": "《梦华录》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-03-15T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "梦华录"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.93,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0117",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 58,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0118",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-13T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0119",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛04月14日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-18T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "皇马",
+        "法国",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0120",
+      "raw_data": {
+        "event_name": "电影《满江红》首映礼",
+        "raw_content": "热辣滚烫首映礼在上海举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-11T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "满江红"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.82,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0121",
+      "raw_data": {
+        "event_name": "颁奖典礼-格莱美",
+        "raw_content": "奥斯卡颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0122",
+      "raw_data": {
+        "event_name": "选秀节目《极限挑战》总决赛",
+        "raw_content": "《明日之子》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "极限挑战"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.8,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0123",
+      "raw_data": {
+        "event_name": "演唱会-蔡依林世界巡回",
+        "raw_content": "蔡依林世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-04-02T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "演唱会-蔡"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.91,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0124",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0125",
+      "raw_data": {
+        "event_name": "综艺节目《青春有你》新一季开播",
+        "raw_content": "《披荆斩棘的哥哥》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-03-27T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "青春有你"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.88,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0126",
+      "raw_data": {
+        "event_name": "NBA总决赛-皇马vsBLG",
+        "raw_content": "皇马击败BLG夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "皇马",
+        "BLG",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0127",
+      "raw_data": {
+        "event_name": "欧冠决赛-阿根廷vs切尔西",
+        "raw_content": "阿根廷对阵切尔西，04月07日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-19T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "阿根廷",
+        "切尔西",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0128",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0129",
+      "raw_data": {
+        "event_name": "寒潮来袭",
+        "raw_content": "西伯利亚寒潮来袭，全国大部分地区降温8-12度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-27T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "寒潮来袭"
+      ],
+      "standard_heat_score": 53,
+      "confidence_level": 0.89,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0130",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.89,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0131",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-18T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.88,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0132",
+      "raw_data": {
+        "event_name": "NBA总决赛-曼联vsBLG",
+        "raw_content": "曼联击败BLG夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-23T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "曼联",
+        "BLG",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0133",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 45,
+      "confidence_level": 0.9,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0134",
+      "raw_data": {
+        "event_name": "欧冠决赛-GENvs巴萨",
+        "raw_content": "GEN对阵巴萨，03月06日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "GEN",
+        "巴萨",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0135",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛03月28日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "比利时",
+        "巴萨",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.93,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0136",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.81,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0137",
+      "raw_data": {
+        "event_name": "NBA总决赛-曼城vs切尔西",
+        "raw_content": "曼城击败切尔西夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "曼城",
+        "切尔西",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0138",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.89,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0139",
+      "raw_data": {
+        "event_name": "世界杯决赛-BLGvs阿根廷",
+        "raw_content": "BLG与阿根廷的世界杯决赛，02月20日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-05T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "BLG",
+        "阿根廷",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 91,
+      "confidence_level": 0.98,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0140",
+      "raw_data": {
+        "event_name": "世界杯预选赛-葡萄牙vsGEN",
+        "raw_content": "葡萄牙主场迎战GEN，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "葡萄牙",
+        "GEN",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0141",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.89,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0142",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-04-02T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.84,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0143",
+      "raw_data": {
+        "event_name": "欧冠决赛-比利时vs英国",
+        "raw_content": "比利时对阵英国，03月07日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-14T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "比利时",
+        "英国",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 91,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0144",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-13T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0145",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.85,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0146",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛03月08日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "意大利",
+        "BLG",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0147",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-30T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.88,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0148",
+      "raw_data": {
+        "event_name": "欧冠决赛-德国vs葡萄牙",
+        "raw_content": "德国对阵葡萄牙，03月30日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-11T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "德国",
+        "葡萄牙",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 93,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0149",
+      "raw_data": {
+        "event_name": "电影《飞驰人生2》首映礼",
+        "raw_content": "八角笼中首映礼在巴黎举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "飞驰人生2"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.86,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0150",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 57,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0151",
+      "raw_data": {
+        "event_name": "欧冠决赛-JDGvs曼城",
+        "raw_content": "JDG对阵曼城，02月20日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-16T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "JDG",
+        "曼城",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0152",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.76,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0153",
+      "raw_data": {
+        "event_name": "NBA总决赛-德国vs曼城",
+        "raw_content": "德国击败曼城夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-16T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "德国",
+        "曼城",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0154",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛02月25日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-09T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "德国",
+        "曼城",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0155",
+      "raw_data": {
+        "event_name": "世界杯决赛-切尔西vsBLG",
+        "raw_content": "切尔西与BLG的世界杯决赛，04月18日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-30T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "切尔西",
+        "BLG",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 96,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0156",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 67,
+      "confidence_level": 0.81,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0157",
+      "raw_data": {
+        "event_name": "电视剧《长相思》大结局",
+        "raw_content": "《苍兰诀》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-17T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "长相思"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.88,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0158",
+      "raw_data": {
+        "event_name": "演唱会-陈奕迅世界巡回",
+        "raw_content": "邓紫棋世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-15T19:23:06.576553Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "演唱会-陈"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.86,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0159",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-23T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.91,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0160",
+      "raw_data": {
+        "event_name": "世界杯决赛-切尔西vsT1",
+        "raw_content": "切尔西与T1的世界杯决赛，04月17日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-20T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "切尔西",
+        "T1",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0161",
+      "raw_data": {
+        "event_name": "寒潮来袭",
+        "raw_content": "西伯利亚寒潮来袭，全国大部分地区降温8-12度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "寒潮来袭"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.82,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0162",
+      "raw_data": {
+        "event_name": "世界杯决赛-曼联vs英国",
+        "raw_content": "曼联与英国的世界杯决赛，04月01日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "曼联",
+        "英国",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 89,
+      "confidence_level": 0.97,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0163",
+      "raw_data": {
+        "event_name": "颁奖典礼-金马奖",
+        "raw_content": "MTV奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-04T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.89,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0164",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在东京举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-18T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "巴萨",
+        "切尔西",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 86,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0165",
+      "raw_data": {
+        "event_name": "选秀节目《偶像练习生》总决赛",
+        "raw_content": "《偶像练习生》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "偶像练习生"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.94,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0166",
+      "raw_data": {
+        "event_name": "寒潮来袭",
+        "raw_content": "西伯利亚寒潮来袭，全国大部分地区降温8-12度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-21T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "寒潮来袭"
+      ],
+      "standard_heat_score": 52,
+      "confidence_level": 0.94,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0167",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在巴黎举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-19T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "BLG",
+        "GEN",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0168",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-16T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0169",
+      "raw_data": {
+        "event_name": "科技突破",
+        "raw_content": "人工智能领域取得重大突破，领先全球"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-14T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "科技突破"
+      ],
+      "standard_heat_score": 64,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0170",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 55,
+      "confidence_level": 0.91,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0171",
+      "raw_data": {
+        "event_name": "科技突破",
+        "raw_content": "人工智能领域取得重大突破，领先全球"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "科技突破"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.79,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0172",
+      "raw_data": {
+        "event_name": "世界杯预选赛-葡萄牙vs意大利",
+        "raw_content": "葡萄牙主场迎战意大利，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-06T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "葡萄牙",
+        "意大利",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0173",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0174",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.83,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0175",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 55,
+      "confidence_level": 0.9,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0176",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-西班牙vs拜仁",
+        "raw_content": "西班牙对阵拜仁，04月15日在马德里进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-05T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "西班牙",
+        "拜仁",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0177",
+      "raw_data": {
+        "event_name": "NBA总决赛-皇马vsGEN",
+        "raw_content": "皇马击败GEN夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-14T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "皇马",
+        "GEN",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0178",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.91,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0179",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-29T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.76,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0180",
+      "raw_data": {
+        "event_name": "综艺节目《偶像练习生》新一季开播",
+        "raw_content": "《披荆斩棘的哥哥》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-04-07T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "偶像练习生"
+      ],
+      "standard_heat_score": 57,
+      "confidence_level": 0.91,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0181",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-皇马vs曼城",
+        "raw_content": "皇马对阵曼城，03月16日在巴黎进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "皇马",
+        "曼城",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.93,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0182",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.86,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0183",
+      "raw_data": {
+        "event_name": "综艺节目《创造营》新一季开播",
+        "raw_content": "《乘风破浪的姐姐》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-04-19T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "创造营"
+      ],
+      "standard_heat_score": 59,
+      "confidence_level": 0.88,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0184",
+      "raw_data": {
+        "event_name": "选秀节目《乘风破浪的姐姐》总决赛",
+        "raw_content": "《奔跑吧》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "乘风破浪的姐姐"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.83,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0185",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在米兰举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-13T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "葡萄牙",
+        "比利时",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0186",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-04-03T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.89,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0187",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-15T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.86,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0188",
+      "raw_data": {
+        "event_name": "演唱会-王菲世界巡回",
+        "raw_content": "张学友世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-12T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "演唱会-王"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.91,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0189",
+      "raw_data": {
+        "event_name": "世界杯决赛-法国vsGEN",
+        "raw_content": "法国与GEN的世界杯决赛，03月16日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-12T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "法国",
+        "GEN",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.95,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0190",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-英国vsJDG",
+        "raw_content": "英国对阵JDG，03月24日在慕尼黑进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "英国",
+        "JDG",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0191",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-18T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.75,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0192",
+      "raw_data": {
+        "event_name": "电影《八角笼中》首映礼",
+        "raw_content": "坚如磐石首映礼在马德里举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-04-16T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "八角笼中"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.8,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0193",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在马德里举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-09T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "JDG",
+        "巴西",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0194",
+      "raw_data": {
+        "event_name": "世界杯决赛-切尔西vs曼城",
+        "raw_content": "切尔西与曼城的世界杯决赛，02月18日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-06T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "切尔西",
+        "曼城",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 91,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0195",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-13T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0196",
+      "raw_data": {
+        "event_name": "欧冠决赛-曼联vs比利时",
+        "raw_content": "曼联对阵比利时，03月15日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-01T19:23:06.576553Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "曼联",
+        "比利时",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.93,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0197",
+      "raw_data": {
+        "event_name": "暴雨红色预警",
+        "raw_content": "部分地区发布暴雨红色预警，请注意防范"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "暴雨红色预警"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.87,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0198",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-28T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0199",
+      "raw_data": {
+        "event_name": "综艺节目《青春有你》新一季开播",
+        "raw_content": "《偶像练习生》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-13T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "青春有你"
+      ],
+      "standard_heat_score": 57,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0200",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 62,
+      "confidence_level": 0.87,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0201",
+      "raw_data": {
+        "event_name": "世界杯预选赛-比利时vs法国",
+        "raw_content": "比利时主场迎战法国，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "比利时",
+        "法国",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0202",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-30T19:23:06.576553Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.9,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0203",
+      "raw_data": {
+        "event_name": "世界杯决赛-GENvs巴萨",
+        "raw_content": "GEN与巴萨的世界杯决赛，02月26日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-13T19:23:06.576553Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "GEN",
+        "巴萨",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 98,
+      "confidence_level": 0.98,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0204",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-07T19:23:06.576553Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0205",
+      "raw_data": {
+        "event_name": "选秀节目《极限挑战》总决赛",
+        "raw_content": "《披荆斩棘的哥哥》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-11T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "极限挑战"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0206",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-14T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.84,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0207",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛04月03日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-08T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "巴萨",
+        "T1",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0208",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.91,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0209",
+      "raw_data": {
+        "event_name": "选秀节目《披荆斩棘的哥哥》总决赛",
+        "raw_content": "《青春有你》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-23T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "披荆斩棘的哥哥"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.93,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0210",
+      "raw_data": {
+        "event_name": "NBA总决赛-切尔西vs巴西",
+        "raw_content": "切尔西击败巴西夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-26T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "切尔西",
+        "巴西",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 86,
+      "confidence_level": 0.98,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0211",
+      "raw_data": {
+        "event_name": "综艺节目《极限挑战》新一季开播",
+        "raw_content": "《奔跑吧》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-22T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "极限挑战"
+      ],
+      "standard_heat_score": 57,
+      "confidence_level": 0.87,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0212",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.82,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0213",
+      "raw_data": {
+        "event_name": "演唱会-周杰伦世界巡回",
+        "raw_content": "邓紫棋世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-04-10T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "演唱会-周"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.91,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0214",
+      "raw_data": {
+        "event_name": "秋老虎发威",
+        "raw_content": "南方多地秋老虎持续高温，最高气温达38度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-19T19:23:06.576553Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "秋老虎发威"
+      ],
+      "standard_heat_score": 57,
+      "confidence_level": 0.82,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0215",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-27T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 54,
+      "confidence_level": 0.81,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0216",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-17T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0217",
+      "raw_data": {
+        "event_name": "世界杯预选赛-皇马vs德国",
+        "raw_content": "皇马主场迎战德国，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-12T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "皇马",
+        "德国",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 67,
+      "confidence_level": 0.85,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0218",
+      "raw_data": {
+        "event_name": "电影《流浪地球3》首映礼",
+        "raw_content": "热辣滚烫首映礼在慕尼黑举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-04-08T19:23:06.576553Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "流浪地球3"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0219",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-24T19:23:06.576553Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 58,
+      "confidence_level": 0.95,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0220",
+      "raw_data": {
+        "event_name": "欧冠决赛-德国vs英国",
+        "raw_content": "德国对阵英国，03月14日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-17T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "德国",
+        "英国",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0221",
+      "raw_data": {
+        "event_name": "电影《坚如磐石》首映礼",
+        "raw_content": "飞驰人生2首映礼在巴黎举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-09T19:23:06.576553Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "坚如磐石"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.83,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0222",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-25T19:23:06.576553Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.78,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0223",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式04月07日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-18T19:23:06.576553Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "GEN",
+        "曼城",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0224",
+      "raw_data": {
+        "event_name": "欧冠决赛-曼城vs巴萨",
+        "raw_content": "曼城对阵巴萨，02月19日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-10T19:23:06.576553Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "曼城",
+        "巴萨",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0225",
+      "raw_data": {
+        "event_name": "科技突破",
+        "raw_content": "人工智能领域取得重大突破，领先全球"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-04-03T19:23:06.576553Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "科技突破"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.88,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0226",
+      "raw_data": {
+        "event_name": "NBA总决赛-英国vsBLG",
+        "raw_content": "英国击败BLG夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-22T19:23:06.578068Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "英国",
+        "BLG",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0227",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在米兰举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-18T19:23:06.578068Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "曼联",
+        "皇马",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0228",
+      "raw_data": {
+        "event_name": "选秀节目《乘风破浪的姐姐》总决赛",
+        "raw_content": "《披荆斩棘的哥哥》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-10T19:23:06.578068Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "乘风破浪的姐姐"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.9,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0229",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在首尔举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-23T19:23:06.578068Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "比利时",
+        "荷兰",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0230",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-21T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.87,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0231",
+      "raw_data": {
+        "event_name": "选秀节目《创造营》总决赛",
+        "raw_content": "《乘风破浪的姐姐》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-03-25T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "创造营"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.87,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0232",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式03月26日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-02T19:23:06.578068Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "曼城",
+        "比利时",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0233",
+      "raw_data": {
+        "event_name": "暴雨红色预警",
+        "raw_content": "部分地区发布暴雨红色预警，请注意防范"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-25T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "暴雨红色预警"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.8,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0234",
+      "raw_data": {
+        "event_name": "颁奖典礼-奥斯卡",
+        "raw_content": "金像奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-30T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 64,
+      "confidence_level": 0.95,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0235",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-25T19:23:06.578068Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 51,
+      "confidence_level": 0.81,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0236",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-04-03T19:23:06.578068Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.86,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0237",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式02月18日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-29T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "曼城",
+        "拜仁",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 89,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0238",
+      "raw_data": {
+        "event_name": "颁奖典礼-格莱美",
+        "raw_content": "金鸡奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-11T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.85,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0239",
+      "raw_data": {
+        "event_name": "NBA总决赛-T1vs切尔西",
+        "raw_content": "T1击败切尔西夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-10T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "T1",
+        "切尔西",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.89,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0240",
+      "raw_data": {
+        "event_name": "欧冠决赛-法国vs曼城",
+        "raw_content": "法国对阵曼城，04月02日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-28T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "法国",
+        "曼城",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0241",
+      "raw_data": {
+        "event_name": "选秀节目《偶像练习生》总决赛",
+        "raw_content": "《奔跑吧》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-06T19:23:06.578068Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "偶像练习生"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0242",
+      "raw_data": {
+        "event_name": "综艺节目《乘风破浪的姐姐》新一季开播",
+        "raw_content": "《奔跑吧》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-30T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "乘风破浪的姐姐"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.89,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0243",
+      "raw_data": {
+        "event_name": "世界杯预选赛-BLGvs阿根廷",
+        "raw_content": "BLG主场迎战阿根廷，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-19T19:23:06.578068Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "BLG",
+        "阿根廷",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0244",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在曼彻斯特举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-14T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "西班牙",
+        "阿根廷",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0245",
+      "raw_data": {
+        "event_name": "选秀节目《偶像练习生》总决赛",
+        "raw_content": "《奔跑吧》全国总决赛今晚直播，争夺冠军"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-03-06T19:23:06.578068Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "偶像练习生"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.83,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0246",
+      "raw_data": {
+        "event_name": "秋老虎发威",
+        "raw_content": "南方多地秋老虎持续高温，最高气温达38度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-27T19:23:06.578068Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "秋老虎发威"
+      ],
+      "standard_heat_score": 49,
+      "confidence_level": 0.91,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0247",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-26T19:23:06.578068Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.84,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0248",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在上海举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-17T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "阿根廷",
+        "曼联",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.92,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0249",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-27T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.77,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0250",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-27T19:23:06.578068Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0251",
+      "raw_data": {
+        "event_name": "欧冠决赛-葡萄牙vs巴西",
+        "raw_content": "葡萄牙对阵巴西，04月03日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-09T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "葡萄牙",
+        "巴西",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.93,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0252",
+      "raw_data": {
+        "event_name": "某明星官宣恋情",
+        "raw_content": "某知名演员在微博官宣恋情，粉丝祝福刷屏"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-21T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "明星官宣恋情"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.92,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0253",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在马德里举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-16T19:23:06.578068Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "T1",
+        "西班牙",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0254",
+      "raw_data": {
+        "event_name": "演唱会-陈奕迅世界巡回",
+        "raw_content": "陈奕迅世界巡回演唱会北京站开票，3分钟售罄"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-15T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "演唱会-陈"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.88,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0255",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛03月27日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-18T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "曼联",
+        "切尔西",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.93,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0256",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-23T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0257",
+      "raw_data": {
+        "event_name": "沙尘暴蓝色预警",
+        "raw_content": "北方多地将出现扬沙或浮尘天气"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-22T19:23:06.578068Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "沙尘暴蓝色预警"
+      ],
+      "standard_heat_score": 47,
+      "confidence_level": 0.82,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0258",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-14T19:23:06.578068Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.75,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0259",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-26T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.9,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0260",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在米兰举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-03-23T19:23:06.578068Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "英国",
+        "皇马",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 87,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0261",
+      "raw_data": {
+        "event_name": "综艺节目《青春有你》新一季开播",
+        "raw_content": "《明日之子》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-06T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "青春有你"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.95,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0262",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-18T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 58,
+      "confidence_level": 0.81,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0263",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-17T19:23:06.578068Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 86,
+      "confidence_level": 0.86,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0264",
+      "raw_data": {
+        "event_name": "电影《流浪地球3》首映礼",
+        "raw_content": "热辣滚烫首映礼在巴黎举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-03-13T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "流浪地球3"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.85,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0265",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-21T19:23:06.578068Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.88,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0266",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-30T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.87,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0267",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-04-12T19:23:06.578068Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.84,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0268",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-巴萨vsT1",
+        "raw_content": "巴萨对阵T1，03月30日在米兰进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-08T19:23:06.578068Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "巴萨",
+        "T1",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0269",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-19T19:23:06.578068Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0270",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式03月28日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-01T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "西班牙",
+        "曼联",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 91,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0271",
+      "raw_data": {
+        "event_name": "欧洲杯半决赛-阿根廷vs切尔西",
+        "raw_content": "阿根廷对阵切尔西，03月23日在曼彻斯特进行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-03-29T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "阿根廷",
+        "切尔西",
+        "欧洲杯半决赛"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0272",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-23T19:23:06.578068Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.84,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0273",
+      "raw_data": {
+        "event_name": "欧冠决赛-切尔西vs曼联",
+        "raw_content": "切尔西对阵曼联，03月13日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-13T19:23:06.578068Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "切尔西",
+        "曼联",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0274",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-13T19:23:06.578068Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.79,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0275",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "台风",
+      "standard_time": "2026-03-19T19:23:06.578068Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 51,
+      "confidence_level": 0.92,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0276",
+      "raw_data": {
+        "event_name": "颁奖典礼-格莱美",
+        "raw_content": "MTV奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-03-20T19:23:06.578068Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.94,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0277",
+      "raw_data": {
+        "event_name": "世界杯预选赛-比利时vsBLG",
+        "raw_content": "比利时主场迎战BLG，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-11T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "比利时",
+        "BLG",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.9,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0278",
+      "raw_data": {
+        "event_name": "电视剧《梦华录》大结局",
+        "raw_content": "《繁花》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-03-28T19:23:06.578068Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "梦华录"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.8,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0279",
+      "raw_data": {
+        "event_name": "综艺节目《明日之子》新一季开播",
+        "raw_content": "《青春有你》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-04-01T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "明日之子"
+      ],
+      "standard_heat_score": 58,
+      "confidence_level": 0.95,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0280",
+      "raw_data": {
+        "event_name": "欧冠决赛-T1vs意大利",
+        "raw_content": "T1对阵意大利，02月22日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "综合",
+      "standard_time": "2026-04-18T19:23:06.578068Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "T1",
+        "意大利",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 94,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0281",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在曼彻斯特举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-03-30T19:23:06.578068Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "曼城",
+        "巴萨",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.86,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0282",
+      "raw_data": {
+        "event_name": "欧冠决赛-意大利vs西班牙",
+        "raw_content": "意大利对阵西班牙，03月18日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-02T19:23:06.578068Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "意大利",
+        "西班牙",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0283",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-21T19:23:06.578068Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.78,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0284",
+      "raw_data": {
+        "event_name": "综艺节目《偶像练习生》新一季开播",
+        "raw_content": "《披荆斩棘的哥哥》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-31T19:23:06.578068Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "偶像练习生"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.81,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0285",
+      "raw_data": {
+        "event_name": "世界杯决赛-西班牙vs法国",
+        "raw_content": "西班牙与法国的世界杯决赛，04月12日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21T19:23:06.578068Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "西班牙",
+        "法国",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0286",
+      "raw_data": {
+        "event_name": "颁奖典礼-金鸡奖",
+        "raw_content": "金鸡奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-09T19:23:06.578068Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.92,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0287",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-27T19:23:06.578068Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.85,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0288",
+      "raw_data": {
+        "event_name": "某网红直播翻车",
+        "raw_content": "某头部网红直播带货被指售假，遭平台封禁"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-14T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "网红直播翻车"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.83,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0289",
+      "raw_data": {
+        "event_name": "社会热点事件",
+        "raw_content": "延迟退休成为全国热议话题，观点纷争不断"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-25T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "社会热点事"
+      ],
+      "standard_heat_score": 62,
+      "confidence_level": 0.78,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0290",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "民生",
+      "standard_time": "2026-03-13T19:23:06.578068Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.83,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0291",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-25T19:23:06.578068Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 87,
+      "confidence_level": 0.75,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0292",
+      "raw_data": {
+        "event_name": "电影《熊出没·狂野大陆》首映礼",
+        "raw_content": "飞驰人生2首映礼在慕尼黑举行，主演阵容强大"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "综艺",
+      "standard_time": "2026-04-09T19:23:06.578068Z",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "熊出没·狂野大陆"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.89,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0293",
+      "raw_data": {
+        "event_name": "科技突破",
+        "raw_content": "人工智能领域取得重大突破，领先全球"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-18T19:23:06.578068Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "科技突破"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.8,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0294",
+      "raw_data": {
+        "event_name": "电视剧《长相思》大结局",
+        "raw_content": "《长相思》今晚迎来大结局，收视率创新高"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "音乐",
+      "standard_time": "2026-04-13T19:23:06.578068Z",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "长相思"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.88,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0295",
+      "raw_data": {
+        "event_name": "NBA总决赛-意大利vs曼城",
+        "raw_content": "意大利击败曼城夺得总冠军"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-03-16T19:23:06.578068Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "意大利",
+        "曼城",
+        "NBA总决赛"
+      ],
+      "standard_heat_score": 92,
+      "confidence_level": 0.87,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0296",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "教育",
+      "standard_time": "2026-03-15T19:23:06.578582Z",
+      "standard_location": "全国",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.85,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0297",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛04月09日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "电竞",
+      "standard_time": "2026-04-02T19:23:06.578582Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "意大利",
+        "阿根廷",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.94,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0298",
+      "raw_data": {
+        "event_name": "跨年晚会节目单",
+        "raw_content": "各大卫视跨年晚会节目单曝光，群星璀璨"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电影",
+      "standard_time": "2026-03-17T19:23:06.578582Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "跨年晚会节"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.94,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0299",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-28T19:23:06.578582Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.88,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0300",
+      "raw_data": {
+        "event_name": "温布尔登网球公开赛决赛",
+        "raw_content": "温网男单决赛03月18日，德约科维奇冲击第24冠"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-29T19:23:06.578582Z",
+      "standard_location": "曼彻斯特",
+      "standard_entities": [
+        "阿根廷",
+        "英国",
+        "温布尔登网球公开赛决赛"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度较高"
+    },
+    {
+      "annotation_id": "ANNOT0301",
+      "raw_data": {
+        "event_name": "上海台风警报",
+        "raw_content": "第12号台风预计明天登陆上海，伴随暴雨和大风"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "预警",
+      "standard_time": "2026-03-17T19:23:06.578582Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "上海台风警报"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.87,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0302",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-24T19:23:06.578582Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 59,
+      "confidence_level": 0.88,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0303",
+      "raw_data": {
+        "event_name": "世界杯预选赛-JDGvs葡萄牙",
+        "raw_content": "JDG主场迎战葡萄牙，争夺出线权"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-15T19:23:06.578582Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "JDG",
+        "葡萄牙",
+        "世界杯预选赛"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.85,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0304",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-18T19:23:06.578582Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.91,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0305",
+      "raw_data": {
+        "event_name": "明星塌房事件",
+        "raw_content": "某流量明星被曝负面新闻，代言品牌纷纷解约"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-13T19:23:06.578582Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "明星塌房事"
+      ],
+      "standard_heat_score": 87,
+      "confidence_level": 0.85,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0306",
+      "raw_data": {
+        "event_name": "北京明日降温10度",
+        "raw_content": "北京明天将迎来大幅降温，从25度降至15度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-22T19:23:06.578582Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "北京明日降温10度"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.86,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0307",
+      "raw_data": {
+        "event_name": "颁奖典礼-金鸡奖",
+        "raw_content": "金像奖颁奖典礼今晚举行，多位明星亮相红毯"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "电视剧",
+      "standard_time": "2026-03-11T19:23:06.578582Z",
+      "standard_location": "米兰",
+      "standard_entities": [
+        "颁奖典礼-"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.83,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0308",
+      "raw_data": {
+        "event_name": "世界杯决赛-比利时vs英国",
+        "raw_content": "比利时与英国的世界杯决赛，04月13日"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-04-01T19:23:06.578582Z",
+      "standard_location": "首尔",
+      "standard_entities": [
+        "比利时",
+        "英国",
+        "世界杯决赛"
+      ],
+      "standard_heat_score": 86,
+      "confidence_level": 0.91,
+      "annotator_notes": "体育赛事，关注度极高"
+    },
+    {
+      "annotation_id": "ANNOT0309",
+      "raw_data": {
+        "event_name": "奥运会开幕式",
+        "raw_content": "巴黎奥运会开幕式03月13日，全球直播"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-04-10T19:23:06.578582Z",
+      "standard_location": "巴塞罗那",
+      "standard_entities": [
+        "阿根廷",
+        "皇马",
+        "奥运会开幕式"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.88,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0310",
+      "raw_data": {
+        "event_name": "英雄联盟S14全球总决赛",
+        "raw_content": "英雄联盟S14全球总决赛在马德里举行"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-18T19:23:06.578582Z",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "JDG",
+        "德国",
+        "英雄联盟S14全球总决赛"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0311",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "科技",
+      "standard_time": "2026-03-29T19:23:06.578582Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.87,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0312",
+      "raw_data": {
+        "event_name": "高考成绩公布",
+        "raw_content": "各地高考成绩陆续公布，文理科状元出炉"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-25T19:23:06.578582Z",
+      "standard_location": "北京",
+      "standard_entities": [
+        "高考成绩公"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.85,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0313",
+      "raw_data": {
+        "event_name": "全国高温预警",
+        "raw_content": "多地发布高温红色预警，部分地区气温超过40度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-24T19:23:06.578582Z",
+      "standard_location": "上海",
+      "standard_entities": [
+        "全国高温预警"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.95,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0314",
+      "raw_data": {
+        "event_name": "食品安全问题曝光",
+        "raw_content": "某知名连锁餐厅被曝食品安全问题，官方回应"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-04-03T19:23:06.578582Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "食品安全问"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.92,
+      "annotator_notes": "社会热点事件，争议性较强"
+    },
+    {
+      "annotation_id": "ANNOT0315",
+      "raw_data": {
+        "event_name": "综艺节目《青春有你》新一季开播",
+        "raw_content": "《奔跑吧》新一季今晚首播，全新赛制曝光"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "颁奖",
+      "standard_time": "2026-04-12T19:23:06.578582Z",
+      "standard_location": "东京",
+      "standard_entities": [
+        "青春有你"
+      ],
+      "standard_heat_score": 59,
+      "confidence_level": 0.82,
+      "annotator_notes": "娱乐事件，粉丝关注度高"
+    },
+    {
+      "annotation_id": "ANNOT0316",
+      "raw_data": {
+        "event_name": "欧冠决赛-西班牙vsJDG",
+        "raw_content": "西班牙对阵JDG，04月09日凌晨3点开球"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "网球",
+      "standard_time": "2026-04-16T19:23:06.578582Z",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "西班牙",
+        "JDG",
+        "欧冠决赛"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.96,
+      "annotator_notes": "体育赛事，关注度很高"
+    },
+    {
+      "annotation_id": "ANNOT0317",
+      "raw_data": {
+        "event_name": "秋老虎发威",
+        "raw_content": "南方多地秋老虎持续高温，最高气温达38度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "寒潮",
+      "standard_time": "2026-03-26T19:23:06.578582Z",
+      "standard_location": "深圳",
+      "standard_entities": [
+        "秋老虎发威"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.83,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0318",
+      "raw_data": {
+        "event_name": "梅雨季节持续",
+        "raw_content": "江浙沪地区梅雨季持续，预计降雨将延续至下周"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "降温",
+      "standard_time": "2026-03-23T19:23:06.578582Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "梅雨季节持续"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.81,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0319",
+      "raw_data": {
+        "event_name": "寒潮来袭",
+        "raw_content": "西伯利亚寒潮来袭，全国大部分地区降温8-12度"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "高温",
+      "standard_time": "2026-03-17T19:23:06.578582Z",
+      "standard_location": "广州",
+      "standard_entities": [
+        "寒潮来袭"
+      ],
+      "standard_heat_score": 63,
+      "confidence_level": 0.85,
+      "annotator_notes": "天气类事件，影响日常出行"
+    },
+    {
+      "annotation_id": "ANNOT0320",
+      "raw_data": {
+        "event_name": "某企业大规模裁员",
+        "raw_content": "某互联网大厂被曝裁员30%，员工人心惶惶"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "经济",
+      "standard_time": "2026-03-22T19:23:06.578582Z",
+      "standard_location": "海外",
+      "standard_entities": [
+        "企业大规模裁员"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.8,
+      "annotator_notes": "社会热点事件，争议性较强"
+    }
+  ]
+}

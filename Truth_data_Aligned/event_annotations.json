@@ -1,0 +1,3605 @@
+{
+  "数据集说明": "对齐的事件标注数据",
+  "annotations": [
+    {
+      "annotation_id": "ANNOT_0001",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0002",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 湖人",
+        "raw_content": "赛事：曼城 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0003",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 94
+    },
+    {
+      "annotation_id": "ANNOT_0004",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0005",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 巴萨",
+        "raw_content": "赛事：皇马 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0006",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 曼城",
+        "raw_content": "赛事：巴萨 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0007",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0008",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 巴萨",
+        "raw_content": "赛事：皇马 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0009",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 86
+    },
+    {
+      "annotation_id": "ANNOT_0010",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0011",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0012",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0013",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0014",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 曼城",
+        "raw_content": "赛事：曼城 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 81
+    },
+    {
+      "annotation_id": "ANNOT_0015",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0016",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0017",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0018",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 66
+    },
+    {
+      "annotation_id": "ANNOT_0019",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0020",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0021",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0022",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 勇士",
+        "raw_content": "赛事：曼城 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0023",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 94
+    },
+    {
+      "annotation_id": "ANNOT_0024",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0025",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0026",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 曼城",
+        "raw_content": "赛事：勇士 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 60
+    },
+    {
+      "annotation_id": "ANNOT_0027",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 67
+    },
+    {
+      "annotation_id": "ANNOT_0028",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0029",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0030",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0031",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0032",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0033",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 65
+    },
+    {
+      "annotation_id": "ANNOT_0034",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 54
+    },
+    {
+      "annotation_id": "ANNOT_0035",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 湖人",
+        "raw_content": "赛事：皇马 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0036",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0037",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 83
+    },
+    {
+      "annotation_id": "ANNOT_0038",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0039",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 巴萨",
+        "raw_content": "赛事：曼城 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0040",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 53
+    },
+    {
+      "annotation_id": "ANNOT_0041",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0042",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 81
+    },
+    {
+      "annotation_id": "ANNOT_0043",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 75
+    },
+    {
+      "annotation_id": "ANNOT_0044",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 60
+    },
+    {
+      "annotation_id": "ANNOT_0045",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0046",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 曼城",
+        "raw_content": "赛事：巴萨 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 61
+    },
+    {
+      "annotation_id": "ANNOT_0047",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0048",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 65
+    },
+    {
+      "annotation_id": "ANNOT_0049",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0050",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 湖人",
+        "raw_content": "赛事：勇士 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 89
+    },
+    {
+      "annotation_id": "ANNOT_0051",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 勇士",
+        "raw_content": "赛事：拜仁 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 74
+    },
+    {
+      "annotation_id": "ANNOT_0052",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0053",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0054",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 曼城",
+        "raw_content": "赛事：巴萨 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 91
+    },
+    {
+      "annotation_id": "ANNOT_0055",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 83
+    },
+    {
+      "annotation_id": "ANNOT_0056",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 拜仁",
+        "raw_content": "赛事：湖人 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0057",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0058",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 湖人",
+        "raw_content": "赛事：巴萨 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0059",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0060",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 61
+    },
+    {
+      "annotation_id": "ANNOT_0061",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 72
+    },
+    {
+      "annotation_id": "ANNOT_0062",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 湖人",
+        "raw_content": "赛事：勇士 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0063",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0064",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0065",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 巴萨",
+        "raw_content": "赛事：拜仁 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0066",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0067",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 75
+    },
+    {
+      "annotation_id": "ANNOT_0068",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 皇马",
+        "raw_content": "赛事：拜仁 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0069",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 曼城",
+        "raw_content": "赛事：巴萨 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0070",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0071",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 91
+    },
+    {
+      "annotation_id": "ANNOT_0072",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 拜仁",
+        "raw_content": "赛事：皇马 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 90
+    },
+    {
+      "annotation_id": "ANNOT_0073",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 70
+    },
+    {
+      "annotation_id": "ANNOT_0074",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 56
+    },
+    {
+      "annotation_id": "ANNOT_0075",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 拜仁",
+        "raw_content": "赛事：拜仁 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 51
+    },
+    {
+      "annotation_id": "ANNOT_0076",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 拜仁",
+        "raw_content": "赛事：曼城 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0077",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0078",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 勇士",
+        "raw_content": "赛事：曼城 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 81
+    },
+    {
+      "annotation_id": "ANNOT_0079",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 湖人",
+        "raw_content": "赛事：湖人 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 87
+    },
+    {
+      "annotation_id": "ANNOT_0080",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 79
+    },
+    {
+      "annotation_id": "ANNOT_0081",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0082",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 54
+    },
+    {
+      "annotation_id": "ANNOT_0083",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0084",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0085",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 67
+    },
+    {
+      "annotation_id": "ANNOT_0086",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 拜仁",
+        "raw_content": "赛事：曼城 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0087",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 60
+    },
+    {
+      "annotation_id": "ANNOT_0088",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 61
+    },
+    {
+      "annotation_id": "ANNOT_0089",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 94
+    },
+    {
+      "annotation_id": "ANNOT_0090",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0091",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0092",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 61
+    },
+    {
+      "annotation_id": "ANNOT_0093",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "天气：暴雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0094",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 湖人",
+        "raw_content": "赛事：湖人 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 54
+    },
+    {
+      "annotation_id": "ANNOT_0095",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 53
+    },
+    {
+      "annotation_id": "ANNOT_0096",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 67
+    },
+    {
+      "annotation_id": "ANNOT_0097",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0098",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0099",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 湖人",
+        "raw_content": "赛事：曼城 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 95
+    },
+    {
+      "annotation_id": "ANNOT_0100",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 勇士",
+        "raw_content": "赛事：曼城 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0101",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0102",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 67
+    },
+    {
+      "annotation_id": "ANNOT_0103",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 皇马",
+        "raw_content": "赛事：勇士 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 81
+    },
+    {
+      "annotation_id": "ANNOT_0104",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 皇马",
+        "raw_content": "赛事：巴萨 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0105",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0106",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0107",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 拜仁",
+        "raw_content": "赛事：勇士 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 86
+    },
+    {
+      "annotation_id": "ANNOT_0108",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 61
+    },
+    {
+      "annotation_id": "ANNOT_0109",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0110",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0111",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 87
+    },
+    {
+      "annotation_id": "ANNOT_0112",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0113",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 87
+    },
+    {
+      "annotation_id": "ANNOT_0114",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0115",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0116",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 92
+    },
+    {
+      "annotation_id": "ANNOT_0117",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 勇士",
+        "raw_content": "赛事：勇士 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 79
+    },
+    {
+      "annotation_id": "ANNOT_0118",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 86
+    },
+    {
+      "annotation_id": "ANNOT_0119",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 53
+    },
+    {
+      "annotation_id": "ANNOT_0120",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0121",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0122",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0123",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0124",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0125",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 64
+    },
+    {
+      "annotation_id": "ANNOT_0126",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 89
+    },
+    {
+      "annotation_id": "ANNOT_0127",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 皇马",
+        "raw_content": "赛事：皇马 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0128",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0129",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 66
+    },
+    {
+      "annotation_id": "ANNOT_0130",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 54
+    },
+    {
+      "annotation_id": "ANNOT_0131",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 拜仁",
+        "raw_content": "赛事：皇马 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0132",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 湖人",
+        "raw_content": "赛事：皇马 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0133",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0134",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 拜仁",
+        "raw_content": "赛事：曼城 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 54
+    },
+    {
+      "annotation_id": "ANNOT_0135",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 曼城",
+        "raw_content": "赛事：曼城 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0136",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 90
+    },
+    {
+      "annotation_id": "ANNOT_0137",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0138",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0139",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0140",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 72
+    },
+    {
+      "annotation_id": "ANNOT_0141",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 勇士",
+        "raw_content": "赛事：湖人 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0142",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0143",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0144",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 66
+    },
+    {
+      "annotation_id": "ANNOT_0145",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0146",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0147",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 74
+    },
+    {
+      "annotation_id": "ANNOT_0148",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 皇马",
+        "raw_content": "赛事：湖人 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 91
+    },
+    {
+      "annotation_id": "ANNOT_0149",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 67
+    },
+    {
+      "annotation_id": "ANNOT_0150",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0151",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 95
+    },
+    {
+      "annotation_id": "ANNOT_0152",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 曼城",
+        "raw_content": "赛事：勇士 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0153",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 曼城",
+        "raw_content": "赛事：皇马 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 57
+    },
+    {
+      "annotation_id": "ANNOT_0154",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0155",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0156",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 71
+    },
+    {
+      "annotation_id": "ANNOT_0157",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0158",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 81
+    },
+    {
+      "annotation_id": "ANNOT_0159",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 拜仁",
+        "raw_content": "赛事：曼城 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0160",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0161",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0162",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 皇马",
+        "raw_content": "赛事：皇马 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 57
+    },
+    {
+      "annotation_id": "ANNOT_0163",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0164",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0165",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 曼城",
+        "raw_content": "赛事：皇马 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 75
+    },
+    {
+      "annotation_id": "ANNOT_0166",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0167",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 56
+    },
+    {
+      "annotation_id": "ANNOT_0168",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 90
+    },
+    {
+      "annotation_id": "ANNOT_0169",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 57
+    },
+    {
+      "annotation_id": "ANNOT_0170",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0171",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 72
+    },
+    {
+      "annotation_id": "ANNOT_0172",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0173",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0174",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 79
+    },
+    {
+      "annotation_id": "ANNOT_0175",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 巴萨",
+        "raw_content": "赛事：湖人 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 92
+    },
+    {
+      "annotation_id": "ANNOT_0176",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0177",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 皇马",
+        "raw_content": "赛事：勇士 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 90
+    },
+    {
+      "annotation_id": "ANNOT_0178",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 67
+    },
+    {
+      "annotation_id": "ANNOT_0179",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0180",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0181",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 拜仁",
+        "raw_content": "赛事：勇士 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 51
+    },
+    {
+      "annotation_id": "ANNOT_0182",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 92
+    },
+    {
+      "annotation_id": "ANNOT_0183",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 曼城",
+        "raw_content": "赛事：拜仁 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0184",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 75
+    },
+    {
+      "annotation_id": "ANNOT_0185",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 皇马",
+        "raw_content": "赛事：湖人 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0186",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0187",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 64
+    },
+    {
+      "annotation_id": "ANNOT_0188",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 拜仁",
+        "raw_content": "赛事：湖人 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0189",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 拜仁",
+        "raw_content": "赛事：曼城 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0190",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.333485",
+      "standard_entities": [],
+      "standard_heat_score": 65
+    },
+    {
+      "annotation_id": "ANNOT_0191",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0192",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 巴萨",
+        "raw_content": "赛事：勇士 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0193",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 60
+    },
+    {
+      "annotation_id": "ANNOT_0194",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "天气：暴雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0195",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 79
+    },
+    {
+      "annotation_id": "ANNOT_0196",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0197",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 皇马",
+        "raw_content": "赛事：巴萨 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0198",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 95
+    },
+    {
+      "annotation_id": "ANNOT_0199",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0200",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0201",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 皇马",
+        "raw_content": "赛事：拜仁 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0202",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 75
+    },
+    {
+      "annotation_id": "ANNOT_0203",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0204",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 66
+    },
+    {
+      "annotation_id": "ANNOT_0205",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 56
+    },
+    {
+      "annotation_id": "ANNOT_0206",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 71
+    },
+    {
+      "annotation_id": "ANNOT_0207",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 皇马",
+        "raw_content": "赛事：勇士 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0208",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0209",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "天气：暴雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 83
+    },
+    {
+      "annotation_id": "ANNOT_0210",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 53
+    },
+    {
+      "annotation_id": "ANNOT_0211",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 89
+    },
+    {
+      "annotation_id": "ANNOT_0212",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 79
+    },
+    {
+      "annotation_id": "ANNOT_0213",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 53
+    },
+    {
+      "annotation_id": "ANNOT_0214",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 皇马",
+        "raw_content": "赛事：拜仁 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0215",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 61
+    },
+    {
+      "annotation_id": "ANNOT_0216",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0217",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 56
+    },
+    {
+      "annotation_id": "ANNOT_0218",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 64
+    },
+    {
+      "annotation_id": "ANNOT_0219",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 湖人",
+        "raw_content": "赛事：湖人 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 74
+    },
+    {
+      "annotation_id": "ANNOT_0220",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 88
+    },
+    {
+      "annotation_id": "ANNOT_0221",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0222",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 巴萨",
+        "raw_content": "赛事：皇马 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0223",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0224",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 巴萨",
+        "raw_content": "赛事：巴萨 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0225",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 58
+    },
+    {
+      "annotation_id": "ANNOT_0226",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0227",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0228",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 79
+    },
+    {
+      "annotation_id": "ANNOT_0229",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 湖人",
+        "raw_content": "赛事：勇士 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0230",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 85
+    },
+    {
+      "annotation_id": "ANNOT_0231",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 51
+    },
+    {
+      "annotation_id": "ANNOT_0232",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 曼城",
+        "raw_content": "赛事：巴萨 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0233",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0234",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0235",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 51
+    },
+    {
+      "annotation_id": "ANNOT_0236",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 拜仁",
+        "raw_content": "赛事：湖人 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 74
+    },
+    {
+      "annotation_id": "ANNOT_0237",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0238",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 74
+    },
+    {
+      "annotation_id": "ANNOT_0239",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0240",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 94
+    },
+    {
+      "annotation_id": "ANNOT_0241",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 拜仁",
+        "raw_content": "赛事：拜仁 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 90
+    },
+    {
+      "annotation_id": "ANNOT_0242",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 曼城",
+        "raw_content": "赛事：勇士 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 95
+    },
+    {
+      "annotation_id": "ANNOT_0243",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0244",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0245",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0246",
+      "raw_data": {
+        "event_name": "赛事：曼城 vs 曼城",
+        "raw_content": "赛事：曼城 vs 曼城相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0247",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 66
+    },
+    {
+      "annotation_id": "ANNOT_0248",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 72
+    },
+    {
+      "annotation_id": "ANNOT_0249",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 93
+    },
+    {
+      "annotation_id": "ANNOT_0250",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "天气：雷阵雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0251",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0252",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0253",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 湖人",
+        "raw_content": "赛事：皇马 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0254",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "天气：暴雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 60
+    },
+    {
+      "annotation_id": "ANNOT_0255",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0256",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0257",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 拜仁",
+        "raw_content": "赛事：皇马 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 53
+    },
+    {
+      "annotation_id": "ANNOT_0258",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 91
+    },
+    {
+      "annotation_id": "ANNOT_0259",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 巴萨",
+        "raw_content": "赛事：拜仁 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 65
+    },
+    {
+      "annotation_id": "ANNOT_0260",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 皇马",
+        "raw_content": "赛事：巴萨 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    },
+    {
+      "annotation_id": "ANNOT_0261",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 62
+    },
+    {
+      "annotation_id": "ANNOT_0262",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "热点：618促销相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 89
+    },
+    {
+      "annotation_id": "ANNOT_0263",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 89
+    },
+    {
+      "annotation_id": "ANNOT_0264",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 皇马",
+        "raw_content": "赛事：拜仁 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 56
+    },
+    {
+      "annotation_id": "ANNOT_0265",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 拜仁",
+        "raw_content": "赛事：巴萨 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0266",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0267",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0268",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 63
+    },
+    {
+      "annotation_id": "ANNOT_0269",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0270",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "天气：多云相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 77
+    },
+    {
+      "annotation_id": "ANNOT_0271",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 73
+    },
+    {
+      "annotation_id": "ANNOT_0272",
+      "raw_data": {
+        "event_name": "赛事：巴萨 vs 皇马",
+        "raw_content": "赛事：巴萨 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 68
+    },
+    {
+      "annotation_id": "ANNOT_0273",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 70
+    },
+    {
+      "annotation_id": "ANNOT_0274",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 76
+    },
+    {
+      "annotation_id": "ANNOT_0275",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 86
+    },
+    {
+      "annotation_id": "ANNOT_0276",
+      "raw_data": {
+        "event_name": "赛事：勇士 vs 巴萨",
+        "raw_content": "赛事：勇士 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 78
+    },
+    {
+      "annotation_id": "ANNOT_0277",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 52
+    },
+    {
+      "annotation_id": "ANNOT_0278",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 66
+    },
+    {
+      "annotation_id": "ANNOT_0279",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "天气：小雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 65
+    },
+    {
+      "annotation_id": "ANNOT_0280",
+      "raw_data": {
+        "event_name": "娱乐：电影首映",
+        "raw_content": "娱乐：电影首映相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 64
+    },
+    {
+      "annotation_id": "ANNOT_0281",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0282",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 75
+    },
+    {
+      "annotation_id": "ANNOT_0283",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 64
+    },
+    {
+      "annotation_id": "ANNOT_0284",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "天气：晴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 81
+    },
+    {
+      "annotation_id": "ANNOT_0285",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "天气：阴相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 87
+    },
+    {
+      "annotation_id": "ANNOT_0286",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 70
+    },
+    {
+      "annotation_id": "ANNOT_0287",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 皇马",
+        "raw_content": "赛事：拜仁 vs 皇马相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 84
+    },
+    {
+      "annotation_id": "ANNOT_0288",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 91
+    },
+    {
+      "annotation_id": "ANNOT_0289",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 55
+    },
+    {
+      "annotation_id": "ANNOT_0290",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 巴萨",
+        "raw_content": "赛事：皇马 vs 巴萨相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 91
+    },
+    {
+      "annotation_id": "ANNOT_0291",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 50
+    },
+    {
+      "annotation_id": "ANNOT_0292",
+      "raw_data": {
+        "event_name": "赛事：皇马 vs 湖人",
+        "raw_content": "赛事：皇马 vs 湖人相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 69
+    },
+    {
+      "annotation_id": "ANNOT_0293",
+      "raw_data": {
+        "event_name": "热点：世界杯",
+        "raw_content": "热点：世界杯相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 82
+    },
+    {
+      "annotation_id": "ANNOT_0294",
+      "raw_data": {
+        "event_name": "娱乐：颁奖典礼",
+        "raw_content": "娱乐：颁奖典礼相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 54
+    },
+    {
+      "annotation_id": "ANNOT_0295",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "热点：双十一相关信息"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "社会",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 80
+    },
+    {
+      "annotation_id": "ANNOT_0296",
+      "raw_data": {
+        "event_name": "娱乐：演唱会",
+        "raw_content": "娱乐：演唱会相关信息"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "娱乐",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 57
+    },
+    {
+      "annotation_id": "ANNOT_0297",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 64
+    },
+    {
+      "annotation_id": "ANNOT_0298",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "天气：中雨相关信息"
+      },
+      "standard_classification": "天气",
+      "standard_type_detail": "天气",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 90
+    },
+    {
+      "annotation_id": "ANNOT_0299",
+      "raw_data": {
+        "event_name": "赛事：湖人 vs 拜仁",
+        "raw_content": "赛事：湖人 vs 拜仁相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 72
+    },
+    {
+      "annotation_id": "ANNOT_0300",
+      "raw_data": {
+        "event_name": "赛事：拜仁 vs 勇士",
+        "raw_content": "赛事：拜仁 vs 勇士相关信息"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "赛事",
+      "standard_time": "2026-03-21T15:28:19.334512",
+      "standard_entities": [],
+      "standard_heat_score": 59
+    }
+  ]
+}

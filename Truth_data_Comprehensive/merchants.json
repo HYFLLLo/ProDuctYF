@@ -1,0 +1,122 @@
+[
+  {
+    "merchant_id": "M001",
+    "merchant_name": "夜宵便利店1号店",
+    "merchant_type": "便利店",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M002",
+    "merchant_name": "夜宵便利店2号店",
+    "merchant_type": "超市",
+    "location": "天河区"
+  },
+  {
+    "merchant_id": "M003",
+    "merchant_name": "夜宵便利店3号店",
+    "merchant_type": "酒吧",
+    "location": "朝阳区"
+  },
+  {
+    "merchant_id": "M004",
+    "merchant_name": "夜宵便利店4号店",
+    "merchant_type": "零食店",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M005",
+    "merchant_name": "夜宵便利店5号店",
+    "merchant_type": "24小时店",
+    "location": "天河区"
+  },
+  {
+    "merchant_id": "M006",
+    "merchant_name": "夜宵便利店6号店",
+    "merchant_type": "便利店",
+    "location": "浦东区"
+  },
+  {
+    "merchant_id": "M007",
+    "merchant_name": "夜宵便利店7号店",
+    "merchant_type": "超市",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M008",
+    "merchant_name": "夜宵便利店8号店",
+    "merchant_type": "酒吧",
+    "location": "浦东区"
+  },
+  {
+    "merchant_id": "M009",
+    "merchant_name": "夜宵便利店9号店",
+    "merchant_type": "零食店",
+    "location": "天河区"
+  },
+  {
+    "merchant_id": "M010",
+    "merchant_name": "夜宵便利店10号店",
+    "merchant_type": "24小时店",
+    "location": "南山区"
+  },
+  {
+    "merchant_id": "M011",
+    "merchant_name": "夜宵便利店11号店",
+    "merchant_type": "便利店",
+    "location": "朝阳区"
+  },
+  {
+    "merchant_id": "M012",
+    "merchant_name": "夜宵便利店12号店",
+    "merchant_type": "超市",
+    "location": "朝阳区"
+  },
+  {
+    "merchant_id": "M013",
+    "merchant_name": "夜宵便利店13号店",
+    "merchant_type": "酒吧",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M014",
+    "merchant_name": "夜宵便利店14号店",
+    "merchant_type": "零食店",
+    "location": "天河区"
+  },
+  {
+    "merchant_id": "M015",
+    "merchant_name": "夜宵便利店15号店",
+    "merchant_type": "24小时店",
+    "location": "天河区"
+  },
+  {
+    "merchant_id": "M016",
+    "merchant_name": "夜宵便利店16号店",
+    "merchant_type": "便利店",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M017",
+    "merchant_name": "夜宵便利店17号店",
+    "merchant_type": "超市",
+    "location": "浦东区"
+  },
+  {
+    "merchant_id": "M018",
+    "merchant_name": "夜宵便利店18号店",
+    "merchant_type": "酒吧",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M019",
+    "merchant_name": "夜宵便利店19号店",
+    "merchant_type": "零食店",
+    "location": "海淀区"
+  },
+  {
+    "merchant_id": "M020",
+    "merchant_name": "夜宵便利店20号店",
+    "merchant_type": "24小时店",
+    "location": "浦东区"
+  }
+]

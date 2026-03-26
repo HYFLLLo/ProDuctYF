@@ -1,0 +1,4938 @@
+{
+  "数据集说明": "事件数据标注集 - 用于事件理解分析Agent评估",
+  "数据量": 300,
+  "生成日期": "2026-03-20",
+  "数据用途": "评估事件分类、信息抽取、去重、热度计算的准确性",
+  "annotations": [
+    {
+      "annotation_id": "ANNOT_0001",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度27度，小雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9348460385572581,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0002",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度15度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.964594205728907,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0003",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度24度，小雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8845995059001732,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0004",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度28度，阴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8954407289124728,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0005",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度29度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9058701842269978,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0006",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度18度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9456094193536314,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0007",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度24度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9219190473755495,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0008",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度31度，小雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9129948901765677,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0009",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度15度，小雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8521249743758634,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0010",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度34度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9822439607988509,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0011",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度17度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8644226776854428,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0012",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度34度，雷阵雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9185044829077132,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0013",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度26度，雷阵雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8584179717016173,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0014",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度19度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8508455981354953,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0015",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度19度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9871511829534634,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0016",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度24度，中雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9470637315521879,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0017",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度35度，晴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9884260981143703,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0018",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度25度，多云，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9624448216225645,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0019",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度22度，中雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8861824360842055,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0020",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度15度，阴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8929454531959954,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0021",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度29度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8703306495492016,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0022",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度21度，晴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8547468375894228,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0023",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度16度，晴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9551875306449127,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0024",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度25度，多云，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9278458402704216,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0025",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度16度，暴雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9126677991576101,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0026",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度22度，多云，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9618134538377437,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0027",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度19度，多云，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9361350155917464,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0028",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度25度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.85874065222446,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0029",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度19度，中雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8783324366657057,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0030",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度33度，中雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.922956904174076,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0031",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度25度，小雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8853382433035016,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0032",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度22度，中雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9172095666570006,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0033",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度24度，中雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9078280757284946,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0034",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度30度，中雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8945166066924399,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0035",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度23度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9039298811461294,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0036",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度32度，阴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9545384586685337,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0037",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度17度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9063239815841692,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0038",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度18度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.949448068117649,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0039",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度17度，小雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9091594871344696,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0040",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度15度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9508739397791226,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0041",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度22度，阴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9118657814518951,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0042",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度23度，阴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.951815961598427,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0043",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度31度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9452687323446336,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0044",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度25度，暴雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.942581404602459,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0045",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度34度，暴雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8906239320191613,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0046",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度31度，中雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9873142054642602,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0047",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度16度，晴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8590321928000215,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0048",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度21度，中雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9214276702710295,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0049",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度26度，阴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9206026933264002,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0050",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度25度，晴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9782024892916403,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0051",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度24度，多云，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8592971323533135,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0052",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度27度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.859908530627555,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0053",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度30度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9437423153089353,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0054",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度19度，晴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9458826847417,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0055",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度31度，晴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.873708714778868,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0056",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度25度，中雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8775253414655145,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0057",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度17度，中雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8810550646257532,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0058",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度25度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9090107675145676,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0059",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度22度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8509357716184501,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0060",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度28度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8580335158410648,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0061",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度33度，雷阵雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8629980466820035,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0062",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度18度，晴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8669176407209751,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0063",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度24度，中雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9856742288849492,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0064",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度18度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8788060259271547,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0065",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度17度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9358589791195222,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0066",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度24度，阴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9609491623893791,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0067",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度17度，晴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8811282197157015,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0068",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度17度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8905355565537537,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0069",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度30度，暴雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.953581679982037,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0070",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度29度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9047227608860984,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0071",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度22度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.898199918927761,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0072",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度35度，雷阵雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9461067908108548,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0073",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度18度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9405866823350577,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0074",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度26度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8747504944871116,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0075",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度20度，多云，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8670321491754509,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0076",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度29度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9481641140906548,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0077",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度33度，阴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.900325309440169,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0078",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度29度，暴雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8775804219854509,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0079",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度18度，晴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.899390578741893,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0080",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度25度，阴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8594962348039442,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0081",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度32度，中雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9639970544517227,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0082",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度30度，暴雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8574892439072553,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0083",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度32度，阴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.958408690106649,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0084",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度20度，中雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8877634329571301,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0085",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度16度，阴，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8556804018584591,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0086",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度19度，小雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8612355105784614,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0087",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度29度，雷阵雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8853234545502422,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0088",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度34度，雷阵雨，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9553116662731392,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0089",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度23度，暴雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8947928166401521,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0090",
+      "raw_data": {
+        "event_name": "天气：晴",
+        "raw_content": "温度23度，晴，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "晴",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9254887379552145,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0091",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度17度，阴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8528892433203326,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0092",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度25度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "深圳",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8754702051279547,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0093",
+      "raw_data": {
+        "event_name": "天气：多云",
+        "raw_content": "温度22度，多云，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "多云",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9240088613394115,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0094",
+      "raw_data": {
+        "event_name": "天气：暴雨",
+        "raw_content": "温度29度，暴雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "暴雨",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9594844908746344,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0095",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度26度，小雨，风力东北风2-3级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8543519424085816,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0096",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度32度，小雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "北京",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9092690777975936,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0097",
+      "raw_data": {
+        "event_name": "天气：阴",
+        "raw_content": "温度23度，阴，风力微风"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "阴",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8819917052406687,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0098",
+      "raw_data": {
+        "event_name": "天气：雷阵雨",
+        "raw_content": "温度33度，雷阵雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "雷阵雨",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.977031205414562,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0099",
+      "raw_data": {
+        "event_name": "天气：小雨",
+        "raw_content": "温度25度，小雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "小雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "广州",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8668459488460253,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0100",
+      "raw_data": {
+        "event_name": "天气：中雨",
+        "raw_content": "温度34度，中雨，风力西南风3-4级"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "中雨",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "上海",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9442959101069754,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0101",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 马",
+        "raw_content": "CBA足球比赛，曼对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "曼",
+        "马"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.8591434785783143,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0102",
+      "raw_data": {
+        "event_name": "赛事：金 vs 阳",
+        "raw_content": "NBA篮球比赛，金对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "金",
+        "阳"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.8662591362622442,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0103",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "世界杯篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9197184446052026,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0104",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 士",
+        "raw_content": "欧冠篮球比赛，湖对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "湖",
+        "士"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.9730217233930136,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0105",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9770169634806207,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0106",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.923806943744928,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0107",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "NBA篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.8900483128710605,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0108",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 马",
+        "raw_content": "欧冠足球比赛，曼对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "曼",
+        "马"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9600223303821346,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0109",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9882024076176124,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0110",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 士",
+        "raw_content": "世界杯篮球比赛，湖对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "湖",
+        "士"
+      ],
+      "standard_heat_score": 76,
+      "confidence_level": 0.9039730970555164,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0111",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 勇",
+        "raw_content": "世界杯篮球比赛，湖对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "湖",
+        "勇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9505281765054466,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0112",
+      "raw_data": {
+        "event_name": "赛事：城 vs 马",
+        "raw_content": "德甲足球比赛，城对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "城",
+        "马"
+      ],
+      "standard_heat_score": 67,
+      "confidence_level": 0.9341258086526484,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0113",
+      "raw_data": {
+        "event_name": "赛事：人 vs 勇",
+        "raw_content": "欧冠篮球比赛，人对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "人",
+        "勇"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.9020093609239702,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0114",
+      "raw_data": {
+        "event_name": "赛事：尤 vs 米",
+        "raw_content": "意甲足球比赛，尤对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "尤",
+        "米"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.9083761488404282,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0115",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 士",
+        "raw_content": "NBA篮球比赛，湖对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "湖",
+        "士"
+      ],
+      "standard_heat_score": 89,
+      "confidence_level": 0.9506492576676656,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0116",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 皇",
+        "raw_content": "意甲足球比赛，曼对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "曼",
+        "皇"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.9258407137337163,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0117",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "NBA篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.9881157558181224,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0118",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 62,
+      "confidence_level": 0.8584070747952847,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0119",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "欧冠篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.9687413677820831,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0120",
+      "raw_data": {
+        "event_name": "赛事：图 vs 米",
+        "raw_content": "英超足球比赛，图对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "图",
+        "米"
+      ],
+      "standard_heat_score": 83,
+      "confidence_level": 0.9265889098439717,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0121",
+      "raw_data": {
+        "event_name": "赛事：人 vs 勇",
+        "raw_content": "世界杯篮球比赛，人对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "人",
+        "勇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9003784395410758,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0122",
+      "raw_data": {
+        "event_name": "赛事：斯 vs 兰",
+        "raw_content": "西甲足球比赛，斯对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "斯",
+        "兰"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.9493195307363564,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0123",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 皇",
+        "raw_content": "欧冠足球比赛，曼对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "曼",
+        "皇"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.8506481561540954,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0124",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 皇",
+        "raw_content": "德甲足球比赛，曼对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "曼",
+        "皇"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.9514859466886053,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0125",
+      "raw_data": {
+        "event_name": "赛事：人 vs 勇",
+        "raw_content": "世界杯篮球比赛，人对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "人",
+        "勇"
+      ],
+      "standard_heat_score": 89,
+      "confidence_level": 0.8971687813831749,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0126",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 阳",
+        "raw_content": "NBA篮球比赛，掘对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "掘",
+        "阳"
+      ],
+      "standard_heat_score": 61,
+      "confidence_level": 0.9874825320963069,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0127",
+      "raw_data": {
+        "event_name": "赛事：城 vs 马",
+        "raw_content": "欧冠足球比赛，城对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "城",
+        "马"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.9344597671858005,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0128",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 勇",
+        "raw_content": "NBA篮球比赛，湖对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "湖",
+        "勇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9140013417845025,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0129",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 阳",
+        "raw_content": "世界杯篮球比赛，掘对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "掘",
+        "阳"
+      ],
+      "standard_heat_score": 87,
+      "confidence_level": 0.9521811621428761,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0130",
+      "raw_data": {
+        "event_name": "赛事：图 vs 兰",
+        "raw_content": "德甲足球比赛，图对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "图",
+        "兰"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.9722581294632834,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0131",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 阳",
+        "raw_content": "世界杯篮球比赛，掘对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "掘",
+        "阳"
+      ],
+      "standard_heat_score": 78,
+      "confidence_level": 0.9586536999715805,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0132",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "世界杯篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 80,
+      "confidence_level": 0.9686225843883408,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0133",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.8895692339885424,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0134",
+      "raw_data": {
+        "event_name": "赛事：文 vs 兰",
+        "raw_content": "欧冠足球比赛，文对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "文",
+        "兰"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.9560549632829203,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0135",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "欧冠篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.9243345775565142,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0136",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 89,
+      "confidence_level": 0.9262901353924653,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0137",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 勇",
+        "raw_content": "世界杯篮球比赛，湖对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "湖",
+        "勇"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.9038438836878725,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0138",
+      "raw_data": {
+        "event_name": "赛事：图 vs C",
+        "raw_content": "意甲足球比赛，图对阵C"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "图",
+        "C"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.9795036296651903,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0139",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "欧冠篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9359516223971843,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0140",
+      "raw_data": {
+        "event_name": "赛事：城 vs 皇",
+        "raw_content": "德甲足球比赛，城对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "城",
+        "皇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.971979779684373,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0141",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 阳",
+        "raw_content": "NBA篮球比赛，掘对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "掘",
+        "阳"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.9210113836544706,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0142",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "NBA篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.8961566959804724,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0143",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "欧冠篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9261885143403649,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0144",
+      "raw_data": {
+        "event_name": "赛事：尤 vs C",
+        "raw_content": "NBA足球比赛，尤对阵C"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "尤",
+        "C"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.8659125308828536,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0145",
+      "raw_data": {
+        "event_name": "赛事：尤 vs A",
+        "raw_content": "NBA足球比赛，尤对阵A"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "尤",
+        "A"
+      ],
+      "standard_heat_score": 89,
+      "confidence_level": 0.896531924183616,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0146",
+      "raw_data": {
+        "event_name": "赛事：文 vs C",
+        "raw_content": "意甲足球比赛，文对阵C"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "文",
+        "C"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.9205411145289505,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0147",
+      "raw_data": {
+        "event_name": "赛事：人 vs 勇",
+        "raw_content": "世界杯篮球比赛，人对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "人",
+        "勇"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.9201546811558907,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0148",
+      "raw_data": {
+        "event_name": "赛事：尤 vs A",
+        "raw_content": "CBA足球比赛，尤对阵A"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "尤",
+        "A"
+      ],
+      "standard_heat_score": 79,
+      "confidence_level": 0.9325962168890738,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0149",
+      "raw_data": {
+        "event_name": "赛事：图 vs 兰",
+        "raw_content": "欧洲杯足球比赛，图对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "图",
+        "兰"
+      ],
+      "standard_heat_score": 67,
+      "confidence_level": 0.8781887013281492,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0150",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "NBA篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.8839636594781793,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0151",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "欧冠篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 69,
+      "confidence_level": 0.8574944054615709,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0152",
+      "raw_data": {
+        "event_name": "赛事：斯 vs C",
+        "raw_content": "欧冠足球比赛，斯对阵C"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "斯",
+        "C"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9261360851142245,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0153",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "欧冠篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9862493786861468,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0154",
+      "raw_data": {
+        "event_name": "赛事：尤 vs 兰",
+        "raw_content": "世界杯足球比赛，尤对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "尤",
+        "兰"
+      ],
+      "standard_heat_score": 87,
+      "confidence_level": 0.85836828299115,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0155",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.8907712067691409,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0156",
+      "raw_data": {
+        "event_name": "赛事：人 vs 勇",
+        "raw_content": "NBA篮球比赛，人对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "人",
+        "勇"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.853997986347774,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0157",
+      "raw_data": {
+        "event_name": "赛事：图 vs 米",
+        "raw_content": "CBA足球比赛，图对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "图",
+        "米"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9711649557361449,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0158",
+      "raw_data": {
+        "event_name": "赛事：图 vs C",
+        "raw_content": "CBA足球比赛，图对阵C"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "图",
+        "C"
+      ],
+      "standard_heat_score": 72,
+      "confidence_level": 0.9058617469814503,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0159",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 士",
+        "raw_content": "欧冠篮球比赛，湖对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "湖",
+        "士"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.861471693518443,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0160",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "世界杯篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.9201864326172429,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0161",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "世界杯篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9401261388477433,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0162",
+      "raw_data": {
+        "event_name": "赛事：图 vs A",
+        "raw_content": "欧冠足球比赛，图对阵A"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "图",
+        "A"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.9667992500383267,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0163",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "世界杯篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9200344183104061,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0164",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "世界杯篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.9170439608994899,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0165",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 马",
+        "raw_content": "欧冠足球比赛，曼对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "曼",
+        "马"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.8545828542820929,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0166",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 皇",
+        "raw_content": "欧冠足球比赛，曼对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "曼",
+        "皇"
+      ],
+      "standard_heat_score": 70,
+      "confidence_level": 0.8973368663824924,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0167",
+      "raw_data": {
+        "event_name": "赛事：尤 vs 兰",
+        "raw_content": "NBA足球比赛，尤对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "尤",
+        "兰"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.9058630807978418,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0168",
+      "raw_data": {
+        "event_name": "赛事：城 vs 皇",
+        "raw_content": "德甲足球比赛，城对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "城",
+        "皇"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.9328758575554837,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0169",
+      "raw_data": {
+        "event_name": "赛事：城 vs 皇",
+        "raw_content": "德甲足球比赛，城对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "城",
+        "皇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.918429309521781,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0170",
+      "raw_data": {
+        "event_name": "赛事：城 vs 皇",
+        "raw_content": "NBA足球比赛，城对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "城",
+        "皇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.863508382385518,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0171",
+      "raw_data": {
+        "event_name": "赛事：斯 vs 米",
+        "raw_content": "欧洲杯足球比赛，斯对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "斯",
+        "米"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.9162485132748887,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0172",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 士",
+        "raw_content": "欧冠篮球比赛，湖对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "慕尼黑",
+      "standard_entities": [
+        "湖",
+        "士"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.9109805292579458,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0173",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "巴黎",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 62,
+      "confidence_level": 0.9730511328060961,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0174",
+      "raw_data": {
+        "event_name": "赛事：城 vs 马",
+        "raw_content": "NBA足球比赛，城对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "城",
+        "马"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.9624560047766705,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0175",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "世界杯篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 84,
+      "confidence_level": 0.9618985084419923,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0176",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 勇",
+        "raw_content": "NBA篮球比赛，湖对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "湖",
+        "勇"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.8785035689391492,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0177",
+      "raw_data": {
+        "event_name": "赛事：城 vs 皇",
+        "raw_content": "英超足球比赛，城对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "城",
+        "皇"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.9312553136725702,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0178",
+      "raw_data": {
+        "event_name": "赛事：斯 vs 米",
+        "raw_content": "德甲足球比赛，斯对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "斯",
+        "米"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.9409500464780064,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0179",
+      "raw_data": {
+        "event_name": "赛事：城 vs 皇",
+        "raw_content": "欧冠足球比赛，城对阵皇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "城",
+        "皇"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.9795497416589226,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0180",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "欧冠篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9411387432278835,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0181",
+      "raw_data": {
+        "event_name": "赛事：湖 vs 士",
+        "raw_content": "世界杯篮球比赛，湖对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "湖",
+        "士"
+      ],
+      "standard_heat_score": 77,
+      "confidence_level": 0.9150037399591138,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0182",
+      "raw_data": {
+        "event_name": "赛事：斯 vs 兰",
+        "raw_content": "西甲足球比赛，斯对阵兰"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "斯",
+        "兰"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.9458308636752268,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0183",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 马",
+        "raw_content": "德甲足球比赛，曼对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "曼",
+        "马"
+      ],
+      "standard_heat_score": 64,
+      "confidence_level": 0.9883700751908912,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0184",
+      "raw_data": {
+        "event_name": "赛事：斯 vs A",
+        "raw_content": "西甲足球比赛，斯对阵A"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "斯",
+        "A"
+      ],
+      "standard_heat_score": 82,
+      "confidence_level": 0.9751511325879391,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0185",
+      "raw_data": {
+        "event_name": "赛事：城 vs 马",
+        "raw_content": "英超足球比赛，城对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "城",
+        "马"
+      ],
+      "standard_heat_score": 66,
+      "confidence_level": 0.8624880897477248,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0186",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "欧冠篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 90,
+      "confidence_level": 0.94099758791784,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0187",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "NBA篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9567145774370404,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0188",
+      "raw_data": {
+        "event_name": "赛事：斯 vs 米",
+        "raw_content": "德甲足球比赛，斯对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "斯",
+        "米"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.8881989186915834,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0189",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "NBA篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 75,
+      "confidence_level": 0.8656260437881358,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0190",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "世界杯篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9119571751518618,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0191",
+      "raw_data": {
+        "event_name": "赛事：尤 vs 米",
+        "raw_content": "欧洲杯足球比赛，尤对阵米"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "尤",
+        "米"
+      ],
+      "standard_heat_score": 65,
+      "confidence_level": 0.9822063782373408,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0192",
+      "raw_data": {
+        "event_name": "赛事：曼 vs 马",
+        "raw_content": "欧冠足球比赛，曼对阵马"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "曼",
+        "马"
+      ],
+      "standard_heat_score": 74,
+      "confidence_level": 0.9821058081889674,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0193",
+      "raw_data": {
+        "event_name": "赛事：文 vs A",
+        "raw_content": "西甲足球比赛，文对阵A"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "足球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "文",
+        "A"
+      ],
+      "standard_heat_score": 60,
+      "confidence_level": 0.948711221239171,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0194",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 太",
+        "raw_content": "世界杯篮球比赛，掘对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "掘",
+        "太"
+      ],
+      "standard_heat_score": 68,
+      "confidence_level": 0.8808994586650545,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0195",
+      "raw_data": {
+        "event_name": "赛事：金 vs 太",
+        "raw_content": "欧冠篮球比赛，金对阵太"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "马德里",
+      "standard_entities": [
+        "金",
+        "太"
+      ],
+      "standard_heat_score": 81,
+      "confidence_level": 0.9832172536276567,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0196",
+      "raw_data": {
+        "event_name": "赛事：掘 vs 阳",
+        "raw_content": "欧冠篮球比赛，掘对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "掘",
+        "阳"
+      ],
+      "standard_heat_score": 64,
+      "confidence_level": 0.9493080240014703,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0197",
+      "raw_data": {
+        "event_name": "赛事：人 vs 士",
+        "raw_content": "世界杯篮球比赛，人对阵士"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "纽约",
+      "standard_entities": [
+        "人",
+        "士"
+      ],
+      "standard_heat_score": 85,
+      "confidence_level": 0.9869148834767019,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0198",
+      "raw_data": {
+        "event_name": "赛事：金 vs 阳",
+        "raw_content": "NBA篮球比赛，金对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "金",
+        "阳"
+      ],
+      "standard_heat_score": 73,
+      "confidence_level": 0.9106418455238997,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0199",
+      "raw_data": {
+        "event_name": "赛事：金 vs 阳",
+        "raw_content": "欧冠篮球比赛，金对阵阳"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "洛杉矶",
+      "standard_entities": [
+        "金",
+        "阳"
+      ],
+      "standard_heat_score": 71,
+      "confidence_level": 0.9857637306616774,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0200",
+      "raw_data": {
+        "event_name": "赛事：人 vs 勇",
+        "raw_content": "世界杯篮球比赛，人对阵勇"
+      },
+      "standard_classification": "其他",
+      "standard_type_detail": "篮球",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "伦敦",
+      "standard_entities": [
+        "人",
+        "勇"
+      ],
+      "standard_heat_score": 95,
+      "confidence_level": 0.9804420490858815,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0201",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9312602392946314,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0202",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9773964903789432,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0203",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9108051248498604,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0204",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8755748302845007,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0205",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8827333815487998,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0206",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.887875868572389,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0207",
+      "raw_data": {
+        "event_name": "热点：世界杯决赛",
+        "raw_content": "世界杯决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "世界杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9085793197096381,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0208",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9573616655426381,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0209",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9289936919007447,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0210",
+      "raw_data": {
+        "event_name": "热点：游戏发售",
+        "raw_content": "游戏发售引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "发售"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8866262031406251,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0211",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9724498671259575,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0212",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.909312743615889,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0213",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9153236903386864,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0214",
+      "raw_data": {
+        "event_name": "热点：游戏发售",
+        "raw_content": "游戏发售引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "发售"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8509515689344049,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0215",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8675086695248049,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0216",
+      "raw_data": {
+        "event_name": "热点：音乐节",
+        "raw_content": "音乐节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8946463711352003,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0217",
+      "raw_data": {
+        "event_name": "热点：音乐节",
+        "raw_content": "音乐节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9802223264090743,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0218",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9436359250876897,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0219",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9195087938012374,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0220",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9031113700547578,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0221",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9315467360964074,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0222",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8631992032871405,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0223",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9828402742406099,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0224",
+      "raw_data": {
+        "event_name": "热点：欧洲杯半决赛",
+        "raw_content": "欧洲杯半决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧洲杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9390857126870344,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0225",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9221124162960912,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0226",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.879726291249248,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0227",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8610684514130406,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0228",
+      "raw_data": {
+        "event_name": "热点：世界杯决赛",
+        "raw_content": "世界杯决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "世界杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9286160243357102,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0229",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9172558685832215,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0230",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.90541975211155,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0231",
+      "raw_data": {
+        "event_name": "热点：游戏发售",
+        "raw_content": "游戏发售引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "发售"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9630266702617452,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0232",
+      "raw_data": {
+        "event_name": "热点：欧洲杯半决赛",
+        "raw_content": "欧洲杯半决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧洲杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9780270990058255,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0233",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9696959257033319,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0234",
+      "raw_data": {
+        "event_name": "热点：音乐节",
+        "raw_content": "音乐节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9216663106490671,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0235",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8513558719172207,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0236",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9290880781229467,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0237",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9575771364871475,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0238",
+      "raw_data": {
+        "event_name": "热点：明星塌房",
+        "raw_content": "明星塌房引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9867325380685857,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0239",
+      "raw_data": {
+        "event_name": "热点：游戏发售",
+        "raw_content": "游戏发售引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "发售"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9607479093548015,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0240",
+      "raw_data": {
+        "event_name": "热点：音乐节",
+        "raw_content": "音乐节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9844086336349285,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0241",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9309540316866658,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0242",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9625521864244708,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0243",
+      "raw_data": {
+        "event_name": "热点：明星塌房",
+        "raw_content": "明星塌房引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8502436331075066,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0244",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9764300569935195,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0245",
+      "raw_data": {
+        "event_name": "热点：音乐节",
+        "raw_content": "音乐节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9134710277076858,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0246",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8794965792507246,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0247",
+      "raw_data": {
+        "event_name": "热点：游戏发售",
+        "raw_content": "游戏发售引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "发售"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9597310596371362,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0248",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9628608517694693,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0249",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9547366618333432,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0250",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9389390949005161,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0251",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9417337731797608,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0252",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9016769791925041,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0253",
+      "raw_data": {
+        "event_name": "热点：游戏发售",
+        "raw_content": "游戏发售引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "发售"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.891548455589403,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0254",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8983458040139404,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0255",
+      "raw_data": {
+        "event_name": "热点：欧冠决赛",
+        "raw_content": "欧冠决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧冠",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.955862377050636,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0256",
+      "raw_data": {
+        "event_name": "热点：音乐节",
+        "raw_content": "音乐节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8784037494996314,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0257",
+      "raw_data": {
+        "event_name": "热点：明星塌房",
+        "raw_content": "明星塌房引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9578098269616131,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0258",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9897809827480586,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0259",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9396220801241937,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0260",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9816436706961797,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0261",
+      "raw_data": {
+        "event_name": "热点：世界杯决赛",
+        "raw_content": "世界杯决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "世界杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9137385885918909,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0262",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9293933988898434,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0263",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.89723346859881,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0264",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9683432018426273,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0265",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9081385761273664,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0266",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8794283188768034,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0267",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9796454751094565,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0268",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9509931639461074,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0269",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.980308120093618,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0270",
+      "raw_data": {
+        "event_name": "热点：明星塌房",
+        "raw_content": "明星塌房引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8569057819107443,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0271",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9298926996854666,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0272",
+      "raw_data": {
+        "event_name": "热点：明星塌房",
+        "raw_content": "明星塌房引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9176857721522278,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0273",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8590198147123129,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0274",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9528466816745897,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0275",
+      "raw_data": {
+        "event_name": "热点：世界杯决赛",
+        "raw_content": "世界杯决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "世界杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9152962229517785,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0276",
+      "raw_data": {
+        "event_name": "热点：欧洲杯半决赛",
+        "raw_content": "欧洲杯半决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧洲杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9039196450353757,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0277",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9124134351348328,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0278",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9172411969976288,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0279",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9476058414509043,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0280",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8640926954990762,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0281",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9443406336901387,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0282",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9274405063706755,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0283",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9131571845743067,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0284",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9081922413104531,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0285",
+      "raw_data": {
+        "event_name": "热点：618促销",
+        "raw_content": "618促销引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "促销"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9177179623226774,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0286",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9114174225446511,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0287",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9128879440463056,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0288",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8690678562206771,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0289",
+      "raw_data": {
+        "event_name": "热点：世界杯决赛",
+        "raw_content": "世界杯决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "世界杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8980582308130169,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0290",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8816594807854048,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0291",
+      "raw_data": {
+        "event_name": "热点：新剧上映",
+        "raw_content": "新剧上映引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 18:51",
+      "standard_location": "",
+      "standard_entities": [
+        "上映"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8568477263758918,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0292",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9484794702138958,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0293",
+      "raw_data": {
+        "event_name": "热点：NBA总冠军",
+        "raw_content": "NBA总冠军引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [
+        "NBA"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9197574862457771,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0294",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8810783325879213,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0295",
+      "raw_data": {
+        "event_name": "热点：欧洲杯半决赛",
+        "raw_content": "欧洲杯半决赛引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "赛事",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [
+        "欧洲杯",
+        "决赛"
+      ],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9325804537572434,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0296",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 19:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.986982899235414,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0297",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.9400716762394549,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0298",
+      "raw_data": {
+        "event_name": "热点：颁奖典礼",
+        "raw_content": "颁奖典礼引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.85749027396784,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0299",
+      "raw_data": {
+        "event_name": "热点：电影节",
+        "raw_content": "电影节引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "娱乐",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 16:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.8949586709544693,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    },
+    {
+      "annotation_id": "ANNOT_0300",
+      "raw_data": {
+        "event_name": "热点：双十一",
+        "raw_content": "双十一引发全网讨论，热度持续攀升"
+      },
+      "standard_classification": "社会",
+      "standard_type_detail": "一般",
+      "standard_time": "2026-03-21 17:51",
+      "standard_location": "",
+      "standard_entities": [],
+      "standard_heat_score": 50,
+      "confidence_level": 0.904628279823514,
+      "annotator_notes": "标准标注数据，用于评估事件分类准确性"
+    }
+  ]
+}

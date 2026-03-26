@@ -1,0 +1,6105 @@
+{
+  "数据集说明": "全面Ground Truth数据",
+  "ground_truth_records": [
+    {
+      "gt_id": "GT001",
+      "merchant_id": "M001",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": true,
+        "event_heat_score": 68
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 110,
+          "sales_change_ratio": 0.6767690771158632
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.641147327992668
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 81,
+          "sales_change_ratio": 0.6716146330001338
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 52,
+          "sales_change_ratio": -0.09246852044524881
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 43,
+          "sales_change_ratio": -0.057246014785725934
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 165,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 139,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 121,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT002",
+      "merchant_id": "M002",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 95
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 81,
+          "sales_change_ratio": 0.3881843318792755
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.4870120222085468
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 21,
+          "sales_change_ratio": 0.6980055597920817
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 34,
+          "sales_change_ratio": 0.002395370740600769
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 21,
+          "sales_change_ratio": 0.25172147549416435
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 121,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 87,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 31,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT003",
+      "merchant_id": "M003",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 76
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 110,
+          "sales_change_ratio": 0.5960471291091483
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 84,
+          "sales_change_ratio": 0.294861047669817
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.2457514581209271
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 36,
+          "sales_change_ratio": 0.2902695999533734
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 23,
+          "sales_change_ratio": 0.12259795401224971
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 165,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 126,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT004",
+      "merchant_id": "M004",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 76
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 115,
+          "sales_change_ratio": 0.5160148281016464
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.2569683987251347
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.23195680147606237
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 48,
+          "sales_change_ratio": 0.28716037782745396
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.16948369793763077
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 172,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 87,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 37,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT005",
+      "merchant_id": "M005",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 73
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 76,
+          "sales_change_ratio": 0.24372099072833764
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 60,
+          "sales_change_ratio": 0.3226651839772764
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.27074515978750946
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 35,
+          "sales_change_ratio": 0.18090291577440828
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.0487489145709438
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 114,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 90,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 67,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT006",
+      "merchant_id": "M006",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 83
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 88,
+          "sales_change_ratio": 0.2816168521205942
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 57,
+          "sales_change_ratio": 0.6432237647753647
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.22109784310767774
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 35,
+          "sales_change_ratio": 0.1457170191762102
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.022690715612204218
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 132,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 85,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 100,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT007",
+      "merchant_id": "M007",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 91
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 111,
+          "sales_change_ratio": 0.6796699039998948
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.5453822986016004
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 79,
+          "sales_change_ratio": 0.5318408166838797
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 37,
+          "sales_change_ratio": 0.14932741870852856
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 69,
+          "sales_change_ratio": -0.08474449790206214
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 166,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 33,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 118,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT008",
+      "merchant_id": "M008",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": true,
+        "event_heat_score": 64
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 118,
+          "sales_change_ratio": 0.46210768498606275
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.312182102025292
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 102,
+          "sales_change_ratio": 0.4837484706546494
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.22733088406301585
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.13053508453068982
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 177,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 153,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT009",
+      "merchant_id": "M009",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 86
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.37727607169712685
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 56,
+          "sales_change_ratio": 0.763252760238371
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 38,
+          "sales_change_ratio": 0.7806211273767616
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 29,
+          "sales_change_ratio": 0.2835328103455975
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 41,
+          "sales_change_ratio": -0.017261973749375367
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 84,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 57,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT010",
+      "merchant_id": "M010",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 93
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 115,
+          "sales_change_ratio": 0.5126728588489791
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.5575166025294873
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.7648295820873527
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.24038441835255372
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 70,
+          "sales_change_ratio": 0.035519657667652804
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 172,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 139,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT011",
+      "merchant_id": "M011",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 78
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 107,
+          "sales_change_ratio": 0.7916754831115116
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 66,
+          "sales_change_ratio": 0.450072112376721
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.7106141312747409
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 28,
+          "sales_change_ratio": -0.029395762774611936
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 29,
+          "sales_change_ratio": 0.17461652318523127
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 160,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 99,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 70,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT012",
+      "merchant_id": "M012",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 70
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 81,
+          "sales_change_ratio": 0.24486634378660144
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.6439624817383893
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 40,
+          "sales_change_ratio": 0.6325949681886722
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 40,
+          "sales_change_ratio": 0.04592060642865775
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.09124919246109267
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 121,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 87,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 60,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT013",
+      "merchant_id": "M013",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 69
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 80,
+          "sales_change_ratio": 0.6909640017087149
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.605680454334868
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 69,
+          "sales_change_ratio": 0.7938580056606437
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 35,
+          "sales_change_ratio": -0.009377042738654098
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.00844992192733987
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 120,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 75,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 103,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT014",
+      "merchant_id": "M014",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 63
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 113,
+          "sales_change_ratio": 0.40422724780467645
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.3241303199966443
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 82,
+          "sales_change_ratio": 0.46124268905747207
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 51,
+          "sales_change_ratio": -0.036841672306177256
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 64,
+          "sales_change_ratio": 0.1443087617658425
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 169,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 37,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 123,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT015",
+      "merchant_id": "M015",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": true,
+        "event_heat_score": 64
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 111,
+          "sales_change_ratio": 0.29735615975105717
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 73,
+          "sales_change_ratio": 0.39842921953762866
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 97,
+          "sales_change_ratio": 0.5353674689448682
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.24050779511331852
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.029102791033122466
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 166,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 109,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 145,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT016",
+      "merchant_id": "M016",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 76
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 98,
+          "sales_change_ratio": 0.4730788266905452
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 68,
+          "sales_change_ratio": 0.2466303550019176
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.7369552462605089
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 28,
+          "sales_change_ratio": 0.23552583103557465
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 44,
+          "sales_change_ratio": 0.022372956963604057
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 147,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 102,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT017",
+      "merchant_id": "M017",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 71
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 112,
+          "sales_change_ratio": 0.3612958948079029
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 82,
+          "sales_change_ratio": 0.6206070138459021
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.7590122919076214
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.012439213846884428
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.05378630324734032
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 168,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 123,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT018",
+      "merchant_id": "M018",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 84
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 111,
+          "sales_change_ratio": 0.44281513878749695
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 72,
+          "sales_change_ratio": 0.5481164843483475
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 49,
+          "sales_change_ratio": 0.5311246419555733
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.12497241745966076
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 37,
+          "sales_change_ratio": -0.017120406626799145
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 166,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 108,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 73,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT019",
+      "merchant_id": "M019",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 88
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.3086556150212352
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 60,
+          "sales_change_ratio": 0.31897343049259075
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 48,
+          "sales_change_ratio": 0.5920665727598733
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 38,
+          "sales_change_ratio": 0.09217479426777248
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 41,
+          "sales_change_ratio": 0.21664189581287138
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 90,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 72,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT020",
+      "merchant_id": "M020",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 79
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.26852935855848015
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.5051268183414452
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 59,
+          "sales_change_ratio": 0.5260015810683727
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 62,
+          "sales_change_ratio": 0.03359491717234603
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.08918934748736002
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 124,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 100,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 88,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT021",
+      "merchant_id": "M021",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 70
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 126,
+          "sales_change_ratio": 0.5788175605755641
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.3129643181314979
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.6264623192726984
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 43,
+          "sales_change_ratio": 0.06891834133034011
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.22596600671360592
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 189,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 33,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 139,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT022",
+      "merchant_id": "M022",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": true,
+        "event_heat_score": 80
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 123,
+          "sales_change_ratio": 0.23361079724472783
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 75,
+          "sales_change_ratio": 0.6860179773309929
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.609081456008269
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 44,
+          "sales_change_ratio": 0.27699331279767636
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 21,
+          "sales_change_ratio": 0.09730784035321421
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 184,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 112,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 138,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT023",
+      "merchant_id": "M023",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 79
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.2621623535415514
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 64,
+          "sales_change_ratio": 0.7616836837657828
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 34,
+          "sales_change_ratio": 0.6951669514261233
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.27073127899353777
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 22,
+          "sales_change_ratio": -0.06608918495249635
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 138,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 96,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 51,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT024",
+      "merchant_id": "M024",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 62
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 119,
+          "sales_change_ratio": 0.6014066579686034
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 85,
+          "sales_change_ratio": 0.39812290188438665
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 21,
+          "sales_change_ratio": 0.41651915283140384
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.05820712179644644
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.28132755609096616
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 178,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 127,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 31,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT025",
+      "merchant_id": "M025",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 60
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 102,
+          "sales_change_ratio": 0.5612551522181004
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.23172016012088514
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 26,
+          "sales_change_ratio": 0.6770532597856118
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 35,
+          "sales_change_ratio": -0.05924113911077514
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 29,
+          "sales_change_ratio": 0.008146329152901144
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 153,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 87,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 39,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT026",
+      "merchant_id": "M026",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 73
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.793908536343445
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 57,
+          "sales_change_ratio": 0.3476336988271237
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.25319560414595144
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 26,
+          "sales_change_ratio": 0.13852075345027012
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 64,
+          "sales_change_ratio": -0.013776568264629668
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 85,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 79,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT027",
+      "merchant_id": "M027",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 88
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 95,
+          "sales_change_ratio": 0.3388966594973391
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 69,
+          "sales_change_ratio": 0.48542128233064186
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.7422855926746477
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.17052337464177206
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.16342671319723237
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 142,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 103,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 97,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT028",
+      "merchant_id": "M028",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 81
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 110,
+          "sales_change_ratio": 0.738169263884833
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.4276712229105025
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 104,
+          "sales_change_ratio": 0.5274511451390465
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.1794882518681807
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 38,
+          "sales_change_ratio": 0.1626733579794982
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 165,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 37,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 156,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT029",
+      "merchant_id": "M029",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": true,
+        "event_heat_score": 81
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 114,
+          "sales_change_ratio": 0.7634884213594415
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.39709588747367086
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 94,
+          "sales_change_ratio": 0.3403719950959023
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.009403815821083267
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 28,
+          "sales_change_ratio": 0.19952654280756174
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 171,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 133,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 141,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT030",
+      "merchant_id": "M030",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 93
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 84,
+          "sales_change_ratio": 0.47545378746759975
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 60,
+          "sales_change_ratio": 0.2877835980974369
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.25889216593823605
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.17311087321217197
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 38,
+          "sales_change_ratio": -0.027936729257533613
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 126,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 90,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT031",
+      "merchant_id": "M031",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 73
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 123,
+          "sales_change_ratio": 0.5139924549751718
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.5554649566376845
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.22904268202150668
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 48,
+          "sales_change_ratio": -0.029306195127987475
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 28,
+          "sales_change_ratio": 0.19290942339665415
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 184,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 139,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT032",
+      "merchant_id": "M032",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 66
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 105,
+          "sales_change_ratio": 0.6797341000063482
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 69,
+          "sales_change_ratio": 0.2424840848477374
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.2287233821675139
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.06819498983869879
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.22013709944164508
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 157,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 103,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 75,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT033",
+      "merchant_id": "M033",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 69
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.6738382462427861
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 55,
+          "sales_change_ratio": 0.4856686893393633
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 49,
+          "sales_change_ratio": 0.5007688835191018
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.054269785032748014
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.052957320934508306
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 139,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 82,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 73,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT034",
+      "merchant_id": "M034",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 87
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.3474528329660147
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 70,
+          "sales_change_ratio": 0.59124340351125
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 59,
+          "sales_change_ratio": 0.6758238095964223
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 49,
+          "sales_change_ratio": -0.08312992602444967
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 41,
+          "sales_change_ratio": 0.24084381198426294
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 133,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 105,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 88,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT035",
+      "merchant_id": "M035",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 76
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 111,
+          "sales_change_ratio": 0.7233017292298574
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.7036760514973923
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 96,
+          "sales_change_ratio": 0.4885094649566224
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 33,
+          "sales_change_ratio": 0.2660819981256143
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 49,
+          "sales_change_ratio": -0.052657495830748774
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 166,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 144,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT036",
+      "merchant_id": "M036",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": true,
+        "event_heat_score": 83
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 122,
+          "sales_change_ratio": 0.24517116048542958
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 75,
+          "sales_change_ratio": 0.4423633837152603
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.39630973722441587
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.1340793905208782
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.23813036615703745
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 183,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 112,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 133,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT037",
+      "merchant_id": "M037",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 67
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.4009993821093364
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.35890151095628164
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.2185639023905566
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.16094381878827022
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.11648600318533875
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 76,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 37,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT038",
+      "merchant_id": "M038",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 83
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 113,
+          "sales_change_ratio": 0.36112150368600565
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 77,
+          "sales_change_ratio": 0.20766555811199328
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 35,
+          "sales_change_ratio": 0.6357912244477075
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 54,
+          "sales_change_ratio": 0.12890260526031536
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 61,
+          "sales_change_ratio": 0.04687261090572026
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 169,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 115,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 52,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT039",
+      "merchant_id": "M039",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 64
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 117,
+          "sales_change_ratio": 0.3925204681279249
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 70,
+          "sales_change_ratio": 0.26711953152546764
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.3293009836727807
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.06610665056248285
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.1797759215442137
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 175,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 105,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 69,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT040",
+      "merchant_id": "M040",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 86
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.7878551708044528
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.6999950548912663
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.7995472226336702
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 20,
+          "sales_change_ratio": -0.05606292457395515
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 33,
+          "sales_change_ratio": 0.28917799436209835
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 138,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 67,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 67,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT041",
+      "merchant_id": "M041",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 66
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.35323206748512
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 54,
+          "sales_change_ratio": 0.4760004306321684
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 52,
+          "sales_change_ratio": 0.3086660395902662
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 55,
+          "sales_change_ratio": 0.1758983050218558
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 32,
+          "sales_change_ratio": -0.06590790436994798
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 124,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 81,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 78,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT042",
+      "merchant_id": "M042",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 93
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 116,
+          "sales_change_ratio": 0.6082076807823351
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.6520047937184253
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 90,
+          "sales_change_ratio": 0.6990392607630997
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 59,
+          "sales_change_ratio": 0.09670421675923283
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 36,
+          "sales_change_ratio": 0.05993021686427427
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 174,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 135,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT043",
+      "merchant_id": "M043",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": true,
+        "event_heat_score": 66
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 117,
+          "sales_change_ratio": 0.2394122269157286
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.36499514168652303
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 88,
+          "sales_change_ratio": 0.6450675553580745
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 70,
+          "sales_change_ratio": 0.2219226386383555
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 42,
+          "sales_change_ratio": -0.0003028970750132698
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 175,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 139,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 132,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT044",
+      "merchant_id": "M044",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 90,
+          "sales_change_ratio": 0.69581741934286
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 55,
+          "sales_change_ratio": 0.6726944293750625
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 24,
+          "sales_change_ratio": 0.6218462641955533
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 20,
+          "sales_change_ratio": -0.02438556497912811
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 39,
+          "sales_change_ratio": 0.28347500865427977
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 135,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 82,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 36,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT045",
+      "merchant_id": "M045",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 82
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 121,
+          "sales_change_ratio": 0.7876098934392572
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 84,
+          "sales_change_ratio": 0.6911927755715868
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.23306840154991915
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 37,
+          "sales_change_ratio": -0.06833036292484218
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 25,
+          "sales_change_ratio": -0.04266410629503956
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 181,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 126,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT046",
+      "merchant_id": "M046",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 108,
+          "sales_change_ratio": 0.6151623425615504
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.48528266343186816
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 29,
+          "sales_change_ratio": 0.5021616254372823
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.22394765168824274
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.1090872366830348
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 162,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 97,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 43,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT047",
+      "merchant_id": "M047",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 77
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 91,
+          "sales_change_ratio": 0.4461198168977364
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.3500047764493832
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.299073808410352
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 38,
+          "sales_change_ratio": -0.03613242017532184
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 68,
+          "sales_change_ratio": -0.07962006035711494
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 136,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 75,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 63,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT048",
+      "merchant_id": "M048",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 79
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 96,
+          "sales_change_ratio": 0.4885300395062129
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 63,
+          "sales_change_ratio": 0.4035340034466212
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 76,
+          "sales_change_ratio": 0.3613676263874178
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 44,
+          "sales_change_ratio": -0.07827187830010646
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 31,
+          "sales_change_ratio": -0.03437490807109014
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 144,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 94,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 114,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT049",
+      "merchant_id": "M049",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 64
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 129,
+          "sales_change_ratio": 0.6780491004466596
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.26325779092290985
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.2204192764043662
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 34,
+          "sales_change_ratio": 0.29091261858278483
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 33,
+          "sales_change_ratio": 0.23476653812023776
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 193,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 33,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 138,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT050",
+      "merchant_id": "M050",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": true,
+        "event_heat_score": 82
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 112,
+          "sales_change_ratio": 0.2270074305847392
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 84,
+          "sales_change_ratio": 0.3964873233934418
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 106,
+          "sales_change_ratio": 0.22883192939981842
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 37,
+          "sales_change_ratio": 0.2104114720322283
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 37,
+          "sales_change_ratio": 0.16534523881011473
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 168,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 126,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 159,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT051",
+      "merchant_id": "M051",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.7169610632236167
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 54,
+          "sales_change_ratio": 0.7763360778098165
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.4021420682879645
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 20,
+          "sales_change_ratio": -0.029572102609138937
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 52,
+          "sales_change_ratio": -0.09050838966779247
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 81,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 46,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT052",
+      "merchant_id": "M052",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 62
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 125,
+          "sales_change_ratio": 0.5327880836879966
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.528992226155047
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.4778118046334043
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 48,
+          "sales_change_ratio": 0.1972366096838877
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 55,
+          "sales_change_ratio": -0.033180642868819235
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 187,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 124,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 46,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT053",
+      "merchant_id": "M053",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 79
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 106,
+          "sales_change_ratio": 0.6205614680627022
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 56,
+          "sales_change_ratio": 0.7392668547669028
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 35,
+          "sales_change_ratio": 0.7460705231087434
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.054014877334587125
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.24386091496642012
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 159,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 84,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 52,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT054",
+      "merchant_id": "M054",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 94
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.23366804319996323
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.32576872778926236
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 56,
+          "sales_change_ratio": 0.2969625783955764
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 36,
+          "sales_change_ratio": -0.08899338384671665
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 40,
+          "sales_change_ratio": 0.26016700153061456
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 138,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 79,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 84,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT055",
+      "merchant_id": "M055",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 60
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 94,
+          "sales_change_ratio": 0.7659939776909479
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 59,
+          "sales_change_ratio": 0.7357008597789076
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.7714278582760481
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.08823362517976424
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 27,
+          "sales_change_ratio": 0.18345155251790504
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 141,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 88,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 97,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT056",
+      "merchant_id": "M056",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 71
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 118,
+          "sales_change_ratio": 0.5745996143355091
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.33350951036195214
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 87,
+          "sales_change_ratio": 0.44006628660964964
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 52,
+          "sales_change_ratio": 0.2022972805496814
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 39,
+          "sales_change_ratio": 0.291438567726623
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 177,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 46,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 130,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT057",
+      "merchant_id": "M057",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": true,
+        "event_heat_score": 78
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 128,
+          "sales_change_ratio": 0.38520990262153926
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 91,
+          "sales_change_ratio": 0.5509633875280211
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 82,
+          "sales_change_ratio": 0.6111971547131714
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 44,
+          "sales_change_ratio": 0.06379311983304414
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 38,
+          "sales_change_ratio": 0.010004296776501803
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 192,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 136,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 123,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT058",
+      "merchant_id": "M058",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 80
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.7392120245385918
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.6967240984235772
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.4876376282797377
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.2226449260584024
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.29085183670992587
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 133,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 100,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT059",
+      "merchant_id": "M059",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 77
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 123,
+          "sales_change_ratio": 0.43487481161065955
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 94,
+          "sales_change_ratio": 0.24893170520501276
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.5081985459948783
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 43,
+          "sales_change_ratio": 0.19921427267653305
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 54,
+          "sales_change_ratio": -0.05808437502742212
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 184,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 141,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT060",
+      "merchant_id": "M060",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 61
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 105,
+          "sales_change_ratio": 0.218862855567884
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.5414151470704492
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 32,
+          "sales_change_ratio": 0.7740148699811373
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 23,
+          "sales_change_ratio": 0.2106454426823717
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.11013961244332587
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 157,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 75,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 48,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT061",
+      "merchant_id": "M061",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 84,
+          "sales_change_ratio": 0.45993890692974887
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.43016860492451925
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 44,
+          "sales_change_ratio": 0.6445435569505387
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.06727558679210369
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 43,
+          "sales_change_ratio": 0.02541740963699346
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 126,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 69,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 66,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT062",
+      "merchant_id": "M062",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 70
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 94,
+          "sales_change_ratio": 0.5695787370446023
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 55,
+          "sales_change_ratio": 0.707675275994327
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 59,
+          "sales_change_ratio": 0.7514720395863383
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 51,
+          "sales_change_ratio": -0.023568465251218557
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 38,
+          "sales_change_ratio": -0.07600720220387785
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 141,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 82,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 88,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT063",
+      "merchant_id": "M063",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 72
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 113,
+          "sales_change_ratio": 0.6461517922402293
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 22,
+          "sales_change_ratio": 0.35968008771274673
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.5051299865811278
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.03179986332167645
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.2433750949873071
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 169,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 33,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 133,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT064",
+      "merchant_id": "M064",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": true,
+        "event_heat_score": 77
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 122,
+          "sales_change_ratio": 0.6813778754244295
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 76,
+          "sales_change_ratio": 0.49864407064766747
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 102,
+          "sales_change_ratio": 0.6982885461174924
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.07261520001218655
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 21,
+          "sales_change_ratio": 0.13733075049305474
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 183,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 114,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 153,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT065",
+      "merchant_id": "M065",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 68
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 90,
+          "sales_change_ratio": 0.6119535446824618
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 71,
+          "sales_change_ratio": 0.22215389231308436
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.6618119919079968
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 25,
+          "sales_change_ratio": -0.07371859740241025
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 24,
+          "sales_change_ratio": 0.13725919258347494
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 135,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 106,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT066",
+      "merchant_id": "M066",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 66
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 120,
+          "sales_change_ratio": 0.6468046090064064
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 87,
+          "sales_change_ratio": 0.38981807807603863
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.7056662636621822
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.0102316698532543
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 38,
+          "sales_change_ratio": 0.011949072400612784
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 180,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 130,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT067",
+      "merchant_id": "M067",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 94
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 104,
+          "sales_change_ratio": 0.25888126960586477
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.6516882133861523
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 40,
+          "sales_change_ratio": 0.43231447218718194
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 40,
+          "sales_change_ratio": 0.1586048625035528
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 26,
+          "sales_change_ratio": 0.043021754241332755
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 156,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 87,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 60,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT068",
+      "merchant_id": "M068",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 93
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 76,
+          "sales_change_ratio": 0.21247300002095137
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.47413120145432375
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 63,
+          "sales_change_ratio": 0.7712051348873041
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 49,
+          "sales_change_ratio": 0.13514435466649233
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 22,
+          "sales_change_ratio": -0.09946337582849477
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 114,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 75,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 94,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT069",
+      "merchant_id": "M069",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 78
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 94,
+          "sales_change_ratio": 0.3976733016823889
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 64,
+          "sales_change_ratio": 0.5888634744850718
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.7739188612127013
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.14732178547555538
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 37,
+          "sales_change_ratio": 0.2717572323461176
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 141,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 96,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 79,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT070",
+      "merchant_id": "M070",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 81
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 123,
+          "sales_change_ratio": 0.3473062921033778
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.4445964306448146
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 99,
+          "sales_change_ratio": 0.6956947506830635
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.29263696009214446
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.2203536338730578
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 184,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 148,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT071",
+      "merchant_id": "M071",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": true,
+        "event_heat_score": 81
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 110,
+          "sales_change_ratio": 0.49618828876189086
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 85,
+          "sales_change_ratio": 0.5278214097840394
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 91,
+          "sales_change_ratio": 0.6867478924428698
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.0518604288703263
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 23,
+          "sales_change_ratio": -0.0253942782857743
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 165,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 127,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 136,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT072",
+      "merchant_id": "M072",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 60
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 79,
+          "sales_change_ratio": 0.6465334620956119
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.5018469920686511
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.4728436071649021
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 36,
+          "sales_change_ratio": 0.18368954350944836
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": -0.03599389546031216
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 118,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 76,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT073",
+      "merchant_id": "M073",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 110,
+          "sales_change_ratio": 0.48220132056105164
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 98,
+          "sales_change_ratio": 0.6502412215345958
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.7899650087052092
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 26,
+          "sales_change_ratio": 0.2688625027739858
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 52,
+          "sales_change_ratio": 0.2612600428187266
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 165,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 147,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT074",
+      "merchant_id": "M074",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 69
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 105,
+          "sales_change_ratio": 0.32852902268769035
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 70,
+          "sales_change_ratio": 0.7972686466896706
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.6868426420047242
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 39,
+          "sales_change_ratio": -0.0338190540761298
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 52,
+          "sales_change_ratio": 0.23350017751808896
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 157,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 105,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 67,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT075",
+      "merchant_id": "M075",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 85
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 84,
+          "sales_change_ratio": 0.5619360455616372
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.5930393384431301
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 65,
+          "sales_change_ratio": 0.42330409272874836
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.2218929683881394
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.15448742266891782
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 126,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 75,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 97,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT076",
+      "merchant_id": "M076",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 70
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.7331277353180656
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 51,
+          "sales_change_ratio": 0.6702016653002587
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.36397803052293154
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 44,
+          "sales_change_ratio": 0.19717902281446084
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": -0.013003264630452899
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 76,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 100,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT077",
+      "merchant_id": "M077",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 67
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 128,
+          "sales_change_ratio": 0.20545177008204188
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 40,
+          "sales_change_ratio": 0.4573783605954236
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.2537581774665136
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 42,
+          "sales_change_ratio": -0.09299905559114952
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 75,
+          "sales_change_ratio": 0.11670018053511028
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 192,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 60,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 138,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT078",
+      "merchant_id": "M078",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": true,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 122,
+          "sales_change_ratio": 0.40574590242018815
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 80,
+          "sales_change_ratio": 0.41407188853835647
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.7105360282984616
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.2779888141725436
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.21832060402646244
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 183,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 120,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 124,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT079",
+      "merchant_id": "M079",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 91
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 98,
+          "sales_change_ratio": 0.27554816318273223
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 69,
+          "sales_change_ratio": 0.6723876153075443
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 24,
+          "sales_change_ratio": 0.48494160560586214
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 28,
+          "sales_change_ratio": 0.1131153787264573
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.13675749655629052
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 147,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 103,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 36,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT080",
+      "merchant_id": "M080",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 66
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 112,
+          "sales_change_ratio": 0.3325042900216975
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 92,
+          "sales_change_ratio": 0.4777450450881174
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 23,
+          "sales_change_ratio": 0.683336828657997
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.1829768349998709
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 54,
+          "sales_change_ratio": -0.08972797426780091
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 168,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 138,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 34,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT081",
+      "merchant_id": "M081",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 85
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 107,
+          "sales_change_ratio": 0.7051368614268405
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 55,
+          "sales_change_ratio": 0.352550217508275
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.7332621306080571
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 29,
+          "sales_change_ratio": 0.15730441243252766
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.23936511716212258
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 160,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 82,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 63,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT082",
+      "merchant_id": "M082",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 68
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.2682022160222265
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 54,
+          "sales_change_ratio": 0.30684537063840633
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 54,
+          "sales_change_ratio": 0.7126580098362223
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.2551447669910972
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.05043403161880375
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 133,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 81,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 81,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT083",
+      "merchant_id": "M083",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 91
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.3282845739360272
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 58,
+          "sales_change_ratio": 0.7040845640094695
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 69,
+          "sales_change_ratio": 0.352886063045438
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 55,
+          "sales_change_ratio": 0.17185988940938682
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 33,
+          "sales_change_ratio": 0.14843715957928794
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 87,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 103,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT084",
+      "merchant_id": "M084",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 88
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 129,
+          "sales_change_ratio": 0.6117837561327302
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 31,
+          "sales_change_ratio": 0.24769019280910018
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.7727556950505707
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 56,
+          "sales_change_ratio": 0.20300202108986473
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 74,
+          "sales_change_ratio": -0.043235047419602914
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 193,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 46,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 124,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT085",
+      "merchant_id": "M085",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": true,
+        "event_heat_score": 89
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 124,
+          "sales_change_ratio": 0.6236837940352444
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 82,
+          "sales_change_ratio": 0.33168197765403873
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 103,
+          "sales_change_ratio": 0.4128114107515515
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.18114302062782703
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 33,
+          "sales_change_ratio": -0.005222281412875021
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 186,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 123,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 154,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT086",
+      "merchant_id": "M086",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 74
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.5143248344426661
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 57,
+          "sales_change_ratio": 0.2969238832943667
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.6915454638714975
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.2570334305825196
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 28,
+          "sales_change_ratio": -0.025771936459898864
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 124,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 85,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT087",
+      "merchant_id": "M087",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 63
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 121,
+          "sales_change_ratio": 0.705273446019399
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 91,
+          "sales_change_ratio": 0.32897771443196266
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.6605941119592253
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 23,
+          "sales_change_ratio": 0.05314230868771058
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 54,
+          "sales_change_ratio": -0.09597608379604475
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 181,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 136,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT088",
+      "merchant_id": "M088",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 73
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 120,
+          "sales_change_ratio": 0.6584662994836806
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.6590458076307433
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 49,
+          "sales_change_ratio": 0.4084608350630595
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 48,
+          "sales_change_ratio": 0.15564951728083923
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 31,
+          "sales_change_ratio": -0.06786335998625606
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 180,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 100,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 73,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT089",
+      "merchant_id": "M089",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 61
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.27948923472309356
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 66,
+          "sales_change_ratio": 0.6658395438025078
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.6800437355739155
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.2726797632808732
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 49,
+          "sales_change_ratio": 0.0841581010720592
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 124,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 99,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 45,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT090",
+      "merchant_id": "M090",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 93
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 86,
+          "sales_change_ratio": 0.4478426884531377
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 64,
+          "sales_change_ratio": 0.7615690288725467
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 52,
+          "sales_change_ratio": 0.40071224393233495
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 45,
+          "sales_change_ratio": 0.15397574207541811
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.07863042081571744
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 129,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 96,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 78,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT091",
+      "merchant_id": "M091",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 79
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 110,
+          "sales_change_ratio": 0.45127492910278233
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 28,
+          "sales_change_ratio": 0.6995502738607318
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 82,
+          "sales_change_ratio": 0.2879043241354282
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 39,
+          "sales_change_ratio": 0.1986930806509327
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 34,
+          "sales_change_ratio": 0.14111983635169825
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 165,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 42,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 123,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT092",
+      "merchant_id": "M092",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": true,
+        "event_heat_score": 72
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 112,
+          "sales_change_ratio": 0.7806421697138786
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 89,
+          "sales_change_ratio": 0.6919749538845408
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 94,
+          "sales_change_ratio": 0.7077078039582358
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 53,
+          "sales_change_ratio": 0.25469720174176846
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 57,
+          "sales_change_ratio": 0.16892401718449232
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 168,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 133,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 141,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT093",
+      "merchant_id": "M093",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 81
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 82,
+          "sales_change_ratio": 0.320787379123943
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 59,
+          "sales_change_ratio": 0.3900674549615541
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 24,
+          "sales_change_ratio": 0.7730012030090467
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 25,
+          "sales_change_ratio": 0.06655696319297752
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 42,
+          "sales_change_ratio": 0.2504054235406564
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 123,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 88,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 36,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT094",
+      "merchant_id": "M094",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 63
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 130,
+          "sales_change_ratio": 0.28382566032163814
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 87,
+          "sales_change_ratio": 0.37904109418033216
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.5746318699389801
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 33,
+          "sales_change_ratio": -0.09512650087762192
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 43,
+          "sales_change_ratio": 0.2303755376832902
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0004",
+        "P0003"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 195,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 130,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT095",
+      "merchant_id": "M095",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 92
+      },
+      "real_sales_data": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 116,
+          "sales_change_ratio": 0.2126472745080964
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 61,
+          "sales_change_ratio": 0.28846427576825234
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "actual_sales": 24,
+          "sales_change_ratio": 0.3893858449232323
+        },
+        "P0015": {
+          "product_name": "绝味鸭脖",
+          "actual_sales": 50,
+          "sales_change_ratio": 0.10891131581055707
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 46,
+          "sales_change_ratio": 0.14945824643791497
+        }
+      },
+      "expected_hot_products": [
+        "P0005",
+        "P0008",
+        "P0010",
+        "P0015",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 174,
+          "urgency": "high"
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "needed_quantity": 91,
+          "urgency": "high"
+        },
+        "P0010": {
+          "product_name": "梦龙冰淇淋",
+          "needed_quantity": 36,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT096",
+      "merchant_id": "M096",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 60
+      },
+      "real_sales_data": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 83,
+          "sales_change_ratio": 0.4040785375961098
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "actual_sales": 47,
+          "sales_change_ratio": 0.7708381194969789
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 38,
+          "sales_change_ratio": 0.3785985286325444
+        },
+        "P0004": {
+          "product_name": "洽洽瓜子",
+          "actual_sales": 26,
+          "sales_change_ratio": 0.07909887028723281
+        },
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 33,
+          "sales_change_ratio": 0.20784303903235687
+        }
+      },
+      "expected_hot_products": [
+        "P0003",
+        "P0012",
+        "P0006",
+        "P0004",
+        "P0007"
+      ],
+      "real_restock_needs": {
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 124,
+          "urgency": "high"
+        },
+        "P0012": {
+          "product_name": "奥利奥",
+          "needed_quantity": 70,
+          "urgency": "high"
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "needed_quantity": 57,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT097",
+      "merchant_id": "M097",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "阴",
+        "has_sports_event": false,
+        "event_heat_score": 95
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 95,
+          "sales_change_ratio": 0.6025750699580072
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 70,
+          "sales_change_ratio": 0.4788096176201354
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 78,
+          "sales_change_ratio": 0.3898959361694201
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 34,
+          "sales_change_ratio": 0.13792523110647223
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 24,
+          "sales_change_ratio": -0.04609892981373376
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0003",
+        "P0008",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 142,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 105,
+          "urgency": "high"
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "needed_quantity": 117,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT098",
+      "merchant_id": "M098",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "多云",
+        "has_sports_event": false,
+        "event_heat_score": 91
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 114,
+          "sales_change_ratio": 0.4806767271635652
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "actual_sales": 20,
+          "sales_change_ratio": 0.3514716153846501
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 72,
+          "sales_change_ratio": 0.5354059001451197
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 46,
+          "sales_change_ratio": -0.04993810287548639
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 63,
+          "sales_change_ratio": 0.20666747886867945
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0011",
+        "P0005",
+        "P0008",
+        "P0002"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 171,
+          "urgency": "high"
+        },
+        "P0011": {
+          "product_name": "威士忌",
+          "needed_quantity": 30,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 108,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT099",
+      "merchant_id": "M099",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": true,
+        "event_heat_score": 87
+      },
+      "real_sales_data": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "actual_sales": 111,
+          "sales_change_ratio": 0.5930593002248801
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "actual_sales": 90,
+          "sales_change_ratio": 0.21069848949245032
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "actual_sales": 99,
+          "sales_change_ratio": 0.5019946449057122
+        },
+        "P0003": {
+          "product_name": "乐事薯片原味",
+          "actual_sales": 67,
+          "sales_change_ratio": 0.23418635781561833
+        },
+        "P0008": {
+          "product_name": "泡椒凤爪",
+          "actual_sales": 30,
+          "sales_change_ratio": 0.20052590254206523
+        }
+      },
+      "expected_hot_products": [
+        "P0001",
+        "P0002",
+        "P0005",
+        "P0003",
+        "P0008"
+      ],
+      "real_restock_needs": {
+        "P0001": {
+          "product_name": "青岛啤酒330ml",
+          "needed_quantity": 166,
+          "urgency": "high"
+        },
+        "P0002": {
+          "product_name": "百威啤酒500ml",
+          "needed_quantity": 135,
+          "urgency": "high"
+        },
+        "P0005": {
+          "product_name": "周黑鸭鸭脖",
+          "needed_quantity": 148,
+          "urgency": "high"
+        }
+      }
+    },
+    {
+      "gt_id": "GT100",
+      "merchant_id": "M100",
+      "date": "2026-03-21",
+      "context": {
+        "weather": "晴",
+        "has_sports_event": false,
+        "event_heat_score": 85
+      },
+      "real_sales_data": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "actual_sales": 93,
+          "sales_change_ratio": 0.3773145373826935
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "actual_sales": 57,
+          "sales_change_ratio": 0.7014195874007558
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "actual_sales": 32,
+          "sales_change_ratio": 0.6654433161467689
+        },
+        "P0014": {
+          "product_name": "康师傅泡面",
+          "actual_sales": 21,
+          "sales_change_ratio": -0.016897559537889656
+        },
+        "P0006": {
+          "product_name": "可口可乐330ml",
+          "actual_sales": 37,
+          "sales_change_ratio": -0.008088531375496283
+        }
+      },
+      "expected_hot_products": [
+        "P0007",
+        "P0013",
+        "P0009",
+        "P0014",
+        "P0006"
+      ],
+      "real_restock_needs": {
+        "P0007": {
+          "product_name": "红牛250ml",
+          "needed_quantity": 139,
+          "urgency": "high"
+        },
+        "P0013": {
+          "product_name": "东鹏特饮",
+          "needed_quantity": 85,
+          "urgency": "high"
+        },
+        "P0009": {
+          "product_name": "农心辛拉面",
+          "needed_quantity": 48,
+          "urgency": "high"
+        }
+      }
+    }
+  ]
+}

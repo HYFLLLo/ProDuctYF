@@ -1,0 +1,435 @@
+{
+  "数据集说明": "商品品类测试集 - 增强版商品数据",
+  "数据量": 100,
+  "生成日期": "2026-03-22",
+  "数据来源": "模拟生成",
+  "更新说明": "增强版：添加多维度爆品识别相关字段",
+  "products": [
+    {
+      "product_id": "P001",
+      "product_name": "青岛啤酒经典",
+      "category_id": "C001",
+      "category_name": "啤酒",
+      "brand": "青岛",
+      "unit": "罐",
+      "cost_price": 4.5,
+      "retail_price": 8.0,
+      "product_attributes": {
+        "口味": "经典",
+        "规格": "330ml",
+        "酒精度": "4%"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 5,
+        "sales_rank_national": 15,
+        "sales_growth_rate_7d": 85,
+        "region_match_score": {
+          "成都": 1.0,
+          "重庆": 1.0,
+          "青岛": 0.9,
+          "长沙": 0.8,
+          "北京": 0.7,
+          "上海": 0.6
+        },
+        "hot_event_tags": ["啤酒", "看球", "聚会", "夜宵"],
+        "peak_season": ["夏季", "世界杯", "欧洲杯"],
+        "user_preference_tags": ["看球人群", "聚会人群", "夜宵爱好者"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P002",
+      "product_name": "麻辣小龙虾",
+      "category_id": "C002",
+      "category_name": "小龙虾",
+      "brand": "盱眙",
+      "unit": "份",
+      "cost_price": 28.0,
+      "retail_price": 58.0,
+      "product_attributes": {
+        "口味": "麻辣",
+        "规格": "750g",
+        "辣度": "中辣"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 2,
+        "sales_rank_national": 8,
+        "sales_growth_rate_7d": 120,
+        "region_match_score": {
+          "成都": 1.0,
+          "重庆": 1.0,
+          "武汉": 1.0,
+          "南京": 1.0,
+          "长沙": 0.9,
+          "北京": 0.5,
+          "上海": 0.6
+        },
+        "hot_event_tags": ["小龙虾", "夜宵", "聚会", "夏季"],
+        "peak_season": ["夏季", "高温预警"],
+        "user_preference_tags": ["夜宵爱好者", "聚会人群", "重口味爱好者"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P003",
+      "product_name": "乐事薯片原味",
+      "category_id": "C003",
+      "category_name": "膨化食品",
+      "brand": "乐事",
+      "unit": "袋",
+      "cost_price": 5.5,
+      "retail_price": 9.8,
+      "product_attributes": {
+        "口味": "原味",
+        "规格": "160g",
+        "类型": "经典"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 12,
+        "sales_rank_national": 25,
+        "sales_growth_rate_7d": 15,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["零食", "看球", "聚会"],
+        "peak_season": ["全年"],
+        "user_preference_tags": ["看球人群", "零食爱好者", "学生群体"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P004",
+      "product_name": "哈根达斯冰淇淋",
+      "category_id": "C004",
+      "category_name": "冰淇淋",
+      "brand": "哈根达斯",
+      "unit": "杯",
+      "cost_price": 35.0,
+      "retail_price": 68.0,
+      "product_attributes": {
+        "口味": "香草",
+        "规格": "81g",
+        "类型": "高端"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 8,
+        "sales_rank_national": 20,
+        "sales_growth_rate_7d": 65,
+        "region_match_score": {
+          "上海": 1.0,
+          "北京": 1.0,
+          "深圳": 1.0,
+          "成都": 0.7,
+          "重庆": 0.6
+        },
+        "hot_event_tags": ["冰淇淋", "高温", "冷饮", "甜品"],
+        "peak_season": ["夏季", "高温预警"],
+        "user_preference_tags": ["高消费人群", "年轻人", "甜品爱好者"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P005",
+      "product_name": "农夫山泉饮用水",
+      "category_id": "C005",
+      "category_name": "饮料",
+      "brand": "农夫山泉",
+      "unit": "瓶",
+      "cost_price": 1.2,
+      "retail_price": 2.5,
+      "product_attributes": {
+        "规格": "550ml",
+        "类型": "矿泉水"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 1,
+        "sales_rank_national": 3,
+        "sales_growth_rate_7d": 5,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["饮料", "日常"],
+        "peak_season": ["全年"],
+        "user_preference_tags": ["所有人群"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P006",
+      "product_name": "蒙牛冰淇淋巧乐兹",
+      "category_id": "C004",
+      "category_name": "冰淇淋",
+      "brand": "蒙牛",
+      "unit": "支",
+      "cost_price": 3.5,
+      "retail_price": 6.5,
+      "product_attributes": {
+        "口味": "巧克力脆皮",
+        "规格": "75g",
+        "类型": "平价"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 3,
+        "sales_rank_national": 10,
+        "sales_growth_rate_7d": 95,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["冰淇淋", "冷饮", "夏季", "高温"],
+        "peak_season": ["夏季", "高温预警"],
+        "user_preference_tags": ["学生群体", "年轻消费者", "所有人群"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P007",
+      "product_name": "周黑鸭锁鲜装",
+      "category_id": "C006",
+      "category_name": "卤味",
+      "brand": "周黑鸭",
+      "unit": "盒",
+      "cost_price": 18.0,
+      "retail_price": 32.0,
+      "product_attributes": {
+        "口味": "麻辣",
+        "规格": "280g",
+        "类型": "锁鲜装"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 4,
+        "sales_rank_national": 12,
+        "sales_growth_rate_7d": 40,
+        "region_match_score": {
+          "武汉": 1.0,
+          "成都": 0.9,
+          "重庆": 0.9,
+          "长沙": 0.8,
+          "全国": 0.6
+        },
+        "hot_event_tags": ["卤味", "夜宵", "下酒菜", "追剧"],
+        "peak_season": ["全年", "世界杯", "高温预警"],
+        "user_preference_tags": ["夜宵爱好者", "追剧人群", "重口味爱好者"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P008",
+      "product_name": "可口可乐330ml罐装",
+      "category_id": "C005",
+      "category_name": "碳酸饮料",
+      "brand": "可口可乐",
+      "unit": "罐",
+      "cost_price": 2.0,
+      "retail_price": 3.5,
+      "product_attributes": {
+        "规格": "330ml",
+        "类型": "经典"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 2,
+        "sales_rank_national": 5,
+        "sales_growth_rate_7d": 10,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["饮料", "看球", "聚会", "日常"],
+        "peak_season": ["全年", "夏季"],
+        "user_preference_tags": ["看球人群", "聚会人群", "所有人群"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P009",
+      "product_name": "海底捞自热小火锅",
+      "category_id": "C007",
+      "category_name": "自热食品",
+      "brand": "海底捞",
+      "unit": "盒",
+      "cost_price": 25.0,
+      "retail_price": 45.0,
+      "product_attributes": {
+        "口味": "麻辣牛肚",
+        "规格": "400g",
+        "类型": "自热"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 6,
+        "sales_rank_national": 18,
+        "sales_growth_rate_7d": 55,
+        "region_match_score": {
+          "成都": 1.0,
+          "重庆": 1.0,
+          "全国": 0.7
+        },
+        "hot_event_tags": ["自热火锅", "夜宵", "加班", "冬季"],
+        "peak_season": ["冬季", "加班场景", "高温预警"],
+        "user_preference_tags": ["加班人群", "独居人群", "重口味爱好者"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P010",
+      "product_name": "旺旺雪饼",
+      "category_id": "C003",
+      "category_name": "膨化食品",
+      "brand": "旺旺",
+      "unit": "包",
+      "cost_price": 4.8,
+      "retail_price": 8.5,
+      "product_attributes": {
+        "口味": "原味",
+        "规格": "100g",
+        "类型": "经典"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 15,
+        "sales_rank_national": 30,
+        "sales_growth_rate_7d": 8,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["零食", "看球", "聚会"],
+        "peak_season": ["全年"],
+        "user_preference_tags": ["看球人群", "零食爱好者", "学生群体"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P011",
+      "product_name": "统一老坛酸菜牛肉面",
+      "category_id": "C008",
+      "category_name": "方便面",
+      "brand": "统一",
+      "unit": "袋",
+      "cost_price": 3.5,
+      "retail_price": 5.5,
+      "product_attributes": {
+        "口味": "酸菜牛肉",
+        "规格": "105g",
+        "类型": "袋装"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 7,
+        "sales_rank_national": 22,
+        "sales_growth_rate_7d": 12,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["泡面", "加班", "夜宵"],
+        "peak_season": ["全年", "加班场景"],
+        "user_preference_tags": ["加班人群", "学生群体", "低收入人群"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P012",
+      "product_name": "三只松鼠坚果礼盒",
+      "category_id": "C009",
+      "category_name": "坚果",
+      "brand": "三只松鼠",
+      "unit": "盒",
+      "cost_price": 65.0,
+      "retail_price": 128.0,
+      "product_attributes": {
+        "规格": "1498g",
+        "类型": "礼盒装",
+        "适合": "送礼"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 5,
+        "sales_rank_national": 15,
+        "sales_growth_rate_7d": 150,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["坚果", "送礼", "节日", "聚会"],
+        "peak_season": ["国庆节", "春节", "中秋节"],
+        "user_preference_tags": ["送礼人群", "高消费人群", "家庭聚会"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P013",
+      "product_name": "茶颜悦色奶茶",
+      "category_id": "C010",
+      "category_name": "奶茶",
+      "brand": "茶颜悦色",
+      "unit": "杯",
+      "cost_price": 12.0,
+      "retail_price": 18.0,
+      "product_attributes": {
+        "口味": "幽兰拿铁",
+        "规格": "中杯",
+        "类型": "长沙特色"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 1,
+        "sales_rank_national": 50,
+        "sales_growth_rate_7d": 25,
+        "region_match_score": {
+          "长沙": 1.0,
+          "武汉": 0.6,
+          "成都": 0.5
+        },
+        "hot_event_tags": ["奶茶", "网红", "长沙", "夜宵"],
+        "peak_season": ["全年"],
+        "user_preference_tags": ["年轻人", "网红打卡", "学生群体"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P014",
+      "product_name": "RIO鸡尾酒",
+      "category_id": "C011",
+      "category_name": "预调酒",
+      "brand": "RIO",
+      "unit": "瓶",
+      "cost_price": 8.0,
+      "retail_price": 15.0,
+      "product_attributes": {
+        "口味": "蓝玫瑰",
+        "规格": "275ml",
+        "酒精度": "3%"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 10,
+        "sales_rank_national": 28,
+        "sales_growth_rate_7d": 70,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["预调酒", "独饮", "聚会", "女性"],
+        "peak_season": ["夏季", "七夕", "世界杯"],
+        "user_preference_tags": ["独饮人群", "聚会人群", "女性消费者"]
+      },
+      "status": "active"
+    },
+    {
+      "product_id": "P015",
+      "product_name": "卫龙辣条大面筋",
+      "category_id": "C012",
+      "category_name": "辣条",
+      "brand": "卫龙",
+      "unit": "袋",
+      "cost_price": 2.5,
+      "retail_price": 5.0,
+      "product_attributes": {
+        "口味": "麻辣",
+        "规格": "106g",
+        "类型": "经典"
+      },
+      "multi_dimension_data": {
+        "sales_rank_city": 8,
+        "sales_rank_national": 20,
+        "sales_growth_rate_7d": 20,
+        "region_match_score": {
+          "全国": 1.0
+        },
+        "hot_event_tags": ["辣条", "零食", "童年", "追剧"],
+        "peak_season": ["全年"],
+        "user_preference_tags": ["学生群体", "零食爱好者", "怀旧人群"]
+      },
+      "status": "active"
+    }
+  ]
+}

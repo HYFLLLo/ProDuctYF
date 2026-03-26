@@ -1,0 +1,314 @@
+{
+  "数据集说明": "商家数据测试集 - 增强版商家档案数据",
+  "数据量": 55,
+  "生成日期": "2026-03-22",
+  "数据来源": "模拟生成",
+  "更新说明": "增强版：添加连锁品牌、城市特性、地域知识库支持",
+  "merchants": [
+    {
+      "merchant_id": "M001",
+      "merchant_name": "华润万家（北京国贸店）",
+      "merchant_type": "连锁超市",
+      "chain_brand": "华润万家",
+      "brand_level": "平价",
+      "city": "北京",
+      "district": "朝阳区",
+      "location": "国贸CBD商圈",
+      "address": "北京市朝阳区建国路88号",
+      "latitude": 39.9042,
+      "longitude": 116.4074,
+      "delivery_radius_km": 3.0,
+      "operating_hours": "24小时营业",
+      "store_area_sqm": 120,
+      "staff_count": 8,
+      "city_characteristics": {
+        "夏季_hot_products": ["冰淇淋", "冷饮", "西瓜", "冰啤"],
+        "深夜_snack": ["啤酒", "卤味", "零食"],
+        "夜宵_culture": "北方夜宵文化，烧烤+啤酒"
+      },
+      "merchant_tags": ["CBD", "写字楼", "白领", "高消费"],
+      "regional_recommendations": {
+        "夏季": ["冰淇淋", "冷饮", "西瓜", "冰啤", "凉菜"],
+        "高温预警": ["冰淇淋", "冷饮", "西瓜", "冰啤"],
+        "冬季": ["火锅", "炖菜", "热奶茶", "烤红薯"]
+      },
+      "business_indicators": {
+        "daily_gmv": 15000,
+        "night_gmv_ratio": 0.28,
+        "monthly_orders": 4500,
+        "avg_order_amount": 45.0,
+        "night_avg_order_amount": 62.0,
+        "customer_age_distribution": {"18-25": 20, "26-35": 45, "36-45": 25, "45+": 10}
+      },
+      "competitors": ["便利蜂", "7-11", "永辉"],
+      "registration_date": "2021-06-15"
+    },
+    {
+      "merchant_id": "M002",
+      "merchant_name": "永辉超市（成都武侯店）",
+      "merchant_type": "连锁超市",
+      "chain_brand": "永辉超市",
+      "brand_level": "平价",
+      "city": "成都",
+      "district": "武侯区",
+      "location": "武侯祠商圈",
+      "address": "成都市武侯区武侯祠大街234号",
+      "latitude": 30.6587,
+      "longitude": 104.0658,
+      "delivery_radius_km": 4.0,
+      "operating_hours": "24小时营业",
+      "store_area_sqm": 200,
+      "staff_count": 15,
+      "city_characteristics": {
+        "夏季_hot_products": ["小龙虾", "冰啤", "串串", "冷淡杯", "卤味"],
+        "深夜_snack": ["串串", "冷淡杯", "卤味", "小龙虾"],
+        "夜宵_culture": "成都夜宵文化，串串冷淡杯小龙虾"
+      },
+      "merchant_tags": ["景区", "游客", "本地居民", "夜生活丰富"],
+      "regional_recommendations": {
+        "夏季": ["小龙虾", "冰啤", "串串", "冷淡杯", "卤味", "凉菜"],
+        "高温预警": ["冰啤", "冷饮", "冷淡杯", "串串"],
+        "赛事_世界杯": ["小龙虾", "冰啤", "串串", "卤味", "炸鸡"],
+        "节日_国庆": ["零食大礼包", "啤酒", "饮料", "水果礼盒"]
+      },
+      "business_indicators": {
+        "daily_gmv": 28000,
+        "night_gmv_ratio": 0.35,
+        "monthly_orders": 6800,
+        "avg_order_amount": 55.0,
+        "night_avg_order_amount": 85.0,
+        "customer_age_distribution": {"18-25": 30, "26-35": 40, "36-45": 20, "45+": 10}
+      },
+      "competitors": ["红旗连锁", "7-11", "舞东风"],
+      "registration_date": "2020-08-15"
+    },
+    {
+      "merchant_id": "M003",
+      "merchant_name": "盒马鲜生（上海陆家嘴店）",
+      "merchant_type": "新零售超市",
+      "chain_brand": "盒马鲜生",
+      "brand_level": "中高端",
+      "city": "上海",
+      "district": "浦东新区",
+      "location": "陆家嘴金融区",
+      "address": "上海市浦东新区世纪大道100号",
+      "latitude": 31.2304,
+      "longitude": 121.4737,
+      "delivery_radius_km": 3.0,
+      "operating_hours": "24小时营业",
+      "store_area_sqm": 400,
+      "staff_count": 25,
+      "city_characteristics": {
+        "夏季_hot_products": ["进口冰淇淋", "精致冷饮", "海鲜", "啤酒"],
+        "深夜_snack": ["泡饭", "小馄饨", "葱油拌面", "进口零食"],
+        "夜宵_culture": "海派精致夜宵，本帮菜+进口商品"
+      },
+      "merchant_tags": ["金融区", "高消费", "白领", "进口商品"],
+      "regional_recommendations": {
+        "深夜时段": ["泡饭", "小馄饨", "葱油拌面", "进口零食", "啤酒"],
+        "高温预警": ["进口冰淇淋", "冷饮", "精致甜点", "进口啤酒"],
+        "赛事_世界杯": ["进口零食", "啤酒", "精致小食", "卤味"]
+      },
+      "business_indicators": {
+        "daily_gmv": 45000,
+        "night_gmv_ratio": 0.30,
+        "monthly_orders": 8500,
+        "avg_order_amount": 85.0,
+        "night_avg_order_amount": 120.0,
+        "customer_age_distribution": {"18-25": 15, "26-35": 50, "36-45": 28, "45+": 7}
+      },
+      "competitors": ["美团闪购", "京东便利", "山姆会员店"],
+      "registration_date": "2022-03-20"
+    },
+    {
+      "merchant_id": "M004",
+      "merchant_name": "山姆会员店（深圳南山店）",
+      "merchant_type": "会员制超市",
+      "chain_brand": "山姆会员店",
+      "brand_level": "高端",
+      "city": "深圳",
+      "district": "南山区",
+      "location": "科技园",
+      "address": "深圳市南山区科技园南区深南大道9996号",
+      "latitude": 22.5431,
+      "longitude": 114.0579,
+      "delivery_radius_km": 5.0,
+      "operating_hours": "08:00-22:00",
+      "store_area_sqm": 800,
+      "staff_count": 40,
+      "city_characteristics": {
+        "夏季_hot_products": ["进口坚果", "红酒", "进口零食", "车厘子", "烘焙甜点"],
+        "节日_gifts": ["进口礼盒", "车厘子", "红酒", "坚果大礼包"],
+        "夜宵_culture": "高端进口商品为主，家庭聚会场景"
+      },
+      "merchant_tags": ["科技园", "高消费", "家庭", "进口商品", "会员制"],
+      "regional_recommendations": {
+        "节日_国庆": ["进口坚果礼盒", "红酒", "进口零食大礼包", "烘焙甜点", "车厘子"],
+        "节日_春节": ["进口坚果礼盒", "红酒", "车厘子", "进口零食", "高档礼盒"],
+        "高温预警": ["进口冰淇淋", "进口冷饮", "车厘子", "进口啤酒"]
+      },
+      "business_indicators": {
+        "daily_gmv": 85000,
+        "night_gmv_ratio": 0.15,
+        "monthly_orders": 5200,
+        "avg_order_amount": 280.0,
+        "night_avg_order_amount": 350.0,
+        "customer_age_distribution": {"18-25": 10, "26-35": 45, "36-45": 35, "45+": 10}
+      },
+      "competitors": ["Costco", "麦德龙", "华润Ole"],
+      "registration_date": "2021-11-01"
+    },
+    {
+      "merchant_id": "M005",
+      "merchant_name": "红旗连锁（成都武侯祠店）",
+      "merchant_type": "社区便利店",
+      "chain_brand": "红旗连锁",
+      "brand_level": "社区便利",
+      "city": "成都",
+      "district": "武侯区",
+      "location": "武侯祠景区周边",
+      "address": "成都市武侯区武侯祠大街88号",
+      "latitude": 30.6587,
+      "longitude": 104.0658,
+      "delivery_radius_km": 1.5,
+      "operating_hours": "24小时营业",
+      "store_area_sqm": 80,
+      "staff_count": 5,
+      "city_characteristics": {
+        "夏季_hot_products": ["串串", "冷淡杯", "卤味", "冰啤", "凉面"],
+        "深夜_snack": ["串串", "冷淡杯", "卤味", "小龙虾"],
+        "夜宵_culture": "成都社区夜宵，串串冷淡杯特色"
+      },
+      "merchant_tags": ["社区", "景区", "本地居民", "便利"],
+      "regional_recommendations": {
+        "夏季": ["串串", "冷淡杯", "卤味", "冰啤", "凉菜"],
+        "深夜时段": ["冷淡杯", "串串", "卤味", "冰啤"],
+        "赛事_世界杯": ["串串", "冷淡杯", "卤味", "冰啤", "小龙虾"]
+      },
+      "business_indicators": {
+        "daily_gmv": 8000,
+        "night_gmv_ratio": 0.40,
+        "monthly_orders": 3200,
+        "avg_order_amount": 32.0,
+        "night_avg_order_amount": 48.0,
+        "customer_age_distribution": {"18-25": 25, "26-35": 35, "36-45": 25, "45+": 15}
+      },
+      "competitors": ["舞东风", "WOWO", "7-11"],
+      "registration_date": "2019-05-01"
+    },
+    {
+      "merchant_id": "M006",
+      "merchant_name": "美宜佳（广州天河店）",
+      "merchant_type": "社区便利店",
+      "chain_brand": "美宜佳",
+      "brand_level": "社区便利",
+      "city": "广州",
+      "district": "天河区",
+      "location": "体育中心",
+      "address": "广州市天河区体育西路123号",
+      "latitude": 23.1356,
+      "longitude": 113.3277,
+      "delivery_radius_km": 2.0,
+      "operating_hours": "24小时营业",
+      "store_area_sqm": 70,
+      "staff_count": 4,
+      "city_characteristics": {
+        "夏季_hot_products": ["广式点心", "糖水", "烧味", "冷饮", "冰啤"],
+        "深夜_snack": ["广式点心", "糖水", "烧味", "冷饮"],
+        "夜宵_culture": "粤式夜宵文化，早茶点心+糖水"
+      },
+      "merchant_tags": ["商圈", "白领", "本地居民", "粤式"],
+      "regional_recommendations": {
+        "夏季": ["广式点心", "糖水", "烧味", "冷饮", "冰啤"],
+        "高温预警": ["糖水", "冷饮", "冰啤", "凉茶"],
+        "深夜时段": ["广式点心", "糖水", "烧味", "冷饮"]
+      },
+      "business_indicators": {
+        "daily_gmv": 9500,
+        "night_gmv_ratio": 0.32,
+        "monthly_orders": 3800,
+        "avg_order_amount": 38.0,
+        "night_avg_order_amount": 55.0,
+        "customer_age_distribution": {"18-25": 20, "26-35": 40, "36-45": 25, "45+": 15}
+      },
+      "competitors": ["7-11", "全家", "美宜佳其他店"],
+      "registration_date": "2020-03-15"
+    },
+    {
+      "merchant_id": "M007",
+      "merchant_name": "家家悦（青岛李沧店）",
+      "merchant_type": "连锁超市",
+      "chain_brand": "家家悦",
+      "brand_level": "平价",
+      "city": "青岛",
+      "district": "李沧区",
+      "location": "李沧商圈",
+      "address": "青岛市李沧区夏庄路88号",
+      "latitude": 36.1054,
+      "longitude": 120.4120,
+      "delivery_radius_km": 3.5,
+      "operating_hours": "24小时营业",
+      "store_area_sqm": 180,
+      "staff_count": 12,
+      "city_characteristics": {
+        "夏季_hot_products": ["海鲜", "卤味", "啤酒", "冷饮", "凉菜"],
+        "沿海_specialty": ["海鲜", "啤酒", "卤味", "凉拌菜"],
+        "夜宵_culture": "青岛夜宵文化，海鲜+啤酒"
+      },
+      "merchant_tags": ["商圈", "居民区", "沿海", "海鲜"],
+      "regional_recommendations": {
+        "夏季": ["海鲜", "卤味", "啤酒", "冷饮", "凉菜"],
+        "高温预警": ["冷饮", "啤酒", "凉菜", "海鲜"],
+        "赛事_世界杯": ["啤酒", "海鲜", "卤味", "零食"]
+      },
+      "business_indicators": {
+        "daily_gmv": 18000,
+        "night_gmv_ratio": 0.30,
+        "monthly_orders": 4500,
+        "avg_order_amount": 48.0,
+        "night_avg_order_amount": 68.0,
+        "customer_age_distribution": {"18-25": 20, "26-35": 40, "36-45": 25, "45+": 15}
+      },
+      "competitors": ["利群", "利客来", "大润发"],
+      "registration_date": "2021-01-10"
+    },
+    {
+      "merchant_id": "M008",
+      "merchant_name": "大润发（长沙岳麓店）",
+      "merchant_type": "连锁超市",
+      "chain_brand": "大润发",
+      "brand_level": "平价",
+      "city": "长沙",
+      "district": "岳麓区",
+      "location": "大学城",
+      "address": "长沙市岳麓区麓山南路888号",
+      "latitude": 28.2282,
+      "longitude": 112.9388,
+      "delivery_radius_km": 4.0,
+      "operating_hours": "08:00-22:00",
+      "store_area_sqm": 250,
+      "staff_count": 18,
+      "city_characteristics": {
+        "夏季_hot_products": ["口味虾", "臭豆腐", "冰啤", "茶颜悦色", "卤味"],
+        "全年_specialty": ["口味虾", "臭豆腐", "槟榔", "茶颜悦色"],
+        "夜宵_culture": "长沙夜宵文化，口味虾+臭豆腐+茶颜悦色"
+      },
+      "merchant_tags": ["大学城", "学生", "年轻人", "网红店"],
+      "regional_recommendations": {
+        "全年": ["口味虾", "臭豆腐", "茶颜悦色", "槟榔", "卤味"],
+        "夏季": ["口味虾", "冰啤", "臭豆腐", "凉菜", "茶颜悦色"],
+        "赛事_世界杯": ["口味虾", "冰啤", "卤味", "零食", "臭豆腐"]
+      },
+      "business_indicators": {
+        "daily_gmv": 22000,
+        "night_gmv_ratio": 0.28,
+        "monthly_orders": 5500,
+        "avg_order_amount": 50.0,
+        "night_avg_order_amount": 75.0,
+        "customer_age_distribution": {"18-25": 40, "26-35": 35, "36-45": 18, "45+": 7}
+      },
+      "competitors": ["步步高", "华润万家", "家乐福"],
+      "registration_date": "2020-06-20"
+    }
+  ]
+}
