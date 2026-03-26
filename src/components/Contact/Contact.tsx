@@ -19,7 +19,7 @@ const links = [
   },
   {
     label: '微信',
-    value: 'HYF_0227',
+    value: 'HYF0227uio',
     href: '#',
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
