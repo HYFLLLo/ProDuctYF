@@ -6,7 +6,6 @@ import styles from './Nav.module.css';
 const navLinks = [
   { label: '项目', href: '#projects' },
   { label: '经历', href: '#experience' },
-  { label: '联系', href: '#contact' },
 ];
 
 export default function Nav() {
