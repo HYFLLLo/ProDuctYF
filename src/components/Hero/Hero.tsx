@@ -55,17 +55,6 @@ export default function Hero() {
       <GridBackground />
 
       <div className={`container ${styles.content}`}>
-        {/* Badge */}
-        <motion.div
-          className={styles.badge}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <span className={styles.badgeDot} />
-          <span>深圳 · 开放机会</span>
-        </motion.div>
-
         {/* Main heading */}
         <motion.h1
           className={styles.heading}

@@ -72,7 +72,7 @@ export default function Contact() {
         >
           <p className="section-label">Contact</p>
           <h2 className={`section-title ${styles.heading}`}>
-            一起做点<br />有意思的东西
+            欢迎随时联系我👏
           </h2>
           <p className={styles.sub}>
             无论是 AI 产品合作、原型开发还是行业交流，欢迎联系。
