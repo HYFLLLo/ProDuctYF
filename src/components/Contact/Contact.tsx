@@ -84,7 +84,7 @@ export default function Contact({ wechatShining = false, onShiningDone }: Contac
             欢迎随时联系我👏
           </h2>
           <p className={styles.sub}>
-            无论是 AI 产品合作，原型开发还是行业交流，欢迎联系。
+            （小字备注）已屏蔽"在吗"，请直接说事 😌
           </p>
 
           <div className={styles.links}>
