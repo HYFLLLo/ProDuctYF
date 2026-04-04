@@ -1,22 +1,50 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import { Typewriter, TextDecode } from '@/components/Animations';
 import styles from './Hero.module.css';
 
-const roles = [
-  'AI 产品设计师',
-  'RAG / Agent 架构师',
-  '快速原型开发者',
-  '云计算产品经理',
+const descriptions = [
+  '具备 Vibe coding 的快速原型能力：已经熟练使用 Trae、Claude Code、Cursor 等工具沉淀高效工作流，用于 Demo 或原型的快速开发与方案验证，提升研发效率；',
+  '具备系统架构理解力和 AI 原生思维，能够清晰设计 Agent 工作流，推动智能化方案落地；',
+  '善于将"成本/效率类问题"拆解为可落地的规则与机制：在容器 ECI 资源闲置率较高的背景下，规划资源画像分层架构与风险冗余机制，有效提升资源利用率与成本效率。',
+  '熟悉大模型、对话交互、提示词、RAG、多模态等基础概念与落地逻辑；',
+  '持续关注海内外 AI 动态，对最新的 Agent 生态有一定了解。',
 ];
 
-const descriptions = [
-  '具备 AI coding 的快速原型能力：熟练使用 Trae、Claude code、Cursor 等工具沉淀高效工作流，用于 Demo 或原型的快速开发与方案验证，提升研发效率；',
-  '具备系统架构理解力和 AI 原生思维，能够清晰设计 RAG/Agent 工作流，推动智能化方案落地；',
-  '善于将"成本/效率类问题"拆解为可落地的规则与机制：在容器 ECI 资源闲置率较高的背景下，规划资源画像分层架构与风险冗余机制，有效提升资源利用率与成本效率。',
-  '、熟悉 AI 的编程语言、工具 Python、TensorFlow、PyTorch 等，理解并能沟通常见的 AI 算法原理和实现方式。',
-];
+function AuroraBackground() {
+  return (
+    <div className={styles.aurora} aria-hidden="true">
+      <div
+        className={`${styles.auroraBlob} ${styles.auroraBlob1}`}
+        style={{
+          '--dx1': '80px', '--dy1': '-50px', '--ds1': '1.15',
+          '--dx2': '-60px', '--dy2': '60px', '--ds2': '0.9',
+          '--dx3': '40px', '--dy3': '-30px', '--ds3': '1.05',
+          '--duration': '14s', '--delay': '0s',
+        } as React.CSSProperties}
+      />
+      <div
+        className={`${styles.auroraBlob} ${styles.auroraBlob2}`}
+        style={{
+          '--dx1': '-70px', '--dy1': '40px', '--ds1': '1.1',
+          '--dx2': '50px', '--dy2': '-60px', '--ds2': '0.95',
+          '--dx3': '-30px', '--dy3': '50px', '--ds3': '1.08',
+          '--duration': '18s', '--delay': '-5s',
+        } as React.CSSProperties}
+      />
+      <div
+        className={`${styles.auroraBlob} ${styles.auroraBlob3}`}
+        style={{
+          '--dx1': '60px', '--dy1': '30px', '--ds1': '1.2',
+          '--dx2': '-80px', '--dy2': '-40px', '--ds2': '0.88',
+          '--dx3': '50px', '--dy3': '20px', '--ds3': '1.12',
+          '--duration': '22s', '--delay': '-10s',
+        } as React.CSSProperties}
+      />
+    </div>
+  );
+}
 
 function GridBackground() {
   return (
@@ -28,30 +56,10 @@ function GridBackground() {
 }
 
 export default function Hero() {
-  const roleRef = useRef<HTMLSpanElement>(null);
-
-  useEffect(() => {
-    let idx = 0;
-    const el = roleRef.current;
-    if (!el) return;
-
-    const run = () => {
-      el.classList.remove(styles.roleVisible);
-      el.classList.add(styles.roleFade);
-      setTimeout(() => {
-        idx = (idx + 1) % roles.length;
-        el.textContent = roles[idx];
-        el.classList.remove(styles.roleFade);
-        el.classList.add(styles.roleVisible);
-        setTimeout(run, 2800);
-      }, 400);
-    };
-
-    setTimeout(run, 1800);
-  }, []);
 
   return (
     <section className={styles.hero} id="hero">
+      <AuroraBackground />
       <GridBackground />
 
       <div className={`container ${styles.content}`}>
@@ -62,9 +70,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
         >
-          你好，我是
-          <br />
-          <span className={styles.name}>Yven Hu</span>
+          <Typewriter text="咖啡因转化中…☕→💻" speed={100} startDelay={400} />
         </motion.h1>
 
         {/* Role */}
@@ -74,9 +80,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span ref={roleRef} className={`${styles.roleText} ${styles.roleVisible}`}>
-            {roles[0]}
-          </span>
+          <span className={styles.roleText}>具备的能力/素质</span>
         </motion.div>
 
         {/* Description list */}
@@ -89,7 +93,10 @@ export default function Hero() {
           {descriptions.map((desc, i) => (
             <p key={i} className={styles.descItem}>
               <span className={styles.descNum}>{i + 1}.</span>
-              {desc}
+              <TextDecode
+                text={desc}
+                style={{ animationDelay: `${i * 0.15}s` }}
+              />
             </p>
           ))}
         </motion.div>

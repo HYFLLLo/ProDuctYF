@@ -6,14 +6,21 @@
   z-index: 100;
   padding: 1.25rem 0;
   transition: all var(--duration-base) var(--ease-out);
+  /* Default glass effect always on */
+  background: rgba(4, 4, 7, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid transparent;
 }
 
 .nav.scrolled {
-  background: rgba(4, 4, 7, 0.85);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(4, 4, 7, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
   border-bottom: 1px solid var(--border-subtle);
   padding: 0.9rem 0;
+  /* Tailwind equivalent: backdrop-blur-md bg-white/70 effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
 .inner {
@@ -52,6 +59,15 @@
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.6; transform: scale(0.8); }
+}
+
+.tagline {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+  margin-left: 1.2rem;
+  white-space: nowrap;
 }
 
 .links {
@@ -94,18 +110,57 @@
   font-family: var(--font-display);
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--bg-void);
-  background: var(--accent-lime);
+  color: var(--text-secondary);
+  background: transparent;
   padding: 0.5rem 1.2rem;
   border-radius: 100px;
   letter-spacing: 0.03em;
-  transition: all var(--duration-fast) var(--ease-out);
+  position: relative;
+  overflow: hidden;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.cta::before,
+.cta::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--accent-lime);
+  opacity: 0;
+  transition: opacity var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out);
+}
+
+.cta::before {
+  top: 6px;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.cta::after {
+  bottom: 6px;
+  transform: scaleX(0);
+  transform-origin: right center;
 }
 
 .cta:hover {
-  background: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 20px rgba(184, 255, 87, 0.3);
+  color: var(--text-primary);
+  transform: none;
+  box-shadow: none;
+}
+
+.cta:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+  transition-delay: 0ms;
+}
+
+.cta:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+  transition-delay: 0ms;
 }
 
 .burger {

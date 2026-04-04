@@ -1,0 +1,6 @@
+.decode {
+  display: inline;
+  font-family: var(--font-display);
+  font-variant-ligatures: none;
+  letter-spacing: 0;
+}

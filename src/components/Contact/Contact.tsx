@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import styles from './Contact.module.css';
 
@@ -43,10 +43,23 @@ const links = [
   },
 ];
 
-export default function Contact() {
+interface ContactProps {
+  wechatShining?: boolean;
+  onShiningDone?: () => void;
+}
+
+export default function Contact({ wechatShining = false, onShiningDone }: ContactProps) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (!wechatShining) return;
+    const timer = setTimeout(() => {
+      onShiningDone?.();
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [wechatShining, onShiningDone]);
 
   const handleCopyWechat = () => {
     navigator.clipboard.writeText('HYF0227uio').then(() => {
@@ -82,7 +95,7 @@ export default function Contact() {
                 return (
                   <motion.button
                     key={link.label}
-                    className={`${styles.link} ${copied ? styles.linkCopied : ''}`}
+                    className={`${styles.link} ${copied ? styles.linkCopied : ''} ${wechatShining ? styles.shining : ''}`}
                     onClick={handleCopyWechat}
                     initial={{ opacity: 0, y: 20 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}

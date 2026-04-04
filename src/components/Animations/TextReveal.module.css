@@ -1,0 +1,14 @@
+.wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.clipContainer {
+  overflow: hidden;
+}
+
+.text {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: clip-path;
+}

@@ -1,7 +1,8 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
+import ProjectModal from './ProjectModal';
 import styles from './Projects.module.css';
 
 const projects = [
@@ -9,7 +10,7 @@ const projects = [
     id: 1,
     title: '外卖夜宵爆品预测',
     subtitle: 'AI Agent × 即时零售',
-    tag: '夜宵爆品预测',
+    tag: '商家GMV提升助手',
     description:
       '专攻即时零售夜间场景的 AI 爆品预测助手。基于事件理解、用户情绪分析、决策三层 Agent 架构，实现精准小时级爆品预测 + 动态定价策略。',
     highlights: [
@@ -17,19 +18,21 @@ const projects = [
       '决策层 Agent 预测准确率 68.8%',
       'Claude Code 快速原型验证全流程',
     ],
-    tech: ['Claude Code', 'Agent SOP', 'RAG', 'ReAct', '混合检索'],
     color: '#b8ff57',
     docUrl: 'https://my.feishu.cn/wiki/A7OFwzuuzi19RHki2bec1PMEnQX?from=from_copylink',
     githubUrl: 'https://github.com/HYFLLLo/Late-night-snack-prediction',
     featured: true,
     metric: '97%',
     metricLabel: '事件理解准确率',
+    background: '',
+    solution: '',
+    result: '',
   },
   {
     id: 2,
     title: '智能客服系统',
     subtitle: 'RAG + Agent + LLM',
-    tag: '企业 AI 产品',
+    tag: '坐席提效系统',
     description:
       '面向企业的 IT 智能客服系统，融合知识库检索、大语言模型与 Agent 决策链。员工侧智能问答 + 坐席侧 AI 辅助，覆盖问-答-解决全流程。',
     highlights: [
@@ -37,18 +40,20 @@ const projects = [
       '平均响应时间 5s，95% 请求 5s 内完成',
       'AI 直接解决率 ≥ 70%，满意度 4.5/5',
     ],
-    tech: ['LLM', '向量检索', 'ReAct', '思维链', '知识库管理'],
     color: '#00e5a0',
     docUrl: 'https://my.feishu.cn/docx/ChTGdisyZomLwrxgExhcC5BKnR1',
     githubUrl: 'https://github.com/HYFLLLo/IT-Intelligent-Customer-Service-System',
     metric: '>90%',
     metricLabel: '任务完成准确率',
+    background: '',
+    solution: '',
+    result: '',
   },
   {
     id: 3,
     title: '个人工作助手',
     subtitle: '知识管理 + 报告生成',
-    tag: 'AI 效率工具',
+    tag: '个人工作效率提升',
     description:
       '面向知识工作者的 AI 生产力工具，融合知识库管理、任务意图识别与多轮对话能力。自动解析多格式文档、智能拆解任务、生成结构化报告。',
     highlights: [
@@ -56,12 +61,62 @@ const projects = [
       '报告结构完整性 90%，内容相关性 85%',
       '8 种预定义模板，多格式文档支持，私有知识库检索',
     ],
-    tech: ['意图识别', '任务拆解', '知识库', '向量检索', '多轮对话', '模板系统'],
     color: '#00d4ff',
     docUrl: 'https://my.feishu.cn/docx/MkWnd95QooqxNOxZpo2cabPhn0f',
     githubUrl: 'https://github.com/HYFLLLo/Personal-Work-Assistant',
     metric: '<1min',
     metricLabel: '报告生成时间',
+    background: '',
+    solution: '',
+    result: '',
+  },
+  {
+    id: 4,
+    title: '项目四',
+    subtitle: '待填充',
+    tag: '',
+    description: '项目内容待填充，敬请期待…',
+    highlights: [],
+    color: '#888',
+    docUrl: '#',
+    githubUrl: '#',
+    metric: '—',
+    metricLabel: '待上线',
+    background: '',
+    solution: '',
+    result: '',
+  },
+  {
+    id: 5,
+    title: '项目五',
+    subtitle: '待填充',
+    tag: '',
+    description: '项目内容待填充，敬请期待…',
+    highlights: [],
+    color: '#888',
+    docUrl: '#',
+    githubUrl: '#',
+    metric: '—',
+    metricLabel: '待上线',
+    background: '',
+    solution: '',
+    result: '',
+  },
+  {
+    id: 6,
+    title: '项目六',
+    subtitle: '待填充',
+    tag: '',
+    description: '项目内容待填充，敬请期待…',
+    highlights: [],
+    color: '#888',
+    docUrl: '#',
+    githubUrl: '#',
+    metric: '—',
+    metricLabel: '待上线',
+    background: '',
+    solution: '',
+    result: '',
   },
 ];
 
@@ -72,9 +127,10 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
   return (
     <motion.article
       ref={ref}
-      className={styles.card}
+      className={`${styles.card} ${project.featured ? styles.featuredCard : ''}`}
       initial={{ opacity: 0, y: 40 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
+      whileHover={{ scale: 1.035, y: -6 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
     >
       {/* top accent line */}
@@ -115,13 +171,6 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
           ))}
         </ul>
 
-        {/* Tech */}
-        <div className={styles.techRow}>
-          {project.tech.map((t) => (
-            <span key={t} className={styles.tech}>{t}</span>
-          ))}
-        </div>
-
         {/* Footer */}
         <div className={styles.footer}>
           <div className={styles.metricBlock}>
@@ -157,6 +206,13 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
               需求文档
             </a>
           </div>
+
+          <button
+            className={styles.detailBtn}
+            onClick={() => window.dispatchEvent(new CustomEvent('openProjectModal', { detail: project }))}
+          >
+            查看详情
+          </button>
         </div>
       </div>
     </motion.article>
@@ -164,8 +220,15 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
 }
 
 export default function Projects() {
+  const [selectedProject, setSelectedProject] = useState<(typeof projects)[0] | null>(null);
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
+
+  useEffect(() => {
+    const handler = (e: Event) => setSelectedProject((e as CustomEvent<(typeof projects)[0]>).detail);
+    window.addEventListener('openProjectModal', handler);
+    return () => window.removeEventListener('openProjectModal', handler);
+  }, []);
 
   return (
     <section className={styles.section} id="projects">
@@ -178,10 +241,7 @@ export default function Projects() {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="section-label">Projects</p>
-          <h2 className="section-title">真实落地的 AI 项目</h2>
-          <p className={styles.sub}>
-            不只是 Demo，是从需求到原型到评测验证的完整闭环
-          </p>
+          <h2 className="section-title">我的 AI 项目</h2>
         </motion.div>
 
         <div className={styles.grid}>
@@ -190,6 +250,11 @@ export default function Projects() {
           ))}
         </div>
       </div>
+
+      <ProjectModal
+        project={selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </section>
   );
 }

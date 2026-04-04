@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 import styles from './Nav.module.css';
 
 const navLinks = [
@@ -8,7 +9,11 @@ const navLinks = [
   { label: '经历', href: '#experience' },
 ];
 
-export default function Nav() {
+interface NavProps {
+  onWechatShine?: () => void;
+}
+
+export default function Nav({ onWechatShine }: NavProps) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -26,6 +31,15 @@ export default function Nav() {
           <span className={styles.logoDot} />
         </a>
 
+        <motion.span
+          className={styles.tagline}
+          initial={{ clipPath: 'inset(0 100% 0 0)' }}
+          animate={{ clipPath: 'inset(0 0% 0 0)' }}
+          transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
+        >
+          Hello，我是Yven，也是YuFeng.Hu
+        </motion.span>
+
         <ul className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -39,7 +53,7 @@ export default function Nav() {
             </li>
           ))}
           <li>
-            <a href="#contact" className={styles.cta} onClick={() => setMenuOpen(false)}>
+            <a href="#contact" className={styles.cta} onClick={() => { setMenuOpen(false); onWechatShine?.(); }}>
               聊聊
             </a>
           </li>
