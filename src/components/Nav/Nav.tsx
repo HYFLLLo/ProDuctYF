@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from './Nav.module.css';
 
 const navLinks = [
-  { label: '项目', href: '#projects' },
+  { label: '项目&工作成果', href: '#projects' },
   { label: '经历', href: '#experience' },
 ];
 
