@@ -45,9 +45,9 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           {/* Modal */}
           <motion.div
             className={styles.modal}
-            initial={{ opacity: 0, scale: 0.92, y: 20, x: '-50%', y: '-50%' }}
+            initial={{ opacity: 0, scale: 0.92, y: 20, x: '-50%' }}
             animate={{ opacity: 1, scale: 1, y: '-50%', x: '-50%' }}
-            exit={{ opacity: 0, scale: 0.95, y: 10, x: '-50%', y: '-50%' }}
+            exit={{ opacity: 0, scale: 0.95, y: 10, x: '-50%' }}
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
             role="dialog"
             aria-modal="true"
