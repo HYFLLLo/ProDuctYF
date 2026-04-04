@@ -242,7 +242,7 @@ export default function Projects() {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="section-label">Projects</p>
-          <h2 className="section-title}>我的 AI 项目</h2>
+          <h2 className="section-title">我的 AI 项目</h2>
         </motion.div>
 
         <div className={styles.grid}>
@@ -260,7 +260,7 @@ export default function Projects() {
           style={{ marginTop: '4rem' }}
         >
           <p className="section-label">Work</p>
-          <h2 className="section-title}>我的工作成果</h2>
+          <h2 className="section-title">我的工作成果</h2>
         </motion.div>
 
         <div className={styles.grid}>
