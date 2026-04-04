@@ -5,11 +5,11 @@ import { Typewriter, TextDecode } from '@/components/Animations';
 import styles from './Hero.module.css';
 
 const descriptions = [
-  '具备 Vibe coding 的快速原型能力：已经熟练使用 Trae、Claude Code、Cursor 等工具沉淀高效工作流，用于 Demo 或原型的快速开发与方案验证，提升研发效率；',
-  '具备系统架构理解力和 AI 原生思维，能够清晰设计 Agent 工作流，推动智能化方案落地；',
-  '善于将"成本/效率类问题"拆解为可落地的规则与机制：在容器 ECI 资源闲置率较高的背景下，规划资源画像分层架构与风险冗余机制，有效提升资源利用率与成本效率。',
-  '熟悉大模型、对话交互、提示词、RAG、多模态等基础概念与落地逻辑；',
-  '持续关注海内外 AI 动态，对最新的 Agent 生态有一定了解。',
+  '具备 Vibe Coding 快速原型开发经验：使用 Trae、Claude Code、Cursor 等工具建立实用工作流，支持 Demo 与原型的快速开发及方案验证，辅助提升研发效率。',
+  '具备系统架构基础认知与 AI 原生思维，可参与 Agent 工作流的设计与优化，配合团队推进智能化方案落地。',
+  '能将成本与效率相关问题拆解为具体规则与机制：在容器 ECI 资源闲置率较高的场景中，参与设计资源画像分层架构与风险冗余机制，相关实践对资源利用率与成本效率有所改善。',
+  '了解大模型、对话交互、提示词设计、RAG、多模态等技术的基本概念与常见应用方式。',
+  '持续关注国内外 AI 领域动态，对 Agent 技术生态保持学习与跟进。',
 ];
 
 function AuroraBackground() {
