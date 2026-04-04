@@ -118,18 +118,6 @@ export default function Hero() {
             联系我
           </a>
         </motion.div>
-
-        {/* Tags */}
-        <motion.div
-          className={styles.tags}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5, duration: 0.6 }}
-        >
-          {['AI Agent', 'RAG', 'Next.js', 'TypeScript', 'Edge Computing', 'Python', 'PyTorch'].map((t) => (
-            <span key={t} className={styles.tag}>{t}</span>
-          ))}
-        </motion.div>
       </div>
 
       {/* Scroll indicator */}
