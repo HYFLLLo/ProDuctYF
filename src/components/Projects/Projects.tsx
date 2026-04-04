@@ -233,6 +233,7 @@ export default function Projects() {
   return (
     <section className={styles.section} id="projects">
       <div className="container">
+        {/* Section 1: AI 项目 */}
         <motion.div
           ref={ref}
           className={styles.header}
@@ -241,11 +242,29 @@ export default function Projects() {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="section-label">Projects</p>
-          <h2 className="section-title">我的 AI 项目</h2>
+          <h2 className="section-title}>我的 AI 项目</h2>
         </motion.div>
 
         <div className={styles.grid}>
-          {projects.map((p) => (
+          {projects.slice(0, 3).map((p) => (
+            <ProjectCard key={p.id} project={p} />
+          ))}
+        </div>
+
+        {/* Section 2: 工作成果 */}
+        <motion.div
+          className={styles.header}
+          initial={{ opacity: 0, y: 30 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          style={{ marginTop: '4rem' }}
+        >
+          <p className="section-label">Work</p>
+          <h2 className="section-title}>我的工作成果</h2>
+        </motion.div>
+
+        <div className={styles.grid}>
+          {projects.slice(3, 6).map((p) => (
             <ProjectCard key={p.id} project={p} />
           ))}
         </div>
