@@ -193,6 +193,13 @@
 @media (max-width: 640px) {
   .burger {
     display: flex;
+    z-index: 101;
+    position: relative;
+  }
+
+  .inner {
+    z-index: 100;
+    position: relative;
   }
 
   .links {
