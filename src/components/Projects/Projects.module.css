@@ -5,6 +5,7 @@
 
 .header {
   margin-bottom: var(--space-lg);
+  text-align: center;
 }
 
 /* Stats bar */
