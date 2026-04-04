@@ -224,4 +224,8 @@
     font-size: 1rem;
     padding: 0.7rem 1.8rem;
   }
+
+  .tagline {
+    display: none;
+  }
 }

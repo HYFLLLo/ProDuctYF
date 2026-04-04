@@ -357,4 +357,23 @@
   .descList {
     gap: 0.5rem;
   }
+
+  .descItem {
+    font-size: 0.85rem;
+    line-height: 1.65;
+  }
+
+  .descNum {
+    flex-shrink: 0;
+  }
+
+  .ctas {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .tags {
+    gap: 0.4rem;
+  }
 }

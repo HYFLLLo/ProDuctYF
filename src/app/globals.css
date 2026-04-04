@@ -109,6 +109,12 @@ body::before {
   padding: 0 var(--space-md);
 }
 
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1.2rem;
+  }
+}
+
 .section-label {
   font-family: var(--font-display);
   font-size: 0.7rem;

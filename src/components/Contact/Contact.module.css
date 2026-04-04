@@ -227,4 +227,21 @@
   .linkValue {
     white-space: normal;
   }
+
+  .wechatCard {
+    padding: 1.2rem;
+  }
+
+  .wechatLabel {
+    font-size: 0.75rem;
+  }
+
+  .wechatId {
+    font-size: 0.9rem;
+  }
+
+  .sub {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
 }

@@ -7,6 +7,12 @@
   flex-shrink: 0;
 }
 
+@media (max-width: 640px) {
+  .wrapper {
+    height: 50px;
+  }
+}
+
 .flip {
   transform: scaleY(-1);
 }
