@@ -29,7 +29,7 @@ const experiences = [
       '研究职责：负责研究无服务器函数在多云环境的交互研究',
       '成果：发表论文《Research on Intelligent Scheduling of Multi-Cloud Serverless Functions...》',
     ],
-    tags: ['云计算', '边缘计算', '服务网格', 'AI Coding'],
+    tags: ['云计算', '边缘计算', '服务网格'],
     accent: '#00e5a0',
   },
   {
