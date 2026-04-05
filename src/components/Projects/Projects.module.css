@@ -59,6 +59,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
+  align-items: stretch;
 }
 
 /* Card */
@@ -122,6 +123,8 @@
   gap: 0.9rem;
   padding: 1.5rem 1.6rem 1.4rem;
   flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 /* Card Header */
@@ -195,6 +198,23 @@
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  max-height: 8rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* 隐藏 highlights 滚动条，只保留滚动功能 */
+.highlights::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.highlights::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.highlights::-webkit-scrollbar-thumb {
+  background: transparent;
 }
 
 .highlight {

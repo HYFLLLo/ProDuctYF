@@ -25,8 +25,17 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
     document.addEventListener('keydown', onKey);
-    return () => document.removeEventListener('keydown', onKey);
-  }, [onClose]);
+    
+    // 打开模态框时禁止背景滚动
+    if (project) {
+      document.body.style.overflow = 'hidden';
+    }
+    
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.body.style.overflow = '';
+    };
+  }, [onClose, project]);
 
   return (
     <AnimatePresence>
