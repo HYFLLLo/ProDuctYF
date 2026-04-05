@@ -14,9 +14,10 @@ const projects = [
     description:
       '专攻即时零售夜间场景的 AI 爆品预测助手。基于事件理解、用户情绪分析、决策三层 Agent 架构，实现精准小时级爆品预测 + 动态定价策略。',
     highlights: [
-      '事件理解 Agent 分类准确率 97%',
-      '决策层 Agent 预测准确率 68.8%',
-      'Claude Code 快速原型验证全流程',
+      '事件理解 Agent 事件分类准确率 97%',
+      '用户情绪分析 Agent 场景识别准确率 80%',
+      '决策层 Agent 爆品预测准确率 68.8%',
+      '商家推荐方案采纳率 30%',
     ],
     color: '#b8ff57',
     docUrl: 'https://my.feishu.cn/wiki/A7OFwzuuzi19RHki2bec1PMEnQX?from=from_copylink',
@@ -24,9 +25,9 @@ const projects = [
     featured: true,
     metric: '97%',
     metricLabel: '事件理解准确率',
-    background: '',
-    solution: '',
-    result: '',
+    background: '"线上下单、30分钟送达"的即时零售模式正深度嵌入夜间消费生态。美团研究院统计显示，2023年夜间时段即时零售订单量同比攀升42%。在24小时便利店场景中，夜间订单普遍占全天两至三成，冷饮类夜间订单占比达35%（白天仅15%），啤酒洋酒占线上酒水订单六成，速食品类夜间占比45%。\n\n痛点：缺货导致夜间销售额平均流失8%-12%，单店月均夜间交易额5万元的情况下，缺货损失达4000-6000元；备货失当引发的食品过期损耗率更是日间的两倍。精细化运营需求迫切。',
+    solution: '构建三层 Agent 协同架构：\n事件理解 Agent：识别节日、天气等外部信号，结合用户上下文，通过 LLM 自主推理确定信息需求，动态调用天气/赛事/社交媒体等数据采集工具，精准判定事件类型；\n用户情绪分析 Agent：融合事件理解结果与用户行为上下文，解析消费者情绪状态，生成结构化场景标签（看球/约会/聚会/加班等）；\n决策层 Agent：基于场景标签智能匹配商品策略，调用商品推荐工具，生成小时级爆品预测与动态定价建议，实现从事件感知到商业决策的闭环。',
+    result: '事件理解 Agent 事件分类准确率达 97%，有效覆盖主流事件类型；用户情绪分析 Agent 消费场景识别准确率 80%；决策层 Agent 小时级爆品预测准确率 68.8%；商家对系统推荐方案（含爆品预测与定价建议）采纳率 30%。',
   },
   {
     id: 2,
@@ -38,7 +39,7 @@ const projects = [
     highlights: [
       '任务完成准确率 > 90%（100 条复杂问题评测）',
       '平均响应时间 5s，95% 请求 5s 内完成',
-      'AI 直接解决率 ≥ 70%，满意度 4.5/5',
+      'AI 直接解决率 ≥ 70%',
     ],
     color: '#00e5a0',
     docUrl: 'https://my.feishu.cn/docx/ChTGdisyZomLwrxgExhcC5BKnR1',
@@ -173,38 +174,44 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
 
         {/* Footer */}
         <div className={styles.footer}>
-          <div className={styles.metricBlock}>
-            <span className={styles.metric} style={{ color: project.color }}>{project.metric}</span>
-            <span className={styles.metricLabel}>{project.metricLabel}</span>
-          </div>
+          {project.metric !== '—' && (
+            <div className={styles.metricBlock}>
+              <span className={styles.metric} style={{ color: project.color }}>{project.metric}</span>
+              <span className={styles.metricLabel}>{project.metricLabel}</span>
+            </div>
+          )}
 
           <div className={styles.linkGroup}>
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.githubLink}
-              style={{ '--accent': project.color } as React.CSSProperties}
-            >
-              <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                <path d="M10 2C5.58 2 2 5.58 2 10c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A5.98 5.98 0 0 0 18 10c0-4.42-3.58-8-8-8z" fill="currentColor"/>
-              </svg>
-              GitHub
-            </a>
+            {project.githubUrl !== '#' && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.githubLink}
+                style={{ '--accent': project.color } as React.CSSProperties}
+              >
+                <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="M10 2C5.58 2 2 5.58 2 10c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A5.98 5.98 0 0 0 18 10c0-4.42-3.58-8-8-8z" fill="currentColor"/>
+                </svg>
+                GitHub
+              </a>
+            )}
 
-            <a
-              href={project.docUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.docLink}
-              style={{ '--accent': project.color } as React.CSSProperties}
-            >
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M9 2H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6L9 2Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
-                <path d="M9 2v4h4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              需求文档
-            </a>
+            {project.docUrl !== '#' && (
+              <a
+                href={project.docUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.docLink}
+                style={{ '--accent': project.color } as React.CSSProperties}
+              >
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M9 2H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6L9 2Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
+                  <path d="M9 2v4h4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                需求文档
+              </a>
+            )}
           </div>
 
           <button
