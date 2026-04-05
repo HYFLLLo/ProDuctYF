@@ -217,6 +217,8 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<(typeof projects)[0] | null>(null);
+  const [mousePos, setMousePos] = useState({ x: -1000, y: -1000 });
+  const [isHovering, setIsHovering] = useState(false);
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
 
@@ -226,8 +228,32 @@ export default function Projects() {
     return () => window.removeEventListener('openProjectModal', handler);
   }, []);
 
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
+
   return (
-    <section className={styles.section} id="projects">
+    <section
+      className={styles.section}
+      id="projects"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      {/* 鼠标跟随光晕 */}
+      <div
+        className={`${styles.mouseGlow} ${isHovering ? styles.mouseGlowVisible : ''}`}
+        style={{ left: mousePos.x, top: mousePos.y }}
+      />
+      {/* 网格背景 */}
+      <div className={styles.sectionBg} aria-hidden="true">
+        <div className={styles.gridLines} />
+        <div className={styles.glowOrb} />
+      </div>
       <div className="container">
         {/* Section 1: AI 项目 */}
         <motion.div

@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import styles from './Timeline.module.css';
 
@@ -48,10 +48,36 @@ const experiences = [
 
 export default function Timeline() {
   const ref = useRef(null);
+  const [mousePos, setMousePos] = useState({ x: -1000, y: -1000 });
+  const [isHovering, setIsHovering] = useState(false);
   const inView = useInView(ref, { once: true, margin: '-60px' });
 
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
+
   return (
-    <section className={styles.section} id="experience">
+    <section
+      className={styles.section}
+      id="experience"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      {/* 鼠标跟随光晕 */}
+      <div
+        className={`${styles.mouseGlow} ${isHovering ? styles.mouseGlowVisible : ''}`}
+        style={{ left: mousePos.x, top: mousePos.y }}
+      />
+      {/* 网格背景 */}
+      <div className={styles.sectionBg} aria-hidden="true">
+        <div className={styles.gridLines} />
+        <div className={styles.glowOrb} />
+      </div>
       <div className="container">
         <motion.div
           ref={ref}

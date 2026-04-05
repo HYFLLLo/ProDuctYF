@@ -52,6 +52,8 @@ export default function Contact({ wechatShining = false, onShiningDone }: Contac
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
   const [copied, setCopied] = useState(false);
+  const [mousePos, setMousePos] = useState({ x: -1000, y: -1000 });
+  const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
     if (!wechatShining) return;
@@ -68,8 +70,27 @@ export default function Contact({ wechatShining = false, onShiningDone }: Contac
     });
   };
 
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
+
   return (
-    <section className={styles.section} id="contact">
+    <section
+      className={styles.section}
+      id="contact"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      {/* 鼠标跟随光晕 */}
+      <div
+        className={`${styles.mouseGlow} ${isHovering ? styles.mouseGlowVisible : ''}`}
+        style={{ left: mousePos.x, top: mousePos.y }}
+      />
       <div className={styles.bgGlow} aria-hidden="true" />
       <div className="container">
         <motion.div

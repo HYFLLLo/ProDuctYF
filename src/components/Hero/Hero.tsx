@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter, TextDecode } from '@/components/Animations';
 import styles from './Hero.module.css';
@@ -56,9 +57,30 @@ function GridBackground() {
 }
 
 export default function Hero() {
+  const [mousePos, setMousePos] = useState({ x: -1000, y: -1000 });
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
 
   return (
-    <section className={styles.hero} id="hero">
+    <section
+      className={styles.hero}
+      id="hero"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      {/* 鼠标跟随光晕 */}
+      <div
+        className={`${styles.mouseGlow} ${isHovering ? styles.mouseGlowVisible : ''}`}
+        style={{ left: mousePos.x, top: mousePos.y }}
+      />
       <AuroraBackground />
       <GridBackground />
 

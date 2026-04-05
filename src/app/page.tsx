@@ -6,7 +6,7 @@ import Projects from '@/components/Projects/Projects';
 import Timeline from '@/components/Timeline/Timeline';
 import Contact from '@/components/Contact/Contact';
 import Footer from '@/components/Footer/Footer';
-import WaveDivider from '@/components/WaveDivider/WaveDivider';
+import SectionNav from '@/components/SectionNav/SectionNav';
 import { useState } from 'react';
 
 export default function Home() {
@@ -15,13 +15,11 @@ export default function Home() {
   return (
     <>
       <Nav onWechatShine={() => setWechatShining(true)} />
+      <SectionNav />
       <main>
         <Hero />
-        <WaveDivider />
         <Projects />
-        <WaveDivider flip />
         <Timeline />
-        <WaveDivider />
         <Contact wechatShining={wechatShining} onShiningDone={() => setWechatShining(false)} />
       </main>
       <Footer />
