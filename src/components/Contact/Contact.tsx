@@ -4,6 +4,56 @@ import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import styles from './Contact.module.css';
 
+// 打字机特效 Hook
+function useTypewriter(text: string, interval: number = 10000) {
+  const [displayText, setDisplayText] = useState('');
+  const [isTyping, setIsTyping] = useState(false);
+  const frameRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    let charIndex = 0;
+    let isDeleting = false;
+
+    const animate = () => {
+      if (!isDeleting) {
+        // 打字中
+        charIndex++;
+        setDisplayText(text.slice(0, charIndex));
+        setIsTyping(true);
+
+        if (charIndex >= text.length) {
+          // 打字完成，保持一段时间后开始删除
+          setTimeout(() => { isDeleting = true; }, 3000);
+        }
+      } else {
+        // 删除中
+        charIndex--;
+        setDisplayText(text.slice(0, charIndex));
+
+        if (charIndex <= 0) {
+          // 删除完成，等待后重新开始
+          isDeleting = false;
+          setTimeout(() => { charIndex = 0; }, interval - 10000);
+        }
+      }
+
+      frameRef.current = requestAnimationFrame(animate);
+    };
+
+    // 开始循环
+    const startDelay = setTimeout(() => {
+      frameRef.current = requestAnimationFrame(animate);
+    }, 500);
+
+    return () => {
+      clearTimeout(startDelay);
+      if (frameRef.current) cancelAnimationFrame(frameRef.current);
+    };
+  }, [text, interval]);
+
+  return { displayText, isTyping };
+}
+
 const links = [
   {
     label: '邮箱',
@@ -54,6 +104,10 @@ export default function Contact({ wechatShining = false, onShiningDone }: Contac
   const [copied, setCopied] = useState(false);
   const [mousePos, setMousePos] = useState({ x: -1000, y: -1000 });
   const [isHovering, setIsHovering] = useState(false);
+  const titleText = '欢迎随时联系我👏';
+  const subtitleText = '（小字备注）已屏蔽"在吗"，请直接说事 😌';
+  const { displayText: titleDisplay, isTyping: titleTyping } = useTypewriter(titleText, 10000);
+  const { displayText: subtitleDisplay, isTyping: subtitleTyping } = useTypewriter(subtitleText, 10000);
 
   useEffect(() => {
     if (!wechatShining) return;
@@ -102,10 +156,10 @@ export default function Contact({ wechatShining = false, onShiningDone }: Contac
         >
           <p className="section-label">Contact</p>
           <h2 className={`section-title ${styles.heading}`}>
-            欢迎随时联系我👏
+            {titleDisplay}
           </h2>
           <p className={styles.sub}>
-            （小字备注）已屏蔽"在吗"，请直接说事 😌
+            {subtitleDisplay}
           </p>
 
           <div className={styles.links}>

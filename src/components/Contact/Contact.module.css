@@ -46,6 +46,23 @@
   }
 }
 
+/* 打字机光标 */
+.cursor {
+  display: inline-block;
+  color: var(--accent-lime);
+  font-weight: 400;
+  margin-left: 2px;
+}
+
+.cursorBlink {
+  animation: cursorBlink 0.8s ease-in-out infinite;
+}
+
+@keyframes cursorBlink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
 .inner {
   max-width: 680px;
   margin: 0 auto;
