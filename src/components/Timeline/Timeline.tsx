@@ -25,8 +25,9 @@ const experiences = [
     type: 'edu',
     points: [
       '研究方向：云计算、边缘计算、服务网格',
-      '具备 AI coding 快速原型能力，熟练使用 Trae / Claude Code / Cursor',
-      '沉淀 AI Agent / RAG 工作流，用于 Demo 快速开发与方案验证',
+      '实习：中国移动"梧桐·鸿鹄"2024 研学夏令营（2024.6-2024.9）',
+      '研究职责：负责研究无服务器函数在多云环境的交互研究',
+      '成果：发表论文《Research on Intelligent Scheduling of Multi-Cloud Serverless Functions...》',
     ],
     tags: ['云计算', '边缘计算', '服务网格', 'AI Coding'],
     accent: '#00e5a0',

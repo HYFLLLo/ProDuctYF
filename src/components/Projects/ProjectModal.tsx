@@ -26,14 +26,16 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
     document.addEventListener('keydown', onKey);
     
-    // 打开模态框时禁止背景滚动
+    // 打开模态框时禁止背景滚动（同时禁止 body 和 html，防止滚动条穿透）
     if (project) {
       document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
     }
     
     return () => {
       document.removeEventListener('keydown', onKey);
       document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
     };
   }, [onClose, project]);
 

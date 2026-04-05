@@ -69,20 +69,23 @@
   overflow-x: hidden;
   max-height: calc(85vh - 120px);
   min-height: 0;
+  scrollbar-width: none; /* Firefox 隐藏滚动条 */
+  -ms-overflow-style: none; /* IE/Edge 隐藏滚动条 */
 }
 
-/* 隐藏模态框内滚动条，只保留功能 */
+/* 隐藏模态框内滚动条（所有浏览器） */
 .body::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 .body::-webkit-scrollbar-track {
-  background: transparent;
+  display: none;
 }
 
 .body::-webkit-scrollbar-thumb {
-  background: transparent;
+  display: none;
 }
 
 .section {
@@ -124,6 +127,8 @@
   line-height: 1.8;
   padding-left: 1.2rem;
   white-space: pre-wrap;
+  word-break: break-word; /* 强制长文本换行，防止水平溢出 */
+  overflow-wrap: break-word; /* 兼容旧浏览器 */
   font-style: normal;
   margin-bottom: 0.5rem;
 }

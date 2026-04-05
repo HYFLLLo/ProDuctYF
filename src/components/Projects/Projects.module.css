@@ -62,12 +62,21 @@
   align-items: stretch;
 }
 
+/* Work section grid - 2 columns centered */
+.workGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 380px));
+  justify-content: center;
+  gap: 1.25rem;
+}
+
 /* Card */
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: 18px;
   overflow: hidden;
+  overflow-x: hidden; /* 强制隐藏横向滚动条，禁止出现绿色滚动条 */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -201,20 +210,15 @@
   max-height: 8rem;
   overflow-y: auto;
   overflow-x: hidden;
+  scrollbar-width: none; /* Firefox 隐藏滚动条 */
+  -ms-overflow-style: none; /* IE/Edge 隐藏滚动条 */
 }
 
-/* 隐藏 highlights 滚动条，只保留滚动功能 */
+/* 隐藏 highlights 滚动条（所有浏览器） */
 .highlights::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-.highlights::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.highlights::-webkit-scrollbar-thumb {
-  background: transparent;
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 .highlight {

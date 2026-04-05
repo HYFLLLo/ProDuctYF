@@ -73,51 +73,40 @@ const projects = [
   },
   {
     id: 4,
-    title: '项目四',
-    subtitle: '待填充',
-    tag: '',
-    description: '项目内容待填充，敬请期待…',
-    highlights: [],
-    color: '#888',
+    title: 'ECI容器资源画像',
+    subtitle: '节省资源 × 智能调度',
+    tag: '资源利用率优化',
+    description: '通过分析容器历史资源使用数据，为 Kubernetes 容器自动生成合理的 Request 和 Limit 推荐值，帮助管理员在资源浪费 和 稳定性风险 之间找到最优平衡。',
+    highlights: [
+      '基于历史数据+冗余缓冲算法，让运维人员从"凭经验猜配置"变成"有数据依据的科学决策"，同时通过变配推荐机制实现资源的动态优化',
+      '智能推荐Request，降低资源浪费',
+    ],
+    color: '#a78bfa',
     docUrl: '#',
     githubUrl: '#',
-    metric: '—',
-    metricLabel: '待上线',
-    background: '',
-    solution: '',
-    result: '',
+    metric: '>30%',
+    metricLabel: '资源浪费降低',
+    background: '在容器化应用管理中，资源规格的合理配置是平衡性能与成本的核心挑战。Request（容器声明的最小资源需求）和 Limit（容器可使用的最大资源上限）配置不当会带来严重问题：过高的资源规格导致大量资源浪费，过低的规格带来稳定性风险，多个高优先级任务同时竞争同一节点会造成性能瓶颈。\n\n核心痛点：\n• 资源浪费 — Request 配太高，低优先级任务占用大量闲置资源\n• 稳定性风险 — Request 配太低，应用在流量波动时可能崩溃\n• 配置困难 — 管理员凭经验填写，难以科学确定合理值',
+    solution: '容器资源画像 + 变配推荐机制\n\n核心公式：\n目标资源规格：Target = Recommend × (1 + Buffer)\n偏离程度：Degree = 1 - (原始Request ÷ Target)\n\n功能层级：\n• 应用层资源画像 — 在 DevOps 云渡平台配额页面开启，设置 CPU/内存资源消耗冗余比例（30%/50%/70%），根据推荐值进行资源变配\n• ECI 实例层资源画像 — 在应用详情页开启（前提是应用层画像已开启），支持按实例状态提供差异化画像\n\n变配推荐规则：\n• 升配：推荐值 > 当前配置 → 必须升配\n• 降配：推荐值 < 当前配置 且 |Degree| > 10% → 可降配\n• 保持：|Degree| ≤ 10% → 建议保持当前配置',
+    result: '通过资源画像分析历史数据，生成 Request 推荐值，帮助管理员：\n• 降低资源浪费 — 推荐合理 Request，减少低优先级任务的资源闲置\n• 提升资源利用率 — 科学配置使集群资源更高效利用\n• 保障稳定性 — 预留安全缓冲，应对流量波动和突发峰值',
   },
   {
     id: 5,
-    title: '项目五',
-    subtitle: '待填充',
-    tag: '',
-    description: '项目内容待填充，敬请期待…',
-    highlights: [],
-    color: '#888',
+    title: '存储产品功能建设',
+    subtitle: '需求设计 × POC验证',
+    tag: 'NAS产品设计',
+    description: '负责马上云 NAS 文件存储产品的需求设计与评审，主导回收站、目录配额等关键模块的功能边界与规则梳理，同时承担云厂商 POC 用例编写与验证工作。',
+    highlights: [
+      '主导回收站、目录配额模块需求设计与评审，将 NAS 能力拆解为可执行的 POC 用例，对齐用例口径与验证结论，支撑采购决策',
+    ],
+    color: '#fb923c',
     docUrl: '#',
     githubUrl: '#',
-    metric: '—',
-    metricLabel: '待上线',
-    background: '',
-    solution: '',
-    result: '',
-  },
-  {
-    id: 6,
-    title: '项目六',
-    subtitle: '待填充',
-    tag: '',
-    description: '项目内容待填充，敬请期待…',
-    highlights: [],
-    color: '#888',
-    docUrl: '#',
-    githubUrl: '#',
-    metric: '—',
-    metricLabel: '待上线',
-    background: '',
-    solution: '',
-    result: '',
+    metric: 'POC',
+    metricLabel: '用例验证完成',
+    background: '马上云 NAS 文件存储是企业级云存储的核心产品，文件存储的容量管理、访问控制、数据安全是产品能力的关键组成部分。\n\n核心痛点：\n• 存储空间滥用 — 缺乏配额管控，用户可能无限制占用存储资源\n• 数据误删风险 — 缺乏回收站机制，删除后无法恢复\n• 能力边界模糊 — 云厂商 NAS 能力差异大，难以横向对比选型',
+    solution: '模块一：回收站机制设计\n• 定义删除规则：普通删除 vs 永久删除的差异\n• 设计保留策略：基于时间/容量阈值的自动清理机制\n• 明确恢复流程：恢复权限、恢复路径、时间窗口\n\n模块二：目录配额管控\n• 配额粒度：目录级配额 vs 用户级配额\n• 配额告警：阈值提醒、强制限制两种模式\n• 配额继承：父子目录配额关系处理\n\n模块三：POC 用例编写\n• 能力拆解：将 NAS 功能拆解为可验证的 POC 测试用例\n• 用例口径对齐：与云厂商对接，确保测试结论可对比\n• 验证结论支撑：输出结构化 POC 报告，支撑采购决策',
+    result: '• 完成 NAS 关键模块（回收站、目录配额）需求设计与评审交付，形成可评审、可落地的产品方案\n• 将 NAS 能力拆解为可执行的 POC 用例，沉淀 POC 验证用例与测试支持过程\n• 使云厂商能力边界更清晰、可复盘，支撑后续采购决策',
   },
 ];
 
@@ -270,7 +259,7 @@ export default function Projects() {
           <h2 className="section-title">我的工作成果</h2>
         </motion.div>
 
-        <div className={styles.grid}>
+        <div className={styles.workGrid}>
           {projects.slice(3, 6).map((p) => (
             <ProjectCard key={p.id} project={p} />
           ))}
