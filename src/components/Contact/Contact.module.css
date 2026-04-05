@@ -40,6 +40,12 @@
   opacity: 1;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .mouseGlow {
+    display: none;
+  }
+}
+
 .inner {
   max-width: 680px;
   margin: 0 auto;
@@ -243,12 +249,34 @@
 }
 
 @media (max-width: 640px) {
+  .section {
+    padding: var(--space-lg) 0;
+  }
+
+  .title {
+    font-size: clamp(1.4rem, 7vw, 2rem);
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
   .links {
     grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .link {
+    padding: 0.9rem 1rem;
   }
 
   .linkValue {
     white-space: normal;
+    font-size: 0.85rem;
+  }
+
+  .linkLabel {
+    font-size: 0.8rem;
   }
 
   .wechatCard {
@@ -264,7 +292,7 @@
   }
 
   .sub {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     line-height: 1.5;
   }
 }

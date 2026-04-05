@@ -191,6 +191,10 @@
 }
 
 @media (max-width: 640px) {
+  .nav {
+    padding: 1rem 0;
+  }
+
   .burger {
     display: flex;
     z-index: 101;
@@ -200,6 +204,11 @@
   .inner {
     z-index: 100;
     position: relative;
+    gap: 0.5rem;
+  }
+
+  .logoMark {
+    font-size: 1.2rem;
   }
 
   .links {

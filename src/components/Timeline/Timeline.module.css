@@ -63,6 +63,12 @@
   opacity: 1;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .mouseGlow {
+    display: none;
+  }
+}
+
 .timeline {
   display: flex;
   flex-direction: column;
@@ -203,10 +209,14 @@
 }
 
 @media (max-width: 640px) {
+  .section {
+    padding: var(--space-lg) 0;
+  }
+
   .item {
     grid-template-columns: 20px 1fr;
-    gap: 1.2rem;
-    padding-bottom: 2.5rem;
+    gap: 1rem;
+    padding-bottom: 2rem;
   }
 
   .dot {
@@ -216,19 +226,40 @@
   }
 
   .company {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 
   .period {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 
   .role {
-    font-size: 0.82rem;
+    font-size: 0.78rem;
   }
 
   .desc {
-    font-size: 0.82rem;
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .points {
+    gap: 0.4rem;
+  }
+
+  .point {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
+  }
     line-height: 1.6;
   }
 }
