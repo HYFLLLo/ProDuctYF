@@ -3,6 +3,7 @@
 import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import ProjectModal from './ProjectModal';
+import HudTerminal from './HudTerminal';
 import styles from './Projects.module.css';
 
 const projects = [
@@ -305,6 +306,8 @@ export default function Projects() {
           {projects.slice(3, 6).map((p) => (
             <ProjectCard key={p.id} project={p} />
           ))}
+          {/* Animated terminal HUD panel — keeps 3-col grid rhythm */}
+          <HudTerminal />
         </div>
       </div>
 

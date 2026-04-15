@@ -1,8 +1,8 @@
 .backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(4, 4, 7, 0.7);
-  backdrop-filter: blur(8px);
+  background: rgba(8, 8, 15, 0.85);
+  backdrop-filter: blur(10px);
   z-index: 200;
 }
 
@@ -12,125 +12,158 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 201;
-  width: min(560px, calc(100vw - 2rem));
-  max-height: 85vh;
+  width: min(620px, calc(100vw - 2rem));
+  max-height: 88vh;
   background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: 16px;
-  padding: 0;
+  border: 1px solid rgba(0, 255, 136, 0.2);
+  clip-path: polygon(
+    0 20px, 20px 0,
+    calc(100% - 20px) 0, 100% 20px,
+    100% calc(100% - 20px), calc(100% - 20px) 100%,
+    20px 100%, 0 calc(100% - 20px)
+  );
   overflow: hidden;
-  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6);
+  box-shadow:
+    0 0 0 1px rgba(0, 255, 136, 0.1),
+    0 32px 80px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(0, 255, 136, 0.08);
   display: flex;
   flex-direction: column;
 }
 
+/* Top accent bar */
+.modal::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--accent) 0%,
+    var(--accent-secondary) 50%,
+    var(--accent-tertiary) 100%
+  );
+  opacity: 0.7;
+}
+
 .closeBtn {
   position: absolute;
-  top: 0.9rem;
-  right: 0.9rem;
-  width: 28px;
-  height: 28px;
+  top: 1rem;
+  right: 1rem;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-subtle);
-  border-radius: 50%;
-  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
   cursor: pointer;
   z-index: 1;
-  transition: all var(--duration-fast) ease;
+  transition: all var(--duration-fast) var(--ease-digital);
+  clip-path: polygon(0 4px, 4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%);
 }
 
 .closeBtn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text-primary);
+  border-color: var(--accent-secondary);
+  color: var(--accent-secondary);
+  box-shadow: var(--glow-secondary);
 }
 
 .header {
-  padding: 1.4rem 1.6rem 0.8rem;
+  padding: 1.4rem 1.6rem 1rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .title {
   font-family: var(--font-display);
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  font-weight: 900;
   color: var(--text-primary);
-  line-height: 1.3;
-  letter-spacing: -0.01em;
-  padding-right: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-right: 2.5rem;
 }
 
+/* ── Body ── */
 .body {
   padding: 0 1.6rem 1.4rem;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: calc(85vh - 120px);
+  max-height: calc(88vh - 90px);
   min-height: 0;
-  scrollbar-width: none; /* Firefox 隐藏滚动条 */
-  -ms-overflow-style: none; /* IE/Edge 隐藏滚动条 */
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg-void);
 }
 
-/* 隐藏模态框内滚动条（所有浏览器） */
 .body::-webkit-scrollbar {
-  display: none;
-  width: 0 !important;
-  height: 0 !important;
+  width: 3px;
 }
-
 .body::-webkit-scrollbar-track {
-  display: none;
+  background: var(--bg-void);
 }
-
 .body::-webkit-scrollbar-thumb {
-  display: none;
+  background: var(--accent);
 }
 
 .section {
   padding: 1.2rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--border);
+  position: relative;
 }
 
 .section:last-child {
   border-bottom: none;
 }
 
+/* Section number accent */
+.section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
+  bottom: 1.2rem;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent), var(--accent-secondary));
+  opacity: 0.4;
+}
+
 .sectionHead {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
   margin-bottom: 0.6rem;
 }
 
 .sectionNum {
   font-family: var(--font-display);
   font-size: 0.65rem;
-  font-weight: 800;
-  color: #b8ff57;
-  letter-spacing: 0.08em;
+  font-weight: 900;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-shadow: var(--glow-accent-sm);
 }
 
 .sectionTitle {
   font-family: var(--font-display);
   font-size: 0.72rem;
   font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .sectionText {
-  font-size: 0.88rem;
-  color: var(--text-primary);
-  line-height: 1.8;
-  padding-left: 1.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: #c0c0d0;
+  line-height: 1.85;
+  padding-left: 1rem;
   white-space: pre-wrap;
-  word-break: break-word; /* 强制长文本换行，防止水平溢出 */
-  overflow-wrap: break-word; /* 兼容旧浏览器 */
-  font-style: normal;
-  margin-bottom: 0.5rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .sectionText:last-child {
@@ -140,54 +173,30 @@
 @media (max-width: 480px) {
   .modal {
     width: calc(100vw - 1rem);
-    max-height: 90vh;
-    border-radius: 16px;
-  }
-
-  .backdrop {
-    padding: 0.5rem;
+    max-height: 92vh;
   }
 
   .header {
-    padding: 1rem 1rem 0.5rem;
+    padding: 1rem 1.1rem 0.8rem;
   }
 
   .title {
     font-size: 0.95rem;
-    padding-right: 2rem;
-  }
-
-  .closeBtn {
-    top: 0.7rem;
-    right: 0.7rem;
-    width: 26px;
-    height: 26px;
+    padding-right: 2.5rem;
   }
 
   .body {
-    padding: 0 1rem 1rem;
-    max-height: calc(90vh - 80px);
+    padding: 0 1.1rem 1.1rem;
+    max-height: calc(92vh - 80px);
   }
 
   .section {
-    padding: 0.6rem 0;
-  }
-
-  .sectionHead {
-    margin-bottom: 0.4rem;
-  }
-
-  .sectionNum {
-    font-size: 0.6rem;
-  }
-
-  .sectionTitle {
-    font-size: 0.68rem;
+    padding: 0.8rem 0;
   }
 
   .sectionText {
-    font-size: 0.78rem;
-    line-height: 1.65;
-    padding-left: 0;
+    font-size: 0.82rem;
+    line-height: 1.75;
+    padding-left: 1rem;
   }
 }

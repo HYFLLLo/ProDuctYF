@@ -1,10 +1,10 @@
+/* ── Section ── */
 .section {
   padding: var(--space-xl) 0;
   position: relative;
   overflow: visible;
 }
 
-/* 网格背景效果 */
 .sectionBg {
   position: absolute;
   inset: 0;
@@ -16,10 +16,11 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(184, 255, 87, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(184, 255, 87, 0.03) 1px, transparent 1px);
-  background-size: 60px 60px;
+    linear-gradient(rgba(0, 255, 136, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 136, 0.04) 1px, transparent 1px);
+  background-size: 50px 50px;
   mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
 }
 
 .sectionBg .glowOrb {
@@ -30,8 +31,13 @@
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(184, 255, 87, 0.06) 0%, rgba(0, 229, 160, 0.03) 40%, transparent 70%);
-  filter: blur(40px);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 0.05) 0%,
+    rgba(255, 0, 255, 0.03) 40%,
+    transparent 70%
+  );
+  filter: blur(50px);
   animation: orbFloat 10s ease-in-out infinite;
 }
 
@@ -48,8 +54,8 @@
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(184, 255, 87, 0.12) 0%,
-    rgba(0, 229, 160, 0.06) 30%,
+    rgba(0, 212, 255, 0.1) 0%,
+    rgba(255, 0, 255, 0.05) 30%,
     transparent 70%
   );
   pointer-events: none;
@@ -64,11 +70,10 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .mouseGlow {
-    display: none;
-  }
+  .mouseGlow { display: none; }
 }
 
+/* ── Timeline ── */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -77,90 +82,120 @@
   z-index: 1;
 }
 
+/* ── Item ── */
 .item {
   display: grid;
-  grid-template-columns: 28px 1fr;
+  grid-template-columns: 80px 1fr;
   gap: 2rem;
-  padding-bottom: 3.5rem;
   position: relative;
 }
 
-.item:last-child {
-  padding-bottom: 0;
+@media (max-width: 640px) {
+  .item {
+    grid-template-columns: 60px 1fr;
+    gap: 1.2rem;
+  }
 }
 
-/* Line */
+/* ── Line Column ── */
 .line {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 4px;
+  position: relative;
 }
 
 .dot {
   width: 12px;
   height: 12px;
-  border-radius: 50%;
+  border: 2px solid;
   flex-shrink: 0;
-  border: 2px solid var(--bg-void);
   position: relative;
   z-index: 1;
+  background: var(--bg-void);
+  clip-path: polygon(
+    50% 0%, 100% 50%, 50% 100%, 0% 50%
+  );
+  transition: transform var(--duration-fast) var(--ease-digital);
+}
+
+.item:hover .dot {
+  transform: scale(1.3);
 }
 
 .connector {
   width: 1px;
   flex: 1;
-  margin-top: 8px;
-  min-height: 60px;
+  min-height: 40px;
+  margin-top: 4px;
 }
 
-/* Content */
+/* ── Content ── */
 .content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  padding-top: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid;
+  padding: 1.2rem 1.4rem 1.2rem 1.2rem;
+  margin-bottom: 1.5rem;
+  clip-path: polygon(
+    0 12px, 12px 0,
+    100% 0, 100% calc(100% - 12px),
+    calc(100% - 12px) 100%, 0 100%
+  );
+  transition: border-color var(--duration-base) var(--ease-out),
+              box-shadow var(--duration-base) var(--ease-out),
+              transform var(--duration-base) var(--ease-out);
+}
+
+.content:hover {
+  box-shadow: var(--glow-accent-sm);
+  transform: translateX(4px);
 }
 
 .periodRow {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .period {
-  font-family: var(--font-display);
-  font-size: 0.72rem;
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
   color: var(--text-muted);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .typeTag {
-  font-family: var(--font-display);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-family: var(--font-label);
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  padding: 0.2rem 0.6rem;
-  border-radius: 100px;
+  padding: 0.18rem 0.6rem;
   border: 1px solid;
+  clip-path: polygon(0 3px, 3px 0, 100% 0, 100% calc(100% - 3px), calc(100% - 3px) 100%, 0 100%);
 }
 
 .company {
   font-family: var(--font-display);
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
   font-weight: 800;
   color: var(--text-primary);
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
 }
 
 .role {
-  font-size: 0.875rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
   color: var(--text-secondary);
   font-weight: 400;
-  margin-top: -0.3rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.8rem;
 }
 
 .points {
@@ -168,96 +203,53 @@
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
-  margin-top: 0.3rem;
+  margin-bottom: 0.8rem;
 }
 
 .point {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  font-size: 0.875rem;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
   color: var(--text-secondary);
   line-height: 1.6;
 }
 
 .pointBullet {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
+  width: 3px;
+  height: 3px;
   flex-shrink: 0;
-  margin-top: 0.55rem;
-  opacity: 0.7;
+  margin-top: 0.5rem;
+  clip-path: polygon(50% 50%);
 }
 
 .tagRow {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.3rem;
+  gap: 0.4rem;
 }
 
 .tag {
-  font-family: var(--font-display);
-  font-size: 0.68rem;
-  font-weight: 500;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 400;
   color: var(--text-muted);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  padding: 0.25rem 0.6rem;
-  letter-spacing: 0.02em;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  padding: 0.15rem 0.5rem;
+  letter-spacing: 0.05em;
 }
 
+/* ── Responsive ── */
 @media (max-width: 640px) {
-  .section {
-    padding: var(--space-lg) 0;
+  .section { padding: var(--space-lg) 0; }
+
+  .content {
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.2rem;
   }
 
-  .item {
-    grid-template-columns: 20px 1fr;
-    gap: 1rem;
-    padding-bottom: 2rem;
-  }
-
-  .dot {
-    width: 12px;
-    height: 12px;
-    top: 6px;
-  }
-
-  .company {
-    font-size: 0.9rem;
-  }
-
-  .period {
-    font-size: 0.65rem;
-  }
-
-  .role {
-    font-size: 0.78rem;
-  }
-
-  .desc {
-    font-size: 0.78rem;
-    line-height: 1.5;
-  }
-
-  .points {
-    gap: 0.4rem;
-  }
-
-  .point {
-    font-size: 0.78rem;
-    line-height: 1.45;
-  }
-
-  .tags {
-    flex-wrap: wrap;
-    gap: 0.4rem;
-  }
-
-  .tag {
-    font-size: 0.65rem;
-    padding: 0.2rem 0.5rem;
-  }
+  .company { font-size: 0.85rem; }
+  .point { font-size: 0.72rem; }
 }
