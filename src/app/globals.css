@@ -79,6 +79,8 @@ body {
 }
 
 /* ── Cyberpunk Scanlines Overlay (full page) ── */
+/* Disabled: caused horizontal line artifacts on screen */
+/*
 body::before {
   content: '';
   position: fixed;
@@ -99,6 +101,7 @@ body::before {
   0% { transform: translateY(0); }
   100% { transform: translateY(4px); }
 }
+*/
 
 /* ── Noise Grain Texture ── */
 body::after {
