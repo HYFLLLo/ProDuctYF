@@ -264,22 +264,21 @@ export default function Projects() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
+          <p className="section-label">Projects</p>
           <div className={styles.titleRow}>
-            <div>
-              <p className="section-label">Projects</p>
-              <h2 className="section-title">我的 AI 项目</h2>
-            </div>
+            <h2 className="section-title">我的 AI 项目</h2>
             <a
               href="https://my.feishu.cn/docx/TKWXddETCopk8ExkvD8cLKZGnXd?from=from_copylink"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.demoBtn}
             >
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
-                <path d="M6.5 5.5L10.5 8L6.5 10.5V5.5Z" fill="currentColor"/>
-              </svg>
-              Demo 展示
+              <span className={styles.btnIcon} aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <polyline points="2,2 8,7 2,12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </span>
+              <span>PLAY DEMO</span>
             </a>
           </div>
         </motion.div>
@@ -299,7 +298,9 @@ export default function Projects() {
           style={{ marginTop: '4rem' }}
         >
           <p className="section-label">Work</p>
-          <h2 className="section-title">我的工作成果</h2>
+          <div className={styles.titleRow}>
+            <h2 className="section-title">我的工作成果</h2>
+          </div>
         </motion.div>
 
         <div className={styles.workGrid}>

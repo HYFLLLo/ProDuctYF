@@ -31,12 +31,10 @@ export default function HudTerminal() {
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const cursorIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // Typewriter: advance one line every 450ms
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       setVisibleLines((prev) => {
         if (prev >= CODE_LINES.length) {
-          // Reset after holding at the end
           setTimeout(() => setVisibleLines(0), 1200);
           return prev;
         }
@@ -49,7 +47,6 @@ export default function HudTerminal() {
     };
   }, []);
 
-  // Blink cursor
   useEffect(() => {
     cursorIntervalRef.current = setInterval(() => {
       setCursorVisible((prev) => !prev);
@@ -61,7 +58,6 @@ export default function HudTerminal() {
 
   return (
     <div className={styles.terminal}>
-      {/* Terminal title bar */}
       <div className={styles.titleBar}>
         <span className={styles.dot} style={{ background: '#ff3366' }} />
         <span className={styles.dot} style={{ background: '#ffcc00' }} />
@@ -73,25 +69,17 @@ export default function HudTerminal() {
         </span>
       </div>
 
-      {/* Content area */}
       <div className={styles.content}>
-        {/* ASCII art */}
         <pre className={styles.ascii} aria-hidden="true">
           {ASCII_ART.join('\n')}
         </pre>
 
-        {/* Code lines */}
         <div className={styles.codeArea}>
           {CODE_LINES.slice(0, visibleLines).map((line, i) => (
-            <div
-              key={i}
-              className={styles.codeLine}
-              style={{ animationDelay: `${i * 0.05}s` }}
-            >
+            <div key={i} className={styles.codeLine}>
               <span className={styles.lineText}>{line}</span>
             </div>
           ))}
-          {/* Cursor line — shown when not at the end */}
           {visibleLines < CODE_LINES.length && (
             <div className={styles.codeLine}>
               <span
@@ -102,7 +90,6 @@ export default function HudTerminal() {
               </span>
             </div>
           )}
-          {/* Persistent blinking cursor at end state */}
           {visibleLines >= CODE_LINES.length && (
             <div className={styles.codeLine}>
               <span
@@ -114,12 +101,6 @@ export default function HudTerminal() {
             </div>
           )}
         </div>
-      </div>
-
-      {/* Bottom accent */}
-      <div className={styles.bottomBar}>
-        <span className={styles.bottomText}>PID: 0xYVEN · UPTIME: 24/7</span>
-        <span className={styles.bottomText}>v2.0.26</span>
       </div>
     </div>
   );
