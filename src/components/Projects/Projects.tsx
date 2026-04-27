@@ -65,7 +65,7 @@ const projects = [
     ],
     color: '#00d4ff',
     docUrl: 'https://my.feishu.cn/docx/MkWnd95QooqxNOxZpo2cabPhn0f',
-    githubUrl: 'https://github.com/HYFLLLo/Personal-Work-Assistant',
+    githubUrl: 'https://github.com/HYFLLLo/New-Assitant',
     metric: '<1min',
     metricLabel: '报告生成时间',
     background: '背景：职场人每天需要产出大量结构化文档——周报、月报、竞品分析、行业研究、项目汇报等。这些报告是沟通、汇报和决策的基础，但写作过程高度重复，价值却很低。真正需要人投入智力的判断和决策，只占整个过程的很小一部分。\n\n痛点\n职场人写一份报告平均耗时 2-3 小时，流程可拆解为三段：\n1. 资料搜集——耗时 1-2 小时 手动搜索、复制、粘贴、同步到本地文档。内容散、来源杂、整理费时，且每次写报告都要重来一遍。\n2. 内容整理——耗时 30 分钟 从搜集来的资料中筛选、归纳、提炼观点。信息过载与信息不足并存，往往花了时间却抓不住重点。\n3. 格式排版——耗时 20 分钟 按模板调整章节结构、字体字号、标题层级。这些操作机械重复，但 AI 时代本不需要人来做。',
