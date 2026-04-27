@@ -44,7 +44,7 @@ const projects = [
     ],
     color: '#00e5a0',
     docUrl: 'https://my.feishu.cn/docx/ChTGdisyZomLwrxgExhcC5BKnR1',
-    githubUrl: 'https://github.com/HYFLLLo/New-Assitant',
+    githubUrl: 'https://github.com/HYFLLLo/New-IT-Customer-System',
     metric: '>90%',
     metricLabel: '任务完成准确率',
     background: '企业IT部门每天处理大量重复性桌面运维问题——电脑蓝屏、网络连不上、软件装不上、密码忘了……真正需要人工处理的高优先级问题被淹没在工单海洋里。\n\n痛点一：知识碎片化——IT运维知识散落在各种文档、手册、聊天记录里，坐席靠经验回答，新员工培训成本高。\n\n痛点二：重复问题占用人力——IT坐席60%以上工作时间在回答重复问题（如密码重置、打印机驱动安装），人力严重浪费。\n\n痛点三：响应慢体验差——员工遇小问题只能排队等坐席，夜间值班人力不足，问题无人响应。\n\n痛点四：知识库更新滞后——新系统上线、新故障出现时知识库无法及时同步，服务质量不稳定。',
