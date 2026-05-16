@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>YVEN // NEURAL_ARCHIVE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;family=Hanken+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface": "#e2e1f2",
+                    "primary": "#e3fdff",
+                    "surface-container-high": "#282936",
+                    "tertiary-container": "#dddaec",
+                    "on-background": "#e2e1f2",
+                    "inverse-surface": "#e2e1f2",
+                    "on-tertiary-container": "#605f6e",
+                    "error-container": "#93000a",
+                    "secondary-fixed": "#f8d8ff",
+                    "on-secondary-container": "#fff6fc",
+                    "inverse-primary": "#00696f",
+                    "on-secondary-fixed": "#320047",
+                    "on-secondary-fixed-variant": "#74009f",
+                    "on-error": "#690005",
+                    "inverse-on-surface": "#2e2f3c",
+                    "outline-variant": "#3a494b",
+                    "surface-container-highest": "#333441",
+                    "on-surface-variant": "#b9cacb",
+                    "surface-container-lowest": "#0c0d19",
+                    "error": "#ffb4ab",
+                    "on-tertiary": "#2f2f3d",
+                    "primary-fixed": "#6ff6ff",
+                    "surface-variant": "#333441",
+                    "tertiary-fixed": "#e3e0f3",
+                    "outline": "#849495",
+                    "surface-container": "#1d1f2b",
+                    "surface-container-low": "#191b27",
+                    "on-primary-container": "#006b71",
+                    "primary-fixed-dim": "#00dce6",
+                    "secondary-container": "#b600f8",
+                    "surface-bright": "#373845",
+                    "tertiary-fixed-dim": "#c7c4d6",
+                    "secondary-fixed-dim": "#ebb2ff",
+                    "on-tertiary-fixed-variant": "#464554",
+                    "tertiary": "#fbf7ff",
+                    "on-primary-fixed-variant": "#004f53",
+                    "primary-container": "#00f3ff",
+                    "on-primary-fixed": "#002022",
+                    "on-secondary": "#520072",
+                    "on-error-container": "#ffdad6",
+                    "secondary": "#ebb2ff",
+                    "on-primary": "#00373a",
+                    "surface-dim": "#11131e",
+                    "on-tertiary-fixed": "#1a1a27",
+                    "background": "#11131e",
+                    "surface-tint": "#00dce6",
+                    "surface": "#11131e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "margin-desktop": "80px",
+                    "container-max": "1440px",
+                    "margin-mobile": "20px",
+                    "unit": "8px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Space Grotesk"],
+                    "label-mono": ["Space Mono"],
+                    "headline-lg-mobile": ["Space Grotesk"],
+                    "headline-xl": ["Space Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "label-glitch": ["Space Mono"]
+            },
+            "fontSize": {
+                    "headline-lg": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "label-mono": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                    "label-glitch": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #11131e;
+            color: #e2e1f2;
+            overflow-x: hidden;
+        }
+
+        /* Scan-line Overlay */
+        .scan-lines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                rgba(18, 16, 16, 0) 50%,
+                rgba(0, 0, 0, 0.1) 50%
+            ), linear-gradient(
+                90deg,
+                rgba(255, 0, 0, 0.02),
+                rgba(0, 255, 0, 0.01),
+                rgba(0, 0, 255, 0.02)
+            );
+            background-size: 100% 4px, 3px 100%;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        /* Glassmorphism Surface */
+        .glass-panel {
+            background: rgba(5, 5, 16, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 243, 255, 0.2);
+        }
+
+        /* Chamfered Button Shape */
+        .chamfered {
+            clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+        }
+
+        /* Glitch Text Placeholder */
+        .glitch-text {
+            text-shadow: 2px 0 #00f3ff, -2px 0 #ff00f8;
+        }
+
+        /* Terminal status bar */
+        .terminal-bar {
+            border-bottom: 1px solid rgba(0, 243, 255, 0.1);
+            background: rgba(17, 19, 30, 0.9);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body-md">
+<!-- Global Texture Overlay -->
+<div class="scan-lines"></div>
+<!-- Terminal Status Header -->
+<div class="terminal-bar fixed top-0 w-full h-8 z-[60] flex items-center justify-between px-4">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary-container rounded-full animate-pulse"></span>
+<span class="font-label-mono text-[10px] uppercase tracking-widest text-on-surface-variant">System Status: Online</span>
+</div>
+<div class="font-label-mono text-[10px] text-on-surface-variant">
+            UTC 14:02:44
+        </div>
+</div>
+<!-- Shared TopAppBar -->
+<header class="fixed top-8 left-0 w-full z-50 flex justify-between items-center px-margin-mobile h-16 bg-surface/70 backdrop-blur-xl dark:bg-surface/70 border-b border-primary/20 shadow-[0_0_20px_rgba(0,243,255,0.15)]">
+<div class="font-label-glitch text-label-glitch text-primary tracking-tighter">
+            SYSTEM_PORTFOLIO_V2.0
+        </div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-primary active:scale-95 transition-transform">
+<span class="material-symbols-outlined">terminal</span>
+</button>
+<button class="p-2 text-primary active:scale-95 transition-transform">
+<span class="material-symbols-outlined">settings_input_component</span>
+</button>
+</div>
+</header>
+<main class="relative pt-32 pb-24 min-h-screen px-margin-mobile flex flex-col items-center">
+<!-- Hero Section -->
+<section class="w-full flex flex-col items-center text-center space-y-12">
+<!-- Large Holographic 'Y' -->
+<div class="relative group">
+<div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full scale-75 opacity-50"></div>
+<h1 class="font-headline-xl text-[180px] leading-none text-primary drop-shadow-[0_0_30px_rgba(0,243,255,0.4)] relative z-10 glitch-text select-none">
+                    Y
+                </h1>
+<div class="absolute -top-4 -right-4 font-label-mono text-primary/40 text-[10px]">REF_ID: 0X9F44</div>
+</div>
+<!-- Typewriter Text Area -->
+<div class="max-w-xs space-y-4">
+<div class="flex items-center gap-2 justify-center">
+<span class="text-primary text-xl">&gt;</span>
+<p class="font-label-mono text-label-mono text-primary uppercase tracking-[0.2em]">Visual Architect</p>
+</div>
+<p class="font-body-md text-on-surface-variant text-center opacity-80">
+                    Constructing digital realities through high-fidelity code and subversive aesthetics.
+                </p>
+</div>
+<!-- Chamfered Contact Button -->
+<button class="relative group mt-8">
+<div class="chamfered bg-transparent border border-primary-container px-12 py-4 text-primary font-label-mono text-sm tracking-widest active:scale-95 transition-all duration-300 hover:bg-primary-container hover:text-surface">
+                    CONTACT ME
+                </div>
+<div class="absolute -bottom-2 -right-2 w-4 h-4 border-r border-b border-primary-container/40"></div>
+</button>
+</section>
+<!-- Dynamic Content Grid -->
+<section class="w-full mt-24 space-y-gutter">
+<!-- Feature Card 1 -->
+<div class="glass-panel p-6 flex flex-col gap-4 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-primary/5 -rotate-45 translate-x-12 -translate-y-12"></div>
+<div class="font-label-mono text-[10px] text-primary/60">PRJ_01 // NEURAL_NET</div>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary">Cybernetic Interfaces</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                    Developing adaptive UI systems for next-generation neural links and tactical displays.
+                </p>
+<div class="flex gap-2">
+<span class="px-2 py-1 border border-secondary/40 font-label-mono text-[10px] text-secondary">WEBPAGE</span>
+<span class="px-2 py-1 border border-secondary/40 font-label-mono text-[10px] text-secondary">DESIGN</span>
+</div>
+</div>
+<!-- Feature Card 2 -->
+<div class="glass-panel p-6 flex flex-col gap-4">
+<div class="font-label-mono text-[10px] text-primary/60">PRJ_02 // VOID_PROTOCOL</div>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary">Data Viz</h3>
+<div class="w-full h-32 bg-surface-container-high rounded border border-primary/10 relative flex items-end p-4 gap-2">
+<div class="w-4 h-[60%] bg-primary/20 border-t border-primary/60"></div>
+<div class="w-4 h-[90%] bg-primary/20 border-t border-primary/60"></div>
+<div class="w-4 h-[40%] bg-primary/20 border-t border-primary/60"></div>
+<div class="w-4 h-[75%] bg-primary/20 border-t border-primary/60"></div>
+<div class="w-4 h-[55%] bg-primary/20 border-t border-primary/60"></div>
+<div class="w-4 h-[85%] bg-primary/20 border-t border-primary/60"></div>
+</div>
+</div>
+</section>
+<!-- Decorative Floating Elements -->
+<div class="fixed left-4 bottom-24 pointer-events-none opacity-20 hidden sm:block">
+<div class="font-label-mono text-[8px] space-y-1">
+<p>LAT: 35.6895° N</p>
+<p>LONG: 139.6917° E</p>
+<p>SEQ: 99422-X</p>
+</div>
+</div>
+</main>
+<!-- Mobile Navigation (Bottom Bar Style as specified) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-md border-t border-primary/20 flex justify-around items-center h-16 md:hidden">
+<a class="flex flex-col items-center gap-1 text-primary border-t-2 border-primary pt-2" href="#">
+<span class="material-symbols-outlined text-2xl">home</span>
+<span class="font-label-mono text-[10px]">HOME</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant opacity-60" href="#">
+<span class="material-symbols-outlined text-2xl">layers</span>
+<span class="font-label-mono text-[10px]">WORK</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant opacity-60" href="#">
+<span class="material-symbols-outlined text-2xl">person</span>
+<span class="font-label-mono text-[10px]">ABOUT</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant opacity-60" href="#">
+<span class="material-symbols-outlined text-2xl">mail</span>
+<span class="font-label-mono text-[10px]">CONTACT</span>
+</a>
+</nav>
+<!-- Shared Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-gutter gap-4 bg-surface-container-lowest/80 backdrop-blur-sm border-t border-secondary/20 mb-16 md:mb-0">
+<div class="font-label-glitch text-label-glitch text-secondary">
+            STATUS: ONLINE // 2024 NEURAL_ARCHIVE
+        </div>
+<div class="flex gap-6">
+<a class="font-label-mono text-label-mono uppercase text-on-tertiary-container hover:text-secondary-fixed hover:tracking-widest transition-all duration-500" href="#">Security</a>
+<a class="font-label-mono text-label-mono uppercase text-on-tertiary-container hover:text-secondary-fixed hover:tracking-widest transition-all duration-500" href="#">Logs</a>
+<a class="font-label-mono text-label-mono uppercase text-on-tertiary-container hover:text-secondary-fixed hover:tracking-widest transition-all duration-500" href="#">Mainframe</a>
+</div>
+</footer>
+</body></html>

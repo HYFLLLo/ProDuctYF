@@ -1,0 +1,216 @@
+/* Pill_Nav.tsx 依赖的样式（类名与结构以组件为准） */
+
+.pill-nav-container {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+
+.pill-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 243, 255, 0.22);
+  background: color-mix(in srgb, var(--base, #11131e) 92%, transparent);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.08);
+}
+
+.pill-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 4px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.pill-logo img {
+  display: block;
+  height: 30px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.pill-nav-items {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pill {
+  position: relative;
+  display: block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Space Mono', ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--pill-text, #e2e1f2);
+  background: color-mix(in srgb, var(--pill-bg, #1d1f2b) 88%, transparent);
+  border: 1px solid rgba(0, 243, 255, 0.12);
+  transition: border-color 0.2s ease;
+}
+
+.pill:hover,
+.pill:focus-visible {
+  border-color: rgba(0, 243, 255, 0.45);
+}
+
+.pill.is-active {
+  border-color: rgba(0, 243, 255, 0.55);
+  box-shadow: 0 0 14px rgba(0, 243, 255, 0.18);
+}
+
+.hover-circle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  translate: -50% 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--pill-bg, #00f3ff);
+  z-index: 0;
+}
+
+.label-stack {
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  height: 1.1em;
+}
+
+.pill-label,
+.pill-label-hover {
+  display: block;
+  white-space: nowrap;
+}
+
+.pill-label-hover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: var(--hover-text, #11131e);
+}
+
+.mobile-menu-button {
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid rgba(0, 243, 255, 0.25);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--base, #11131e) 60%, transparent);
+  cursor: pointer;
+  color: var(--pill-text, #e2e1f2);
+}
+
+.mobile-menu-button:focus-visible {
+  outline: 1px solid #00f3ff;
+  outline-offset: 2px;
+}
+
+.hamburger-line {
+  display: block;
+  width: 18px;
+  height: 2px;
+  margin: 0 auto;
+  background: currentColor;
+  border-radius: 1px;
+}
+
+.mobile-menu-popover {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  left: 0;
+  z-index: 80;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  background: color-mix(in srgb, var(--base, #0c0d19) 96%, transparent);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.mobile-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-menu-list li + li {
+  margin-top: 4px;
+}
+
+.mobile-menu-link {
+  display: block;
+  padding: 12px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Space Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pill-text, #e2e1f2);
+}
+
+.mobile-menu-link:hover,
+.mobile-menu-link:focus-visible {
+  background: rgba(0, 243, 255, 0.08);
+}
+
+.mobile-menu-link.is-active {
+  color: #00f3ff;
+  background: rgba(0, 243, 255, 0.1);
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: flex;
+}
+
+@media (min-width: 900px) {
+  .desktop-only {
+    display: flex;
+  }
+
+  .mobile-only {
+    display: none !important;
+  }
+
+  .mobile-menu-popover {
+    display: none !important;
+  }
+}
